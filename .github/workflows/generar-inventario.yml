@@ -1,0 +1,56 @@
+name: Generar inventario operativo
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generar-inventario-operativo
+  cancel-in-progress: false
+
+jobs:
+  inventario:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generar inventario y particiones
+        run: |
+          python scripts/generar_inventario_operativo.py \
+            --expect-total 10601 \
+            --expect-forecast-groups 475 \
+            --expect-station-groups 124 \
+            --forecast-shards 2 \
+            --station-shards 1
+
+      - name: Ejecutar pruebas
+        run: python -m unittest discover -s tests -v
+
+      - name: Guardar inventario
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            docs/data/inventario_operativo.json \
+            docs/data/grupos_pronostico.json \
+            docs/data/grupos_estaciones.json \
+            docs/data/particiones_operativas.json
+
+          if git diff --cached --quiet; then
+            echo "No hay cambios para guardar."
+          else
+            git commit -m "Generar inventario operativo"
+            git push
+          fi
