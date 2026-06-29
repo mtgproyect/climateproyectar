@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T12:41:04.632402+00:00",
-  "count": 195,
+  "generated_at": "2026-06-29T12:57:59.554812+00:00",
+  "count": 211,
   "locations": [
     {
       "id": 4411,
@@ -1834,6 +1834,146 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 10833,
+      "name": "Paso Pircas Negras",
+      "department": "Vinchina",
+      "province": "La Rioja",
+      "query": "Paso Pircas Negras",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10924,
+      "name": "Paso Portillo de Piuquenes",
+      "department": null,
+      "province": "Mendoza",
+      "query": "Paso Portillo de Piuquenes",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10941,
+      "name": "Paso Vergara",
+      "department": null,
+      "province": "Mendoza",
+      "query": "Paso Vergara",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10828,
+      "name": "Paso Sistema Cristo Redentor",
+      "department": "Luján de Cuyo",
+      "province": "Mendoza",
+      "query": "Paso Sistema Cristo Redentor",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10830,
+      "name": "Paso Pehuenche",
+      "department": "Malargüe",
+      "province": "Mendoza",
+      "query": "Paso Pehuenche",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10829,
+      "name": "Paso Cajón del Maipo",
+      "department": "San Carlos",
+      "province": "Mendoza",
+      "query": "Paso Cajón del Maipo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9512,
+      "name": "El Villeguino o La Jacintilla",
+      "department": "Santa Rosa",
+      "province": "Mendoza",
+      "query": "El Villeguino o La Jacintilla",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10840,
+      "name": "Bernardo de Irigoyen-Dionisio Cerqueira",
+      "department": null,
+      "province": "Misiones",
+      "query": "Bernardo de Irigoyen-Dionisio Cerqueira",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10859,
+      "name": "Iguazú-Foz de Iguazu",
+      "department": null,
+      "province": "Misiones",
+      "query": "Iguazú-Foz de Iguazu",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10903,
+      "name": "Paso Alba Posse-Porto Mauá",
+      "department": null,
+      "province": "Misiones",
+      "query": "Paso Alba Posse-Porto Mauá",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10943,
+      "name": "Posadas-Encarnación",
+      "department": null,
+      "province": "Misiones",
+      "query": "Posadas-Encarnación",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10948,
+      "name": "San Antonio-San Antonio",
+      "department": null,
+      "province": "Misiones",
+      "query": "San Antonio-San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9628,
+      "name": "Apóstoles",
+      "department": "Apóstoles",
+      "province": "Misiones",
+      "query": "Apóstoles",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9767,
+      "name": "Salto Encantado",
+      "department": "Cainguás",
+      "province": "Misiones",
+      "query": "Salto Encantado",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 1204,
       "name": "Campo Redondo",
       "department": "Anta",
@@ -1944,11 +2084,31 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 2668,
+      "name": "Agua Colorada",
+      "department": "Figueroa",
+      "province": "Santiago del Estero",
+      "query": "Agua Colorada",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 2755,
       "name": "Arbol Blanco",
       "department": "Moreno",
       "province": "Santiago del Estero",
       "query": "Arbol Blanco",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10047,
+      "name": "El Mollar",
+      "department": "Tafí del Valle",
+      "province": "Tucumán",
+      "query": "El Mollar",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
