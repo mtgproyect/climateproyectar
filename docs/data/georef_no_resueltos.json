@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T13:35:01.002468+00:00",
-  "count": 237,
+  "generated_at": "2026-06-29T13:48:11.480978+00:00",
+  "count": 253,
   "locations": [
     {
       "id": 4411,
@@ -2284,6 +2284,16 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 10831,
+      "name": "Paso Agua Negra",
+      "department": "Iglesia",
+      "province": "San Juan",
+      "query": "Paso Agua Negra",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 1288,
       "name": "La Ciénaga",
       "department": "Jachal",
@@ -2294,11 +2304,141 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 1329,
+      "name": "Mogna",
+      "department": "Jachal",
+      "province": "San Juan",
+      "query": "Mogna",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1606,
+      "name": "San Celestino",
+      "department": "Ayacucho",
+      "province": "San Luis",
+      "query": "San Celestino",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1710,
+      "name": "El Chorrillo",
+      "department": "Capital",
+      "province": "San Luis",
+      "query": "El Chorrillo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 1614,
       "name": "Las Chacras",
       "department": "Libertador General San Martín",
       "province": "San Luis",
       "query": "Las Chacras",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10908,
+      "name": "Paso Dorotea",
+      "department": null,
+      "province": "Santa Cruz",
+      "query": "Paso Dorotea",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10913,
+      "name": "Paso Ingeniero Pallavicini-Ibañez",
+      "department": null,
+      "province": "Santa Cruz",
+      "query": "Paso Ingeniero Pallavicini-Ibañez",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10914,
+      "name": "Paso Integración Austral",
+      "department": null,
+      "province": "Santa Cruz",
+      "query": "Paso Integración Austral",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10915,
+      "name": "Paso Lago San Martín-Lago O'Higgins",
+      "department": null,
+      "province": "Santa Cruz",
+      "query": "Paso Lago San Martín-Lago O'Higgins",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10917,
+      "name": "Paso Laurita-Casas Viejas",
+      "department": null,
+      "province": "Santa Cruz",
+      "query": "Paso Laurita-Casas Viejas",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10927,
+      "name": "Paso Río Don Guillermo",
+      "department": null,
+      "province": "Santa Cruz",
+      "query": "Paso Río Don Guillermo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10930,
+      "name": "Paso Río Jeinimeni",
+      "department": null,
+      "province": "Santa Cruz",
+      "query": "Paso Río Jeinimeni",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10932,
+      "name": "Paso Río Mayer Ribera Norte",
+      "department": null,
+      "province": "Santa Cruz",
+      "query": "Paso Río Mayer Ribera Norte",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10933,
+      "name": "Paso Río Mosco",
+      "department": null,
+      "province": "Santa Cruz",
+      "query": "Paso Río Mosco",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10935,
+      "name": "Paso Rodolfo Roballos",
+      "department": null,
+      "province": "Santa Cruz",
+      "query": "Paso Rodolfo Roballos",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
@@ -2319,6 +2459,26 @@
       "department": "Lago Buenos Aires",
       "province": "Santa Cruz",
       "query": "El Portezuelo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1790,
+      "name": "Los Antiguos",
+      "department": "Lago Buenos Aires",
+      "province": "Santa Cruz",
+      "query": "Los Antiguos",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2139,
+      "name": "Pueblo Terragni ( Plaza Castellanos )",
+      "department": "Castellanos",
+      "province": "Santa Fe",
+      "query": "Pueblo Terragni ( Plaza Castellanos )",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
