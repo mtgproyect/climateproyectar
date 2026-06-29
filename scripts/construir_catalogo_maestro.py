@@ -37,6 +37,9 @@ MANUAL_FILE = (
 GEOREF_FILE = (
     ROOT / "data" / "fuentes" / "localidades_georef.json"
 )
+DIRECT_FILE = (
+    ROOT / "data" / "fuentes" / "localidades_directas.json"
+)
 
 MASTER_FILE = ROOT / "docs" / "data" / "catalogo_maestro.json"
 REPORT_FILE = ROOT / "docs" / "data" / "informe_validacion.json"
@@ -653,6 +656,92 @@ def merge_georef(
     return count
 
 
+
+def direct_items(payload: dict[str, Any]) -> list[dict[str, Any]]:
+    locations = payload.get("locations", {})
+    if isinstance(locations, dict):
+        iterable = locations.values()
+    elif isinstance(locations, list):
+        iterable = locations
+    else:
+        iterable = []
+    return [item for item in iterable if isinstance(item, dict)]
+
+
+def merge_direct(
+    records: dict[int, dict[str, Any]],
+    payload: dict[str, Any],
+    config: dict[str, Any],
+    conflicts: list[dict[str, Any]],
+) -> int:
+    count = 0
+    for raw in direct_items(payload):
+        locality_id = as_int(raw.get("id"))
+        if locality_id is None:
+            continue
+        record = records.get(locality_id)
+        if record is None:
+            record_conflict(
+                conflicts,
+                locality_id=locality_id,
+                field="id",
+                base_value=None,
+                incoming_value=locality_id,
+                source="direct_endpoint_verification",
+                severity="error",
+                detail="El diagnóstico directo contiene un ID ajeno al catálogo.",
+            )
+            continue
+
+        api_name = clean_text(raw.get("api_name"), config["_null_strings"])
+        if api_name and not same_text(api_name, record.get("name")):
+            add_alias(record, api_name)
+
+        reference_id = as_int(raw.get("forecast_reference_id"))
+        station_number = as_int(raw.get("station_number"))
+        distance_km = as_float(raw.get("distance_km"))
+        station_name = clean_text(raw.get("station_name"), config["_null_strings"])
+        if reference_id is not None:
+            record["forecast_reference_id"] = reference_id
+        if station_number is not None:
+            record["station_number"] = station_number
+        if distance_km is not None:
+            record["distance_km"] = distance_km
+        if station_name is not None:
+            record["station_name"] = station_name
+        if "direct_endpoint_verification" not in record["catalog_sources"]:
+            record["catalog_sources"].append("direct_endpoint_verification")
+        count += 1
+    return count
+
+
+def fill_station_names_from_number(
+    records: dict[int, dict[str, Any]],
+) -> dict[str, int]:
+    names_by_station: dict[int, set[str]] = {}
+    for record in records.values():
+        number = as_int(record.get("station_number"))
+        name = clean_text(record.get("station_name"))
+        if number is not None and name is not None:
+            names_by_station.setdefault(number, set()).add(name)
+
+    filled = 0
+    ambiguous = 0
+    for record in records.values():
+        if clean_text(record.get("station_name")) is not None:
+            continue
+        number = as_int(record.get("station_number"))
+        if number is None:
+            continue
+        names = names_by_station.get(number, set())
+        if len(names) == 1:
+            record["station_name"] = next(iter(names))
+            filled += 1
+        elif len(names) > 1:
+            ambiguous += 1
+    return {"filled": filled, "ambiguous": ambiguous}
+
+
 def merge_manual(
     records: dict[int, dict[str, Any]],
     payload: dict[str, Any],
@@ -729,6 +818,9 @@ def build_report(
     production_count: int,
     antarctica_count: int,
     georef_count: int,
+    direct_count: int,
+    station_names_filled: int,
+    station_names_ambiguous: int,
     manual_count: int,
     conflicts: list[dict[str, Any]],
 ) -> dict[str, Any]:
@@ -758,6 +850,7 @@ def build_report(
             "production_catalog": production_count,
             "antarctica_seed": antarctica_count,
             "georef_enrichment": georef_count,
+            "direct_endpoint_verification": direct_count,
             "manual_verifications": manual_count,
         },
         "result_counts": {
@@ -778,6 +871,8 @@ def build_report(
                 for record in records
             ),
             "unique_stations": len(stations),
+            "station_names_filled_by_number": station_names_filled,
+            "station_names_ambiguous": station_names_ambiguous,
             "antarctica": sum(
                 bool(record["special_flags"]["antarctica"])
                 for record in records
@@ -909,12 +1004,23 @@ def main() -> None:
             conflicts,
         )
 
+    direct_count = 0
+    if DIRECT_FILE.exists():
+        direct_count = merge_direct(
+            records,
+            load_json(DIRECT_FILE),
+            config,
+            conflicts,
+        )
+
     manual_count = merge_manual(
         records,
         load_json(MANUAL_FILE),
         config,
         conflicts,
     )
+
+    station_name_stats = fill_station_names_from_number(records)
 
     for record in records.values():
         finalize_record(record)
@@ -936,6 +1042,9 @@ def main() -> None:
         production_count=production_count,
         antarctica_count=antarctica_count,
         georef_count=georef_count,
+        direct_count=direct_count,
+        station_names_filled=station_name_stats["filled"],
+        station_names_ambiguous=station_name_stats["ambiguous"],
         manual_count=manual_count,
         conflicts=conflicts,
     )
