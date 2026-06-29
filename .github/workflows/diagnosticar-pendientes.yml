@@ -1,0 +1,67 @@
+name: Diagnosticar pendientes directos
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Cantidad de IDs pendientes a probar"
+        required: true
+        default: "25"
+        type: string
+      sleep_seconds:
+        description: "Pausa entre solicitudes, en segundos"
+        required: true
+        default: "1.0"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: diagnosticar-pendientes-directos
+  cancel-in-progress: false
+
+jobs:
+  diagnosticar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar diagnóstico directo
+        run: |
+          python scripts/diagnosticar_pendientes_directos.py \
+            --batch-size "${{ inputs.batch_size }}" \
+            --sleep-seconds "${{ inputs.sleep_seconds }}"
+
+      - name: Ejecutar pruebas
+        run: python -m unittest discover -s tests -v
+
+      - name: Guardar diagnóstico
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/cache/pendientes_directos.json \
+            docs/data/pendientes_directos_resultados.json \
+            docs/data/estado_diagnostico_directo.json
+
+          if git diff --cached --quiet; then
+            echo "No hay cambios para guardar."
+          else
+            git commit -m "Diagnosticar IDs pendientes directamente"
+            git push
+          fi
