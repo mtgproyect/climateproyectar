@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T12:57:59.554812+00:00",
-  "count": 211,
+  "generated_at": "2026-06-29T13:12:57.929512+00:00",
+  "count": 229,
   "locations": [
     {
       "id": 4411,
@@ -1969,6 +1969,186 @@
       "department": "Cainguás",
       "province": "Misiones",
       "query": "Salto Encantado",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10904,
+      "name": "Paso Carirriñe",
+      "department": null,
+      "province": "Neuquén",
+      "query": "Paso Carirriñe",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10911,
+      "name": "Paso Hua Hum",
+      "department": null,
+      "province": "Neuquén",
+      "query": "Paso Hua Hum",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10912,
+      "name": "Paso Icalma",
+      "department": null,
+      "province": "Neuquén",
+      "query": "Paso Icalma",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10918,
+      "name": "Paso Mamuil Malal",
+      "department": null,
+      "province": "Neuquén",
+      "query": "Paso Mamuil Malal",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10922,
+      "name": "Paso Pichachén",
+      "department": null,
+      "province": "Neuquén",
+      "query": "Paso Pichachén",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10923,
+      "name": "Paso Pino Hachado",
+      "department": null,
+      "province": "Neuquén",
+      "query": "Paso Pino Hachado",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10936,
+      "name": "Paso San Antonio Samoré",
+      "department": null,
+      "province": "Neuquén",
+      "query": "Paso San Antonio Samoré",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10030,
+      "name": "Villa Vaga Maipú",
+      "department": "Lacar",
+      "province": "Neuquén",
+      "query": "Villa Vaga Maipú",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10827,
+      "name": "Paso Copahue",
+      "department": "Ñorquin",
+      "province": "Neuquén",
+      "query": "Paso Copahue",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10921,
+      "name": "Paso Perez Rosales",
+      "department": null,
+      "province": "Río Negro",
+      "query": "Paso Perez Rosales",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10931,
+      "name": "Paso Río Manso",
+      "department": null,
+      "province": "Río Negro",
+      "query": "Paso Río Manso",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10942,
+      "name": "Paso Vuriloche",
+      "department": null,
+      "province": "Río Negro",
+      "query": "Paso Vuriloche",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 43,
+      "name": "Cervantes",
+      "department": "General Roca",
+      "province": "Río Negro",
+      "query": "Cervantes",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 46,
+      "name": "Villa Alberdi",
+      "department": "General Roca",
+      "province": "Río Negro",
+      "query": "Villa Alberdi",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10909,
+      "name": "Paso el Condado-La Mamora",
+      "department": null,
+      "province": "Salta",
+      "query": "Paso el Condado-La Mamora",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10939,
+      "name": "Paso Socompa",
+      "department": null,
+      "province": "Salta",
+      "query": "Paso Socompa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10945,
+      "name": "Puerto Chalanas",
+      "department": null,
+      "province": "Salta",
+      "query": "Puerto Chalanas",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10947,
+      "name": "Salvador Mazza-Yacuiba",
+      "department": null,
+      "province": "Salta",
+      "query": "Salvador Mazza-Yacuiba",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
