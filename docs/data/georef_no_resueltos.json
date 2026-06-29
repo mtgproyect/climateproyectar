@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T06:39:46.585814+00:00",
-  "count": 172,
+  "generated_at": "2026-06-29T12:12:53.532844+00:00",
+  "count": 182,
   "locations": [
     {
       "id": 4411,
@@ -1574,6 +1574,16 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 6178,
+      "name": "Bajo del Olmo",
+      "department": "Totoral",
+      "province": "Córdoba",
+      "query": "Bajo del Olmo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 1165,
       "name": "La Cañada",
       "department": "Rosario de La Frontera",
@@ -1609,6 +1619,86 @@
       "department": "Tulumba",
       "province": "Córdoba",
       "query": "La Esperanza",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10907,
+      "name": "Paso de los Libres-Uruguayana",
+      "department": null,
+      "province": "Corrientes",
+      "query": "Paso de los Libres-Uruguayana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10938,
+      "name": "Paso Santo Tomé-Sao Borja",
+      "department": null,
+      "province": "Corrientes",
+      "query": "Paso Santo Tomé-Sao Borja",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7158,
+      "name": "Colonia Liebig",
+      "department": "Ituzaingo",
+      "province": "Corrientes",
+      "query": "Colonia Liebig",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7493,
+      "name": "Mocoretá",
+      "department": "Monte Caseros",
+      "province": "Corrientes",
+      "query": "Mocoretá",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7337,
+      "name": "Garruchos",
+      "department": "Santo Tomé",
+      "province": "Corrientes",
+      "query": "Garruchos",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10846,
+      "name": "Colón-Paysandú",
+      "department": null,
+      "province": "Entre Ríos",
+      "query": "Colón-Paysandú",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10847,
+      "name": "Concordia-Salto",
+      "department": null,
+      "province": "Entre Ríos",
+      "query": "Concordia-Salto",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10857,
+      "name": "Gualeguaychú-Fray Bentos",
+      "department": null,
+      "province": "Entre Ríos",
+      "query": "Gualeguaychú-Fray Bentos",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
@@ -1709,6 +1799,16 @@
       "department": "General Obligado",
       "province": "Santa Fe",
       "query": "Avellaneda",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2160,
+      "name": "Colonia Belgrano",
+      "department": "San Martín",
+      "province": "Santa Fe",
+      "query": "Colonia Belgrano",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
