@@ -1,0 +1,19 @@
+{
+  "description": "Verificaciones puntuales confirmadas manualmente mediante https://ws1.smn.gob.ar/v1/georef/location/search?name=",
+  "verified_at": "2026-06-29",
+  "locations": [
+    {
+      "id": 4003,
+      "name": "25 de Mayo",
+      "department": "25 de Mayo",
+      "province": "Buenos Aires",
+      "station_number": 87550,
+      "forecast_reference_id": 3989,
+      "lon": -60.1733,
+      "lat": -35.433,
+      "distance_km": 64.35,
+      "station_name": "NUEVE DE JULIO",
+      "source": "SMN georef location search"
+    }
+  ]
+}
