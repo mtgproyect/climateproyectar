@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T19:40:04.238870+00:00",
+  "generated_at": "2026-06-29T19:47:11.703178+00:00",
   "unresolved_total": 261,
-  "directly_tested_total": 25,
-  "forecast_available": 25,
-  "weather_available": 25,
-  "forecast_and_weather_available": 25,
+  "directly_tested_total": 125,
+  "forecast_available": 125,
+  "weather_available": 125,
+  "forecast_and_weather_available": 125,
   "forecast_unavailable_or_error": 0,
   "weather_unavailable_or_error": 0,
   "georef_exact_id_absent": 261,
   "georef_exact_partial": 0,
   "last_batch": {
-    "configured_size": 25,
-    "attempted_ids": 25,
-    "completed_ids": 25,
+    "configured_size": 100,
+    "attempted_ids": 100,
+    "completed_ids": 100,
     "stopped_reason": null
   }
 }
