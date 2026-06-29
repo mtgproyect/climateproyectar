@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T05:32:27.171408+00:00",
-  "count": 99,
+  "generated_at": "2026-06-29T05:48:49.066430+00:00",
+  "count": 113,
   "locations": [
     {
       "id": 4411,
@@ -734,6 +734,116 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 421,
+      "name": "Bella Vista",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 605,
+      "name": "Bella Vista",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1187,
+      "name": "Bella Vista",
+      "department": "Rosario de La Frontera",
+      "province": "Salta",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2311,
+      "name": "Bella Vista",
+      "department": "San Lorenzo",
+      "province": "Santa Fe",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4512,
+      "name": "Bella Vista",
+      "department": "Villarino",
+      "province": "Buenos Aires",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6653,
+      "name": "Bella Vista",
+      "department": "San Alberto",
+      "province": "Córdoba",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6927,
+      "name": "Bella Vista",
+      "department": "San Javier",
+      "province": "Córdoba",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7215,
+      "name": "Bella Vista",
+      "department": "San Miguel",
+      "province": "Corrientes",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8217,
+      "name": "Bella Vista",
+      "department": "Pilagas",
+      "province": "Formosa",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8469,
+      "name": "Bella Vista",
+      "department": "Tilcara",
+      "province": "Jujuy",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10642,
+      "name": "Bella Vista",
+      "department": "San Miguel",
+      "province": "Buenos Aires",
+      "query": "Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 215,
       "name": "San José",
       "department": "Santa Victoria",
@@ -989,6 +1099,36 @@
       "department": "Sobremonte",
       "province": "Córdoba",
       "query": "Santo Domingo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 723,
+      "name": "La Providencia",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "La Providencia",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1288,
+      "name": "La Ciénaga",
+      "department": "Jachal",
+      "province": "San Juan",
+      "query": "La Ciénaga",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1614,
+      "name": "Las Chacras",
+      "department": "Libertador General San Martín",
+      "province": "San Luis",
+      "query": "Las Chacras",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
