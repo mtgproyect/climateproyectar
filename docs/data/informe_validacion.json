@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T04:02:34.019709+00:00",
+  "generated_at": "2026-06-29T04:26:00.423872+00:00",
   "source_counts": {
     "complete_catalog": 10601,
     "enriched_79": 79,
-    "production_catalog": 0,
+    "production_catalog": 297,
     "antarctica_seed": 6,
     "manual_verifications": 1
   },
@@ -12,15 +12,15 @@
     "total": 10601,
     "unique_ids": 10601,
     "unique_smn_ids": 10601,
-    "core": 85,
-    "extended": 10516,
-    "with_forecast_reference": 80,
-    "unique_forecast_references": 21,
-    "with_station": 86,
-    "unique_stations": 29,
+    "core": 297,
+    "extended": 10304,
+    "with_forecast_reference": 298,
+    "unique_forecast_references": 219,
+    "with_station": 298,
+    "unique_stations": 122,
     "antarctica": 13,
     "malvinas": 36,
-    "conflicts": 0,
+    "conflicts": 2,
     "error_conflicts": 0
   },
   "province_counts": {
@@ -66,7 +66,7 @@
     "Punto Turisitico": 10,
     "Villa": 8
   },
-  "production_catalog_loaded": false,
+  "production_catalog_loaded": true,
   "notes": [
     "El ID operativo principal es id, correspondiente a smn_id_interno.",
     "El pronóstico debe probar forecast_candidate_ids en orden: primero id y después forecast_reference_id.",

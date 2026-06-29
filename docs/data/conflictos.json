@@ -1,6 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T04:02:34.019709+00:00",
-  "count": 0,
-  "conflicts": []
+  "generated_at": "2026-06-29T04:26:00.423872+00:00",
+  "count": 2,
+  "conflicts": [
+    {
+      "id": 4814,
+      "field": "name",
+      "base_value": "Moreno",
+      "incoming_value": "Mariano Moreno",
+      "source": "production_catalog",
+      "severity": "warning",
+      "detail": "Se conserva como alias o nombre preferido."
+    },
+    {
+      "id": 1844,
+      "field": "name",
+      "base_value": "Río Turbio",
+      "incoming_value": "Yacimientos Río Turbio",
+      "source": "production_catalog",
+      "severity": "warning",
+      "detail": "Se conserva como alias o nombre preferido."
+    }
+  ]
 }
