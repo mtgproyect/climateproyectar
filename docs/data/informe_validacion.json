@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T04:26:00.423872+00:00",
+  "generated_at": "2026-06-29T04:34:16.619940+00:00",
   "source_counts": {
     "complete_catalog": 10601,
     "enriched_79": 79,
     "production_catalog": 297,
     "antarctica_seed": 6,
-    "manual_verifications": 1
+    "manual_verifications": 3
   },
   "result_counts": {
     "total": 10601,
@@ -17,7 +17,7 @@
     "with_forecast_reference": 298,
     "unique_forecast_references": 219,
     "with_station": 298,
-    "unique_stations": 122,
+    "unique_stations": 121,
     "antarctica": 13,
     "malvinas": 36,
     "conflicts": 2,
