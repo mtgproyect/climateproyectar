@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T12:12:53.532844+00:00",
-  "count": 182,
+  "generated_at": "2026-06-29T12:26:43.249156+00:00",
+  "count": 189,
   "locations": [
     {
       "id": 4411,
@@ -1704,6 +1704,56 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 10851,
+      "name": "El remanso-La verde",
+      "department": null,
+      "province": "Formosa",
+      "query": "El remanso-La verde",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10901,
+      "name": "Pasarela La Fraternidad",
+      "department": null,
+      "province": "Formosa",
+      "query": "Pasarela La Fraternidad",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10905,
+      "name": "Paso Clorinda-Puerto Falcón",
+      "department": null,
+      "province": "Formosa",
+      "query": "Paso Clorinda-Puerto Falcón",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8075,
+      "name": "Colonia Juan Bautista Alberdi",
+      "department": "Patiño",
+      "province": "Formosa",
+      "query": "Colonia Juan Bautista Alberdi",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8183,
+      "name": "Legua A",
+      "department": "Patiño",
+      "province": "Formosa",
+      "query": "Legua A",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 8108,
       "name": "San Martín",
       "department": "Patiño",
@@ -1739,6 +1789,26 @@
       "department": "Rivadavia",
       "province": "Salta",
       "query": "Campo Alegre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 600,
+      "name": "La Junta",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "La Junta",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 601,
+      "name": "La Palmita",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "La Palmita",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
