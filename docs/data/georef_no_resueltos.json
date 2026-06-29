@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T13:48:11.480978+00:00",
-  "count": 253,
+  "generated_at": "2026-06-29T14:43:32.807337+00:00",
+  "count": 256,
   "locations": [
     {
       "id": 4411,
@@ -2494,11 +2494,41 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 2073,
+      "name": "Colonia A. Alsina",
+      "department": "Las Colonias",
+      "province": "Santa Fe",
+      "query": "Colonia A. Alsina",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 2160,
       "name": "Colonia Belgrano",
       "department": "San Martín",
       "province": "Santa Fe",
       "query": "Colonia Belgrano",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3030,
+      "name": "Villa Hipolita",
+      "department": "Banda",
+      "province": "Santiago del Estero",
+      "query": "Villa Hipolita",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3722,
+      "name": "La Vuelta",
+      "department": "Choya",
+      "province": "Santiago del Estero",
+      "query": "La Vuelta",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
