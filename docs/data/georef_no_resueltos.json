@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T06:24:59.401205+00:00",
-  "count": 168,
+  "generated_at": "2026-06-29T06:39:46.585814+00:00",
+  "count": 172,
   "locations": [
     {
       "id": 4411,
@@ -1374,6 +1374,16 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 7031,
+      "name": "Cruz Alta",
+      "department": "Marcos Juárez",
+      "province": "Córdoba",
+      "query": "Cruz Alta",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 3362,
       "name": "Santa Ana",
       "department": "Silipica",
@@ -1474,11 +1484,41 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 6118,
+      "name": "Los Cocos",
+      "department": "Punilla",
+      "province": "Córdoba",
+      "query": "Los Cocos",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7006,
+      "name": "Las Higueras",
+      "department": "Río Cuarto",
+      "province": "Córdoba",
+      "query": "Las Higueras",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 6009,
       "name": "La Rinconada",
       "department": "Río Seco",
       "province": "Córdoba",
       "query": "La Rinconada",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6485,
+      "name": "Costa Sacate",
+      "department": "Río Segundo",
+      "province": "Córdoba",
+      "query": "Costa Sacate",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
