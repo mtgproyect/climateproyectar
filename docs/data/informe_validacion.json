@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T04:56:09.914763+00:00",
+  "generated_at": "2026-06-29T05:03:01.243910+00:00",
   "source_counts": {
     "complete_catalog": 10601,
     "enriched_79": 79,
     "production_catalog": 297,
     "antarctica_seed": 6,
-    "georef_enrichment": 62,
+    "georef_enrichment": 265,
     "manual_verifications": 3
   },
   "result_counts": {
@@ -15,9 +15,9 @@
     "unique_smn_ids": 10601,
     "core": 297,
     "extended": 10304,
-    "with_forecast_reference": 359,
-    "unique_forecast_references": 225,
-    "with_station": 359,
+    "with_forecast_reference": 560,
+    "unique_forecast_references": 230,
+    "with_station": 560,
     "unique_stations": 121,
     "antarctica": 13,
     "malvinas": 36,

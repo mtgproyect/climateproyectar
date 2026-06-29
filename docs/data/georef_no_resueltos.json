@@ -1,6 +1,337 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T04:56:09.591472+00:00",
-  "count": 0,
-  "locations": []
+  "generated_at": "2026-06-29T05:03:00.916643+00:00",
+  "count": 33,
+  "locations": [
+    {
+      "id": 253,
+      "name": "San Antonio",
+      "department": "Iruyá",
+      "province": "Salta",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 711,
+      "name": "San Antonio",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 856,
+      "name": "San Antonio",
+      "department": "San Carlos",
+      "province": "Salta",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1305,
+      "name": "San Antonio",
+      "department": "Valle Fértil",
+      "province": "San Juan",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1491,
+      "name": "San Antonio",
+      "department": "Sarmiento",
+      "province": "San Juan",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1611,
+      "name": "San Antonio",
+      "department": "Libertador General San Martín",
+      "province": "San Luis",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2558,
+      "name": "San Antonio",
+      "department": "Pellegrini",
+      "province": "Santiago del Estero",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3270,
+      "name": "San Antonio",
+      "department": "Moreno",
+      "province": "Santiago del Estero",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3498,
+      "name": "San Antonio",
+      "department": "Sarmiento",
+      "province": "Santiago del Estero",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3889,
+      "name": "San Antonio",
+      "department": "Pehuajó",
+      "province": "Buenos Aires",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5116,
+      "name": "San Antonio",
+      "department": "Pomán",
+      "province": "Catamarca",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5136,
+      "name": "San Antonio",
+      "department": "Paclin",
+      "province": "Catamarca",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5244,
+      "name": "San Antonio",
+      "department": "La Paz",
+      "province": "Catamarca",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5324,
+      "name": "San Antonio",
+      "department": "Fray Mamerto Esquiú",
+      "province": "Catamarca",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6131,
+      "name": "San Antonio",
+      "department": "Ischilin",
+      "province": "Córdoba",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6540,
+      "name": "San Antonio",
+      "department": "San Justo",
+      "province": "Córdoba",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6628,
+      "name": "San Antonio",
+      "department": "San Alberto",
+      "province": "Córdoba",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6680,
+      "name": "San Antonio",
+      "department": "Pocho",
+      "province": "Córdoba",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7155,
+      "name": "San Antonio",
+      "department": "Ituzaingo",
+      "province": "Corrientes",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7377,
+      "name": "San Antonio",
+      "department": "Goya",
+      "province": "Corrientes",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7442,
+      "name": "San Antonio",
+      "department": "Paso de Los Libres",
+      "province": "Corrientes",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7470,
+      "name": "San Antonio",
+      "department": "Sauce",
+      "province": "Corrientes",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8501,
+      "name": "San Antonio",
+      "department": "Tilcara",
+      "province": "Jujuy",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8561,
+      "name": "San Antonio",
+      "department": "San Antonio",
+      "province": "Jujuy",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9221,
+      "name": "San Antonio",
+      "department": "General Juan F. Quiroga",
+      "province": "La Rioja",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9588,
+      "name": "San Antonio",
+      "department": "General Manuel Belgrano",
+      "province": "Misiones",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10444,
+      "name": "San Antonio",
+      "department": "Leales",
+      "province": "Tucumán",
+      "query": "San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 590,
+      "name": "San Miguel",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "San Miguel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3392,
+      "name": "San Miguel",
+      "department": "Silipica",
+      "province": "Santiago del Estero",
+      "query": "San Miguel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5255,
+      "name": "San Miguel",
+      "department": "Tinogasta",
+      "province": "Catamarca",
+      "query": "San Miguel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5986,
+      "name": "San Miguel",
+      "department": "Sobremonte",
+      "province": "Córdoba",
+      "query": "San Miguel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6629,
+      "name": "San Miguel",
+      "department": "San Alberto",
+      "province": "Córdoba",
+      "query": "San Miguel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7211,
+      "name": "San Miguel",
+      "department": "San Miguel",
+      "province": "Corrientes",
+      "query": "San Miguel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    }
+  ]
 }
