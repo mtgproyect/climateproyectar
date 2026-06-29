@@ -1,5 +1,5 @@
 {
-  "description": "Verificaciones puntuales confirmadas manualmente mediante https://ws1.smn.gob.ar/v1/georef/location/search?name=",
+  "description": "Verificaciones puntuales confirmadas manualmente mediante el buscador geográfico del SMN.",
   "verified_at": "2026-06-29",
   "locations": [
     {
@@ -13,6 +13,32 @@
       "lat": -35.433,
       "distance_km": 64.35,
       "station_name": "NUEVE DE JULIO",
+      "source": "SMN georef location search"
+    },
+    {
+      "id": 4814,
+      "name": "Moreno",
+      "department": "Moreno",
+      "province": "Buenos Aires",
+      "station_number": 87572,
+      "forecast_reference_id": 4814,
+      "lon": -58.786,
+      "lat": -34.6475,
+      "distance_km": 9.94,
+      "station_name": "MARIANO MORENO AERO",
+      "source": "SMN georef location search"
+    },
+    {
+      "id": 1844,
+      "name": "Río Turbio",
+      "department": "Güer Aike",
+      "province": "Santa Cruz",
+      "station_number": 87904,
+      "forecast_reference_id": 1840,
+      "lon": -72.3359,
+      "lat": -51.5386,
+      "distance_km": 140.94,
+      "station_name": "EL CALAFATE AERO",
       "source": "SMN georef location search"
     }
   ]
