@@ -1,8 +1,268 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T05:03:00.916643+00:00",
-  "count": 33,
+  "generated_at": "2026-06-29T05:15:28.046277+00:00",
+  "count": 62,
   "locations": [
+    {
+      "id": 4411,
+      "name": "Villa Bordeu",
+      "department": "Bahía Blanca",
+      "province": "Buenos Aires",
+      "query": "Villa Bordeu",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10587,
+      "name": "Carlos Tomás Surigues",
+      "department": "Berazategui",
+      "province": "Buenos Aires",
+      "query": "Carlos Tomás Surigues",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 151,
+      "name": "Sin Nombre",
+      "department": "Bariloche",
+      "province": "Río Negro",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1870,
+      "name": "Sin Nombre",
+      "department": "Güer Aike",
+      "province": "Santa Cruz",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2072,
+      "name": "Sin Nombre",
+      "department": "Castellanos",
+      "province": "Santa Fe",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2334,
+      "name": "Sin Nombre",
+      "department": "General López",
+      "province": "Santa Fe",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4813,
+      "name": "Sin Nombre",
+      "department": "General Rodriguez",
+      "province": "Buenos Aires",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4815,
+      "name": "Sin Nombre",
+      "department": "Marcos Paz",
+      "province": "Buenos Aires",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4817,
+      "name": "Sin Nombre",
+      "department": "Escobar",
+      "province": "Buenos Aires",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4822,
+      "name": "Sin Nombre",
+      "department": "Pilar",
+      "province": "Buenos Aires",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4826,
+      "name": "Sin Nombre",
+      "department": "Cañuelas",
+      "province": "Buenos Aires",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4827,
+      "name": "Sin Nombre",
+      "department": "Tigre",
+      "province": "Buenos Aires",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5560,
+      "name": "Sin Nombre",
+      "department": "Bermejo",
+      "province": "Chaco",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5976,
+      "name": "Sin Nombre",
+      "department": "Islas Malvinas",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6922,
+      "name": "Sin Nombre",
+      "department": "Calamuchita",
+      "province": "Córdoba",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6937,
+      "name": "Sin Nombre",
+      "department": "San Javier",
+      "province": "Córdoba",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7391,
+      "name": "Sin Nombre",
+      "department": "Lavalle",
+      "province": "Corrientes",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7492,
+      "name": "Sin Nombre",
+      "department": "Monte Caseros",
+      "province": "Corrientes",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7759,
+      "name": "Sin Nombre",
+      "department": "Villaguay",
+      "province": "Entre Ríos",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7873,
+      "name": "Sin Nombre",
+      "department": "Concordia",
+      "province": "Entre Ríos",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8443,
+      "name": "Sin Nombre",
+      "department": "Humahuaca",
+      "province": "Jujuy",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8486,
+      "name": "Sin Nombre",
+      "department": "Tilcara",
+      "province": "Jujuy",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9303,
+      "name": "Sin Nombre",
+      "department": "Malargüe",
+      "province": "Mendoza",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9567,
+      "name": "Sin Nombre",
+      "department": "Maipú",
+      "province": "Mendoza",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9648,
+      "name": "Sin Nombre",
+      "department": "Iguazú",
+      "province": "Misiones",
+      "query": "Sin Nombre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3811,
+      "name": "Manuel J. Cobo",
+      "department": "Chascomus",
+      "province": "Buenos Aires",
+      "query": "Manuel J. Cobo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
     {
       "id": 253,
       "name": "San Antonio",
@@ -329,6 +589,36 @@
       "department": "San Miguel",
       "province": "Corrientes",
       "query": "San Miguel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5988,
+      "name": "Santa María",
+      "department": "Sobremonte",
+      "province": "Córdoba",
+      "query": "Santa María",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6713,
+      "name": "Santa María",
+      "department": "Santa María",
+      "province": "Córdoba",
+      "query": "Santa María",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8889,
+      "name": "Santa María",
+      "department": "Utracán",
+      "province": "La Pampa",
+      "query": "Santa María",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."

@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T05:03:00.931465+00:00",
+  "generated_at": "2026-06-29T05:15:28.063910+00:00",
   "endpoint": "https://ws1.smn.gob.ar/v1/georef/location/search",
   "catalog_total": 10601,
-  "resolved_with_station_and_forecast": 560,
+  "resolved_with_station_and_forecast": 928,
   "partial": 0,
-  "pending": 10041,
-  "georef_records": 265,
-  "cached_searches": 125,
-  "successful_searches": 125,
+  "pending": 9673,
+  "georef_records": 637,
+  "cached_searches": 325,
+  "successful_searches": 325,
   "request_errors": 0,
   "last_batch": {
-    "configured_size": 100,
-    "attempted_queries": 100,
-    "completed_queries": 100,
+    "configured_size": 200,
+    "attempted_queries": 200,
+    "completed_queries": 200,
     "stopped_reason": null
   }
 }

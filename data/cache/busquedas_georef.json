@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "endpoint": "https://ws1.smn.gob.ar/v1/georef/location/search",
-  "updated_at": "2026-06-29T05:03:00.754307+00:00",
+  "updated_at": "2026-06-29T05:15:27.895753+00:00",
   "searches": {
     "parque nacional campos del tuyu": {
       "query": "Parque Nacional Campos del Tuyú",
@@ -5572,6 +5572,8197 @@
           -36.308,
           70.76,
           "AZUL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "parish": {
+      "query": "Parish",
+      "searched_at": "2026-06-29T05:11:27.309691+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4119
+      ],
+      "resolved_ids": [
+        4119
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4119,
+          "Parish",
+          "Azul",
+          "Buenos Aires",
+          87641,
+          4116,
+          -59.6324,
+          -36.5171,
+          41.67,
+          "AZUL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "shaw": {
+      "query": "Shaw",
+      "searched_at": "2026-06-29T05:11:28.505571+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4118
+      ],
+      "resolved_ids": [
+        4118
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4118,
+          "Shaw",
+          "Azul",
+          "Buenos Aires",
+          87641,
+          4116,
+          -59.7265,
+          -36.6246,
+          27.09,
+          "AZUL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "aldea romana": {
+      "query": "Aldea Romana",
+      "searched_at": "2026-06-29T05:11:29.692488+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4432
+      ],
+      "resolved_ids": [
+        4432
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4432,
+          "Aldea Romana",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.2087,
+          -38.6985,
+          4.36,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "alferez san martin": {
+      "query": "Alferez San Martín",
+      "searched_at": "2026-06-29T05:11:30.878785+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4409
+      ],
+      "resolved_ids": [
+        4409
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4409,
+          "Alferez San Martín",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.517,
+          -38.6311,
+          32.17,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "cabildo": {
+      "query": "Cabildo",
+      "searched_at": "2026-06-29T05:11:32.072693+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4403
+      ],
+      "resolved_ids": [
+        4403
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4403,
+          "Cabildo",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87679,
+          4338,
+          -61.894,
+          -38.4852,
+          106.51,
+          "PIGUE AERO"
+        ]
+      ],
+      "error": null
+    },
+    "cochrane": {
+      "query": "Cochrane",
+      "searched_at": "2026-06-29T05:11:33.256945+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4402
+      ],
+      "resolved_ids": [
+        4402
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4402,
+          "Cochrane",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87679,
+          4338,
+          -62.0051,
+          -38.5688,
+          111.75,
+          "PIGUE AERO"
+        ]
+      ],
+      "error": null
+    },
+    "corti": {
+      "query": "Corti",
+      "searched_at": "2026-06-29T05:11:34.450044+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4405
+      ],
+      "resolved_ids": [
+        4405,
+        4787
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4405,
+          "Corti",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.0652,
+          -38.6195,
+          13.57,
+          "BAHIA BLANCA AERO"
+        ],
+        [
+          4787,
+          "Cortines",
+          "Luján",
+          "Buenos Aires",
+          87572,
+          4736,
+          -59.2063,
+          -34.559,
+          38.52,
+          "MARIANO MORENO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "general cerri": {
+      "query": "General Cerri",
+      "searched_at": "2026-06-29T05:11:35.638454+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4431
+      ],
+      "resolved_ids": [
+        4431
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4431,
+          "General Cerri",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.4059,
+          -38.7125,
+          21.12,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "grunbein": {
+      "query": "Grünbein",
+      "searched_at": "2026-06-29T05:11:36.867457+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4434
+      ],
+      "resolved_ids": [
+        4434
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4434,
+          "Grünbein",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.1807,
+          -38.7513,
+          4.34,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "ingeniero white": {
+      "query": "Ingeniero White",
+      "searched_at": "2026-06-29T05:11:38.053510+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4433
+      ],
+      "resolved_ids": [
+        4433
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4433,
+          "Ingeniero White",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.2646,
+          -38.7814,
+          11.52,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "la viticola": {
+      "query": "La Vitícola",
+      "searched_at": "2026-06-29T05:11:39.251674+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4401
+      ],
+      "resolved_ids": [
+        4401
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4401,
+          "La Vitícola",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.2864,
+          -38.5269,
+          23.46,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "mirasoles": {
+      "query": "Mirasoles",
+      "searched_at": "2026-06-29T05:11:40.452015+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4416
+      ],
+      "resolved_ids": [
+        4416
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4416,
+          "Mirasoles",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.1284,
+          -38.6716,
+          5.66,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "naposta": {
+      "query": "Naposta",
+      "searched_at": "2026-06-29T05:11:41.665078+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4397
+      ],
+      "resolved_ids": [
+        4397
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4397,
+          "Naposta",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87679,
+          4338,
+          -62.2461,
+          -38.4325,
+          92.32,
+          "PIGUE AERO"
+        ]
+      ],
+      "error": null
+    },
+    "puerto galvan": {
+      "query": "Puerto Galván",
+      "searched_at": "2026-06-29T05:11:42.860708+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4421
+      ],
+      "resolved_ids": [
+        4421
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4421,
+          "Puerto Galván",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.3038,
+          -38.7754,
+          13.97,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa bordeu": {
+      "query": "Villa Bordeu",
+      "searched_at": "2026-06-29T05:11:44.049741+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4411
+      ],
+      "resolved_ids": [],
+      "result_count": 0,
+      "results": [],
+      "error": null
+    },
+    "villa elisa": {
+      "query": "Villa Elisa",
+      "searched_at": "2026-06-29T05:11:45.244176+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4408,
+        6805,
+        7827,
+        10566
+      ],
+      "resolved_ids": [
+        4408,
+        6805,
+        7827,
+        10566
+      ],
+      "result_count": 4,
+      "results": [
+        [
+          4408,
+          "Villa Elisa",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.4579,
+          -38.6704,
+          26.12,
+          "BAHIA BLANCA AERO"
+        ],
+        [
+          7827,
+          "Villa Elisa",
+          "Colón",
+          "Entre Ríos",
+          87497,
+          7851,
+          -58.4044,
+          -32.1607,
+          96.42,
+          "GUALEGUAYCHU AERO"
+        ],
+        [
+          10566,
+          "Villa Elisa",
+          "La Plata",
+          "Buenos Aires",
+          87593,
+          4856,
+          -58.0781,
+          -34.8482,
+          21.16,
+          "LA PLATA AERO"
+        ],
+        [
+          6805,
+          "Villa Elisa",
+          "Marcos Juárez",
+          "Córdoba",
+          87467,
+          6826,
+          -62.2988,
+          -32.8327,
+          21.93,
+          "MARCOS JUAREZ AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa espora": {
+      "query": "Villa Espora",
+      "searched_at": "2026-06-29T05:11:46.441412+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4413
+      ],
+      "resolved_ids": [
+        4413
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4413,
+          "Villa Espora",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.1704,
+          -38.7422,
+          3.12,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa harding green": {
+      "query": "Villa Harding Green",
+      "searched_at": "2026-06-29T05:11:47.678242+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4414
+      ],
+      "resolved_ids": [
+        4414
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4414,
+          "Villa Harding Green",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.1951,
+          -38.7195,
+          2.84,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa olga": {
+      "query": "Villa Olga",
+      "searched_at": "2026-06-29T05:11:48.871893+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4412
+      ],
+      "resolved_ids": [
+        4412
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4412,
+          "Villa Olga",
+          "Bahía Blanca",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.3913,
+          -38.682,
+          20.19,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "bosch": {
+      "query": "Bosch",
+      "searched_at": "2026-06-29T05:11:50.070698+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4292
+      ],
+      "resolved_ids": [
+        4292
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4292,
+          "Bosch",
+          "Balcarce",
+          "Buenos Aires",
+          87692,
+          4144,
+          -58.2393,
+          -37.6467,
+          66.04,
+          "MAR DEL PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "colonia el retamo": {
+      "query": "Colonia El Retamo",
+      "searched_at": "2026-06-29T05:11:51.264846+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4286
+      ],
+      "resolved_ids": [
+        4286
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4286,
+          "Colonia El Retamo",
+          "Balcarce",
+          "Buenos Aires",
+          87692,
+          4144,
+          -58.3229,
+          -37.6964,
+          70.33,
+          "MAR DEL PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "colonia san martin": {
+      "query": "Colonia San Martín",
+      "searched_at": "2026-06-29T05:11:52.498688+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4285,
+        4339,
+        4659,
+        7207
+      ],
+      "resolved_ids": [
+        4285,
+        4339,
+        4659,
+        7207
+      ],
+      "result_count": 4,
+      "results": [
+        [
+          4285,
+          "Colonia San Martín",
+          "Balcarce",
+          "Buenos Aires",
+          87692,
+          4144,
+          -58.1858,
+          -37.8733,
+          53.55,
+          "MAR DEL PLATA AERO"
+        ],
+        [
+          4659,
+          "Colonia San Martín",
+          "General Arenales",
+          "Buenos Aires",
+          87548,
+          4712,
+          -61.2775,
+          -34.1427,
+          55.51,
+          "JUNIN AERO"
+        ],
+        [
+          4339,
+          "Colonia San Martín",
+          "Saavedra",
+          "Buenos Aires",
+          87679,
+          4338,
+          -62.3347,
+          -37.9777,
+          41.26,
+          "PIGUE AERO"
+        ],
+        [
+          7207,
+          "Colonia San Martín",
+          "San Miguel",
+          "Corrientes",
+          87173,
+          7151,
+          -57.5861,
+          -27.7356,
+          91.2,
+          "ITUZAINGO"
+        ]
+      ],
+      "error": null
+    },
+    "el verano": {
+      "query": "El Verano",
+      "searched_at": "2026-06-29T05:11:53.731430+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4274
+      ],
+      "resolved_ids": [
+        4274
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4274,
+          "El Verano",
+          "Balcarce",
+          "Buenos Aires",
+          87645,
+          4144,
+          -58.5358,
+          -37.7355,
+          82.55,
+          "TANDIL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "los pinos": {
+      "query": "Los Pinos",
+      "searched_at": "2026-06-29T05:11:54.919197+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        467,
+        4300,
+        8613
+      ],
+      "resolved_ids": [
+        467,
+        4300,
+        8613
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          4300,
+          "Los Pinos",
+          "Balcarce",
+          "Buenos Aires",
+          87692,
+          4144,
+          -58.3208,
+          -37.9406,
+          65.0,
+          "MAR DEL PLATA AERO"
+        ],
+        [
+          467,
+          "Los Pinos",
+          "Cerrillos",
+          "Salta",
+          87047,
+          454,
+          -65.4243,
+          -24.9266,
+          10.49,
+          "SALTA AERO"
+        ],
+        [
+          8613,
+          "Los Pinos",
+          "San Pedro",
+          "Jujuy",
+          87046,
+          8618,
+          -64.8222,
+          -24.3072,
+          29.01,
+          "JUJUY AERO"
+        ]
+      ],
+      "error": null
+    },
+    "napaleofu": {
+      "query": "Napaleofú",
+      "searched_at": "2026-06-29T05:11:56.106251+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4271
+      ],
+      "resolved_ids": [
+        4271
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4271,
+          "Napaleofú",
+          "Balcarce",
+          "Buenos Aires",
+          87645,
+          4144,
+          -58.7474,
+          -37.6239,
+          60.44,
+          "TANDIL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "ramos otero": {
+      "query": "Ramos Otero",
+      "searched_at": "2026-06-29T05:11:57.305652+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4291
+      ],
+      "resolved_ids": [
+        4291
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4291,
+          "Ramos Otero",
+          "Balcarce",
+          "Buenos Aires",
+          87692,
+          4144,
+          -58.3375,
+          -37.5416,
+          79.5,
+          "MAR DEL PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "san agustin": {
+      "query": "San Agustín",
+      "searched_at": "2026-06-29T05:11:58.492012+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        471,
+        828,
+        2217,
+        3082,
+        4489,
+        5294,
+        5355,
+        5411,
+        6050,
+        6394,
+        10199
+      ],
+      "resolved_ids": [
+        471,
+        828,
+        2217,
+        3082,
+        4489,
+        5294,
+        5355,
+        5411,
+        6050,
+        6394,
+        10199
+      ],
+      "result_count": 11,
+      "results": [
+        [
+          5411,
+          "San Agustín",
+          "Almirante Brown",
+          "Chaco",
+          87065,
+          5385,
+          -62.4655,
+          -25.5975,
+          162.11,
+          "RIVADAVIA"
+        ],
+        [
+          4489,
+          "San Agustín",
+          "Balcarce",
+          "Buenos Aires",
+          87692,
+          4144,
+          -58.3574,
+          -38.0087,
+          68.71,
+          "MAR DEL PLATA AERO"
+        ],
+        [
+          6394,
+          "San Agustín",
+          "Calamuchita",
+          "Córdoba",
+          87349,
+          6387,
+          -64.3745,
+          -31.9758,
+          57.78,
+          "PILAR OBSERVATORIO"
+        ],
+        [
+          471,
+          "San Agustín",
+          "Cerrillos",
+          "Salta",
+          87047,
+          454,
+          -65.4387,
+          -24.998,
+          17.43,
+          "SALTA AERO"
+        ],
+        [
+          10199,
+          "San Agustín",
+          "Cruz Alta",
+          "Tucumán",
+          87121,
+          10118,
+          -64.8328,
+          -26.8416,
+          27.4,
+          "TUCUMAN AERO"
+        ],
+        [
+          6050,
+          "San Agustín",
+          "Cruz del Eje",
+          "Córdoba",
+          87320,
+          6110,
+          -65.2387,
+          -30.5371,
+          103.77,
+          "CHAMICAL AERO"
+        ],
+        [
+          3082,
+          "San Agustín",
+          "Figueroa",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.5347,
+          -27.3453,
+          88.15,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          5355,
+          "San Agustín",
+          "General Güemes",
+          "Chaco",
+          87065,
+          5385,
+          -61.9449,
+          -24.2762,
+          96.18,
+          "RIVADAVIA"
+        ],
+        [
+          5294,
+          "San Agustín",
+          "La Paz",
+          "Catamarca",
+          87222,
+          5149,
+          -65.4369,
+          -29.9136,
+          149.56,
+          "CATAMARCA AERO"
+        ],
+        [
+          2217,
+          "San Agustín",
+          "Las Colonias",
+          "Santa Fe",
+          87360,
+          2060,
+          -60.9405,
+          -31.6837,
+          70.37,
+          "RAFAELA AERO"
+        ],
+        [
+          828,
+          "San Agustín",
+          "Rivadavia",
+          "Salta",
+          87065,
+          794,
+          -62.4634,
+          -24.0285,
+          46.4,
+          "RIVADAVIA"
+        ]
+      ],
+      "error": null
+    },
+    "villa laguna la brava": {
+      "query": "Villa Laguna La Brava",
+      "searched_at": "2026-06-29T05:11:59.743985+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4303
+      ],
+      "resolved_ids": [
+        4303
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4303,
+          "Villa Laguna La Brava",
+          "Balcarce",
+          "Buenos Aires",
+          87692,
+          4144,
+          -57.9812,
+          -37.8605,
+          36.05,
+          "MAR DEL PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "baradero": {
+      "query": "Baradero",
+      "searched_at": "2026-06-29T05:12:00.929284+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4570
+      ],
+      "resolved_ids": [
+        4570
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4570,
+          "Baradero",
+          "Baradero",
+          "Buenos Aires",
+          87572,
+          4590,
+          -59.5054,
+          -33.8126,
+          105.95,
+          "MARIANO MORENO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "irineo portela": {
+      "query": "Irineo Portela",
+      "searched_at": "2026-06-29T05:12:02.151715+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4579
+      ],
+      "resolved_ids": [
+        4579
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4579,
+          "Irineo Portela",
+          "Baradero",
+          "Buenos Aires",
+          87572,
+          4590,
+          -59.6695,
+          -33.9785,
+          103.65,
+          "MARIANO MORENO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "la paloma": {
+      "query": "La Paloma",
+      "searched_at": "2026-06-29T05:12:03.368524+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        2708,
+        3257,
+        3481,
+        4748,
+        5401
+      ],
+      "resolved_ids": [
+        2708,
+        3257,
+        3481,
+        4748,
+        5401
+      ],
+      "result_count": 5,
+      "results": [
+        [
+          2708,
+          "La Paloma",
+          "Alberdi",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.304,
+          -26.4132,
+          178.47,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          5401,
+          "La Paloma",
+          "Almirante Brown",
+          "Chaco",
+          87065,
+          5385,
+          -62.7425,
+          -25.3986,
+          135.18,
+          "RIVADAVIA"
+        ],
+        [
+          3481,
+          "La Paloma",
+          "Atamisqui",
+          "Santiago del Estero",
+          87244,
+          3574,
+          -63.6307,
+          -28.7349,
+          130.13,
+          "VILLA DE MARIA DEL RIO SECO"
+        ],
+        [
+          4748,
+          "La Paloma",
+          "Baradero",
+          "Buenos Aires",
+          87572,
+          4590,
+          -59.4584,
+          -34.0196,
+          85.97,
+          "MARIANO MORENO AERO"
+        ],
+        [
+          3257,
+          "La Paloma",
+          "Moreno",
+          "Santiago del Estero",
+          87148,
+          3278,
+          -61.8479,
+          -27.5518,
+          161.76,
+          "PRESIDENCIA ROQUE SAENZ PEÑA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "santa coloma": {
+      "query": "Santa Coloma",
+      "searched_at": "2026-06-29T05:12:04.560182+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4770
+      ],
+      "resolved_ids": [
+        4770
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4770,
+          "Santa Coloma",
+          "Baradero",
+          "Buenos Aires",
+          87572,
+          4590,
+          -59.5555,
+          -34.0603,
+          89.76,
+          "MARIANO MORENO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa alsina": {
+      "query": "Villa Alsina",
+      "searched_at": "2026-06-29T05:12:05.753028+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4581
+      ],
+      "resolved_ids": [
+        4581
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4581,
+          "Villa Alsina",
+          "Baradero",
+          "Buenos Aires",
+          87572,
+          4590,
+          -59.3877,
+          -33.9075,
+          90.95,
+          "MARIANO MORENO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "arrecifes": {
+      "query": "Arrecifes",
+      "searched_at": "2026-06-29T05:12:06.984284+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4691
+      ],
+      "resolved_ids": [
+        4691
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4691,
+          "Arrecifes",
+          "Bartolomé Mitre",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.1027,
+          -34.0665,
+          93.4,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "brisas alegres": {
+      "query": "Brisas Alegres",
+      "searched_at": "2026-06-29T05:12:08.179147+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4564
+      ],
+      "resolved_ids": [
+        4564
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4564,
+          "Brisas Alegres",
+          "Bartolomé Mitre",
+          "Buenos Aires",
+          87548,
+          4712,
+          -59.9879,
+          -33.9638,
+          108.69,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "canada maria": {
+      "query": "Cañada María",
+      "searched_at": "2026-06-29T05:12:09.380307+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4594
+      ],
+      "resolved_ids": [
+        4594
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4594,
+          "Cañada María",
+          "Bartolomé Mitre",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.0301,
+          -33.9262,
+          108.25,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "el nacional": {
+      "query": "El Nacional",
+      "searched_at": "2026-06-29T05:12:10.568427+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4596
+      ],
+      "resolved_ids": [
+        4596
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4596,
+          "El Nacional",
+          "Bartolomé Mitre",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.126,
+          -33.9085,
+          102.99,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "la delia": {
+      "query": "La Delia",
+      "searched_at": "2026-06-29T05:12:11.757296+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        2754,
+        4563
+      ],
+      "resolved_ids": [
+        2754,
+        4563
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          2754,
+          "La Delia",
+          "Alberdi",
+          "Santiago del Estero",
+          87148,
+          3278,
+          -61.918,
+          -26.5796,
+          143.67,
+          "PRESIDENCIA ROQUE SAENZ PEÑA AERO"
+        ],
+        [
+          4563,
+          "La Delia",
+          "Bartolomé Mitre",
+          "Buenos Aires",
+          87548,
+          4712,
+          -59.8987,
+          -33.9832,
+          114.15,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "la estrella": {
+      "query": "La Estrella",
+      "searched_at": "2026-06-29T05:12:12.991759+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        376,
+        407,
+        4591,
+        8780
+      ],
+      "resolved_ids": [
+        376,
+        407,
+        4591,
+        8780
+      ],
+      "result_count": 4,
+      "results": [
+        [
+          4591,
+          "La Estrella",
+          "Bartolomé Mitre",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.0698,
+          -33.9834,
+          101.39,
+          "JUNIN AERO"
+        ],
+        [
+          376,
+          "La Estrella",
+          "Orán",
+          "Salta",
+          87016,
+          291,
+          -64.0768,
+          -23.8254,
+          78.59,
+          "ORAN AERO"
+        ],
+        [
+          8780,
+          "La Estrella",
+          "Realicó",
+          "La Pampa",
+          87532,
+          8803,
+          -64.4144,
+          -35.1715,
+          82.6,
+          "GENERAL PICO AERO"
+        ],
+        [
+          407,
+          "La Estrella",
+          "Rivadavia",
+          "Salta",
+          87065,
+          794,
+          -63.2328,
+          -23.9247,
+          45.53,
+          "RIVADAVIA"
+        ]
+      ],
+      "error": null
+    },
+    "las saritas": {
+      "query": "Las Saritas",
+      "searched_at": "2026-06-29T05:12:14.187181+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4597
+      ],
+      "resolved_ids": [
+        4597
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4597,
+          "Las Saritas",
+          "Bartolomé Mitre",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.2033,
+          -33.8422,
+          103.49,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "santa lucia": {
+      "query": "Santa Lucía",
+      "searched_at": "2026-06-29T05:12:15.378650+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        714,
+        1334,
+        1989,
+        3141,
+        3313,
+        3508,
+        4577,
+        4595,
+        5311,
+        7246,
+        9143,
+        10366
+      ],
+      "resolved_ids": [
+        714,
+        1334,
+        1989,
+        3141,
+        3313,
+        3508,
+        4577,
+        4595,
+        5311,
+        7246,
+        9143,
+        10366
+      ],
+      "result_count": 12,
+      "results": [
+        [
+          4595,
+          "Santa Lucía",
+          "Bartolomé Mitre",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.0611,
+          -33.9097,
+          107.29,
+          "JUNIN AERO"
+        ],
+        [
+          3313,
+          "Santa Lucía",
+          "Brigadier Juan Felipe Ibarra",
+          "Santiago del Estero",
+          87129,
+          3574,
+          -62.3285,
+          -27.8614,
+          194.6,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          9143,
+          "Santa Lucía",
+          "Gobernador Gordillo",
+          "La Rioja",
+          87320,
+          9117,
+          -66.3436,
+          -30.4715,
+          14.44,
+          "CHAMICAL AERO"
+        ],
+        [
+          5311,
+          "Santa Lucía",
+          "La Paz",
+          "Catamarca",
+          87222,
+          5149,
+          -65.1706,
+          -29.1177,
+          81.43,
+          "CATAMARCA AERO"
+        ],
+        [
+          7246,
+          "Santa Lucía",
+          "Lavalle",
+          "Corrientes",
+          87270,
+          7363,
+          -59.1024,
+          -28.9843,
+          62.52,
+          "RECONQUISTA AERO"
+        ],
+        [
+          10366,
+          "Santa Lucía",
+          "Monteros",
+          "Tucumán",
+          87121,
+          10118,
+          -65.5345,
+          -27.0933,
+          50.93,
+          "TUCUMAN AERO"
+        ],
+        [
+          3141,
+          "Santa Lucía",
+          "Moreno",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.2039,
+          -27.2793,
+          120.41,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          714,
+          "Santa Lucía",
+          "Rivadavia",
+          "Salta",
+          87065,
+          794,
+          -62.6625,
+          -23.1169,
+          120.52,
+          "RIVADAVIA"
+        ],
+        [
+          3508,
+          "Santa Lucía",
+          "Salavina",
+          "Santiago del Estero",
+          87244,
+          3574,
+          -63.4984,
+          -28.7182,
+          133.5,
+          "VILLA DE MARIA DEL RIO SECO"
+        ],
+        [
+          4577,
+          "Santa Lucía",
+          "San Pedro",
+          "Buenos Aires",
+          87548,
+          4590,
+          -59.875,
+          -33.8791,
+          122.69,
+          "JUNIN AERO"
+        ],
+        [
+          1334,
+          "Santa Lucía",
+          "Santa Lucía",
+          "San Juan",
+          87311,
+          1425,
+          -68.469,
+          -31.5362,
+          6.14,
+          "SAN JUAN AERO"
+        ],
+        [
+          1989,
+          "Santa Lucía",
+          "Vera",
+          "Santa Fe",
+          87270,
+          2006,
+          -60.3688,
+          -29.2661,
+          66.01,
+          "RECONQUISTA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "todd": {
+      "query": "Todd",
+      "searched_at": "2026-06-29T05:12:16.575261+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4690
+      ],
+      "resolved_ids": [
+        4690
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4690,
+          "Todd",
+          "Bartolomé Mitre",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.1537,
+          -34.0321,
+          91.96,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "vina": {
+      "query": "Viña",
+      "searched_at": "2026-06-29T05:12:17.808749+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4619
+      ],
+      "resolved_ids": [
+        369,
+        959,
+        1114,
+        1575,
+        2541,
+        2631,
+        2652,
+        2685,
+        2805,
+        3084,
+        3144,
+        3550,
+        4619,
+        5330,
+        8543
+      ],
+      "result_count": 15,
+      "results": [
+        [
+          4619,
+          "Viña",
+          "Bartolomé Mitre",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.2287,
+          -33.9903,
+          89.86,
+          "JUNIN AERO"
+        ],
+        [
+          959,
+          "Viñaco",
+          "Chicoana",
+          "Salta",
+          87047,
+          454,
+          -65.4981,
+          -25.1713,
+          36.29,
+          "SALTA AERO"
+        ],
+        [
+          1575,
+          "Vinagrillo",
+          "Ayacucho",
+          "San Luis",
+          87444,
+          1601,
+          -66.0244,
+          -32.3991,
+          79.49,
+          "SANTA ROSA DE CONLARA AERO"
+        ],
+        [
+          3550,
+          "Vinal Esquina",
+          "General Taboada",
+          "Santiago del Estero",
+          87129,
+          3574,
+          -63.0162,
+          -28.3846,
+          144.19,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          3084,
+          "Vinal Isla",
+          "Figueroa",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.5319,
+          -27.474,
+          81.94,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          3144,
+          "Vinal Pozo",
+          "Figueroa",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.2313,
+          -27.1446,
+          125.42,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          2541,
+          "Vinal Pozo",
+          "Pellegrini",
+          "Santiago del Estero",
+          87050,
+          2474,
+          -64.3164,
+          -26.2137,
+          100.81,
+          "METAN"
+        ],
+        [
+          2631,
+          "Vinal Selsliana",
+          "Pellegrini",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.832,
+          -26.5908,
+          137.06,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          2652,
+          "Vinal Suni",
+          "Copo",
+          "Santiago del Estero",
+          87050,
+          2474,
+          -63.6641,
+          -26.056,
+          143.88,
+          "METAN"
+        ],
+        [
+          2685,
+          "Vinal Viejo",
+          "Alberdi",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.558,
+          -26.5151,
+          155.81,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          5330,
+          "Vinalito",
+          "General Güemes",
+          "Chaco",
+          87065,
+          5385,
+          -62.3362,
+          -24.2916,
+          57.13,
+          "RIVADAVIA"
+        ],
+        [
+          369,
+          "Vinalito",
+          "Orán",
+          "Salta",
+          87016,
+          291,
+          -64.1446,
+          -23.4392,
+          36.68,
+          "ORAN AERO"
+        ],
+        [
+          1114,
+          "Vinalito",
+          "Rosario de La Frontera",
+          "Salta",
+          87050,
+          1018,
+          -64.8265,
+          -25.7915,
+          33.05,
+          "METAN"
+        ],
+        [
+          8543,
+          "Vinalito",
+          "Santa Bárbara",
+          "Jujuy",
+          87046,
+          8618,
+          -64.2903,
+          -23.9024,
+          97.69,
+          "JUJUY AERO"
+        ],
+        [
+          2805,
+          "Vinara",
+          "Río Hondo",
+          "Santiago del Estero",
+          87127,
+          2819,
+          -64.7952,
+          -27.3774,
+          19.82,
+          "TERMAS DE RIO HONDO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "barker": {
+      "query": "Barker",
+      "searched_at": "2026-06-29T05:12:18.997579+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4259
+      ],
+      "resolved_ids": [
+        4259
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4259,
+          "Barker",
+          "Benito Juárez",
+          "Buenos Aires",
+          87645,
+          4265,
+          -59.3905,
+          -37.6363,
+          46.01,
+          "TANDIL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "el poleo": {
+      "query": "El Poleo",
+      "searched_at": "2026-06-29T05:12:20.236416+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4248
+      ],
+      "resolved_ids": [
+        4248
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4248,
+          "El Poleo",
+          "Benito Juárez",
+          "Buenos Aires",
+          87649,
+          4116,
+          -60.1382,
+          -37.8008,
+          32.53,
+          "BENITO JUAREZ AERO"
+        ]
+      ],
+      "error": null
+    },
+    "hogar": {
+      "query": "Hogar",
+      "searched_at": "2026-06-29T05:12:21.424883+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4251
+      ],
+      "resolved_ids": [
+        4251,
+        4762
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4251,
+          "Hogar",
+          "Benito Juárez",
+          "Buenos Aires",
+          87649,
+          4116,
+          -59.8186,
+          -37.6474,
+          6.46,
+          "BENITO JUAREZ AERO"
+        ],
+        [
+          4762,
+          "Hogar Ricardo Gutierrez",
+          "Marcos Paz",
+          "Buenos Aires",
+          87573,
+          4736,
+          -58.8326,
+          -34.8459,
+          19.61,
+          "MERLO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "tedin uriburu": {
+      "query": "Tedin Uriburu",
+      "searched_at": "2026-06-29T05:12:22.619110+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        10556
+      ],
+      "resolved_ids": [
+        10556
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          10556,
+          "Tedin Uriburu",
+          "Benito Juárez",
+          "Buenos Aires",
+          87649,
+          4116,
+          -59.7613,
+          -37.3663,
+          37.27,
+          "BENITO JUAREZ AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa cacique": {
+      "query": "Villa Cacique",
+      "searched_at": "2026-06-29T05:12:23.864055+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4260
+      ],
+      "resolved_ids": [
+        4260
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4260,
+          "Villa Cacique",
+          "Benito Juárez",
+          "Buenos Aires",
+          87645,
+          4265,
+          -59.4001,
+          -37.6681,
+          49.63,
+          "TANDIL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "carlos tomas surigues": {
+      "query": "Carlos Tomás Surigues",
+      "searched_at": "2026-06-29T05:12:25.088018+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        10587
+      ],
+      "resolved_ids": [],
+      "result_count": 0,
+      "results": [],
+      "error": null
+    },
+    "el pato": {
+      "query": "El Pato",
+      "searched_at": "2026-06-29T05:12:26.318154+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        10589
+      ],
+      "resolved_ids": [
+        10589
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          10589,
+          "El Pato",
+          "Berazategui",
+          "Buenos Aires",
+          87593,
+          4875,
+          -58.1805,
+          -34.8735,
+          27.95,
+          "LA PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "guillermo e. hudson": {
+      "query": "Guillermo E. Hudson",
+      "searched_at": "2026-06-29T05:12:27.554353+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        10588
+      ],
+      "resolved_ids": [
+        10588
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          10588,
+          "Guillermo E. Hudson",
+          "Berazategui",
+          "Buenos Aires",
+          87593,
+          4875,
+          -58.1552,
+          -34.7908,
+          30.65,
+          "LA PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "juan maria gutierrez": {
+      "query": "Juan María Gutierrez",
+      "searched_at": "2026-06-29T05:12:28.798570+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        10590
+      ],
+      "resolved_ids": [
+        10590
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          10590,
+          "Juan María Gutierrez",
+          "Berazategui",
+          "Buenos Aires",
+          87593,
+          4875,
+          -58.1854,
+          -34.8337,
+          30.25,
+          "LA PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "pereyra": {
+      "query": "Pereyra",
+      "searched_at": "2026-06-29T05:12:29.997798+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        10591
+      ],
+      "resolved_ids": [
+        10591
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          10591,
+          "Pereyra",
+          "Berazategui",
+          "Buenos Aires",
+          87593,
+          4875,
+          -58.0956,
+          -34.8348,
+          23.34,
+          "LA PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "ranelagh": {
+      "query": "Ranelagh",
+      "searched_at": "2026-06-29T05:12:31.187315+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4873
+      ],
+      "resolved_ids": [
+        4873
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4873,
+          "Ranelagh",
+          "Berazategui",
+          "Buenos Aires",
+          87582,
+          4875,
+          -58.1945,
+          -34.7901,
+          32.93,
+          "AEROPARQUE AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa espana": {
+      "query": "Villa España",
+      "searched_at": "2026-06-29T05:12:32.391731+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        10593
+      ],
+      "resolved_ids": [
+        10593
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          10593,
+          "Villa España",
+          "Berazategui",
+          "Buenos Aires",
+          87582,
+          4875,
+          -58.1958,
+          -34.7732,
+          31.41,
+          "AEROPARQUE AERO"
+        ]
+      ],
+      "error": null
+    },
+    "berisso": {
+      "query": "Berisso",
+      "searched_at": "2026-06-29T05:12:33.590084+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4867
+      ],
+      "resolved_ids": [
+        4867
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4867,
+          "Berisso",
+          "Berisso",
+          "Buenos Aires",
+          87593,
+          4856,
+          -57.8809,
+          -34.8737,
+          10.35,
+          "LA PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "el porvenir": {
+      "query": "El Porvenir",
+      "searched_at": "2026-06-29T05:12:34.805616+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        330,
+        515,
+        838,
+        1120,
+        2424,
+        2547,
+        2748,
+        3114,
+        3890,
+        4171,
+        6463,
+        8734,
+        9641,
+        10325
+      ],
+      "resolved_ids": [
+        330,
+        515,
+        838,
+        1120,
+        2424,
+        2547,
+        2748,
+        3114,
+        3890,
+        4171,
+        6463,
+        8734,
+        9641,
+        10325
+      ],
+      "result_count": 14,
+      "results": [
+        [
+          2748,
+          "El Porvenir",
+          "Alberdi",
+          "Santiago del Estero",
+          87065,
+          2474,
+          -62.695,
+          -26.2917,
+          234.13,
+          "RIVADAVIA"
+        ],
+        [
+          4171,
+          "El Porvenir",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.139,
+          -36.0875,
+          12.49,
+          "BOLIVAR AERO"
+        ],
+        [
+          3114,
+          "El Porvenir",
+          "Figueroa",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.4589,
+          -27.1146,
+          109.29,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          330,
+          "El Porvenir",
+          "General José de San Martín",
+          "Salta",
+          87022,
+          291,
+          -63.4689,
+          -22.8507,
+          42.48,
+          "TARTAGAL AERO"
+        ],
+        [
+          2424,
+          "El Porvenir",
+          "General López",
+          "Santa Fe",
+          87468,
+          2317,
+          -62.7215,
+          -34.3268,
+          100.21,
+          "VENADO TUERTO AERO"
+        ],
+        [
+          10325,
+          "El Porvenir",
+          "La Cocha",
+          "Tucumán",
+          87121,
+          10118,
+          -65.5612,
+          -27.7649,
+          112.13,
+          "TUCUMAN AERO"
+        ],
+        [
+          9641,
+          "El Porvenir",
+          "Libertador General San Martín",
+          "Misiones",
+          87178,
+          9598,
+          -54.9278,
+          -26.8144,
+          121.25,
+          "POSADAS AERO"
+        ],
+        [
+          3890,
+          "El Porvenir",
+          "Pehuajó",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.6749,
+          -35.9032,
+          18.08,
+          "PEHUAJO AERO"
+        ],
+        [
+          2547,
+          "El Porvenir",
+          "Pellegrini",
+          "Santiago del Estero",
+          87121,
+          2474,
+          -64.3779,
+          -26.3258,
+          92.24,
+          "TUCUMAN AERO"
+        ],
+        [
+          6463,
+          "El Porvenir",
+          "Río Segundo",
+          "Córdoba",
+          87349,
+          6500,
+          -64.0143,
+          -31.7057,
+          13.22,
+          "PILAR OBSERVATORIO"
+        ],
+        [
+          838,
+          "El Porvenir",
+          "Rivadavia",
+          "Salta",
+          87065,
+          794,
+          -62.3887,
+          -24.3711,
+          54.58,
+          "RIVADAVIA"
+        ],
+        [
+          1120,
+          "El Porvenir",
+          "Rosario de La Frontera",
+          "Salta",
+          87050,
+          1018,
+          -64.9861,
+          -25.8141,
+          32.13,
+          "METAN"
+        ],
+        [
+          515,
+          "El Porvenir",
+          "Rosario de Lerma",
+          "Salta",
+          87047,
+          454,
+          -65.5598,
+          -24.9126,
+          11.37,
+          "SALTA AERO"
+        ],
+        [
+          8734,
+          "El Porvenir",
+          "Susques",
+          "Jujuy",
+          87047,
+          8745,
+          -66.7906,
+          -23.8418,
+          173.59,
+          "SALTA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "hale": {
+      "query": "Hale",
+      "searched_at": "2026-06-29T05:12:36.039320+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4173
+      ],
+      "resolved_ids": [
+        4173
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4173,
+          "Hale",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -60.8501,
+          -36.0016,
+          28.67,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "juan f. ibarra": {
+      "query": "Juan F. Ibarra",
+      "searched_at": "2026-06-29T05:12:37.232992+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4181
+      ],
+      "resolved_ids": [
+        4181
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4181,
+          "Juan F. Ibarra",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.2541,
+          -36.348,
+          24.24,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "la adela": {
+      "query": "La Adela",
+      "searched_at": "2026-06-29T05:12:38.467813+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3916,
+        8915
+      ],
+      "resolved_ids": [
+        3916,
+        8915
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          3916,
+          "La Adela",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -60.8891,
+          -35.9044,
+          35.39,
+          "BOLIVAR AERO"
+        ],
+        [
+          8915,
+          "La Adela",
+          "Caleu-Caleu",
+          "La Pampa",
+          87736,
+          8899,
+          -64.0856,
+          -38.9866,
+          0.52,
+          "RIO COLORADO"
+        ]
+      ],
+      "error": null
+    },
+    "la arboleda": {
+      "query": "La Arboleda",
+      "searched_at": "2026-06-29T05:12:39.656459+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3922
+      ],
+      "resolved_ids": [
+        3922
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3922,
+          "La Arboleda",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -60.5886,
+          -35.9759,
+          49.46,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "los toldos": {
+      "query": "Los Toldos",
+      "searched_at": "2026-06-29T05:12:40.854720+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3917,
+        3978,
+        9309
+      ],
+      "resolved_ids": [
+        3917,
+        3978,
+        9309
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          3917,
+          "Los Toldos",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -60.909,
+          -35.9255,
+          32.49,
+          "BOLIVAR AERO"
+        ],
+        [
+          3978,
+          "Los Toldos",
+          "General Viamonte",
+          "Buenos Aires",
+          87550,
+          3989,
+          -61.0378,
+          -35.0041,
+          50.29,
+          "NUEVE DE JULIO"
+        ],
+        [
+          9309,
+          "Los Toldos",
+          "San Rafael",
+          "Mendoza",
+          87509,
+          9553,
+          -68.2432,
+          -35.2858,
+          78.45,
+          "SAN RAFAEL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "mariano unzue": {
+      "query": "Mariano Unzué",
+      "searched_at": "2026-06-29T05:12:42.048683+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4172
+      ],
+      "resolved_ids": [
+        4172
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4172,
+          "Mariano Unzué",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.0072,
+          -36.1373,
+          8.02,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "miramar": {
+      "query": "Miramar",
+      "searched_at": "2026-06-29T05:12:43.281341+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4170,
+        6362
+      ],
+      "resolved_ids": [
+        4170,
+        4487,
+        6362
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          4170,
+          "Miramar",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.1796,
+          -36.0063,
+          22.18,
+          "BOLIVAR AERO"
+        ],
+        [
+          4487,
+          "Miramar",
+          "General Alvarado",
+          "Buenos Aires",
+          87692,
+          4317,
+          -57.8461,
+          -38.2698,
+          44.09,
+          "MAR DEL PLATA AERO"
+        ],
+        [
+          6362,
+          "Miramar",
+          "San Justo",
+          "Córdoba",
+          87356,
+          6565,
+          -62.6738,
+          -30.9145,
+          109.19,
+          "SUNCHALES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "palau": {
+      "query": "Palau",
+      "searched_at": "2026-06-29T05:12:44.515305+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4110
+      ],
+      "resolved_ids": [
+        4110
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4110,
+          "Palau",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.5121,
+          -36.3843,
+          45.18,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "parque las acoralladas": {
+      "query": "Parque Las Acoralladas",
+      "searched_at": "2026-06-29T05:12:45.734544+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4177
+      ],
+      "resolved_ids": [
+        4177
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4177,
+          "Parque Las Acoralladas",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.1363,
+          -36.2236,
+          7.06,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "paula": {
+      "query": "Paula",
+      "searched_at": "2026-06-29T05:12:46.961502+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3738,
+        3739,
+        4183
+      ],
+      "resolved_ids": [
+        3738,
+        3739,
+        4183
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          3738,
+          "Paula",
+          "Aguirre",
+          "Santiago del Estero",
+          87244,
+          3574,
+          -62.9943,
+          -29.1926,
+          106.3,
+          "VILLA DE MARIA DEL RIO SECO"
+        ],
+        [
+          4183,
+          "Paula",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.0243,
+          -36.5013,
+          35.21,
+          "BOLIVAR AERO"
+        ],
+        [
+          3739,
+          "Paula",
+          "Mitre",
+          "Santiago del Estero",
+          87244,
+          3574,
+          -62.9972,
+          -29.2303,
+          103.03,
+          "VILLA DE MARIA DEL RIO SECO"
+        ]
+      ],
+      "error": null
+    },
+    "pirovano": {
+      "query": "Pirovano",
+      "searched_at": "2026-06-29T05:12:48.156304+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4111
+      ],
+      "resolved_ids": [
+        4111
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4111,
+          "Pirovano",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.5537,
+          -36.5097,
+          56.14,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "urdampilleta": {
+      "query": "Urdampilleta",
+      "searched_at": "2026-06-29T05:12:49.342307+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4182
+      ],
+      "resolved_ids": [
+        4182
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4182,
+          "Urdampilleta",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.418,
+          -36.429,
+          41.07,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa lynch pueyrredon": {
+      "query": "Villa Lynch Pueyrredón",
+      "searched_at": "2026-06-29T05:12:50.542914+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4188
+      ],
+      "resolved_ids": [
+        4188
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4188,
+          "Villa Lynch Pueyrredón",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.3667,
+          -36.6051,
+          53.43,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa sanz": {
+      "query": "Villa Sanz",
+      "searched_at": "2026-06-29T05:12:51.740372+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3975
+      ],
+      "resolved_ids": [
+        3975
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3975,
+          "Villa Sanz",
+          "Bolívar",
+          "Buenos Aires",
+          87640,
+          3884,
+          -60.9363,
+          -35.988,
+          25.21,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "asamblea": {
+      "query": "Asamblea",
+      "searched_at": "2026-06-29T05:12:52.981752+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3961
+      ],
+      "resolved_ids": [
+        3961
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3961,
+          "Asamblea",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.4159,
+          -35.223,
+          48.68,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "barrancosa": {
+      "query": "Barrancosa",
+      "searched_at": "2026-06-29T05:12:54.220900+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3924
+      ],
+      "resolved_ids": [
+        3924
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3924,
+          "Barrancosa",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.5743,
+          -35.2263,
+          36.59,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "bragado": {
+      "query": "Bragado",
+      "searched_at": "2026-06-29T05:12:55.456092+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3185,
+        3983
+      ],
+      "resolved_ids": [
+        3185,
+        3983
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          3983,
+          "Bragado",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.4887,
+          -35.1195,
+          50.36,
+          "NUEVE DE JULIO"
+        ],
+        [
+          3185,
+          "Bragado",
+          "Moreno",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.0266,
+          -27.2009,
+          140.0,
+          "SANTIAGO DEL ESTERO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "comodoro py": {
+      "query": "Comodoro Py",
+      "searched_at": "2026-06-29T05:12:56.645739+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3988
+      ],
+      "resolved_ids": [
+        3988
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3988,
+          "Comodoro Py",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.5193,
+          -35.3223,
+          35.4,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "general o'brien": {
+      "query": "General O'Brien",
+      "searched_at": "2026-06-29T05:12:57.861986+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4728
+      ],
+      "resolved_ids": [
+        4728
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4728,
+          "General O'Brien",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.7594,
+          -34.9047,
+          60.32,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "haras la negrita": {
+      "query": "Haras La Negrita",
+      "searched_at": "2026-06-29T05:12:59.104223+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3928
+      ],
+      "resolved_ids": [
+        3928
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3928,
+          "Haras La Negrita",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.4247,
+          -35.1212,
+          54.53,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "irala": {
+      "query": "Irala",
+      "searched_at": "2026-06-29T05:13:00.304623+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4719
+      ],
+      "resolved_ids": [
+        4719
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4719,
+          "Irala",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.691,
+          -34.771,
+          76.12,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "la limpia": {
+      "query": "La Limpia",
+      "searched_at": "2026-06-29T05:13:01.494266+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3981
+      ],
+      "resolved_ids": [
+        3981
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3981,
+          "La Limpia",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.5928,
+          -35.0766,
+          48.05,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "maximo fernandez": {
+      "query": "Máximo Fernández",
+      "searched_at": "2026-06-29T05:13:02.689584+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3980
+      ],
+      "resolved_ids": [
+        3980
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3980,
+          "Máximo Fernández",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.7071,
+          -35.0536,
+          45.62,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "mechita": {
+      "query": "Mechita",
+      "searched_at": "2026-06-29T05:13:03.885549+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3982
+      ],
+      "resolved_ids": [
+        3982
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3982,
+          "Mechita",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.4064,
+          -35.0708,
+          59.51,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "olascoaga": {
+      "query": "Olascoaga",
+      "searched_at": "2026-06-29T05:13:05.079225+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3963
+      ],
+      "resolved_ids": [
+        3963
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3963,
+          "Olascoaga",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.6122,
+          -35.2382,
+          33.13,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "warnes": {
+      "query": "Warnes",
+      "searched_at": "2026-06-29T05:13:06.267551+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4727
+      ],
+      "resolved_ids": [
+        4727
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4727,
+          "Warnes",
+          "Bragado",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.5377,
+          -34.9121,
+          66.33,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "altamirano": {
+      "query": "Altamirano",
+      "searched_at": "2026-06-29T05:13:07.496412+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3797
+      ],
+      "resolved_ids": [
+        3797,
+        7764,
+        7765
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          3797,
+          "Altamirano",
+          "Brandsen",
+          "Buenos Aires",
+          87593,
+          4040,
+          -58.149,
+          -35.3586,
+          49.26,
+          "LA PLATA AERO"
+        ],
+        [
+          7764,
+          "Altamirano Norte",
+          "Tala",
+          "Entre Ríos",
+          87497,
+          7851,
+          -59.1815,
+          -32.0705,
+          117.41,
+          "GUALEGUAYCHU AERO"
+        ],
+        [
+          7765,
+          "Altamirano Sur",
+          "Tala",
+          "Entre Ríos",
+          87497,
+          7851,
+          -59.175,
+          -32.087,
+          115.5,
+          "GUALEGUAYCHU AERO"
+        ]
+      ],
+      "error": null
+    },
+    "coronel brandsen": {
+      "query": "Coronel Brandsen",
+      "searched_at": "2026-06-29T05:13:08.682137+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3800
+      ],
+      "resolved_ids": [
+        3800
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3800,
+          "Coronel Brandsen",
+          "Brandsen",
+          "Buenos Aires",
+          87593,
+          4040,
+          -58.2366,
+          -35.1698,
+          38.41,
+          "LA PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "gomez": {
+      "query": "Gómez",
+      "searched_at": "2026-06-29T05:13:09.877972+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3802
+      ],
+      "resolved_ids": [
+        3802,
+        7330
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          3802,
+          "Gómez",
+          "Brandsen",
+          "Buenos Aires",
+          87593,
+          4040,
+          -58.1766,
+          -35.0729,
+          28.21,
+          "LA PLATA AERO"
+        ],
+        [
+          7330,
+          "Gómez Cué",
+          "San Martín",
+          "Corrientes",
+          87289,
+          7446,
+          -56.5271,
+          -28.329,
+          162.47,
+          "PASO DE LOS LIBRES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "jeppener": {
+      "query": "Jeppener",
+      "searched_at": "2026-06-29T05:13:11.068159+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3798
+      ],
+      "resolved_ids": [
+        3798
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3798,
+          "Jeppener",
+          "Brandsen",
+          "Buenos Aires",
+          87593,
+          4040,
+          -58.2001,
+          -35.2741,
+          43.99,
+          "LA PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "oliden": {
+      "query": "Oliden",
+      "searched_at": "2026-06-29T05:13:12.276421+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3806
+      ],
+      "resolved_ids": [
+        3806
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3806,
+          "Oliden",
+          "Brandsen",
+          "Buenos Aires",
+          87593,
+          4040,
+          -57.9492,
+          -35.1847,
+          24.73,
+          "LA PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "samborombon": {
+      "query": "Samborombon",
+      "searched_at": "2026-06-29T05:13:13.485851+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3799
+      ],
+      "resolved_ids": [
+        3799
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3799,
+          "Samborombon",
+          "Brandsen",
+          "Buenos Aires",
+          87593,
+          4040,
+          -58.2817,
+          -35.2172,
+          44.86,
+          "LA PLATA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "barrio san cayetano": {
+      "query": "Barrio San Cayetano",
+      "searched_at": "2026-06-29T05:13:14.681112+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4794
+      ],
+      "resolved_ids": [
+        4794
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4794,
+          "Barrio San Cayetano",
+          "Campana",
+          "Buenos Aires",
+          87572,
+          4749,
+          -59.0058,
+          -34.1547,
+          49.06,
+          "MARIANO MORENO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "campana": {
+      "query": "Campana",
+      "searched_at": "2026-06-29T05:13:15.896002+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4795
+      ],
+      "resolved_ids": [
+        4795,
+        9038
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4795,
+          "Campana",
+          "Campana",
+          "Buenos Aires",
+          87572,
+          4749,
+          -58.9583,
+          -34.1732,
+          45.5,
+          "MARIANO MORENO AERO"
+        ],
+        [
+          9038,
+          "Campanas",
+          "Famatina",
+          "La Rioja",
+          87213,
+          8969,
+          -67.6303,
+          -28.5521,
+          76.08,
+          "CHILECITO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "horqueta carabelas": {
+      "query": "Horqueta Carabelas",
+      "searched_at": "2026-06-29T05:13:17.104933+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4575
+      ],
+      "resolved_ids": [
+        4575
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4575,
+          "Horqueta Carabelas",
+          "Campana",
+          "Buenos Aires",
+          87553,
+          4749,
+          -58.8868,
+          -33.9592,
+          61.65,
+          "SAN FERNANDO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "irupe": {
+      "query": "Irupe",
+      "searched_at": "2026-06-29T05:13:18.339047+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4745
+      ],
+      "resolved_ids": [
+        4745
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4745,
+          "Irupe",
+          "Campana",
+          "Buenos Aires",
+          87572,
+          4749,
+          -58.9563,
+          -34.1359,
+          49.35,
+          "MARIANO MORENO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "lomas del rio lujan": {
+      "query": "Lomas del Río Luján",
+      "searched_at": "2026-06-29T05:13:19.531227+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        10554
+      ],
+      "resolved_ids": [
+        10554
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          10554,
+          "Lomas del Río Luján",
+          "Campana",
+          "Buenos Aires",
+          87572,
+          4749,
+          -58.8928,
+          -34.2792,
+          32.42,
+          "MARIANO MORENO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "otamendi": {
+      "query": "Otamendi",
+      "searched_at": "2026-06-29T05:13:20.789554+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4805
+      ],
+      "resolved_ids": [
+        4805
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4805,
+          "Otamendi",
+          "Campana",
+          "Buenos Aires",
+          87572,
+          4749,
+          -58.9064,
+          -34.2284,
+          38.18,
+          "MARIANO MORENO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "alejandro petion": {
+      "query": "Alejandro Petion",
+      "searched_at": "2026-06-29T05:13:22.028298+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4839
+      ],
+      "resolved_ids": [
+        4839
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4839,
+          "Alejandro Petion",
+          "Cañuelas",
+          "Buenos Aires",
+          87576,
+          4040,
+          -58.69,
+          -34.979,
+          22.34,
+          "EZEIZA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "canuelas": {
+      "query": "Cañuelas",
+      "searched_at": "2026-06-29T05:13:23.250981+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4040,
+        8659
+      ],
+      "resolved_ids": [
+        4040,
+        8659
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4040,
+          "Cañuelas",
+          "Cañuelas",
+          "Buenos Aires",
+          87576,
+          4040,
+          -58.7605,
+          -35.0536,
+          32.82,
+          "EZEIZA AERO"
+        ],
+        [
+          8659,
+          "Cañuelas",
+          "Santa Catalina",
+          "Jujuy",
+          87007,
+          8368,
+          -66.086,
+          -22.0473,
+          50.46,
+          "LA QUIACA OBSERVATORIO"
+        ]
+      ],
+      "error": null
+    },
+    "la noria": {
+      "query": "La Noria",
+      "searched_at": "2026-06-29T05:13:24.455830+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4035,
+        6627
+      ],
+      "resolved_ids": [
+        4035,
+        6627
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4035,
+          "La Noria",
+          "Cañuelas",
+          "Buenos Aires",
+          87576,
+          4040,
+          -58.7874,
+          -35.1627,
+          44.25,
+          "EZEIZA AERO"
+        ],
+        [
+          6627,
+          "La Noria",
+          "San Alberto",
+          "Córdoba",
+          87328,
+          6594,
+          -65.495,
+          -31.7269,
+          41.13,
+          "VILLA DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "maximo paz": {
+      "query": "Máximo Paz",
+      "searched_at": "2026-06-29T05:13:25.684327+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        2401,
+        4832
+      ],
+      "resolved_ids": [
+        2401,
+        4832
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4832,
+          "Máximo Paz",
+          "Cañuelas",
+          "Buenos Aires",
+          87576,
+          4040,
+          -58.6137,
+          -34.9417,
+          15.14,
+          "EZEIZA AERO"
+        ],
+        [
+          2401,
+          "Máximo Paz",
+          "Constitución",
+          "Santa Fe",
+          87480,
+          2278,
+          -60.9555,
+          -33.4838,
+          65.86,
+          "ROSARIO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "sin nombre": {
+      "query": "Sin Nombre",
+      "searched_at": "2026-06-29T05:13:26.880257+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        151,
+        1870,
+        2072,
+        2334,
+        4813,
+        4815,
+        4817,
+        4822,
+        4826,
+        4827,
+        5560,
+        5976,
+        6922,
+        6937,
+        7391,
+        7492,
+        7759,
+        7873,
+        8443,
+        8486,
+        9303,
+        9567,
+        9648
+      ],
+      "resolved_ids": [],
+      "result_count": 0,
+      "results": [],
+      "error": null
+    },
+    "uribelarrea": {
+      "query": "Uribelarrea",
+      "searched_at": "2026-06-29T05:13:28.075624+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4055
+      ],
+      "resolved_ids": [
+        4055
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4055,
+          "Uribelarrea",
+          "Cañuelas",
+          "Buenos Aires",
+          87573,
+          4040,
+          -58.8945,
+          -35.1212,
+          50.32,
+          "MERLO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "vicente casares": {
+      "query": "Vicente Casares",
+      "searched_at": "2026-06-29T05:13:29.268576+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4840
+      ],
+      "resolved_ids": [
+        4840
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4840,
+          "Vicente Casares",
+          "Cañuelas",
+          "Buenos Aires",
+          87576,
+          4040,
+          -58.6495,
+          -34.9633,
+          18.81,
+          "EZEIZA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "capitan sarmiento": {
+      "query": "Capitan Sarmiento",
+      "searched_at": "2026-06-29T05:13:30.457290+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4754
+      ],
+      "resolved_ids": [
+        4754
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4754,
+          "Capitan Sarmiento",
+          "Capitan Sarmiento",
+          "Buenos Aires",
+          87548,
+          4712,
+          -59.7925,
+          -34.1747,
+          112.83,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "la luisa": {
+      "query": "La Luisa",
+      "searched_at": "2026-06-29T05:13:31.650322+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4838
+      ],
+      "resolved_ids": [
+        4838
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4838,
+          "La Luisa",
+          "Capitan Sarmiento",
+          "Buenos Aires",
+          87548,
+          4712,
+          -59.9282,
+          -34.1284,
+          103.59,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "bellocq": {
+      "query": "Bellocq",
+      "searched_at": "2026-06-29T05:13:32.887553+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3891
+      ],
+      "resolved_ids": [
+        3891
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3891,
+          "Bellocq",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.5307,
+          -35.9172,
+          30.9,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "cadret": {
+      "query": "Cadret",
+      "searched_at": "2026-06-29T05:13:34.123986+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4000
+      ],
+      "resolved_ids": [
+        4000
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4000,
+          "Cadret",
+          "Carlos Casares",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.3337,
+          -35.7707,
+          51.78,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "carlos casares": {
+      "query": "Carlos Casares",
+      "searched_at": "2026-06-29T05:13:35.358565+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4002
+      ],
+      "resolved_ids": [
+        4002
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4002,
+          "Carlos Casares",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.3637,
+          -35.6215,
+          51.05,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "colonia la piedra": {
+      "query": "Colonia La Piedra",
+      "searched_at": "2026-06-29T05:13:36.598750+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4168
+      ],
+      "resolved_ids": [
+        4168
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4168,
+          "Colonia La Piedra",
+          "Carlos Casares",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.3707,
+          -36.0035,
+          33.65,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "colonia mauricio": {
+      "query": "Colonia Mauricio",
+      "searched_at": "2026-06-29T05:13:37.836727+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3903
+      ],
+      "resolved_ids": [
+        3903
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3903,
+          "Colonia Mauricio",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.4089,
+          -35.5303,
+          53.4,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "gobernador arias": {
+      "query": "Gobernador Arias",
+      "searched_at": "2026-06-29T05:13:39.028596+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3968
+      ],
+      "resolved_ids": [
+        3968
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3968,
+          "Gobernador Arias",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.3438,
+          -35.5385,
+          57.49,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "hortensia": {
+      "query": "Hortensia",
+      "searched_at": "2026-06-29T05:13:40.224192+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3998
+      ],
+      "resolved_ids": [
+        3998
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3998,
+          "Hortensia",
+          "Carlos Casares",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.2624,
+          -35.9267,
+          33.5,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "la angelita": {
+      "query": "La Angelita",
+      "searched_at": "2026-06-29T05:13:41.423415+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3906,
+        4219,
+        4699,
+        6017
+      ],
+      "resolved_ids": [
+        3906,
+        4219,
+        4699,
+        6017
+      ],
+      "result_count": 4,
+      "results": [
+        [
+          3906,
+          "La Angelita",
+          "Carlos Casares",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.3142,
+          -35.912,
+          37.43,
+          "BOLIVAR AERO"
+        ],
+        [
+          4699,
+          "La Angelita",
+          "General Arenales",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.9703,
+          -34.2616,
+          32.47,
+          "JUNIN AERO"
+        ],
+        [
+          4219,
+          "La Angelita",
+          "Puan",
+          "Buenos Aires",
+          87679,
+          4338,
+          -63.1413,
+          -37.8797,
+          73.03,
+          "PIGUE AERO"
+        ],
+        [
+          6017,
+          "La Angelita",
+          "Río Seco",
+          "Córdoba",
+          87244,
+          10955,
+          -63.1198,
+          -29.9933,
+          59.47,
+          "VILLA DE MARIA DEL RIO SECO"
+        ]
+      ],
+      "error": null
+    },
+    "la pepa": {
+      "query": "La Pepa",
+      "searched_at": "2026-06-29T05:13:42.627081+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3904
+      ],
+      "resolved_ids": [
+        3904
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3904,
+          "La Pepa",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.3441,
+          -35.6639,
+          50.6,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "la sofia": {
+      "query": "La Sofia",
+      "searched_at": "2026-06-29T05:13:43.819188+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4001
+      ],
+      "resolved_ids": [
+        4001
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4001,
+          "La Sofia",
+          "Carlos Casares",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.1689,
+          -35.6963,
+          55.07,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "mauricio hirsch": {
+      "query": "Mauricio Hirsch",
+      "searched_at": "2026-06-29T05:13:45.010675+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3881
+      ],
+      "resolved_ids": [
+        3881
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3881,
+          "Mauricio Hirsch",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.5365,
+          -35.5901,
+          40.36,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "moctezuma": {
+      "query": "Moctezuma",
+      "searched_at": "2026-06-29T05:13:46.252744+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4005
+      ],
+      "resolved_ids": [
+        4005
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4005,
+          "Moctezuma",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.4936,
+          -35.4771,
+          52.22,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "ordoqui": {
+      "query": "Ordoqui",
+      "searched_at": "2026-06-29T05:13:47.442977+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3999
+      ],
+      "resolved_ids": [
+        3999
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3999,
+          "Ordoqui",
+          "Carlos Casares",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.1616,
+          -35.8807,
+          34.85,
+          "BOLIVAR AERO"
+        ]
+      ],
+      "error": null
+    },
+    "san clemente": {
+      "query": "San Clemente",
+      "searched_at": "2026-06-29T05:13:48.639535+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3878,
+        6714
+      ],
+      "resolved_ids": [
+        3878,
+        4153,
+        6714
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          3878,
+          "San Clemente",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.6225,
+          -35.5722,
+          36.72,
+          "PEHUAJO AERO"
+        ],
+        [
+          6714,
+          "San Clemente",
+          "Santa María",
+          "Córdoba",
+          87345,
+          6781,
+          -64.6325,
+          -31.7192,
+          52.86,
+          "CORDOBA OBSERVATORIO"
+        ],
+        [
+          4153,
+          "San Clemente del Tuyú",
+          "La Costa",
+          "Buenos Aires",
+          87663,
+          4159,
+          -56.723,
+          -36.3593,
+          100.73,
+          "VILLA GESELL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "san esteban": {
+      "query": "San Esteban",
+      "searched_at": "2026-06-29T05:13:49.829758+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        1164,
+        3905,
+        6117
+      ],
+      "resolved_ids": [
+        1164,
+        3905,
+        6117
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          3905,
+          "San Esteban",
+          "Carlos Casares",
+          "Buenos Aires",
+          87640,
+          3884,
+          -61.3108,
+          -35.9831,
+          31.13,
+          "BOLIVAR AERO"
+        ],
+        [
+          6117,
+          "San Esteban",
+          "Punilla",
+          "Córdoba",
+          87344,
+          6781,
+          -64.5262,
+          -30.9237,
+          51.08,
+          "CORDOBA AERO"
+        ],
+        [
+          1164,
+          "San Esteban",
+          "Rosario de La Frontera",
+          "Salta",
+          87050,
+          1018,
+          -65.0046,
+          -25.9944,
+          52.18,
+          "METAN"
+        ]
+      ],
+      "error": null
+    },
+    "santa maria": {
+      "query": "Santa María",
+      "searched_at": "2026-06-29T05:13:51.029159+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        355,
+        823,
+        1069,
+        1189,
+        1607,
+        2700,
+        2951,
+        3112,
+        3646,
+        3892,
+        4347,
+        4496,
+        5988,
+        6372,
+        6713,
+        6918,
+        8889,
+        9715
+      ],
+      "resolved_ids": [
+        355,
+        823,
+        1069,
+        1189,
+        1607,
+        2700,
+        2951,
+        3112,
+        3646,
+        3892,
+        4347,
+        4496,
+        6372,
+        6918,
+        9715
+      ],
+      "result_count": 15,
+      "results": [
+        [
+          2700,
+          "Santa María",
+          "Alberdi",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.3677,
+          -26.5378,
+          163.47,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          1607,
+          "Santa María",
+          "Ayacucho",
+          "San Luis",
+          87328,
+          1601,
+          -65.8254,
+          -32.0092,
+          64.25,
+          "VILLA DOLORES AERO"
+        ],
+        [
+          2951,
+          "Santa María",
+          "Capital",
+          "Santiago del Estero",
+          87129,
+          2954,
+          -64.2243,
+          -27.9509,
+          22.97,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          3892,
+          "Santa María",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.5432,
+          -35.9354,
+          30.45,
+          "PEHUAJO AERO"
+        ],
+        [
+          9715,
+          "Santa María",
+          "Concepción",
+          "Misiones",
+          87187,
+          9743,
+          -55.3793,
+          -27.9009,
+          52.28,
+          "OBERA"
+        ],
+        [
+          4347,
+          "Santa María",
+          "Coronel Suarez",
+          "Buenos Aires",
+          87637,
+          4338,
+          -61.8749,
+          -37.5586,
+          11.77,
+          "CORONEL SUAREZ AERO"
+        ],
+        [
+          3112,
+          "Santa María",
+          "Figueroa",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.4626,
+          -27.1832,
+          104.21,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          6918,
+          "Santa María",
+          "General San Martín",
+          "Córdoba",
+          87467,
+          6826,
+          -63.1871,
+          -32.9546,
+          101.75,
+          "MARCOS JUAREZ AERO"
+        ],
+        [
+          4496,
+          "Santa María",
+          "Lobería",
+          "Buenos Aires",
+          87688,
+          4462,
+          -58.5693,
+          -38.236,
+          150.66,
+          "TRES ARROYOS"
+        ],
+        [
+          1069,
+          "Santa María",
+          "Metán",
+          "Salta",
+          87050,
+          1018,
+          -64.8505,
+          -25.6016,
+          14.99,
+          "METAN"
+        ],
+        [
+          3646,
+          "Santa María",
+          "Ojo de Agua",
+          "Santiago del Estero",
+          87129,
+          2954,
+          -63.8691,
+          -29.2662,
+          172.73,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          355,
+          "Santa María",
+          "Orán",
+          "Salta",
+          87016,
+          291,
+          -64.4879,
+          -23.2699,
+          20.74,
+          "ORAN AERO"
+        ],
+        [
+          6372,
+          "Santa María",
+          "Punilla",
+          "Córdoba",
+          87344,
+          6781,
+          -64.4625,
+          -31.2824,
+          23.92,
+          "CORDOBA AERO"
+        ],
+        [
+          823,
+          "Santa María",
+          "Rivadavia",
+          "Salta",
+          87065,
+          794,
+          -62.4483,
+          -24.3092,
+          46.58,
+          "RIVADAVIA"
+        ],
+        [
+          1189,
+          "Santa María",
+          "Rosario de La Frontera",
+          "Salta",
+          87050,
+          1018,
+          -64.4962,
+          -25.7911,
+          56.26,
+          "METAN"
+        ]
+      ],
+      "error": null
+    },
+    "santo tomas": {
+      "query": "Santo Tomás",
+      "searched_at": "2026-06-29T05:13:52.222812+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3882,
+        9961
+      ],
+      "resolved_ids": [
+        3882,
+        9961
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          3882,
+          "Santo Tomás",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.5194,
+          -35.6757,
+          35.82,
+          "PEHUAJO AERO"
+        ],
+        [
+          9961,
+          "Santo Tomás",
+          "Collon Cura",
+          "Neuquén",
+          87761,
+          9933,
+          -70.0772,
+          -39.8587,
+          94.42,
+          "CHAPELCO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "smith": {
+      "query": "Smith",
+      "searched_at": "2026-06-29T05:13:53.428240+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3880
+      ],
+      "resolved_ids": [
+        3880
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3880,
+          "Smith",
+          "Carlos Casares",
+          "Buenos Aires",
+          87544,
+          3884,
+          -61.5962,
+          -35.4963,
+          45.05,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "carlos tejedor": {
+      "query": "Carlos Tejedor",
+      "searched_at": "2026-06-29T05:13:54.656257+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3840
+      ],
+      "resolved_ids": [
+        3840
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3840,
+          "Carlos Tejedor",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.4184,
+          -35.3912,
+          71.05,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "colonia san agustin": {
+      "query": "Colonia San Agustín",
+      "searched_at": "2026-06-29T05:13:55.878519+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3842
+      ],
+      "resolved_ids": [
+        3842
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3842,
+          "Colonia San Agustín",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.1609,
+          -35.2815,
+          67.78,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "colonia sere": {
+      "query": "Colonia Sere",
+      "searched_at": "2026-06-29T05:13:57.075682+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3837
+      ],
+      "resolved_ids": [
+        3837
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3837,
+          "Colonia Sere",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.7276,
+          -35.4373,
+          90.45,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "colonia tres algarrobos": {
+      "query": "Colonia Tres Algarrobos",
+      "searched_at": "2026-06-29T05:13:58.317427+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3836
+      ],
+      "resolved_ids": [
+        3836
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3836,
+          "Colonia Tres Algarrobos",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.7055,
+          -35.1982,
+          104.72,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "curaru": {
+      "query": "Curaru",
+      "searched_at": "2026-06-29T05:13:59.511662+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3873
+      ],
+      "resolved_ids": [
+        3873
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3873,
+          "Curaru",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.1953,
+          -35.6405,
+          37.61,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "esteban de luca": {
+      "query": "Esteban de Luca",
+      "searched_at": "2026-06-29T05:14:00.735284+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3867
+      ],
+      "resolved_ids": [
+        3867
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3867,
+          "Esteban de Luca",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.34,
+          -35.6721,
+          47.29,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "tejedor chico": {
+      "query": "Tejedor Chico",
+      "searched_at": "2026-06-29T05:14:01.922584+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3838
+      ],
+      "resolved_ids": [
+        3838
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3838,
+          "Tejedor Chico",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.4454,
+          -35.4243,
+          70.34,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "timote": {
+      "query": "Timote",
+      "searched_at": "2026-06-29T05:14:03.125303+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3894
+      ],
+      "resolved_ids": [
+        3841,
+        3894
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          3894,
+          "Timote",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.2196,
+          -35.3469,
+          63.76,
+          "PEHUAJO AERO"
+        ],
+        [
+          3841,
+          "Timote Chico",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.2509,
+          -35.3821,
+          62.01,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "timote chico": {
+      "query": "Timote Chico",
+      "searched_at": "2026-06-29T05:14:04.321820+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3841
+      ],
+      "resolved_ids": [
+        3841
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3841,
+          "Timote Chico",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.2509,
+          -35.3821,
+          62.01,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "tres algarrobos": {
+      "query": "Tres Algarrobos",
+      "searched_at": "2026-06-29T05:14:05.544099+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3835
+      ],
+      "resolved_ids": [
+        3835
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3835,
+          "Tres Algarrobos",
+          "Carlos Tejedor",
+          "Buenos Aires",
+          87544,
+          3884,
+          -62.7719,
+          -35.199,
+          109.15,
+          "PEHUAJO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "carmen de areco": {
+      "query": "Carmen de Areco",
+      "searched_at": "2026-06-29T05:14:06.776516+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4755
+      ],
+      "resolved_ids": [
+        4755
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4755,
+          "Carmen de Areco",
+          "Carmen de Areco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -59.8229,
+          -34.3809,
+          103.6,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "pueblo gouin": {
+      "query": "Pueblo Gouin",
+      "searched_at": "2026-06-29T05:14:07.969432+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4731
+      ],
+      "resolved_ids": [
+        4731
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4731,
+          "Pueblo Gouin",
+          "Carmen de Areco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -59.8021,
+          -34.4968,
+          103.86,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "tres sargentos": {
+      "query": "Tres Sargentos",
+      "searched_at": "2026-06-29T05:14:09.195569+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4765
+      ],
+      "resolved_ids": [
+        4765
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4765,
+          "Tres Sargentos",
+          "Carmen de Areco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -59.9933,
+          -34.4659,
+          86.67,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "castelli": {
+      "query": "Castelli",
+      "searched_at": "2026-06-29T05:14:10.383579+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4141,
+        5399
+      ],
+      "resolved_ids": [
+        4141,
+        5399
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          5399,
+          "Castelli",
+          "Almirante Brown",
+          "Chaco",
+          87065,
+          5385,
+          -62.7214,
+          -25.4426,
+          140.27,
+          "RIVADAVIA"
+        ],
+        [
+          4141,
+          "Castelli",
+          "Castelli",
+          "Buenos Aires",
+          87648,
+          4146,
+          -57.8134,
+          -36.0903,
+          26.61,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "centro guerrero": {
+      "query": "Centro Guerrero",
+      "searched_at": "2026-06-29T05:14:11.573060+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4140
+      ],
+      "resolved_ids": [
+        4140
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4140,
+          "Centro Guerrero",
+          "Castelli",
+          "Buenos Aires",
+          87648,
+          4146,
+          -57.8211,
+          -36.054,
+          30.65,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "guerrero": {
+      "query": "Guerrero",
+      "searched_at": "2026-06-29T05:14:12.796839+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3812,
+        10739
+      ],
+      "resolved_ids": [
+        3812,
+        10739
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          10739,
+          "Guerrero",
+          "Capital",
+          "Jujuy",
+          87046,
+          8618,
+          -65.4229,
+          -24.186,
+          39.82,
+          "JUJUY AERO"
+        ],
+        [
+          3812,
+          "Guerrero",
+          "Castelli",
+          "Buenos Aires",
+          87648,
+          4146,
+          -57.8525,
+          -35.9723,
+          40.14,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "rincon": {
+      "query": "Rincón",
+      "searched_at": "2026-06-29T05:14:14.032322+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3367,
+        3827,
+        5113,
+        7149
+      ],
+      "resolved_ids": [
+        179,
+        1307,
+        1904,
+        3367,
+        3827,
+        5113,
+        5755,
+        7149,
+        7185,
+        7326,
+        8409,
+        9344,
+        9775,
+        9814,
+        10447
+      ],
+      "result_count": 15,
+      "results": [
+        [
+          3827,
+          "Rincón",
+          "Castelli",
+          "Buenos Aires",
+          87596,
+          3833,
+          -57.4038,
+          -35.7809,
+          48.73,
+          "PUNTA INDIO B.A."
+        ],
+        [
+          3367,
+          "Rincón",
+          "Choya",
+          "Santiago del Estero",
+          87129,
+          2954,
+          -64.7019,
+          -28.4584,
+          87.41,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          5113,
+          "Rincón",
+          "Pomán",
+          "Catamarca",
+          87222,
+          5149,
+          -66.1519,
+          -28.218,
+          56.94,
+          "CATAMARCA AERO"
+        ],
+        [
+          7149,
+          "Rincón",
+          "Río Segundo",
+          "Córdoba",
+          87349,
+          6500,
+          -63.6167,
+          -31.5955,
+          26.42,
+          "PILAR OBSERVATORIO"
+        ],
+        [
+          7185,
+          "Rincón Arazaty",
+          "General Paz",
+          "Corrientes",
+          87166,
+          7236,
+          -58.0293,
+          -27.815,
+          82.67,
+          "CORRIENTES AERO"
+        ],
+        [
+          7326,
+          "Rincón Capiguari",
+          "Mercedes",
+          "Corrientes",
+          87281,
+          7416,
+          -57.8702,
+          -28.7729,
+          54.43,
+          "MERCEDES AERO (CTES)"
+        ],
+        [
+          9344,
+          "Rincón Chico",
+          "Malargüe",
+          "Mendoza",
+          87506,
+          9296,
+          -69.5833,
+          -37.1373,
+          183.76,
+          "MALARGUE AERO"
+        ],
+        [
+          1307,
+          "Rincón Chico",
+          "Valle Fértil",
+          "San Juan",
+          87305,
+          1449,
+          -67.7192,
+          -30.2891,
+          98.36,
+          "JACHAL"
+        ],
+        [
+          9814,
+          "Rincón Colorado",
+          "Pehuenches",
+          "Neuquén",
+          87715,
+          9903,
+          -68.3594,
+          -37.5674,
+          154.92,
+          "NEUQUEN AERO"
+        ],
+        [
+          1904,
+          "Rincón de Amores",
+          "General Obligado",
+          "Santa Fe",
+          87270,
+          2006,
+          -59.3474,
+          -28.6186,
+          73.24,
+          "RECONQUISTA AERO"
+        ],
+        [
+          9775,
+          "Rincón de Azara",
+          "Apóstoles",
+          "Misiones",
+          87187,
+          9743,
+          -55.6189,
+          -28.1181,
+          85.13,
+          "OBERA"
+        ],
+        [
+          10447,
+          "Rincón de Balderrama",
+          "Monteros",
+          "Tucumán",
+          87121,
+          10118,
+          -65.3836,
+          -27.1612,
+          45.1,
+          "TUCUMAN AERO"
+        ],
+        [
+          8409,
+          "Rincón de Cajas",
+          "Yavi",
+          "Jujuy",
+          87007,
+          8368,
+          -65.2951,
+          -22.2151,
+          33.87,
+          "LA QUIACA OBSERVATORIO"
+        ],
+        [
+          179,
+          "Rincón de Camico",
+          "9 de Julio",
+          "Río Negro",
+          87774,
+          169,
+          -67.4546,
+          -41.1369,
+          105.69,
+          "MAQUINCHAO"
+        ],
+        [
+          5755,
+          "Rincón de Cholila",
+          "Cushamen",
+          "Chubut",
+          87803,
+          10934,
+          -71.4669,
+          -42.5211,
+          50.22,
+          "ESQUEL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "castilla": {
+      "query": "Castilla",
+      "searched_at": "2026-06-29T05:14:15.267445+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4766
+      ],
+      "resolved_ids": [
+        4766
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4766,
+          "Castilla",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -59.9078,
+          -34.6135,
+          94.15,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "coliqueo": {
+      "query": "Coliqueo",
+      "searched_at": "2026-06-29T05:14:16.509197+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4682
+      ],
+      "resolved_ids": [
+        4682
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4682,
+          "Coliqueo",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.541,
+          -34.6612,
+          37.77,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "cucha cucha": {
+      "query": "Cucha Cucha",
+      "searched_at": "2026-06-29T05:14:17.701724+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4717
+      ],
+      "resolved_ids": [
+        4717
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4717,
+          "Cucha Cucha",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.4058,
+          -34.6238,
+          48.85,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "gregoria villa fane": {
+      "query": "Gregoria Villa Fañe",
+      "searched_at": "2026-06-29T05:14:18.909171+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4654
+      ],
+      "resolved_ids": [
+        4654
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4654,
+          "Gregoria Villa Fañe",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.5984,
+          -34.715,
+          35.45,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "ingeniero silveyra": {
+      "query": "Ingeniero Silveyra",
+      "searched_at": "2026-06-29T05:14:20.113160+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4666
+      ],
+      "resolved_ids": [
+        4666
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4666,
+          "Ingeniero Silveyra",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.2057,
+          -34.5241,
+          66.68,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "los angeles": {
+      "query": "Los Ángeles",
+      "searched_at": "2026-06-29T05:14:21.349075+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        2420,
+        4709,
+        5147
+      ],
+      "resolved_ids": [
+        2420,
+        4709,
+        5147
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          5147,
+          "Los Ángeles",
+          "Capayán",
+          "Catamarca",
+          87222,
+          5149,
+          -65.9464,
+          -28.4811,
+          22.47,
+          "CATAMARCA AERO"
+        ],
+        [
+          4709,
+          "Los Ángeles",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.1777,
+          -34.4535,
+          70.07,
+          "JUNIN AERO"
+        ],
+        [
+          2420,
+          "Los Ángeles",
+          "General López",
+          "Santa Fe",
+          87468,
+          2317,
+          -61.7003,
+          -34.0553,
+          47.91,
+          "VENADO TUERTO AERO"
+        ]
+      ],
+      "error": null
+    },
+    "membrillar": {
+      "query": "Membrillar",
+      "searched_at": "2026-06-29T05:14:22.554156+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4675
+      ],
+      "resolved_ids": [
+        4675
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4675,
+          "Membrillar",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.6071,
+          -34.5922,
+          30.07,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "o'higgins": {
+      "query": "O'Higgins",
+      "searched_at": "2026-06-29T05:14:23.785249+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4711
+      ],
+      "resolved_ids": [
+        4711
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4711,
+          "O'Higgins",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.6979,
+          -34.5842,
+          21.7,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "rawson": {
+      "query": "Rawson",
+      "searched_at": "2026-06-29T05:14:24.979090+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4710,
+        10688
+      ],
+      "resolved_ids": [
+        4710,
+        5888,
+        10688
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          4710,
+          "Rawson",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.0645,
+          -34.6036,
+          79.73,
+          "JUNIN AERO"
+        ],
+        [
+          5888,
+          "Rawson",
+          "Rawson",
+          "Chubut",
+          87828,
+          5888,
+          -65.0937,
+          -43.2988,
+          18.27,
+          "TRELEW AERO"
+        ],
+        [
+          10688,
+          "Rawson",
+          "Rawson",
+          "San Juan",
+          87311,
+          1425,
+          -68.5304,
+          -31.5631,
+          10.33,
+          "SAN JUAN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "san patricio": {
+      "query": "San Patricio",
+      "searched_at": "2026-06-29T05:14:26.168822+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4565,
+        4676
+      ],
+      "resolved_ids": [
+        4565,
+        4676,
+        9900
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          4676,
+          "San Patricio",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.249,
+          -34.6138,
+          62.97,
+          "JUNIN AERO"
+        ],
+        [
+          4565,
+          "San Patricio",
+          "San Pedro",
+          "Buenos Aires",
+          87548,
+          4590,
+          -59.9674,
+          -33.8679,
+          116.86,
+          "JUNIN AERO"
+        ],
+        [
+          9900,
+          "San Patricio del Chañar",
+          "Añelo",
+          "Neuquén",
+          87715,
+          9903,
+          -68.2994,
+          -38.6246,
+          39.0,
+          "NEUQUEN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "san vicente": {
+      "query": "San Vicente",
+      "searched_at": "2026-06-29T05:14:27.385136+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        546,
+        2149,
+        3106,
+        3398,
+        3401,
+        3792,
+        4653,
+        6584,
+        7333,
+        8105,
+        9769,
+        10126,
+        10168
+      ],
+      "resolved_ids": [
+        546,
+        2149,
+        3106,
+        3398,
+        3401,
+        3792,
+        4653,
+        6584,
+        7333,
+        8105,
+        9769,
+        10126,
+        10168
+      ],
+      "result_count": 13,
+      "results": [
+        [
+          546,
+          "San Vicente",
+          "Anta",
+          "Salta",
+          87050,
+          1018,
+          -63.8741,
+          -24.4058,
+          166.32,
+          "METAN"
+        ],
+        [
+          2149,
+          "San Vicente",
+          "Castellanos",
+          "Santa Fe",
+          87360,
+          2060,
+          -61.5679,
+          -31.6984,
+          47.0,
+          "RAFAELA AERO"
+        ],
+        [
+          4653,
+          "San Vicente",
+          "Chacabuco",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.3318,
+          -34.7608,
+          59.61,
+          "JUNIN AERO"
+        ],
+        [
+          10168,
+          "San Vicente",
+          "Cruz Alta",
+          "Tucumán",
+          87121,
+          10118,
+          -65.085,
+          -26.982,
+          16.2,
+          "TUCUMAN AERO"
+        ],
+        [
+          3106,
+          "San Vicente",
+          "Figueroa",
+          "Santiago del Estero",
+          87129,
+          2474,
+          -63.4553,
+          -27.5127,
+          87.56,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          9769,
+          "San Vicente",
+          "Guaraní",
+          "Misiones",
+          87187,
+          9743,
+          -54.4815,
+          -27.0032,
+          83.56,
+          "OBERA"
+        ],
+        [
+          3398,
+          "San Vicente",
+          "Loreto",
+          "Santiago del Estero",
+          87129,
+          2954,
+          -64.1326,
+          -28.4921,
+          83.34,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          8105,
+          "San Vicente",
+          "Patiño",
+          "Formosa",
+          87078,
+          8088,
+          -59.9421,
+          -24.4455,
+          71.92,
+          "LAS LOMITAS"
+        ],
+        [
+          6584,
+          "San Vicente",
+          "San Alberto",
+          "Córdoba",
+          87328,
+          6594,
+          -65.4303,
+          -31.8528,
+          28.76,
+          "VILLA DOLORES AERO"
+        ],
+        [
+          3792,
+          "San Vicente",
+          "San Vicente",
+          "Buenos Aires",
+          87576,
+          4040,
+          -58.4204,
+          -35.0263,
+          25.6,
+          "EZEIZA AERO"
+        ],
+        [
+          7333,
+          "San Vicente",
+          "Santo Tomé",
+          "Corrientes",
+          87289,
+          7446,
+          -56.1536,
+          -28.0112,
+          209.8,
+          "PASO DE LOS LIBRES AERO"
+        ],
+        [
+          3401,
+          "San Vicente",
+          "Silipica",
+          "Santiago del Estero",
+          87129,
+          2954,
+          -64.1819,
+          -28.227,
+          53.6,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          10126,
+          "San Vicente",
+          "Trancas",
+          "Tucumán",
+          87121,
+          10118,
+          -65.2016,
+          -26.4626,
+          42.54,
+          "TUCUMAN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "adela": {
+      "query": "Adela",
+      "searched_at": "2026-06-29T05:14:28.619910+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3809
+      ],
+      "resolved_ids": [
+        3809
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3809,
+          "Adela",
+          "Chascomus",
+          "Buenos Aires",
+          87648,
+          4146,
+          -57.9523,
+          -35.681,
+          73.69,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "atilio pessagno": {
+      "query": "Atilio Pessagno",
+      "searched_at": "2026-06-29T05:14:29.854450+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3813
+      ],
+      "resolved_ids": [
+        3813
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3813,
+          "Atilio Pessagno",
+          "Chascomus",
+          "Buenos Aires",
+          87648,
+          4146,
+          -57.7773,
+          -35.7949,
+          58.18,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "comandante giribone": {
+      "query": "Comandante Giribone",
+      "searched_at": "2026-06-29T05:14:31.058159+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3826
+      ],
+      "resolved_ids": [
+        3826
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3826,
+          "Comandante Giribone",
+          "Chascomus",
+          "Buenos Aires",
+          87648,
+          4146,
+          -57.654,
+          -35.6246,
+          77.03,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "don cipriano": {
+      "query": "Don Cipriano",
+      "searched_at": "2026-06-29T05:14:32.295701+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3816
+      ],
+      "resolved_ids": [
+        3816
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3816,
+          "Don Cipriano",
+          "Chascomus",
+          "Buenos Aires",
+          87648,
+          4146,
+          -57.7689,
+          -35.4944,
+          91.39,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "gandara": {
+      "query": "Gandara",
+      "searched_at": "2026-06-29T05:14:33.543043+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3807
+      ],
+      "resolved_ids": [
+        3807
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3807,
+          "Gandara",
+          "Chascomus",
+          "Buenos Aires",
+          87648,
+          4146,
+          -58.097,
+          -35.4465,
+          102.5,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "libres del sur": {
+      "query": "Libres del Sur",
+      "searched_at": "2026-06-29T05:14:34.731214+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3814
+      ],
+      "resolved_ids": [
+        3814
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3814,
+          "Libres del Sur",
+          "Chascomus",
+          "Buenos Aires",
+          87648,
+          4146,
+          -57.7164,
+          -35.7266,
+          65.5,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "manuel j. cobo": {
+      "query": "Manuel J. Cobo",
+      "searched_at": "2026-06-29T05:14:35.950961+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3811
+      ],
+      "resolved_ids": [],
+      "result_count": 0,
+      "results": [],
+      "error": null
+    },
+    "monasterio": {
+      "query": "Monasterio",
+      "searched_at": "2026-06-29T05:14:37.141765+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3810
+      ],
+      "resolved_ids": [
+        3810,
+        10085
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          3810,
+          "Monasterio",
+          "Chascomus",
+          "Buenos Aires",
+          87648,
+          4146,
+          -57.925,
+          -35.7621,
+          64.36,
+          "DOLORES AERO"
+        ],
+        [
+          10085,
+          "Monasterio Cristo Rey",
+          "Tafí Viejo",
+          "Tucumán",
+          87121,
+          10118,
+          -65.4428,
+          -26.7061,
+          36.29,
+          "TUCUMAN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "pedro n. escribano": {
+      "query": "Pedro N. Escribano",
+      "searched_at": "2026-06-29T05:14:38.340268+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3815
+      ],
+      "resolved_ids": [
+        3815
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3815,
+          "Pedro N. Escribano",
+          "Chascomus",
+          "Buenos Aires",
+          87648,
+          4146,
+          -57.6885,
+          -35.562,
+          83.81,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "benitez": {
+      "query": "Benitez",
+      "searched_at": "2026-06-29T05:14:39.535526+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4686
+      ],
+      "resolved_ids": [
+        4686
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4686,
+          "Benitez",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.1264,
+          -34.9658,
+          86.54,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "chivilcoy": {
+      "query": "Chivilcoy",
+      "searched_at": "2026-06-29T05:14:40.772584+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4726
+      ],
+      "resolved_ids": [
+        4726
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4726,
+          "Chivilcoy",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.017,
+          -34.896,
+          99.18,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "emilio ayarza": {
+      "query": "Emilio Ayarza",
+      "searched_at": "2026-06-29T05:14:41.968729+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4718
+      ],
+      "resolved_ids": [
+        4718
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4718,
+          "Emilio Ayarza",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.0384,
+          -34.7437,
+          108.93,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "gorostiaga": {
+      "query": "Gorostiaga",
+      "searched_at": "2026-06-29T05:14:43.163184+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4767
+      ],
+      "resolved_ids": [
+        4767
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4767,
+          "Gorostiaga",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -59.8651,
+          -34.8398,
+          114.04,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "henry bell": {
+      "query": "Henry Bell",
+      "searched_at": "2026-06-29T05:14:44.364481+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4044
+      ],
+      "resolved_ids": [
+        4044
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4044,
+          "Henry Bell",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -59.9501,
+          -35.0453,
+          95.4,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "indacochea": {
+      "query": "Indacochea",
+      "searched_at": "2026-06-29T05:14:45.560221+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3973
+      ],
+      "resolved_ids": [
+        3973
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3973,
+          "Indacochea",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.0582,
+          -35.053,
+          86.34,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "la delfina": {
+      "query": "La Delfina",
+      "searched_at": "2026-06-29T05:14:46.762322+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3945,
+        4685
+      ],
+      "resolved_ids": [
+        3945,
+        4685
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          3945,
+          "La Delfina",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.092,
+          -35.0356,
+          84.69,
+          "NUEVE DE JULIO"
+        ],
+        [
+          4685,
+          "La Delfina",
+          "General Viamonte",
+          "Buenos Aires",
+          87550,
+          3989,
+          -61.1596,
+          -34.942,
+          60.66,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "la rica": {
+      "query": "La Rica",
+      "searched_at": "2026-06-29T05:14:47.996664+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4759
+      ],
+      "resolved_ids": [
+        4759
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4759,
+          "La Rica",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -59.8647,
+          -34.977,
+          105.86,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "la union": {
+      "query": "La Unión",
+      "searched_at": "2026-06-29T05:14:49.235997+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        422,
+        2746,
+        4758,
+        8049,
+        9373,
+        10597
+      ],
+      "resolved_ids": [
+        422,
+        2746,
+        4758,
+        8049,
+        9373,
+        10597
+      ],
+      "result_count": 6,
+      "results": [
+        [
+          8049,
+          "La Unión",
+          "Bermejo",
+          "Formosa",
+          87078,
+          7925,
+          -61.3737,
+          -23.5992,
+          145.63,
+          "LAS LOMITAS"
+        ],
+        [
+          4758,
+          "La Unión",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -59.7671,
+          -34.9208,
+          116.69,
+          "NUEVE DE JULIO"
+        ],
+        [
+          2746,
+          "La Unión",
+          "Copo",
+          "Santiago del Estero",
+          87065,
+          2474,
+          -62.8364,
+          -26.1171,
+          214.05,
+          "RIVADAVIA"
+        ],
+        [
+          10597,
+          "La Unión",
+          "Ezeiza",
+          "Buenos Aires",
+          87576,
+          4841,
+          -58.545,
+          -34.8688,
+          5.58,
+          "EZEIZA AERO"
+        ],
+        [
+          9373,
+          "La Unión",
+          "Las Heras",
+          "Mendoza",
+          87418,
+          9352,
+          -68.8361,
+          -32.7901,
+          7.02,
+          "MENDOZA AERO"
+        ],
+        [
+          422,
+          "La Unión",
+          "Rivadavia",
+          "Salta",
+          87065,
+          794,
+          -63.1932,
+          -23.8968,
+          44.65,
+          "RIVADAVIA"
+        ]
+      ],
+      "error": null
+    },
+    "moquehua": {
+      "query": "Moquehua",
+      "searched_at": "2026-06-29T05:14:50.478418+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4047
+      ],
+      "resolved_ids": [
+        4047
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4047,
+          "Moquehua",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -59.7745,
+          -35.0925,
+          107.85,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "palemon huergo": {
+      "query": "Palemon Huergo",
+      "searched_at": "2026-06-29T05:14:51.670462+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4683
+      ],
+      "resolved_ids": [
+        4683
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4683,
+          "Palemon Huergo",
+          "Chivilcoy",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.206,
+          -34.7992,
+          71.88,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "ramon biaus": {
+      "query": "Ramón Biaus",
+      "searched_at": "2026-06-29T05:14:52.877351+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4046
+      ],
+      "resolved_ids": [
+        4046
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4046,
+          "Ramón Biaus",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -59.9237,
+          -35.083,
+          95.72,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "san sebastian": {
+      "query": "San Sebastian",
+      "searched_at": "2026-06-29T05:14:54.073914+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4757,
+        5911,
+        6590
+      ],
+      "resolved_ids": [
+        4757,
+        5911,
+        6590
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          4757,
+          "San Sebastian",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -59.7036,
+          -34.9438,
+          120.56,
+          "NUEVE DE JULIO"
+        ],
+        [
+          5911,
+          "San Sebastian",
+          "Río Grande",
+          "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          87934,
+          5912,
+          -68.4637,
+          -53.3019,
+          70.84,
+          "RIO GRANDE B.A."
+        ],
+        [
+          6590,
+          "San Sebastian",
+          "San Alberto",
+          "Córdoba",
+          87328,
+          6594,
+          -65.2242,
+          -31.9197,
+          7.92,
+          "VILLA DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "carlos pelegrini": {
+      "query": "Carlos Pelegrini",
+      "searched_at": "2026-06-29T05:14:55.265423+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4658
+      ],
+      "resolved_ids": [
+        4658
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4658,
+          "Carlos Pelegrini",
+          "Colón",
+          "Buenos Aires",
+          87548,
+          4712,
+          -61.2753,
+          -34.0652,
+          62.65,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "colon": {
+      "query": "Colón",
+      "searched_at": "2026-06-29T05:14:56.515682+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        1364,
+        4613
+      ],
+      "resolved_ids": [
+        1364,
+        4613,
+        6351,
+        7692,
+        7836,
+        8146,
+        8178,
+        8253,
+        9667,
+        10258,
+        10259,
+        10260,
+        10261,
+        10295,
+        10547
+      ],
+      "result_count": 15,
+      "results": [
+        [
+          1364,
+          "Colón",
+          "Calingasta",
+          "San Juan",
+          87311,
+          1369,
+          -69.4065,
+          -31.4104,
+          95.26,
+          "SAN JUAN AERO"
+        ],
+        [
+          4613,
+          "Colón",
+          "Colón",
+          "Buenos Aires",
+          87548,
+          4712,
+          -61.1016,
+          -33.8992,
+          74.15,
+          "JUNIN AERO"
+        ],
+        [
+          7836,
+          "Colón",
+          "Colón",
+          "Entre Ríos",
+          87497,
+          7851,
+          -58.1423,
+          -32.2224,
+          98.03,
+          "GUALEGUAYCHU AERO"
+        ],
+        [
+          10258,
+          "Colonia 10",
+          "Río Chico",
+          "Tucumán",
+          87121,
+          10118,
+          -65.7038,
+          -27.5018,
+          94.36,
+          "TUCUMAN AERO"
+        ],
+        [
+          6351,
+          "Colonia 10 de Julio",
+          "San Justo",
+          "Córdoba",
+          87257,
+          6565,
+          -62.1273,
+          -30.5204,
+          73.82,
+          "CERES AERO"
+        ],
+        [
+          10547,
+          "Colonia 12",
+          "Río Chico",
+          "Tucumán",
+          87121,
+          10118,
+          -65.6989,
+          -27.465,
+          90.9,
+          "TUCUMAN AERO"
+        ],
+        [
+          10259,
+          "Colonia 14",
+          "Río Chico",
+          "Tucumán",
+          87121,
+          10118,
+          -65.7081,
+          -27.4918,
+          93.76,
+          "TUCUMAN AERO"
+        ],
+        [
+          10261,
+          "Colonia 16",
+          "Río Chico",
+          "Tucumán",
+          87121,
+          10118,
+          -65.7337,
+          -27.4448,
+          91.5,
+          "TUCUMAN AERO"
+        ],
+        [
+          10260,
+          "Colonia 17",
+          "Río Chico",
+          "Tucumán",
+          87121,
+          10118,
+          -65.7184,
+          -27.4662,
+          92.26,
+          "TUCUMAN AERO"
+        ],
+        [
+          7692,
+          "Colonia 1ro de Septiembre",
+          "Concordia",
+          "Entre Ríos",
+          87395,
+          7706,
+          -58.0941,
+          -31.1698,
+          17.13,
+          "CONCORDIA AERO"
+        ],
+        [
+          9667,
+          "Colonia 2 de Mayo",
+          "Cainguás",
+          "Misiones",
+          87187,
+          9743,
+          -54.6993,
+          -26.9822,
+          70.16,
+          "OBERA"
+        ],
+        [
+          8178,
+          "Colonia 20 de Junio",
+          "Patiño",
+          "Formosa",
+          87078,
+          8088,
+          -59.8674,
+          -25.284,
+          97.63,
+          "LAS LOMITAS"
+        ],
+        [
+          8253,
+          "Colonia 210",
+          "Pirané",
+          "Formosa",
+          87162,
+          8296,
+          -59.3517,
+          -26.2427,
+          112.21,
+          "FORMOSA AERO"
+        ],
+        [
+          8146,
+          "Colonia 25 de Mayo",
+          "Pilagas",
+          "Formosa",
+          87162,
+          8296,
+          -58.8803,
+          -24.9717,
+          152.21,
+          "FORMOSA AERO"
+        ],
+        [
+          10295,
+          "Colonia 3",
+          "Río Chico",
+          "Tucumán",
+          87121,
+          10118,
+          -65.6693,
+          -27.4634,
+          88.9,
+          "TUCUMAN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "colonia la tigra": {
+      "query": "Colonia La Tigra",
+      "searched_at": "2026-06-29T05:14:57.714800+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4362,
+        4656
+      ],
+      "resolved_ids": [
+        4362,
+        4656
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4656,
+          "Colonia La Tigra",
+          "Colón",
+          "Buenos Aires",
+          87548,
+          4712,
+          -61.067,
+          -34.0085,
+          61.63,
+          "JUNIN AERO"
+        ],
+        [
+          4362,
+          "Colonia La Tigra",
+          "Puan",
+          "Buenos Aires",
+          87679,
+          4338,
+          -63.1046,
+          -38.0287,
+          78.59,
+          "PIGUE AERO"
+        ]
+      ],
+      "error": null
+    },
+    "el arbolito": {
+      "query": "El Arbolito",
+      "searched_at": "2026-06-29T05:14:58.916525+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3235,
+        4614
+      ],
+      "resolved_ids": [
+        3235,
+        4614
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4614,
+          "El Arbolito",
+          "Colón",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.9425,
+          -33.9144,
+          70.79,
+          "JUNIN AERO"
+        ],
+        [
+          3235,
+          "El Arbolito",
+          "Moreno",
+          "Santiago del Estero",
+          87148,
+          3278,
+          -61.8586,
+          -27.2483,
+          147.08,
+          "PRESIDENCIA ROQUE SAENZ PEÑA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "pearson": {
+      "query": "Pearson",
+      "searched_at": "2026-06-29T05:15:00.155578+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4607
+      ],
+      "resolved_ids": [
+        4607
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4607,
+          "Pearson",
+          "Colón",
+          "Buenos Aires",
+          87548,
+          4712,
+          -60.8909,
+          -33.654,
+          99.74,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "sarasa": {
+      "query": "Sarasa",
+      "searched_at": "2026-06-29T05:15:01.353475+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4671
+      ],
+      "resolved_ids": [
+        4671
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4671,
+          "Sarasa",
+          "Colón",
+          "Buenos Aires",
+          87548,
+          4712,
+          -61.2034,
+          -34.0436,
+          61.76,
+          "JUNIN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "bajo hondo": {
+      "query": "Bajo Hondo",
+      "searched_at": "2026-06-29T05:15:02.579759+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        33,
+        2918,
+        2932,
+        3309,
+        4419,
+        5468,
+        5783,
+        6324,
+        9008,
+        9093,
+        9252
+      ],
+      "resolved_ids": [
+        33,
+        2918,
+        2932,
+        3309,
+        4419,
+        5468,
+        5783,
+        6324,
+        9008,
+        9093,
+        9252
+      ],
+      "result_count": 11,
+      "results": [
+        [
+          33,
+          "Bajo Hondo",
+          "Avellaneda",
+          "Río Negro",
+          87736,
+          30,
+          -65.7864,
+          -39.0512,
+          147.3,
+          "RIO COLORADO"
+        ],
+        [
+          2932,
+          "Bajo Hondo",
+          "Banda",
+          "Santiago del Estero",
+          87129,
+          2954,
+          -64.3203,
+          -27.4667,
+          31.99,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          3309,
+          "Bajo Hondo",
+          "Brigadier Juan Felipe Ibarra",
+          "Santiago del Estero",
+          87148,
+          3574,
+          -61.8217,
+          -27.9096,
+          184.57,
+          "PRESIDENCIA ROQUE SAENZ PEÑA AERO"
+        ],
+        [
+          9008,
+          "Bajo Hondo",
+          "Capital",
+          "La Rioja",
+          87217,
+          8994,
+          -66.5861,
+          -29.7743,
+          47.85,
+          "LA RIOJA AERO"
+        ],
+        [
+          4419,
+          "Bajo Hondo",
+          "Coronel de Marina Leonardo Rosales",
+          "Buenos Aires",
+          87750,
+          4558,
+          -61.921,
+          -38.7648,
+          21.77,
+          "BAHIA BLANCA AERO"
+        ],
+        [
+          9093,
+          "Bajo Hondo",
+          "General Belgrano",
+          "La Rioja",
+          87320,
+          9117,
+          -65.8615,
+          -30.4102,
+          42.4,
+          "CHAMICAL AERO"
+        ],
+        [
+          5468,
+          "Bajo Hondo",
+          "General Güemes",
+          "Chaco",
+          87078,
+          5385,
+          -61.1964,
+          -25.1131,
+          75.97,
+          "LAS LOMITAS"
+        ],
+        [
+          9252,
+          "Bajo Hondo",
+          "General San Martín",
+          "La Rioja",
+          87322,
+          9254,
+          -66.0148,
+          -31.6772,
+          66.63,
+          "CHEPES"
+        ],
+        [
+          2918,
+          "Bajo Hondo",
+          "Jimenez",
+          "Santiago del Estero",
+          87127,
+          2819,
+          -64.4724,
+          -27.2139,
+          56.01,
+          "TERMAS DE RIO HONDO AERO"
+        ],
+        [
+          6324,
+          "Bajo Hondo",
+          "Río Primero",
+          "Córdoba",
+          87349,
+          6500,
+          -63.1727,
+          -30.8075,
+          116.92,
+          "PILAR OBSERVATORIO"
+        ],
+        [
+          5783,
+          "Bajo Hondo",
+          "Telsen",
+          "Chubut",
+          87814,
+          5810,
+          -67.9362,
+          -42.2795,
+          197.71,
+          "PASO DE INDIOS"
+        ]
+      ],
+      "error": null
+    },
+    "calderon": {
+      "query": "Calderón",
+      "searched_at": "2026-06-29T05:15:03.771050+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4417
+      ],
+      "resolved_ids": [
+        4417
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4417,
+          "Calderón",
+          "Coronel de Marina Leonardo Rosales",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.0611,
+          -38.7233,
+          8.92,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "punta alta": {
+      "query": "Punta Alta",
+      "searched_at": "2026-06-29T05:15:04.966742+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4428
+      ],
+      "resolved_ids": [
+        4428
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4428,
+          "Punta Alta",
+          "Coronel de Marina Leonardo Rosales",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.0743,
+          -38.8796,
+          19.86,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa del mar": {
+      "query": "Villa del Mar",
+      "searched_at": "2026-06-29T05:15:06.208448+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4427
+      ],
+      "resolved_ids": [
+        4427
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4427,
+          "Villa del Mar",
+          "Coronel de Marina Leonardo Rosales",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.1174,
+          -38.8525,
+          15.8,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "villa general arias": {
+      "query": "Villa General Arias",
+      "searched_at": "2026-06-29T05:15:07.401599+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4420
+      ],
+      "resolved_ids": [
+        4420
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4420,
+          "Villa General Arias",
+          "Coronel de Marina Leonardo Rosales",
+          "Buenos Aires",
+          87750,
+          4558,
+          -62.1006,
+          -38.8101,
+          11.9,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "aparicio": {
+      "query": "Aparicio",
+      "searched_at": "2026-06-29T05:15:08.597606+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4450
+      ],
+      "resolved_ids": [
+        4450,
+        9760
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4450,
+          "Aparicio",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87688,
+          4462,
+          -60.8826,
+          -38.623,
+          59.82,
+          "TRES ARROYOS"
+        ],
+        [
+          9760,
+          "Aparicio Cue",
+          "San Ignacio",
+          "Misiones",
+          87178,
+          9598,
+          -55.4521,
+          -27.3086,
+          51.76,
+          "POSADAS AERO"
+        ]
+      ],
+      "error": null
+    },
+    "calvo": {
+      "query": "Calvo",
+      "searched_at": "2026-06-29T05:15:09.795155+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4441
+      ],
+      "resolved_ids": [
+        4441
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4441,
+          "Calvo",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87750,
+          4558,
+          -61.4085,
+          -38.7689,
+          65.87,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "centro urquiza": {
+      "query": "Centro Urquiza",
+      "searched_at": "2026-06-29T05:15:11.028217+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4439
+      ],
+      "resolved_ids": [
+        4439
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4439,
+          "Centro Urquiza",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87688,
+          4462,
+          -61.371,
+          -38.4793,
+          95.81,
+          "TRES ARROYOS"
+        ]
+      ],
+      "error": null
+    },
+    "coronel dorrego": {
+      "query": "Coronel Dorrego",
+      "searched_at": "2026-06-29T05:15:12.229844+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4440
+      ],
+      "resolved_ids": [
+        4440
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4440,
+          "Coronel Dorrego",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87688,
+          4462,
+          -61.2913,
+          -38.7169,
+          96.33,
+          "TRES ARROYOS"
+        ]
+      ],
+      "error": null
+    },
+    "el perdido (est. jose a. guisasola)": {
+      "query": "El Perdido (Est. José A. Guisasola)",
+      "searched_at": "2026-06-29T05:15:13.434460+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4445
+      ],
+      "resolved_ids": [
+        4445
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4445,
+          "El Perdido (Est. José A. Guisasola)",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87688,
+          4462,
+          -61.0865,
+          -38.6776,
+          78.35,
+          "TRES ARROYOS"
+        ]
+      ],
+      "error": null
+    },
+    "el zorro": {
+      "query": "El Zorro",
+      "searched_at": "2026-06-29T05:15:14.674911+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        338,
+        4446
+      ],
+      "resolved_ids": [
+        338,
+        4446
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4446,
+          "El Zorro",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87688,
+          4462,
+          -61.0906,
+          -38.5604,
+          73.8,
+          "TRES ARROYOS"
+        ],
+        [
+          338,
+          "El Zorro",
+          "General José de San Martín",
+          "Salta",
+          87022,
+          291,
+          -63.2438,
+          -22.9874,
+          70.05,
+          "TARTAGAL AERO"
+        ]
+      ],
+      "error": null
+    },
+    "faro": {
+      "query": "Faro",
+      "searched_at": "2026-06-29T05:15:15.874489+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4444
+      ],
+      "resolved_ids": [
+        4444
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4444,
+          "Faro",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87750,
+          4558,
+          -61.0669,
+          -38.7981,
+          95.73,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "gil": {
+      "query": "Gil",
+      "searched_at": "2026-06-29T05:15:17.071098+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4452
+      ],
+      "resolved_ids": [
+        4452,
+        7772
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          4452,
+          "Gil",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87750,
+          4558,
+          -60.9073,
+          -38.7946,
+          109.51,
+          "BAHIA BLANCA AERO"
+        ],
+        [
+          7772,
+          "Gilbert",
+          "Gualeguaychú",
+          "Entre Ríos",
+          87497,
+          7851,
+          -58.9327,
+          -32.5359,
+          60.85,
+          "GUALEGUAYCHU AERO"
+        ]
+      ],
+      "error": null
+    },
+    "irene": {
+      "query": "Irene",
+      "searched_at": "2026-06-29T05:15:18.269481+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4449
+      ],
+      "resolved_ids": [
+        4449
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4449,
+          "Irene",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87688,
+          4462,
+          -60.6977,
+          -38.5538,
+          42.02,
+          "TRES ARROYOS"
+        ]
+      ],
+      "error": null
+    },
+    "la gloria": {
+      "query": "La Gloria",
+      "searched_at": "2026-06-29T05:15:19.479392+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4438,
+        8847
+      ],
+      "resolved_ids": [
+        4438,
+        8847
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          8847,
+          "La Gloria",
+          "Catriló",
+          "La Pampa",
+          87623,
+          8861,
+          -63.7423,
+          -36.5072,
+          49.08,
+          "SANTA ROSA AERO"
+        ],
+        [
+          4438,
+          "La Gloria",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87688,
+          4462,
+          -61.2694,
+          -38.446,
+          86.56,
+          "TRES ARROYOS"
+        ]
+      ],
+      "error": null
+    },
+    "la ruta": {
+      "query": "La Ruta",
+      "searched_at": "2026-06-29T05:15:20.677569+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4451
+      ],
+      "resolved_ids": [
+        4451
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4451,
+          "La Ruta",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87688,
+          4462,
+          -60.8608,
+          -38.6537,
+          59.94,
+          "TRES ARROYOS"
+        ]
+      ],
+      "error": null
+    },
+    "la soberana": {
+      "query": "La Soberana",
+      "searched_at": "2026-06-29T05:15:21.871192+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4442
+      ],
+      "resolved_ids": [
+        4442
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4442,
+          "La Soberana",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87750,
+          4558,
+          -61.4871,
+          -38.8578,
+          60.84,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "nicolas descalzi": {
+      "query": "Nicolás Descalzi",
+      "searched_at": "2026-06-29T05:15:23.065422+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4448
+      ],
+      "resolved_ids": [
+        4448
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4448,
+          "Nicolás Descalzi",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87688,
+          4462,
+          -60.988,
+          -38.4394,
+          62.09,
+          "TRES ARROYOS"
+        ]
+      ],
+      "error": null
+    },
+    "oriente": {
+      "query": "Oriente",
+      "searched_at": "2026-06-29T05:15:24.290702+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4455
+      ],
+      "resolved_ids": [
+        4455
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4455,
+          "Oriente",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87750,
+          4558,
+          -60.6109,
+          -38.7398,
+          135.0,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "san roman": {
+      "query": "San Román",
+      "searched_at": "2026-06-29T05:15:25.486898+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4418
+      ],
+      "resolved_ids": [
+        4418
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4418,
+          "San Román",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87750,
+          4558,
+          -61.539,
+          -38.7416,
+          54.35,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "zubiaurre": {
+      "query": "Zubiaurre",
+      "searched_at": "2026-06-29T05:15:26.684258+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4453
+      ],
+      "resolved_ids": [
+        4453
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4453,
+          "Zubiaurre",
+          "Coronel Dorrego",
+          "Buenos Aires",
+          87750,
+          4558,
+          -60.7648,
+          -38.758,
+          121.67,
+          "BAHIA BLANCA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "coronel falcon": {
+      "query": "Coronel Falcón",
+      "searched_at": "2026-06-29T05:15:27.880187+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4404
+      ],
+      "resolved_ids": [
+        4404
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4404,
+          "Coronel Falcón",
+          "Coronel Pringles",
+          "Buenos Aires",
+          87637,
+          4338,
+          -61.6936,
+          -38.6038,
+          128.87,
+          "CORONEL SUAREZ AERO"
         ]
       ],
       "error": null
