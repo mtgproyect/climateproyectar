@@ -1,0 +1,85 @@
+name: Enriquecer localidades georef
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: "Cantidad de nombres únicos a consultar"
+        required: true
+        default: "25"
+        type: string
+      sleep_seconds:
+        description: "Pausa entre consultas, en segundos"
+        required: true
+        default: "1.0"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enriquecer-localidades-georef
+  cancel-in-progress: false
+
+jobs:
+  enriquecer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Descargar catálogo actual de producción
+        run: python scripts/descargar_produccion.py
+
+      - name: Reconstruir catálogo antes del lote
+        run: python scripts/construir_catalogo_maestro.py --require-production
+
+      - name: Consultar lote geográfico
+        run: |
+          python scripts/enriquecer_georef.py \
+            --batch-size "${{ inputs.batch_size }}" \
+            --sleep-seconds "${{ inputs.sleep_seconds }}"
+
+      - name: Incorporar resultados al catálogo maestro
+        run: python scripts/construir_catalogo_maestro.py --require-production
+
+      - name: Validar catálogo
+        run: python scripts/validar_catalogo_maestro.py
+
+      - name: Ejecutar pruebas
+        run: python -m unittest discover -s tests -v
+
+      - name: Guardar progreso
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/cache/busquedas_georef.json \
+            data/fuentes/localidades_georef.json \
+            data/fuentes/localidades_produccion.json \
+            data/fuentes/localidades_produccion.meta.json \
+            docs/data/catalogo_maestro.json \
+            docs/data/informe_validacion.json \
+            docs/data/conflictos.json \
+            docs/data/estado_enriquecimiento.json \
+            docs/data/georef_no_resueltos.json
+
+          if git diff --cached --quiet; then
+            echo "No hay cambios para guardar."
+          else
+            git commit -m "Enriquecer localidades desde georef"
+            git push
+          fi
