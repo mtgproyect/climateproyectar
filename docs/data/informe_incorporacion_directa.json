@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-29T20:07:36.748190+00:00",
+  "results_count": 261,
+  "diagnostic_state": {
+    "unresolved_total": 261,
+    "directly_tested_total": 261,
+    "forecast_available": 261,
+    "weather_available": 261,
+    "forecast_and_weather_available": 261
+  },
+  "accepted": 261,
+  "rejected": 0,
+  "duplicate_ids": false,
+  "unique_stations": 79,
+  "stations_used_by_multiple_localities": 57,
+  "rejected_locations": []
+}
