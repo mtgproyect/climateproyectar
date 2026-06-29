@@ -34,6 +34,9 @@ ANTARCTICA_FILE = (
 MANUAL_FILE = (
     ROOT / "data" / "fuentes" / "verificaciones_manuales.json"
 )
+GEOREF_FILE = (
+    ROOT / "data" / "fuentes" / "localidades_georef.json"
+)
 
 MASTER_FILE = ROOT / "docs" / "data" / "catalogo_maestro.json"
 REPORT_FILE = ROOT / "docs" / "data" / "informe_validacion.json"
@@ -513,6 +516,143 @@ def merge_antarctica(
     return count
 
 
+
+def georef_items(payload: dict[str, Any]) -> list[dict[str, Any]]:
+    locations = payload.get("locations", {})
+    if isinstance(locations, dict):
+        iterable = locations.values()
+    elif isinstance(locations, list):
+        iterable = locations
+    else:
+        iterable = []
+    return [item for item in iterable if isinstance(item, dict)]
+
+
+def merge_georef(
+    records: dict[int, dict[str, Any]],
+    payload: dict[str, Any],
+    config: dict[str, Any],
+    conflicts: list[dict[str, Any]],
+) -> int:
+    count = 0
+
+    for raw in georef_items(payload):
+        locality_id = as_int(raw.get("id"))
+        if locality_id is None:
+            continue
+
+        record = records.get(locality_id)
+        if record is None:
+            record_conflict(
+                conflicts,
+                locality_id=locality_id,
+                field="id",
+                base_value=None,
+                incoming_value=locality_id,
+                source="georef_enrichment",
+                severity="warning",
+                detail=(
+                    "El buscador devolvió un ID que no existe en el "
+                    "catálogo maestro."
+                ),
+            )
+            continue
+
+        incoming_name = clean_text(
+            raw.get("name"),
+            config["_null_strings"],
+        )
+        if incoming_name and not same_text(
+            incoming_name,
+            record.get("name"),
+        ):
+            add_alias(record, incoming_name)
+
+        incoming_department = clean_text(
+            raw.get("department"),
+            config["_null_strings"],
+        )
+        if not record.get("department") and incoming_department:
+            record["department"] = incoming_department
+
+        incoming_province = canonical_province(
+            raw.get("province"),
+            config,
+        )
+        if (
+            incoming_province
+            and record.get("province")
+            and not same_text(
+                incoming_province,
+                record.get("province"),
+            )
+        ):
+            record_conflict(
+                conflicts,
+                locality_id=locality_id,
+                field="province",
+                base_value=record.get("province"),
+                incoming_value=incoming_province,
+                source="georef_enrichment",
+                severity="warning",
+                detail=(
+                    "El ID coincide exactamente; se conserva la provincia "
+                    "del catálogo completo."
+                ),
+            )
+
+        incoming_lat = as_float(raw.get("lat"))
+        incoming_lon = as_float(raw.get("lon"))
+        coordinate_distance = haversine_km(
+            as_float(record.get("lat")),
+            as_float(record.get("lon")),
+            incoming_lat,
+            incoming_lon,
+        )
+        if coordinate_distance is not None and coordinate_distance > 5:
+            record_conflict(
+                conflicts,
+                locality_id=locality_id,
+                field="coordinates",
+                base_value={
+                    "lat": record.get("lat"),
+                    "lon": record.get("lon"),
+                },
+                incoming_value={
+                    "lat": incoming_lat,
+                    "lon": incoming_lon,
+                },
+                source="georef_enrichment",
+                severity="warning",
+                detail=(
+                    "Diferencia aproximada: "
+                    f"{coordinate_distance:.2f} km."
+                ),
+            )
+
+        operational_fields = {
+            "forecast_reference_id": as_int(
+                raw.get("forecast_reference_id")
+            ),
+            "station_number": as_int(raw.get("station_number")),
+            "station_name": clean_text(
+                raw.get("station_name"),
+                config["_null_strings"],
+            ),
+            "distance_km": as_float(raw.get("distance_km")),
+        }
+        for field, value in operational_fields.items():
+            if value is not None:
+                record[field] = value
+
+        if "georef_enrichment" not in record["catalog_sources"]:
+            record["catalog_sources"].append("georef_enrichment")
+
+        count += 1
+
+    return count
+
+
 def merge_manual(
     records: dict[int, dict[str, Any]],
     payload: dict[str, Any],
@@ -588,6 +728,7 @@ def build_report(
     enriched_count: int,
     production_count: int,
     antarctica_count: int,
+    georef_count: int,
     manual_count: int,
     conflicts: list[dict[str, Any]],
 ) -> dict[str, Any]:
@@ -616,6 +757,7 @@ def build_report(
             "enriched_79": enriched_count,
             "production_catalog": production_count,
             "antarctica_seed": antarctica_count,
+            "georef_enrichment": georef_count,
             "manual_verifications": manual_count,
         },
         "result_counts": {
@@ -758,6 +900,15 @@ def main() -> None:
         config,
         conflicts,
     )
+    georef_count = 0
+    if GEOREF_FILE.exists():
+        georef_count = merge_georef(
+            records,
+            load_json(GEOREF_FILE),
+            config,
+            conflicts,
+        )
+
     manual_count = merge_manual(
         records,
         load_json(MANUAL_FILE),
@@ -784,6 +935,7 @@ def main() -> None:
         enriched_count=enriched_count,
         production_count=production_count,
         antarctica_count=antarctica_count,
+        georef_count=georef_count,
         manual_count=manual_count,
         conflicts=conflicts,
     )
