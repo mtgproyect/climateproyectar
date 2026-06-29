@@ -1,0 +1,82 @@
+name: Descargar datos operativos
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Tipo de datos"
+        required: true
+        default: "forecast"
+        type: choice
+        options:
+          - forecast
+          - stations
+      shard:
+        description: "Número de shard"
+        required: true
+        default: "1"
+        type: string
+      batch_size:
+        description: "Cantidad máxima de claves"
+        required: true
+        default: "25"
+        type: string
+      sleep_seconds:
+        description: "Pausa entre solicitudes"
+        required: true
+        default: "1.0"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: descargar-datos-operativos
+  cancel-in-progress: false
+
+jobs:
+  descargar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Descargar lote
+        run: |
+          python scripts/descargar_datos_operativos.py \
+            --mode "${{ inputs.mode }}" \
+            --shard "${{ inputs.shard }}" \
+            --batch-size "${{ inputs.batch_size }}" \
+            --sleep-seconds "${{ inputs.sleep_seconds }}"
+
+      - name: Ejecutar pruebas
+        run: python -m unittest discover -s tests -v
+
+      - name: Guardar progreso
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/cache/operativo \
+            docs/data/estado_descarga_operativa.json \
+            docs/data/errores_descarga_operativa.json
+
+          if git diff --cached --quiet; then
+            echo "No hay cambios para guardar."
+          else
+            git commit -m "Actualizar descarga operativa"
+            git push
+          fi
