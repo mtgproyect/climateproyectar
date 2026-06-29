@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T05:48:49.066430+00:00",
-  "count": 113,
+  "generated_at": "2026-06-29T06:12:03.790536+00:00",
+  "count": 143,
   "locations": [
     {
       "id": 4411,
@@ -994,6 +994,16 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 10834,
+      "name": "Paso San Francisco",
+      "department": "Tinogasta",
+      "province": "Catamarca",
+      "query": "Paso San Francisco",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 590,
       "name": "San Miguel",
       "department": "Rivadavia",
@@ -1054,6 +1064,206 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 574,
+      "name": "Santa Rosa",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 805,
+      "name": "Santa Rosa",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 867,
+      "name": "Santa Rosa",
+      "department": "San Carlos",
+      "province": "Salta",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1188,
+      "name": "Santa Rosa",
+      "department": "Rosario de La Frontera",
+      "province": "Salta",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2768,
+      "name": "Santa Rosa",
+      "department": "Guasayán",
+      "province": "Santiago del Estero",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3279,
+      "name": "Santa Rosa",
+      "department": "Moreno",
+      "province": "Santiago del Estero",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3382,
+      "name": "Santa Rosa",
+      "department": "Loreto",
+      "province": "Santiago del Estero",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5254,
+      "name": "Santa Rosa",
+      "department": "Tinogasta",
+      "province": "Catamarca",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5552,
+      "name": "Santa Rosa",
+      "department": "Libertador General San Martín",
+      "province": "Chaco",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6570,
+      "name": "Santa Rosa",
+      "department": "San Justo",
+      "province": "Córdoba",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6733,
+      "name": "Santa Rosa",
+      "department": "Punilla",
+      "province": "Córdoba",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8464,
+      "name": "Santa Rosa",
+      "department": "Tumbaya",
+      "province": "Jujuy",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9485,
+      "name": "Santa Rosa",
+      "department": "Santa Rosa",
+      "province": "Mendoza",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9592,
+      "name": "Santa Rosa",
+      "department": "San Pedro",
+      "province": "Misiones",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10292,
+      "name": "Santa Rosa",
+      "department": "Río Chico",
+      "province": "Tucumán",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10408,
+      "name": "Santa Rosa",
+      "department": "Graneros",
+      "province": "Tucumán",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10563,
+      "name": "Santa Rosa",
+      "department": "Valle Viejo",
+      "province": "Catamarca",
+      "query": "Santa Rosa",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5729,
+      "name": "Pampa La Porteña",
+      "department": "General Belgrano",
+      "province": "Chaco",
+      "query": "Pampa La Porteña",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5666,
+      "name": "La Escondida",
+      "department": "General Donovan",
+      "province": "Chaco",
+      "query": "La Escondida",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6009,
+      "name": "La Rinconada",
+      "department": "Río Seco",
+      "province": "Córdoba",
+      "query": "La Rinconada",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 5988,
       "name": "Santa María",
       "department": "Sobremonte",
@@ -1104,6 +1314,86 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 1165,
+      "name": "La Cañada",
+      "department": "Rosario de La Frontera",
+      "province": "Salta",
+      "query": "La Cañada",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6200,
+      "name": "La Cañada",
+      "department": "Totoral",
+      "province": "Córdoba",
+      "query": "La Cañada",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6226,
+      "name": "La Cañada",
+      "department": "Tulumba",
+      "province": "Córdoba",
+      "query": "La Cañada",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6289,
+      "name": "La Esperanza",
+      "department": "Tulumba",
+      "province": "Córdoba",
+      "query": "La Esperanza",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8108,
+      "name": "San Martín",
+      "department": "Patiño",
+      "province": "Formosa",
+      "query": "San Martín",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8573,
+      "name": "Campo Largo",
+      "department": "Capital",
+      "province": "Jujuy",
+      "query": "Campo Largo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1204,
+      "name": "Campo Redondo",
+      "department": "Anta",
+      "province": "Salta",
+      "query": "Campo Redondo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 616,
+      "name": "Campo Alegre",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "Campo Alegre",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 723,
       "name": "La Providencia",
       "department": "Rivadavia",
@@ -1129,6 +1419,16 @@
       "department": "Libertador General San Martín",
       "province": "San Luis",
       "query": "Las Chacras",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1788,
+      "name": "El Portezuelo",
+      "department": "Lago Buenos Aires",
+      "province": "Santa Cruz",
+      "query": "El Portezuelo",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
