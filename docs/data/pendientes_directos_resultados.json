@@ -1,0 +1,4081 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-29T19:40:04.238870+00:00",
+  "count": 261,
+  "locations": [
+    {
+      "id": 4411,
+      "name": "Villa Bordeu",
+      "department": "Bahía Blanca",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 4411,
+        "name": "Villa Bordeu",
+        "department": "Bahía Blanca",
+        "province": "Buenos Aires",
+        "tested_at": "2026-06-29T19:39:05.278302+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 4411,
+            "name": "Villa  Bordeu",
+            "department": "Bahía Blanca",
+            "province": "Buenos Aires",
+            "type": "Pueblo",
+            "coord": {
+              "lon": -62.3447,
+              "lat": -38.6994
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 11.4,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 4411,
+            "name": "Villa  Bordeu",
+            "department": "Bahía Blanca",
+            "province": "Buenos Aires",
+            "type": "Pueblo",
+            "coord": {
+              "lon": -62.3447,
+              "lat": -38.6994
+            },
+            "distance": 15.89
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87750
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 10587,
+      "name": "Carlos Tomás Surigues",
+      "department": "Berazategui",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 10587,
+        "name": "Carlos Tomás Surigues",
+        "department": "Berazategui",
+        "province": "Buenos Aires",
+        "tested_at": "2026-06-29T19:39:07.734846+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 10587,
+            "name": "Carlos Tomás Sourigues",
+            "department": "Berazategui",
+            "province": "Buenos Aires",
+            "type": "Localidad",
+            "coord": {
+              "lon": -58.2121,
+              "lat": -34.8027
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 15.6,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 10587,
+            "name": "Carlos Tomás Sourigues",
+            "department": "Berazategui",
+            "province": "Buenos Aires",
+            "type": "Localidad",
+            "coord": {
+              "lon": -58.2121,
+              "lat": -34.8027
+            },
+            "distance": 33.07
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87582
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 151,
+      "name": "Sin Nombre",
+      "department": "Bariloche",
+      "province": "Río Negro",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 151,
+        "name": "Sin Nombre",
+        "department": "Bariloche",
+        "province": "Río Negro",
+        "tested_at": "2026-06-29T19:39:10.207095+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 151,
+            "name": "Sin Nombre",
+            "department": "Bariloche",
+            "province": "Río Negro",
+            "type": "Villa",
+            "coord": {
+              "lon": -71.5768,
+              "lat": -41.0432
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 7.9,
+          "weather": {
+            "description": "Despejado",
+            "id": 3
+          },
+          "location": {
+            "id": 151,
+            "name": "Sin Nombre",
+            "department": "Bariloche",
+            "province": "Río Negro",
+            "type": "Villa",
+            "coord": {
+              "lon": -71.5768,
+              "lat": -41.0432
+            },
+            "distance": 36.54
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87765
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 1870,
+      "name": "Sin Nombre",
+      "department": "Güer Aike",
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 1870,
+        "name": "Sin Nombre",
+        "department": "Güer Aike",
+        "province": "Santa Cruz",
+        "tested_at": "2026-06-29T19:39:12.681384+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 1870,
+            "name": "Sin Nombre",
+            "department": "Güer Aike",
+            "province": "Santa Cruz",
+            "type": "Caserío",
+            "coord": {
+              "lon": -69.2456,
+              "lat": -51.6285
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 8.8,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 1870,
+            "name": "Sin Nombre",
+            "department": "Güer Aike",
+            "province": "Santa Cruz",
+            "type": "Caserío",
+            "coord": {
+              "lon": -69.2456,
+              "lat": -51.6285
+            },
+            "distance": 4.71
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87925
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2072,
+      "name": "Sin Nombre",
+      "department": "Castellanos",
+      "province": "Santa Fe",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 2072,
+        "name": "Sin Nombre",
+        "department": "Castellanos",
+        "province": "Santa Fe",
+        "tested_at": "2026-06-29T19:39:15.068854+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 2072,
+            "name": "Sin Nombre",
+            "department": "Castellanos",
+            "province": "Santa Fe",
+            "type": "Paraje",
+            "coord": {
+              "lon": -61.2563,
+              "lat": -30.7728
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T15:00:00-03:00",
+          "temperature": 16.4,
+          "weather": {
+            "description": "Despejado",
+            "id": 3
+          },
+          "location": {
+            "id": 2072,
+            "name": "Sin Nombre",
+            "department": "Castellanos",
+            "province": "Santa Fe",
+            "type": "Paraje",
+            "coord": {
+              "lon": -61.2563,
+              "lat": -30.7728
+            },
+            "distance": 33.36
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87356
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2334,
+      "name": "Sin Nombre",
+      "department": "General López",
+      "province": "Santa Fe",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 2334,
+        "name": "Sin Nombre",
+        "department": "General López",
+        "province": "Santa Fe",
+        "tested_at": "2026-06-29T19:39:17.556699+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 2334,
+            "name": "Sin Nombre",
+            "department": "General López",
+            "province": "Santa Fe",
+            "type": "Caserío",
+            "coord": {
+              "lon": -61.6096,
+              "lat": -33.9971
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 14.6,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 2334,
+            "name": "Sin Nombre",
+            "department": "General López",
+            "province": "Santa Fe",
+            "type": "Caserío",
+            "coord": {
+              "lon": -61.6096,
+              "lat": -33.9971
+            },
+            "distance": 47.74
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87468
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4813,
+      "name": "Sin Nombre",
+      "department": "General Rodriguez",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 4813,
+        "name": "Sin Nombre",
+        "department": "General Rodriguez",
+        "province": "Buenos Aires",
+        "tested_at": "2026-06-29T19:39:19.990450+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 4813,
+            "name": "Sin Nombre",
+            "department": "General Rodriguez",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.8938,
+              "lat": -34.5869
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 14.2,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 4813,
+            "name": "Sin Nombre",
+            "department": "General Rodriguez",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.8938,
+              "lat": -34.5869
+            },
+            "distance": 10.35
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87572
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4815,
+      "name": "Sin Nombre",
+      "department": "Marcos Paz",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 4815,
+        "name": "Sin Nombre",
+        "department": "Marcos Paz",
+        "province": "Buenos Aires",
+        "tested_at": "2026-06-29T19:39:22.411322+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 4815,
+            "name": "Sin Nombre",
+            "department": "Marcos Paz",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.8598,
+              "lat": -34.755
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 14.7,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 4815,
+            "name": "Sin Nombre",
+            "department": "Marcos Paz",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.8598,
+              "lat": -34.755
+            },
+            "distance": 13.11
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87573
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4817,
+      "name": "Sin Nombre",
+      "department": "Escobar",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 4817,
+        "name": "Sin Nombre",
+        "department": "Escobar",
+        "province": "Buenos Aires",
+        "tested_at": "2026-06-29T19:39:24.876127+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 4817,
+            "name": "Sin Nombre",
+            "department": "Escobar",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.7709,
+              "lat": -34.3282
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 15.1,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 4817,
+            "name": "Sin Nombre",
+            "department": "Escobar",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.7709,
+              "lat": -34.3282
+            },
+            "distance": 22.18
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87553
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4822,
+      "name": "Sin Nombre",
+      "department": "Pilar",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 4822,
+        "name": "Sin Nombre",
+        "department": "Pilar",
+        "province": "Buenos Aires",
+        "tested_at": "2026-06-29T19:39:27.341134+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 4822,
+            "name": "Sin Nombre",
+            "department": "Pilar",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.7896,
+              "lat": -34.4646
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 14.2,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 4822,
+            "name": "Sin Nombre",
+            "department": "Pilar",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.7896,
+              "lat": -34.4646
+            },
+            "distance": 10.35
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87572
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4826,
+      "name": "Sin Nombre",
+      "department": "Cañuelas",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 4826,
+        "name": "Sin Nombre",
+        "department": "Cañuelas",
+        "province": "Buenos Aires",
+        "tested_at": "2026-06-29T19:39:29.778500+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 4826,
+            "name": "Sin Nombre",
+            "department": "Cañuelas",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.6933,
+              "lat": -34.9961
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 14.0,
+          "weather": {
+            "description": "Despejado",
+            "id": 3
+          },
+          "location": {
+            "id": 4826,
+            "name": "Sin Nombre",
+            "department": "Cañuelas",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.6933,
+              "lat": -34.9961
+            },
+            "distance": 24.05
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87576
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4827,
+      "name": "Sin Nombre",
+      "department": "Tigre",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 4827,
+        "name": "Sin Nombre",
+        "department": "Tigre",
+        "province": "Buenos Aires",
+        "tested_at": "2026-06-29T19:39:32.248090+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 4827,
+            "name": "Sin Nombre",
+            "department": "Tigre",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.6431,
+              "lat": -34.3967
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 15.1,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 4827,
+            "name": "Sin Nombre",
+            "department": "Tigre",
+            "province": "Buenos Aires",
+            "type": "Barrio",
+            "coord": {
+              "lon": -58.6431,
+              "lat": -34.3967
+            },
+            "distance": 8.42
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87553
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5560,
+      "name": "Sin Nombre",
+      "department": "Bermejo",
+      "province": "Chaco",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 5560,
+        "name": "Sin Nombre",
+        "department": "Bermejo",
+        "province": "Chaco",
+        "tested_at": "2026-06-29T19:39:34.794297+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 5560,
+            "name": "Sin Nombre",
+            "department": "Bermejo",
+            "province": "Chaco",
+            "type": "Paraje",
+            "coord": {
+              "lon": -58.6704,
+              "lat": -26.7075
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 17.8,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 5560,
+            "name": "Sin Nombre",
+            "department": "Bermejo",
+            "province": "Chaco",
+            "type": "Paraje",
+            "coord": {
+              "lon": -58.6704,
+              "lat": -26.7075
+            },
+            "distance": 89.19
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87155
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5976,
+      "name": "Sin Nombre",
+      "department": "Islas Malvinas",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 5976,
+        "name": "Sin Nombre",
+        "department": "Islas Malvinas",
+        "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+        "tested_at": "2026-06-29T19:39:37.307071+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 5976,
+            "name": "Sin Nombre",
+            "department": "Islas Malvinas",
+            "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+            "type": "Caserío",
+            "coord": {
+              "lon": -58.847,
+              "lat": -52.2067
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 5.6,
+          "weather": {
+            "description": "Cubierto",
+            "id": 43
+          },
+          "location": {
+            "id": 5976,
+            "name": "Sin Nombre",
+            "department": "Islas Malvinas",
+            "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+            "type": "Caserío",
+            "coord": {
+              "lon": -58.847,
+              "lat": -52.2067
+            },
+            "distance": 51.01
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 88889
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6922,
+      "name": "Sin Nombre",
+      "department": "Calamuchita",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 6922,
+        "name": "Sin Nombre",
+        "department": "Calamuchita",
+        "province": "Córdoba",
+        "tested_at": "2026-06-29T19:39:39.738417+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 6922,
+            "name": "Sin Nombre",
+            "department": "Calamuchita",
+            "province": "Córdoba",
+            "type": "Caserío",
+            "coord": {
+              "lon": -64.4439,
+              "lat": -32.2341
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 16.4,
+          "weather": {
+            "description": "Despejado",
+            "id": 3
+          },
+          "location": {
+            "id": 6922,
+            "name": "Sin Nombre",
+            "department": "Calamuchita",
+            "province": "Córdoba",
+            "type": "Caserío",
+            "coord": {
+              "lon": -64.4439,
+              "lat": -32.2341
+            },
+            "distance": 71.15
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87444
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6937,
+      "name": "Sin Nombre",
+      "department": "San Javier",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 6937,
+        "name": "Sin Nombre",
+        "department": "San Javier",
+        "province": "Córdoba",
+        "tested_at": "2026-06-29T19:39:42.160798+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 6937,
+            "name": "Sin Nombre",
+            "department": "San Javier",
+            "province": "Córdoba",
+            "type": "Paraje",
+            "coord": {
+              "lon": -65.0315,
+              "lat": -32.2204
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 16.4,
+          "weather": {
+            "description": "Despejado",
+            "id": 3
+          },
+          "location": {
+            "id": 6937,
+            "name": "Sin Nombre",
+            "department": "San Javier",
+            "province": "Córdoba",
+            "type": "Paraje",
+            "coord": {
+              "lon": -65.0315,
+              "lat": -32.2204
+            },
+            "distance": 22.47
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87444
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7391,
+      "name": "Sin Nombre",
+      "department": "Lavalle",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 7391,
+        "name": "Sin Nombre",
+        "department": "Lavalle",
+        "province": "Corrientes",
+        "tested_at": "2026-06-29T19:39:44.583811+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 7391,
+            "name": "Sin Nombre",
+            "department": "Lavalle",
+            "province": "Corrientes",
+            "type": "Paraje",
+            "coord": {
+              "lon": -58.8111,
+              "lat": -29.2073
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T15:00:00-03:00",
+          "temperature": 16.7,
+          "weather": {
+            "description": "Ligeramente nublado",
+            "id": 13
+          },
+          "location": {
+            "id": 7391,
+            "name": "Sin Nombre",
+            "department": "Lavalle",
+            "province": "Corrientes",
+            "type": "Paraje",
+            "coord": {
+              "lon": -58.8111,
+              "lat": -29.2073
+            },
+            "distance": 70.57
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87281
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7492,
+      "name": "Sin Nombre",
+      "department": "Monte Caseros",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 7492,
+        "name": "Sin Nombre",
+        "department": "Monte Caseros",
+        "province": "Corrientes",
+        "tested_at": "2026-06-29T19:39:46.964423+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 7492,
+            "name": "Sin Nombre",
+            "department": "Monte Caseros",
+            "province": "Corrientes",
+            "type": "Paraje",
+            "coord": {
+              "lon": -57.55,
+              "lat": -30.0182
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 12.8,
+          "weather": {
+            "description": "Ligeramente nublado con humo",
+            "id": 13
+          },
+          "location": {
+            "id": 7492,
+            "name": "Sin Nombre",
+            "department": "Monte Caseros",
+            "province": "Corrientes",
+            "type": "Paraje",
+            "coord": {
+              "lon": -57.55,
+              "lat": -30.0182
+            },
+            "distance": 28.32
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87393
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7759,
+      "name": "Sin Nombre",
+      "department": "Villaguay",
+      "province": "Entre Ríos",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 7759,
+        "name": "Sin Nombre",
+        "department": "Villaguay",
+        "province": "Entre Ríos",
+        "tested_at": "2026-06-29T19:39:49.399155+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 7759,
+            "name": "Sin Nombre",
+            "department": "Villaguay",
+            "province": "Entre Ríos",
+            "type": "Colonia",
+            "coord": {
+              "lon": -58.8886,
+              "lat": -32.0265
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 15.7,
+          "weather": {
+            "description": "Despejado",
+            "id": 3
+          },
+          "location": {
+            "id": 7759,
+            "name": "Sin Nombre",
+            "department": "Villaguay",
+            "province": "Entre Ríos",
+            "type": "Colonia",
+            "coord": {
+              "lon": -58.8886,
+              "lat": -32.0265
+            },
+            "distance": 153.18
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87374
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7873,
+      "name": "Sin Nombre",
+      "department": "Concordia",
+      "province": "Entre Ríos",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 7873,
+        "name": "Sin Nombre",
+        "department": "Concordia",
+        "province": "Entre Ríos",
+        "tested_at": "2026-06-29T19:39:51.914188+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 7873,
+            "name": "Sin Nombre",
+            "department": "Concordia",
+            "province": "Entre Ríos",
+            "type": "Pueblo",
+            "coord": {
+              "lon": -58.0875,
+              "lat": -31.4081
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 14.0,
+          "weather": {
+            "description": "Despejado",
+            "id": 3
+          },
+          "location": {
+            "id": 7873,
+            "name": "Sin Nombre",
+            "department": "Concordia",
+            "province": "Entre Ríos",
+            "type": "Pueblo",
+            "coord": {
+              "lon": -58.0875,
+              "lat": -31.4081
+            },
+            "distance": 14.31
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87395
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 8443,
+      "name": "Sin Nombre",
+      "department": "Humahuaca",
+      "province": "Jujuy",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 8443,
+        "name": "Sin Nombre",
+        "department": "Humahuaca",
+        "province": "Jujuy",
+        "tested_at": "2026-06-29T19:39:54.344017+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 8443,
+            "name": "Sin Nombre",
+            "department": "Humahuaca",
+            "province": "Jujuy",
+            "type": "Paraje",
+            "coord": {
+              "lon": -65.6787,
+              "lat": -23.1402
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 16.1,
+          "weather": {
+            "description": "Algo nublado",
+            "id": 19
+          },
+          "location": {
+            "id": 8443,
+            "name": "Sin Nombre",
+            "department": "Humahuaca",
+            "province": "Jujuy",
+            "type": "Paraje",
+            "coord": {
+              "lon": -65.6787,
+              "lat": -23.1402
+            },
+            "distance": 115.1
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87007
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 8486,
+      "name": "Sin Nombre",
+      "department": "Tilcara",
+      "province": "Jujuy",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 8486,
+        "name": "Sin Nombre",
+        "department": "Tilcara",
+        "province": "Jujuy",
+        "tested_at": "2026-06-29T19:39:56.826557+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 8486,
+            "name": "Sin Nombre",
+            "department": "Tilcara",
+            "province": "Jujuy",
+            "type": "Paraje",
+            "coord": {
+              "lon": -65.3437,
+              "lat": -23.4469
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 12.0,
+          "weather": {
+            "description": "Cubierto con llovizna",
+            "id": 71
+          },
+          "location": {
+            "id": 8486,
+            "name": "Sin Nombre",
+            "department": "Tilcara",
+            "province": "Jujuy",
+            "type": "Paraje",
+            "coord": {
+              "lon": -65.3437,
+              "lat": -23.4469
+            },
+            "distance": 106.82
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87046
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 9303,
+      "name": "Sin Nombre",
+      "department": "Malargüe",
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 9303,
+        "name": "Sin Nombre",
+        "department": "Malargüe",
+        "province": "Mendoza",
+        "tested_at": "2026-06-29T19:39:59.267248+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 9303,
+            "name": "Sin Nombre",
+            "department": "Malargüe",
+            "province": "Mendoza",
+            "type": "Paraje",
+            "coord": {
+              "lon": -70.0438,
+              "lat": -35.8303
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 9.3,
+          "weather": {
+            "description": "Despejado",
+            "id": 3
+          },
+          "location": {
+            "id": 9303,
+            "name": "Sin Nombre",
+            "department": "Malargüe",
+            "province": "Mendoza",
+            "type": "Paraje",
+            "coord": {
+              "lon": -70.0438,
+              "lat": -35.8303
+            },
+            "distance": 56.9
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87506
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 9567,
+      "name": "Sin Nombre",
+      "department": "Maipú",
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 9567,
+        "name": "Sin Nombre",
+        "department": "Maipú",
+        "province": "Mendoza",
+        "tested_at": "2026-06-29T19:40:01.702057+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 9567,
+            "name": "Sin Nombre",
+            "department": "Maipú",
+            "province": "Mendoza",
+            "type": "Pueblo",
+            "coord": {
+              "lon": -68.7989,
+              "lat": -33.0127
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 11.9,
+          "weather": {
+            "description": "Algo nublado",
+            "id": 19
+          },
+          "location": {
+            "id": 9567,
+            "name": "Sin Nombre",
+            "department": "Maipú",
+            "province": "Mendoza",
+            "type": "Pueblo",
+            "coord": {
+              "lon": -68.7989,
+              "lat": -33.0127
+            },
+            "distance": 14.79
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87420
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 9648,
+      "name": "Sin Nombre",
+      "department": "Iguazú",
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": {
+        "id": 9648,
+        "name": "Sin Nombre",
+        "department": "Iguazú",
+        "province": "Misiones",
+        "tested_at": "2026-06-29T19:40:04.224299+00:00",
+        "attempts": 1,
+        "status": "completed",
+        "forecast": {
+          "available": true,
+          "days": 7,
+          "location": {
+            "id": 9648,
+            "name": "Sin Nombre",
+            "department": "Iguazú",
+            "province": "Misiones",
+            "type": "Paraje",
+            "coord": {
+              "lon": -54.6484,
+              "lat": -26.0564
+            }
+          },
+          "top_level_keys": [
+            "forecast",
+            "location",
+            "type",
+            "updated"
+          ],
+          "station_candidates": []
+        },
+        "weather": {
+          "available": true,
+          "date": "2026-06-29T16:00:00-03:00",
+          "temperature": 17.0,
+          "weather": {
+            "description": "Cubierto",
+            "id": 43
+          },
+          "location": {
+            "id": 9648,
+            "name": "Sin Nombre",
+            "department": "Iguazú",
+            "province": "Misiones",
+            "type": "Paraje",
+            "coord": {
+              "lon": -54.6484,
+              "lat": -26.0564
+            },
+            "distance": 39.93
+          },
+          "top_level_keys": [
+            "date",
+            "feels_like",
+            "humidity",
+            "location",
+            "pressure",
+            "station_id",
+            "temperature",
+            "visibility",
+            "weather",
+            "wind"
+          ],
+          "station_candidates": [
+            {
+              "path": "station_id",
+              "value": 87097
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3811,
+      "name": "Manuel J. Cobo",
+      "department": "Chascomus",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 4152,
+      "name": "General Juan Madariaga",
+      "department": "General Juan Madariaga",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 4102,
+      "name": "Coraceros",
+      "department": "Hipólito Yrigoyen",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1160,
+      "name": "San Pedro",
+      "department": "Rosario de La Frontera",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2990,
+      "name": "San Pedro",
+      "department": "Robles",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3632,
+      "name": "San Pedro",
+      "department": "Ojo de Agua",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3858,
+      "name": "San Pedro",
+      "department": "Lincoln",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6588,
+      "name": "San Pedro",
+      "department": "San Alberto",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9489,
+      "name": "San Pedro",
+      "department": "Santa Rosa",
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9690,
+      "name": "San Pedro",
+      "department": "San Pedro",
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1869,
+      "name": "Cuartel",
+      "department": "Güer Aike",
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3823,
+      "name": "Cuartel",
+      "department": "Magdalena",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 4194,
+      "name": "Cuartel",
+      "department": "Olavarría",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7435,
+      "name": "Cuartel",
+      "department": "Paso de Los Libres",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7481,
+      "name": "Cuartel",
+      "department": "Monte Caseros",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7517,
+      "name": "Cuartel",
+      "department": "La Paz",
+      "province": "Entre Ríos",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7815,
+      "name": "Cuartel",
+      "department": "Uruguay",
+      "province": "Entre Ríos",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9524,
+      "name": "Cuartel",
+      "department": "Tunuyan",
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9925,
+      "name": "Cuartel",
+      "department": "Picunches",
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9943,
+      "name": "Cuartel",
+      "department": "Zapala",
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10620,
+      "name": "Ingeniero Alfredo Sourdeaux",
+      "department": "Malvinas Argentinas",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 253,
+      "name": "San Antonio",
+      "department": "Iruyá",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 711,
+      "name": "San Antonio",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 856,
+      "name": "San Antonio",
+      "department": "San Carlos",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1305,
+      "name": "San Antonio",
+      "department": "Valle Fértil",
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1491,
+      "name": "San Antonio",
+      "department": "Sarmiento",
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1611,
+      "name": "San Antonio",
+      "department": "Libertador General San Martín",
+      "province": "San Luis",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2558,
+      "name": "San Antonio",
+      "department": "Pellegrini",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3270,
+      "name": "San Antonio",
+      "department": "Moreno",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3498,
+      "name": "San Antonio",
+      "department": "Sarmiento",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3889,
+      "name": "San Antonio",
+      "department": "Pehuajó",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5116,
+      "name": "San Antonio",
+      "department": "Pomán",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5136,
+      "name": "San Antonio",
+      "department": "Paclin",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5244,
+      "name": "San Antonio",
+      "department": "La Paz",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5324,
+      "name": "San Antonio",
+      "department": "Fray Mamerto Esquiú",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6131,
+      "name": "San Antonio",
+      "department": "Ischilin",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6540,
+      "name": "San Antonio",
+      "department": "San Justo",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6628,
+      "name": "San Antonio",
+      "department": "San Alberto",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6680,
+      "name": "San Antonio",
+      "department": "Pocho",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7155,
+      "name": "San Antonio",
+      "department": "Ituzaingo",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7377,
+      "name": "San Antonio",
+      "department": "Goya",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7442,
+      "name": "San Antonio",
+      "department": "Paso de Los Libres",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7470,
+      "name": "San Antonio",
+      "department": "Sauce",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8501,
+      "name": "San Antonio",
+      "department": "Tilcara",
+      "province": "Jujuy",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8561,
+      "name": "San Antonio",
+      "department": "San Antonio",
+      "province": "Jujuy",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9221,
+      "name": "San Antonio",
+      "department": "General Juan F. Quiroga",
+      "province": "La Rioja",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9588,
+      "name": "San Antonio",
+      "department": "General Manuel Belgrano",
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10444,
+      "name": "San Antonio",
+      "department": "Leales",
+      "province": "Tucumán",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 421,
+      "name": "Bella Vista",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 605,
+      "name": "Bella Vista",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1187,
+      "name": "Bella Vista",
+      "department": "Rosario de La Frontera",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2311,
+      "name": "Bella Vista",
+      "department": "San Lorenzo",
+      "province": "Santa Fe",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 4512,
+      "name": "Bella Vista",
+      "department": "Villarino",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6653,
+      "name": "Bella Vista",
+      "department": "San Alberto",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6927,
+      "name": "Bella Vista",
+      "department": "San Javier",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7215,
+      "name": "Bella Vista",
+      "department": "San Miguel",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8217,
+      "name": "Bella Vista",
+      "department": "Pilagas",
+      "province": "Formosa",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8469,
+      "name": "Bella Vista",
+      "department": "Tilcara",
+      "province": "Jujuy",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10642,
+      "name": "Bella Vista",
+      "department": "San Miguel",
+      "province": "Buenos Aires",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 215,
+      "name": "San José",
+      "department": "Santa Victoria",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2579,
+      "name": "San José",
+      "department": "Pellegrini",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3266,
+      "name": "San José",
+      "department": "Moreno",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3391,
+      "name": "San José",
+      "department": "Silipica",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3482,
+      "name": "San José",
+      "department": "Salavina",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 4933,
+      "name": "San José",
+      "department": "Santa María",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 4967,
+      "name": "San José",
+      "department": "Tinogasta",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5107,
+      "name": "San José",
+      "department": "Pomán",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6484,
+      "name": "San José",
+      "department": "Río Segundo",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6587,
+      "name": "San José",
+      "department": "San Javier",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6673,
+      "name": "San José",
+      "department": "Minas",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6718,
+      "name": "San José",
+      "department": "Punilla",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6766,
+      "name": "San José",
+      "department": "Punilla",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8838,
+      "name": "San José",
+      "department": "Quemú Quemú",
+      "province": "La Pampa",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10731,
+      "name": "San José",
+      "department": "Tupungato",
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10834,
+      "name": "Paso San Francisco",
+      "department": "Tinogasta",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 590,
+      "name": "San Miguel",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3392,
+      "name": "San Miguel",
+      "department": "Silipica",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5255,
+      "name": "San Miguel",
+      "department": "Tinogasta",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5986,
+      "name": "San Miguel",
+      "department": "Sobremonte",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6629,
+      "name": "San Miguel",
+      "department": "San Alberto",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7211,
+      "name": "San Miguel",
+      "department": "San Miguel",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 574,
+      "name": "Santa Rosa",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 805,
+      "name": "Santa Rosa",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 867,
+      "name": "Santa Rosa",
+      "department": "San Carlos",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1188,
+      "name": "Santa Rosa",
+      "department": "Rosario de La Frontera",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2768,
+      "name": "Santa Rosa",
+      "department": "Guasayán",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3279,
+      "name": "Santa Rosa",
+      "department": "Moreno",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3382,
+      "name": "Santa Rosa",
+      "department": "Loreto",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5254,
+      "name": "Santa Rosa",
+      "department": "Tinogasta",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5552,
+      "name": "Santa Rosa",
+      "department": "Libertador General San Martín",
+      "province": "Chaco",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6570,
+      "name": "Santa Rosa",
+      "department": "San Justo",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6733,
+      "name": "Santa Rosa",
+      "department": "Punilla",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8464,
+      "name": "Santa Rosa",
+      "department": "Tumbaya",
+      "province": "Jujuy",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9485,
+      "name": "Santa Rosa",
+      "department": "Santa Rosa",
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9592,
+      "name": "Santa Rosa",
+      "department": "San Pedro",
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10292,
+      "name": "Santa Rosa",
+      "department": "Río Chico",
+      "province": "Tucumán",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10408,
+      "name": "Santa Rosa",
+      "department": "Graneros",
+      "province": "Tucumán",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10563,
+      "name": "Santa Rosa",
+      "department": "Valle Viejo",
+      "province": "Catamarca",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5729,
+      "name": "Pampa La Porteña",
+      "department": "General Belgrano",
+      "province": "Chaco",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5666,
+      "name": "La Escondida",
+      "department": "General Donovan",
+      "province": "Chaco",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10906,
+      "name": "Paso Coyhaique",
+      "department": null,
+      "province": "Chubut",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10910,
+      "name": "Paso Futaleufú",
+      "department": null,
+      "province": "Chubut",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10916,
+      "name": "Paso Las Pampas",
+      "department": null,
+      "province": "Chubut",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10920,
+      "name": "Paso Pampa Alta",
+      "department": null,
+      "province": "Chubut",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10928,
+      "name": "Paso Río Encuentro",
+      "department": null,
+      "province": "Chubut",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10929,
+      "name": "Paso Río Frías",
+      "department": null,
+      "province": "Chubut",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10934,
+      "name": "Paso Río Puelo",
+      "department": null,
+      "province": "Chubut",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10940,
+      "name": "Paso Triana",
+      "department": null,
+      "province": "Chubut",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10826,
+      "name": "Paso Huemules",
+      "department": "Río Senguer",
+      "province": "Chubut",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7105,
+      "name": "La Martona",
+      "department": "General Roca",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7079,
+      "name": "Mattaldi",
+      "department": "General Roca",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6094,
+      "name": "Baños Unquillo",
+      "department": "Ischilin",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7031,
+      "name": "Cruz Alta",
+      "department": "Marcos Juárez",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3362,
+      "name": "Santa Ana",
+      "department": "Silipica",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3666,
+      "name": "Santa Ana",
+      "department": "Quebrachos",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6470,
+      "name": "Santa Ana",
+      "department": "Río Primero",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6717,
+      "name": "Santa Ana",
+      "department": "Punilla",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7094,
+      "name": "Santa Ana",
+      "department": "Presidente Roque Sáenz Peña",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7243,
+      "name": "Santa Ana",
+      "department": "San Cosme",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7546,
+      "name": "Santa Ana",
+      "department": "Federación",
+      "province": "Entre Ríos",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8519,
+      "name": "Santa Ana",
+      "department": "Valle Grande",
+      "province": "Jujuy",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8689,
+      "name": "Santa Ana",
+      "department": "Rinconada",
+      "province": "Jujuy",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10297,
+      "name": "Santa Ana",
+      "department": "Río Chico",
+      "province": "Tucumán",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6118,
+      "name": "Los Cocos",
+      "department": "Punilla",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7006,
+      "name": "Las Higueras",
+      "department": "Río Cuarto",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6009,
+      "name": "La Rinconada",
+      "department": "Río Seco",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6485,
+      "name": "Costa Sacate",
+      "department": "Río Segundo",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5988,
+      "name": "Santa María",
+      "department": "Sobremonte",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6713,
+      "name": "Santa María",
+      "department": "Santa María",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8889,
+      "name": "Santa María",
+      "department": "Utracán",
+      "province": "La Pampa",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1382,
+      "name": "Santo Domingo",
+      "department": "Valle Fértil",
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 5978,
+      "name": "Santo Domingo",
+      "department": "Sobremonte",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6178,
+      "name": "Bajo del Olmo",
+      "department": "Totoral",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1165,
+      "name": "La Cañada",
+      "department": "Rosario de La Frontera",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6200,
+      "name": "La Cañada",
+      "department": "Totoral",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6226,
+      "name": "La Cañada",
+      "department": "Tulumba",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 6289,
+      "name": "La Esperanza",
+      "department": "Tulumba",
+      "province": "Córdoba",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10907,
+      "name": "Paso de los Libres-Uruguayana",
+      "department": null,
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10938,
+      "name": "Paso Santo Tomé-Sao Borja",
+      "department": null,
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7158,
+      "name": "Colonia Liebig",
+      "department": "Ituzaingo",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7493,
+      "name": "Mocoretá",
+      "department": "Monte Caseros",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 7337,
+      "name": "Garruchos",
+      "department": "Santo Tomé",
+      "province": "Corrientes",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10846,
+      "name": "Colón-Paysandú",
+      "department": null,
+      "province": "Entre Ríos",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10847,
+      "name": "Concordia-Salto",
+      "department": null,
+      "province": "Entre Ríos",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10857,
+      "name": "Gualeguaychú-Fray Bentos",
+      "department": null,
+      "province": "Entre Ríos",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10851,
+      "name": "El remanso-La verde",
+      "department": null,
+      "province": "Formosa",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10901,
+      "name": "Pasarela La Fraternidad",
+      "department": null,
+      "province": "Formosa",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10905,
+      "name": "Paso Clorinda-Puerto Falcón",
+      "department": null,
+      "province": "Formosa",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8075,
+      "name": "Colonia Juan Bautista Alberdi",
+      "department": "Patiño",
+      "province": "Formosa",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8183,
+      "name": "Legua A",
+      "department": "Patiño",
+      "province": "Formosa",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8108,
+      "name": "San Martín",
+      "department": "Patiño",
+      "province": "Formosa",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8573,
+      "name": "Campo Largo",
+      "department": "Capital",
+      "province": "Jujuy",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10837,
+      "name": "Paso de Jama",
+      "department": "Susques",
+      "province": "Jujuy",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9002,
+      "name": "Talamuyuna",
+      "department": "Capital",
+      "province": "La Rioja",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8970,
+      "name": "Anguinan",
+      "department": "Chilecito",
+      "province": "La Rioja",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8967,
+      "name": "Malligasta",
+      "department": "Chilecito",
+      "province": "La Rioja",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 8965,
+      "name": "Tilimuqui",
+      "department": "Chilecito",
+      "province": "La Rioja",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9278,
+      "name": "Vichigasta",
+      "department": "Chilecito",
+      "province": "La Rioja",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10833,
+      "name": "Paso Pircas Negras",
+      "department": "Vinchina",
+      "province": "La Rioja",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10924,
+      "name": "Paso Portillo de Piuquenes",
+      "department": null,
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10941,
+      "name": "Paso Vergara",
+      "department": null,
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10828,
+      "name": "Paso Sistema Cristo Redentor",
+      "department": "Luján de Cuyo",
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10830,
+      "name": "Paso Pehuenche",
+      "department": "Malargüe",
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10829,
+      "name": "Paso Cajón del Maipo",
+      "department": "San Carlos",
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9512,
+      "name": "El Villeguino o La Jacintilla",
+      "department": "Santa Rosa",
+      "province": "Mendoza",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10840,
+      "name": "Bernardo de Irigoyen-Dionisio Cerqueira",
+      "department": null,
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10859,
+      "name": "Iguazú-Foz de Iguazu",
+      "department": null,
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10903,
+      "name": "Paso Alba Posse-Porto Mauá",
+      "department": null,
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10943,
+      "name": "Posadas-Encarnación",
+      "department": null,
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10948,
+      "name": "San Antonio-San Antonio",
+      "department": null,
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9628,
+      "name": "Apóstoles",
+      "department": "Apóstoles",
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 9767,
+      "name": "Salto Encantado",
+      "department": "Cainguás",
+      "province": "Misiones",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10904,
+      "name": "Paso Carirriñe",
+      "department": null,
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10911,
+      "name": "Paso Hua Hum",
+      "department": null,
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10912,
+      "name": "Paso Icalma",
+      "department": null,
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10918,
+      "name": "Paso Mamuil Malal",
+      "department": null,
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10922,
+      "name": "Paso Pichachén",
+      "department": null,
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10923,
+      "name": "Paso Pino Hachado",
+      "department": null,
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10936,
+      "name": "Paso San Antonio Samoré",
+      "department": null,
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10030,
+      "name": "Villa Vaga Maipú",
+      "department": "Lacar",
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10827,
+      "name": "Paso Copahue",
+      "department": "Ñorquin",
+      "province": "Neuquén",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10921,
+      "name": "Paso Perez Rosales",
+      "department": null,
+      "province": "Río Negro",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10931,
+      "name": "Paso Río Manso",
+      "department": null,
+      "province": "Río Negro",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10942,
+      "name": "Paso Vuriloche",
+      "department": null,
+      "province": "Río Negro",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 43,
+      "name": "Cervantes",
+      "department": "General Roca",
+      "province": "Río Negro",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 46,
+      "name": "Villa Alberdi",
+      "department": "General Roca",
+      "province": "Río Negro",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10909,
+      "name": "Paso el Condado-La Mamora",
+      "department": null,
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10939,
+      "name": "Paso Socompa",
+      "department": null,
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10945,
+      "name": "Puerto Chalanas",
+      "department": null,
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10947,
+      "name": "Salvador Mazza-Yacuiba",
+      "department": null,
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1204,
+      "name": "Campo Redondo",
+      "department": "Anta",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10836,
+      "name": "Paso Sico",
+      "department": "Los Andes",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 616,
+      "name": "Campo Alegre",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 600,
+      "name": "La Junta",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 601,
+      "name": "La Palmita",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 723,
+      "name": "La Providencia",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10975,
+      "name": "Misión La Paz-Pozo Hondo",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10902,
+      "name": "Pascua Lama",
+      "department": null,
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10919,
+      "name": "Paso Miranda",
+      "department": null,
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1470,
+      "name": "Balde San Antonio",
+      "department": "25 de Mayo",
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1481,
+      "name": "Balde San Antonio",
+      "department": "Caucete",
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1446,
+      "name": "Los Médanos",
+      "department": "Caucete",
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1428,
+      "name": "Villa Paula Albarracin de Sarmiento",
+      "department": "Chimbas",
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10831,
+      "name": "Paso Agua Negra",
+      "department": "Iglesia",
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1288,
+      "name": "La Ciénaga",
+      "department": "Jachal",
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1329,
+      "name": "Mogna",
+      "department": "Jachal",
+      "province": "San Juan",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1606,
+      "name": "San Celestino",
+      "department": "Ayacucho",
+      "province": "San Luis",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1710,
+      "name": "El Chorrillo",
+      "department": "Capital",
+      "province": "San Luis",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1614,
+      "name": "Las Chacras",
+      "department": "Libertador General San Martín",
+      "province": "San Luis",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10908,
+      "name": "Paso Dorotea",
+      "department": null,
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10913,
+      "name": "Paso Ingeniero Pallavicini-Ibañez",
+      "department": null,
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10914,
+      "name": "Paso Integración Austral",
+      "department": null,
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10915,
+      "name": "Paso Lago San Martín-Lago O'Higgins",
+      "department": null,
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10917,
+      "name": "Paso Laurita-Casas Viejas",
+      "department": null,
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10927,
+      "name": "Paso Río Don Guillermo",
+      "department": null,
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10930,
+      "name": "Paso Río Jeinimeni",
+      "department": null,
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10932,
+      "name": "Paso Río Mayer Ribera Norte",
+      "department": null,
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10933,
+      "name": "Paso Río Mosco",
+      "department": null,
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10935,
+      "name": "Paso Rodolfo Roballos",
+      "department": null,
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1839,
+      "name": "El Calafate",
+      "department": "Lago Argentino",
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1788,
+      "name": "El Portezuelo",
+      "department": "Lago Buenos Aires",
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 1790,
+      "name": "Los Antiguos",
+      "department": "Lago Buenos Aires",
+      "province": "Santa Cruz",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2139,
+      "name": "Pueblo Terragni ( Plaza Castellanos )",
+      "department": "Castellanos",
+      "province": "Santa Fe",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2003,
+      "name": "Avellaneda",
+      "department": "General Obligado",
+      "province": "Santa Fe",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2073,
+      "name": "Colonia A. Alsina",
+      "department": "Las Colonias",
+      "province": "Santa Fe",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2160,
+      "name": "Colonia Belgrano",
+      "department": "San Martín",
+      "province": "Santa Fe",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3030,
+      "name": "Villa Hipolita",
+      "department": "Banda",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 3722,
+      "name": "La Vuelta",
+      "department": "Choya",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2668,
+      "name": "Agua Colorada",
+      "department": "Figueroa",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 2755,
+      "name": "Arbol Blanco",
+      "department": "Moreno",
+      "province": "Santiago del Estero",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10925,
+      "name": "Paso Puerto Almanza",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10926,
+      "name": "Paso Río Bella Vista",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10937,
+      "name": "Paso San Sebastián",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10835,
+      "name": "Parque Nacional Campo de los Alisios",
+      "department": "Chicligasta",
+      "province": "Tucumán",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10294,
+      "name": "Villa Clodomiro Hileret",
+      "department": "Río Chico",
+      "province": "Tucumán",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    },
+    {
+      "id": 10047,
+      "name": "El Mollar",
+      "department": "Tafí del Valle",
+      "province": "Tucumán",
+      "georef_exact_match": null,
+      "georef_classification": "exact_id_absent",
+      "direct_probe": null
+    }
+  ]
+}

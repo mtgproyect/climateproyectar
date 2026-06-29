@@ -1,0 +1,1759 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-29T19:40:04.226401+00:00",
+  "token_page": "https://ws2.smn.gob.ar/pronostico",
+  "forecast_endpoint": "https://ws1.smn.gob.ar/v1/forecast/location/{location_id}",
+  "weather_endpoint": "https://ws1.smn.gob.ar/v1/weather/location/{location_id}",
+  "locations": {
+    "4411": {
+      "id": 4411,
+      "name": "Villa Bordeu",
+      "department": "Bahía Blanca",
+      "province": "Buenos Aires",
+      "tested_at": "2026-06-29T19:39:05.278302+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 4411,
+          "name": "Villa  Bordeu",
+          "department": "Bahía Blanca",
+          "province": "Buenos Aires",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -62.3447,
+            "lat": -38.6994
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 11.4,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 4411,
+          "name": "Villa  Bordeu",
+          "department": "Bahía Blanca",
+          "province": "Buenos Aires",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -62.3447,
+            "lat": -38.6994
+          },
+          "distance": 15.89
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87750
+          }
+        ]
+      }
+    },
+    "10587": {
+      "id": 10587,
+      "name": "Carlos Tomás Surigues",
+      "department": "Berazategui",
+      "province": "Buenos Aires",
+      "tested_at": "2026-06-29T19:39:07.734846+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10587,
+          "name": "Carlos Tomás Sourigues",
+          "department": "Berazategui",
+          "province": "Buenos Aires",
+          "type": "Localidad",
+          "coord": {
+            "lon": -58.2121,
+            "lat": -34.8027
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 15.6,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 10587,
+          "name": "Carlos Tomás Sourigues",
+          "department": "Berazategui",
+          "province": "Buenos Aires",
+          "type": "Localidad",
+          "coord": {
+            "lon": -58.2121,
+            "lat": -34.8027
+          },
+          "distance": 33.07
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87582
+          }
+        ]
+      }
+    },
+    "151": {
+      "id": 151,
+      "name": "Sin Nombre",
+      "department": "Bariloche",
+      "province": "Río Negro",
+      "tested_at": "2026-06-29T19:39:10.207095+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 151,
+          "name": "Sin Nombre",
+          "department": "Bariloche",
+          "province": "Río Negro",
+          "type": "Villa",
+          "coord": {
+            "lon": -71.5768,
+            "lat": -41.0432
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 7.9,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 151,
+          "name": "Sin Nombre",
+          "department": "Bariloche",
+          "province": "Río Negro",
+          "type": "Villa",
+          "coord": {
+            "lon": -71.5768,
+            "lat": -41.0432
+          },
+          "distance": 36.54
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87765
+          }
+        ]
+      }
+    },
+    "1870": {
+      "id": 1870,
+      "name": "Sin Nombre",
+      "department": "Güer Aike",
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:39:12.681384+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1870,
+          "name": "Sin Nombre",
+          "department": "Güer Aike",
+          "province": "Santa Cruz",
+          "type": "Caserío",
+          "coord": {
+            "lon": -69.2456,
+            "lat": -51.6285
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 8.8,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 1870,
+          "name": "Sin Nombre",
+          "department": "Güer Aike",
+          "province": "Santa Cruz",
+          "type": "Caserío",
+          "coord": {
+            "lon": -69.2456,
+            "lat": -51.6285
+          },
+          "distance": 4.71
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87925
+          }
+        ]
+      }
+    },
+    "2072": {
+      "id": 2072,
+      "name": "Sin Nombre",
+      "department": "Castellanos",
+      "province": "Santa Fe",
+      "tested_at": "2026-06-29T19:39:15.068854+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 2072,
+          "name": "Sin Nombre",
+          "department": "Castellanos",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -61.2563,
+            "lat": -30.7728
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T15:00:00-03:00",
+        "temperature": 16.4,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 2072,
+          "name": "Sin Nombre",
+          "department": "Castellanos",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -61.2563,
+            "lat": -30.7728
+          },
+          "distance": 33.36
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87356
+          }
+        ]
+      }
+    },
+    "2334": {
+      "id": 2334,
+      "name": "Sin Nombre",
+      "department": "General López",
+      "province": "Santa Fe",
+      "tested_at": "2026-06-29T19:39:17.556699+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 2334,
+          "name": "Sin Nombre",
+          "department": "General López",
+          "province": "Santa Fe",
+          "type": "Caserío",
+          "coord": {
+            "lon": -61.6096,
+            "lat": -33.9971
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 14.6,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 2334,
+          "name": "Sin Nombre",
+          "department": "General López",
+          "province": "Santa Fe",
+          "type": "Caserío",
+          "coord": {
+            "lon": -61.6096,
+            "lat": -33.9971
+          },
+          "distance": 47.74
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87468
+          }
+        ]
+      }
+    },
+    "4813": {
+      "id": 4813,
+      "name": "Sin Nombre",
+      "department": "General Rodriguez",
+      "province": "Buenos Aires",
+      "tested_at": "2026-06-29T19:39:19.990450+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 4813,
+          "name": "Sin Nombre",
+          "department": "General Rodriguez",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.8938,
+            "lat": -34.5869
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 14.2,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 4813,
+          "name": "Sin Nombre",
+          "department": "General Rodriguez",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.8938,
+            "lat": -34.5869
+          },
+          "distance": 10.35
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87572
+          }
+        ]
+      }
+    },
+    "4815": {
+      "id": 4815,
+      "name": "Sin Nombre",
+      "department": "Marcos Paz",
+      "province": "Buenos Aires",
+      "tested_at": "2026-06-29T19:39:22.411322+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 4815,
+          "name": "Sin Nombre",
+          "department": "Marcos Paz",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.8598,
+            "lat": -34.755
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 14.7,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 4815,
+          "name": "Sin Nombre",
+          "department": "Marcos Paz",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.8598,
+            "lat": -34.755
+          },
+          "distance": 13.11
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87573
+          }
+        ]
+      }
+    },
+    "4817": {
+      "id": 4817,
+      "name": "Sin Nombre",
+      "department": "Escobar",
+      "province": "Buenos Aires",
+      "tested_at": "2026-06-29T19:39:24.876127+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 4817,
+          "name": "Sin Nombre",
+          "department": "Escobar",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.7709,
+            "lat": -34.3282
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 15.1,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 4817,
+          "name": "Sin Nombre",
+          "department": "Escobar",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.7709,
+            "lat": -34.3282
+          },
+          "distance": 22.18
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87553
+          }
+        ]
+      }
+    },
+    "4822": {
+      "id": 4822,
+      "name": "Sin Nombre",
+      "department": "Pilar",
+      "province": "Buenos Aires",
+      "tested_at": "2026-06-29T19:39:27.341134+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 4822,
+          "name": "Sin Nombre",
+          "department": "Pilar",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.7896,
+            "lat": -34.4646
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 14.2,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 4822,
+          "name": "Sin Nombre",
+          "department": "Pilar",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.7896,
+            "lat": -34.4646
+          },
+          "distance": 10.35
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87572
+          }
+        ]
+      }
+    },
+    "4826": {
+      "id": 4826,
+      "name": "Sin Nombre",
+      "department": "Cañuelas",
+      "province": "Buenos Aires",
+      "tested_at": "2026-06-29T19:39:29.778500+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 4826,
+          "name": "Sin Nombre",
+          "department": "Cañuelas",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.6933,
+            "lat": -34.9961
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 14.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 4826,
+          "name": "Sin Nombre",
+          "department": "Cañuelas",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.6933,
+            "lat": -34.9961
+          },
+          "distance": 24.05
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87576
+          }
+        ]
+      }
+    },
+    "4827": {
+      "id": 4827,
+      "name": "Sin Nombre",
+      "department": "Tigre",
+      "province": "Buenos Aires",
+      "tested_at": "2026-06-29T19:39:32.248090+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 4827,
+          "name": "Sin Nombre",
+          "department": "Tigre",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.6431,
+            "lat": -34.3967
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 15.1,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 4827,
+          "name": "Sin Nombre",
+          "department": "Tigre",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.6431,
+            "lat": -34.3967
+          },
+          "distance": 8.42
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87553
+          }
+        ]
+      }
+    },
+    "5560": {
+      "id": 5560,
+      "name": "Sin Nombre",
+      "department": "Bermejo",
+      "province": "Chaco",
+      "tested_at": "2026-06-29T19:39:34.794297+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 5560,
+          "name": "Sin Nombre",
+          "department": "Bermejo",
+          "province": "Chaco",
+          "type": "Paraje",
+          "coord": {
+            "lon": -58.6704,
+            "lat": -26.7075
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 17.8,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 5560,
+          "name": "Sin Nombre",
+          "department": "Bermejo",
+          "province": "Chaco",
+          "type": "Paraje",
+          "coord": {
+            "lon": -58.6704,
+            "lat": -26.7075
+          },
+          "distance": 89.19
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87155
+          }
+        ]
+      }
+    },
+    "5976": {
+      "id": 5976,
+      "name": "Sin Nombre",
+      "department": "Islas Malvinas",
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "tested_at": "2026-06-29T19:39:37.307071+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 5976,
+          "name": "Sin Nombre",
+          "department": "Islas Malvinas",
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": "Caserío",
+          "coord": {
+            "lon": -58.847,
+            "lat": -52.2067
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 5.6,
+        "weather": {
+          "description": "Cubierto",
+          "id": 43
+        },
+        "location": {
+          "id": 5976,
+          "name": "Sin Nombre",
+          "department": "Islas Malvinas",
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": "Caserío",
+          "coord": {
+            "lon": -58.847,
+            "lat": -52.2067
+          },
+          "distance": 51.01
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 88889
+          }
+        ]
+      }
+    },
+    "6922": {
+      "id": 6922,
+      "name": "Sin Nombre",
+      "department": "Calamuchita",
+      "province": "Córdoba",
+      "tested_at": "2026-06-29T19:39:39.738417+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 6922,
+          "name": "Sin Nombre",
+          "department": "Calamuchita",
+          "province": "Córdoba",
+          "type": "Caserío",
+          "coord": {
+            "lon": -64.4439,
+            "lat": -32.2341
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 16.4,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 6922,
+          "name": "Sin Nombre",
+          "department": "Calamuchita",
+          "province": "Córdoba",
+          "type": "Caserío",
+          "coord": {
+            "lon": -64.4439,
+            "lat": -32.2341
+          },
+          "distance": 71.15
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87444
+          }
+        ]
+      }
+    },
+    "6937": {
+      "id": 6937,
+      "name": "Sin Nombre",
+      "department": "San Javier",
+      "province": "Córdoba",
+      "tested_at": "2026-06-29T19:39:42.160798+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 6937,
+          "name": "Sin Nombre",
+          "department": "San Javier",
+          "province": "Córdoba",
+          "type": "Paraje",
+          "coord": {
+            "lon": -65.0315,
+            "lat": -32.2204
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 16.4,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 6937,
+          "name": "Sin Nombre",
+          "department": "San Javier",
+          "province": "Córdoba",
+          "type": "Paraje",
+          "coord": {
+            "lon": -65.0315,
+            "lat": -32.2204
+          },
+          "distance": 22.47
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87444
+          }
+        ]
+      }
+    },
+    "7391": {
+      "id": 7391,
+      "name": "Sin Nombre",
+      "department": "Lavalle",
+      "province": "Corrientes",
+      "tested_at": "2026-06-29T19:39:44.583811+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 7391,
+          "name": "Sin Nombre",
+          "department": "Lavalle",
+          "province": "Corrientes",
+          "type": "Paraje",
+          "coord": {
+            "lon": -58.8111,
+            "lat": -29.2073
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T15:00:00-03:00",
+        "temperature": 16.7,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 7391,
+          "name": "Sin Nombre",
+          "department": "Lavalle",
+          "province": "Corrientes",
+          "type": "Paraje",
+          "coord": {
+            "lon": -58.8111,
+            "lat": -29.2073
+          },
+          "distance": 70.57
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87281
+          }
+        ]
+      }
+    },
+    "7492": {
+      "id": 7492,
+      "name": "Sin Nombre",
+      "department": "Monte Caseros",
+      "province": "Corrientes",
+      "tested_at": "2026-06-29T19:39:46.964423+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 7492,
+          "name": "Sin Nombre",
+          "department": "Monte Caseros",
+          "province": "Corrientes",
+          "type": "Paraje",
+          "coord": {
+            "lon": -57.55,
+            "lat": -30.0182
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 12.8,
+        "weather": {
+          "description": "Ligeramente nublado con humo",
+          "id": 13
+        },
+        "location": {
+          "id": 7492,
+          "name": "Sin Nombre",
+          "department": "Monte Caseros",
+          "province": "Corrientes",
+          "type": "Paraje",
+          "coord": {
+            "lon": -57.55,
+            "lat": -30.0182
+          },
+          "distance": 28.32
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87393
+          }
+        ]
+      }
+    },
+    "7759": {
+      "id": 7759,
+      "name": "Sin Nombre",
+      "department": "Villaguay",
+      "province": "Entre Ríos",
+      "tested_at": "2026-06-29T19:39:49.399155+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 7759,
+          "name": "Sin Nombre",
+          "department": "Villaguay",
+          "province": "Entre Ríos",
+          "type": "Colonia",
+          "coord": {
+            "lon": -58.8886,
+            "lat": -32.0265
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 15.7,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 7759,
+          "name": "Sin Nombre",
+          "department": "Villaguay",
+          "province": "Entre Ríos",
+          "type": "Colonia",
+          "coord": {
+            "lon": -58.8886,
+            "lat": -32.0265
+          },
+          "distance": 153.18
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87374
+          }
+        ]
+      }
+    },
+    "7873": {
+      "id": 7873,
+      "name": "Sin Nombre",
+      "department": "Concordia",
+      "province": "Entre Ríos",
+      "tested_at": "2026-06-29T19:39:51.914188+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 7873,
+          "name": "Sin Nombre",
+          "department": "Concordia",
+          "province": "Entre Ríos",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -58.0875,
+            "lat": -31.4081
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 14.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 7873,
+          "name": "Sin Nombre",
+          "department": "Concordia",
+          "province": "Entre Ríos",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -58.0875,
+            "lat": -31.4081
+          },
+          "distance": 14.31
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87395
+          }
+        ]
+      }
+    },
+    "8443": {
+      "id": 8443,
+      "name": "Sin Nombre",
+      "department": "Humahuaca",
+      "province": "Jujuy",
+      "tested_at": "2026-06-29T19:39:54.344017+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 8443,
+          "name": "Sin Nombre",
+          "department": "Humahuaca",
+          "province": "Jujuy",
+          "type": "Paraje",
+          "coord": {
+            "lon": -65.6787,
+            "lat": -23.1402
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 16.1,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "location": {
+          "id": 8443,
+          "name": "Sin Nombre",
+          "department": "Humahuaca",
+          "province": "Jujuy",
+          "type": "Paraje",
+          "coord": {
+            "lon": -65.6787,
+            "lat": -23.1402
+          },
+          "distance": 115.1
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87007
+          }
+        ]
+      }
+    },
+    "8486": {
+      "id": 8486,
+      "name": "Sin Nombre",
+      "department": "Tilcara",
+      "province": "Jujuy",
+      "tested_at": "2026-06-29T19:39:56.826557+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 8486,
+          "name": "Sin Nombre",
+          "department": "Tilcara",
+          "province": "Jujuy",
+          "type": "Paraje",
+          "coord": {
+            "lon": -65.3437,
+            "lat": -23.4469
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 12.0,
+        "weather": {
+          "description": "Cubierto con llovizna",
+          "id": 71
+        },
+        "location": {
+          "id": 8486,
+          "name": "Sin Nombre",
+          "department": "Tilcara",
+          "province": "Jujuy",
+          "type": "Paraje",
+          "coord": {
+            "lon": -65.3437,
+            "lat": -23.4469
+          },
+          "distance": 106.82
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87046
+          }
+        ]
+      }
+    },
+    "9303": {
+      "id": 9303,
+      "name": "Sin Nombre",
+      "department": "Malargüe",
+      "province": "Mendoza",
+      "tested_at": "2026-06-29T19:39:59.267248+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 9303,
+          "name": "Sin Nombre",
+          "department": "Malargüe",
+          "province": "Mendoza",
+          "type": "Paraje",
+          "coord": {
+            "lon": -70.0438,
+            "lat": -35.8303
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 9.3,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 9303,
+          "name": "Sin Nombre",
+          "department": "Malargüe",
+          "province": "Mendoza",
+          "type": "Paraje",
+          "coord": {
+            "lon": -70.0438,
+            "lat": -35.8303
+          },
+          "distance": 56.9
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87506
+          }
+        ]
+      }
+    },
+    "9567": {
+      "id": 9567,
+      "name": "Sin Nombre",
+      "department": "Maipú",
+      "province": "Mendoza",
+      "tested_at": "2026-06-29T19:40:01.702057+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 9567,
+          "name": "Sin Nombre",
+          "department": "Maipú",
+          "province": "Mendoza",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -68.7989,
+            "lat": -33.0127
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 11.9,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "location": {
+          "id": 9567,
+          "name": "Sin Nombre",
+          "department": "Maipú",
+          "province": "Mendoza",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -68.7989,
+            "lat": -33.0127
+          },
+          "distance": 14.79
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87420
+          }
+        ]
+      }
+    },
+    "9648": {
+      "id": 9648,
+      "name": "Sin Nombre",
+      "department": "Iguazú",
+      "province": "Misiones",
+      "tested_at": "2026-06-29T19:40:04.224299+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 9648,
+          "name": "Sin Nombre",
+          "department": "Iguazú",
+          "province": "Misiones",
+          "type": "Paraje",
+          "coord": {
+            "lon": -54.6484,
+            "lat": -26.0564
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 17.0,
+        "weather": {
+          "description": "Cubierto",
+          "id": 43
+        },
+        "location": {
+          "id": 9648,
+          "name": "Sin Nombre",
+          "department": "Iguazú",
+          "province": "Misiones",
+          "type": "Paraje",
+          "coord": {
+            "lon": -54.6484,
+            "lat": -26.0564
+          },
+          "distance": 39.93
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87097
+          }
+        ]
+      }
+    }
+  }
+}
