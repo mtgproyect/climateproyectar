@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T14:43:32.807337+00:00",
-  "count": 256,
+  "generated_at": "2026-06-29T15:00:32.865389+00:00",
+  "count": 259,
   "locations": [
     {
       "id": 4411,
@@ -2549,6 +2549,36 @@
       "department": "Moreno",
       "province": "Santiago del Estero",
       "query": "Arbol Blanco",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10925,
+      "name": "Paso Puerto Almanza",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "query": "Paso Puerto Almanza",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10926,
+      "name": "Paso Río Bella Vista",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "query": "Paso Río Bella Vista",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10937,
+      "name": "Paso San Sebastián",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "query": "Paso San Sebastián",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
