@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-29T20:34:17.455343+00:00",
+  "catalog_total": 10601,
+  "operational_coverage": {
+    "with_forecast_reference": 10601,
+    "with_station": 10601
+  },
+  "unique_query_keys": {
+    "forecast_references": 475,
+    "stations": 124,
+    "total_per_full_refresh": 599
+  },
+  "recommended_architecture": {
+    "forecast_shards": 2,
+    "station_shards": 1,
+    "forecast_queries_by_shard": [
+      238,
+      237
+    ],
+    "station_queries_by_shard": [
+      124
+    ],
+    "minimum_spacing_seconds": 1.0,
+    "minimum_request_spacing_time_seconds": 599,
+    "strategy": "Consultar una vez por forecast_reference_id y una vez por station_number, usando una localidad representante para verificar cada estación."
+  },
+  "largest_groups": {
+    "forecast": [
+      {
+        "forecast_reference_id": 10118,
+        "locality_count": 476
+      },
+      {
+        "forecast_reference_id": 2474,
+        "locality_count": 420
+      },
+      {
+        "forecast_reference_id": 2954,
+        "locality_count": 322
+      },
+      {
+        "forecast_reference_id": 1018,
+        "locality_count": 270
+      },
+      {
+        "forecast_reference_id": 3574,
+        "locality_count": 269
+      },
+      {
+        "forecast_reference_id": 5149,
+        "locality_count": 239
+      },
+      {
+        "forecast_reference_id": 794,
+        "locality_count": 213
+      },
+      {
+        "forecast_reference_id": 5717,
+        "locality_count": 185
+      },
+      {
+        "forecast_reference_id": 10955,
+        "locality_count": 184
+      },
+      {
+        "forecast_reference_id": 7925,
+        "locality_count": 183
+      },
+      {
+        "forecast_reference_id": 8368,
+        "locality_count": 181
+      },
+      {
+        "forecast_reference_id": 2819,
+        "locality_count": 174
+      },
+      {
+        "forecast_reference_id": 291,
+        "locality_count": 145
+      },
+      {
+        "forecast_reference_id": 7641,
+        "locality_count": 145
+      },
+      {
+        "forecast_reference_id": 454,
+        "locality_count": 140
+      },
+      {
+        "forecast_reference_id": 8618,
+        "locality_count": 140
+      },
+      {
+        "forecast_reference_id": 2006,
+        "locality_count": 136
+      },
+      {
+        "forecast_reference_id": 4712,
+        "locality_count": 133
+      },
+      {
+        "forecast_reference_id": 8969,
+        "locality_count": 132
+      },
+      {
+        "forecast_reference_id": 896,
+        "locality_count": 129
+      }
+    ],
+    "stations": [
+      {
+        "station_number": 87129,
+        "station_name": "SANTIAGO DEL ESTERO AERO",
+        "locality_count": 682
+      },
+      {
+        "station_number": 87121,
+        "station_name": "TUCUMAN AERO",
+        "locality_count": 617
+      },
+      {
+        "station_number": 87065,
+        "station_name": "RIVADAVIA",
+        "locality_count": 432
+      },
+      {
+        "station_number": 87050,
+        "station_name": "METAN",
+        "locality_count": 373
+      },
+      {
+        "station_number": 87047,
+        "station_name": "SALTA AERO",
+        "locality_count": 300
+      },
+      {
+        "station_number": 87148,
+        "station_name": "PRESIDENCIA ROQUE SAENZ PEÑA AERO",
+        "locality_count": 288
+      },
+      {
+        "station_number": 87007,
+        "station_name": "LA QUIACA OBSERVATORIO",
+        "locality_count": 286
+      },
+      {
+        "station_number": 87244,
+        "station_name": "VILLA DE MARIA DEL RIO SECO",
+        "locality_count": 280
+      },
+      {
+        "station_number": 87078,
+        "station_name": "LAS LOMITAS",
+        "locality_count": 259
+      },
+      {
+        "station_number": 87222,
+        "station_name": "CATAMARCA AERO",
+        "locality_count": 250
+      },
+      {
+        "station_number": 87046,
+        "station_name": "JUJUY AERO",
+        "locality_count": 212
+      },
+      {
+        "station_number": 87328,
+        "station_name": "VILLA DOLORES AERO",
+        "locality_count": 203
+      },
+      {
+        "station_number": 87344,
+        "station_name": "CORDOBA AERO",
+        "locality_count": 201
+      },
+      {
+        "station_number": 87270,
+        "station_name": "RECONQUISTA AERO",
+        "locality_count": 198
+      },
+      {
+        "station_number": 87127,
+        "station_name": "TERMAS DE RIO HONDO AERO",
+        "locality_count": 177
+      },
+      {
+        "station_number": 87257,
+        "station_name": "CERES AERO",
+        "locality_count": 169
+      },
+      {
+        "station_number": 87211,
+        "station_name": "TINOGASTA",
+        "locality_count": 160
+      },
+      {
+        "station_number": 87374,
+        "station_name": "PARANA AERO",
+        "locality_count": 147
+      },
+      {
+        "station_number": 87349,
+        "station_name": "PILAR OBSERVATORIO",
+        "locality_count": 145
+      },
+      {
+        "station_number": 87548,
+        "station_name": "JUNIN AERO",
+        "locality_count": 140
+      }
+    ]
+  },
+  "validation": {
+    "duplicate_locality_ids": false,
+    "missing_forecast_references": 0,
+    "missing_stations": 0,
+    "forecast_grouped_localities": 10601,
+    "station_grouped_localities": 10601,
+    "errors": 0
+  }
+}
