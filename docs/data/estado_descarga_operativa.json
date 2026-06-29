@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T21:58:09.179359+00:00",
+  "generated_at": "2026-06-29T22:03:11.176685+00:00",
   "totals": {
     "query_keys": 599,
-    "success": 125,
-    "errors": 0,
-    "pending": 474
+    "success": 221,
+    "errors": 4,
+    "pending": 378
   },
   "partitions": [
     {
       "mode": "forecast",
       "shard": 1,
       "total": 238,
-      "success": 125,
-      "errors": 0,
-      "pending": 113,
+      "success": 221,
+      "errors": 4,
+      "pending": 17,
       "cache_file": "data/cache/operativo/pronosticos_shard_1.json"
     },
     {
@@ -42,8 +42,8 @@
     "configured_batch_size": 100,
     "attempted_queries": 100,
     "completed_queries": 100,
-    "successful_queries": 100,
-    "request_errors": 0,
+    "successful_queries": 96,
+    "request_errors": 4,
     "stopped_reason": null
   }
 }
