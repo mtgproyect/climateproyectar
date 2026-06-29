@@ -2,7 +2,7 @@
   "schema_version": 1,
   "source": "SMN georef location search",
   "endpoint": "https://ws1.smn.gob.ar/v1/georef/location/search",
-  "generated_at": "2026-06-29T15:21:52.726689+00:00",
+  "generated_at": "2026-06-29T15:24:19.834017+00:00",
   "count": 10135,
   "locations": {
     "1": {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T15:21:53.154419+00:00",
+  "generated_at": "2026-06-29T15:24:20.297383+00:00",
   "endpoint": "https://ws1.smn.gob.ar/v1/georef/location/search",
   "catalog_total": 10601,
   "resolved_with_station_and_forecast": 10340,
@@ -11,9 +11,9 @@
   "successful_searches": 7365,
   "request_errors": 0,
   "last_batch": {
-    "configured_size": 500,
-    "attempted_queries": 240,
-    "completed_queries": 240,
+    "configured_size": 300,
+    "attempted_queries": 0,
+    "completed_queries": 0,
     "stopped_reason": null
   }
 }
