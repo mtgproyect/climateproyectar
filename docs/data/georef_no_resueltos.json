@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T05:15:28.046277+00:00",
-  "count": 62,
+  "generated_at": "2026-06-29T05:32:27.171408+00:00",
+  "count": 99,
   "locations": [
     {
       "id": 4411,
@@ -259,6 +259,206 @@
       "department": "Chascomus",
       "province": "Buenos Aires",
       "query": "Manuel J. Cobo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4152,
+      "name": "General Juan Madariaga",
+      "department": "General Juan Madariaga",
+      "province": "Buenos Aires",
+      "query": "General Juan Madariaga",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4102,
+      "name": "Coraceros",
+      "department": "Hipólito Yrigoyen",
+      "province": "Buenos Aires",
+      "query": "Coraceros",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1160,
+      "name": "San Pedro",
+      "department": "Rosario de La Frontera",
+      "province": "Salta",
+      "query": "San Pedro",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2990,
+      "name": "San Pedro",
+      "department": "Robles",
+      "province": "Santiago del Estero",
+      "query": "San Pedro",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3632,
+      "name": "San Pedro",
+      "department": "Ojo de Agua",
+      "province": "Santiago del Estero",
+      "query": "San Pedro",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3858,
+      "name": "San Pedro",
+      "department": "Lincoln",
+      "province": "Buenos Aires",
+      "query": "San Pedro",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6588,
+      "name": "San Pedro",
+      "department": "San Alberto",
+      "province": "Córdoba",
+      "query": "San Pedro",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9489,
+      "name": "San Pedro",
+      "department": "Santa Rosa",
+      "province": "Mendoza",
+      "query": "San Pedro",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9690,
+      "name": "San Pedro",
+      "department": "San Pedro",
+      "province": "Misiones",
+      "query": "San Pedro",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1869,
+      "name": "Cuartel",
+      "department": "Güer Aike",
+      "province": "Santa Cruz",
+      "query": "Cuartel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3823,
+      "name": "Cuartel",
+      "department": "Magdalena",
+      "province": "Buenos Aires",
+      "query": "Cuartel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4194,
+      "name": "Cuartel",
+      "department": "Olavarría",
+      "province": "Buenos Aires",
+      "query": "Cuartel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7435,
+      "name": "Cuartel",
+      "department": "Paso de Los Libres",
+      "province": "Corrientes",
+      "query": "Cuartel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7481,
+      "name": "Cuartel",
+      "department": "Monte Caseros",
+      "province": "Corrientes",
+      "query": "Cuartel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7517,
+      "name": "Cuartel",
+      "department": "La Paz",
+      "province": "Entre Ríos",
+      "query": "Cuartel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7815,
+      "name": "Cuartel",
+      "department": "Uruguay",
+      "province": "Entre Ríos",
+      "query": "Cuartel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9524,
+      "name": "Cuartel",
+      "department": "Tunuyan",
+      "province": "Mendoza",
+      "query": "Cuartel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9925,
+      "name": "Cuartel",
+      "department": "Picunches",
+      "province": "Neuquén",
+      "query": "Cuartel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9943,
+      "name": "Cuartel",
+      "department": "Zapala",
+      "province": "Neuquén",
+      "query": "Cuartel",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10620,
+      "name": "Ingeniero Alfredo Sourdeaux",
+      "department": "Malvinas Argentinas",
+      "province": "Buenos Aires",
+      "query": "Ingeniero Alfredo Sourdeaux",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
@@ -534,6 +734,156 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 215,
+      "name": "San José",
+      "department": "Santa Victoria",
+      "province": "Salta",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2579,
+      "name": "San José",
+      "department": "Pellegrini",
+      "province": "Santiago del Estero",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3266,
+      "name": "San José",
+      "department": "Moreno",
+      "province": "Santiago del Estero",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3391,
+      "name": "San José",
+      "department": "Silipica",
+      "province": "Santiago del Estero",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3482,
+      "name": "San José",
+      "department": "Salavina",
+      "province": "Santiago del Estero",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4933,
+      "name": "San José",
+      "department": "Santa María",
+      "province": "Catamarca",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 4967,
+      "name": "San José",
+      "department": "Tinogasta",
+      "province": "Catamarca",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5107,
+      "name": "San José",
+      "department": "Pomán",
+      "province": "Catamarca",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6484,
+      "name": "San José",
+      "department": "Río Segundo",
+      "province": "Córdoba",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6587,
+      "name": "San José",
+      "department": "San Javier",
+      "province": "Córdoba",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6673,
+      "name": "San José",
+      "department": "Minas",
+      "province": "Córdoba",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6718,
+      "name": "San José",
+      "department": "Punilla",
+      "province": "Córdoba",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6766,
+      "name": "San José",
+      "department": "Punilla",
+      "province": "Córdoba",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8838,
+      "name": "San José",
+      "department": "Quemú Quemú",
+      "province": "La Pampa",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10731,
+      "name": "San José",
+      "department": "Tupungato",
+      "province": "Mendoza",
+      "query": "San José",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 590,
       "name": "San Miguel",
       "department": "Rivadavia",
@@ -619,6 +969,26 @@
       "department": "Utracán",
       "province": "La Pampa",
       "query": "Santa María",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1382,
+      "name": "Santo Domingo",
+      "department": "Valle Fértil",
+      "province": "San Juan",
+      "query": "Santo Domingo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 5978,
+      "name": "Santo Domingo",
+      "department": "Sobremonte",
+      "province": "Córdoba",
+      "query": "Santo Domingo",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
