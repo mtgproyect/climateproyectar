@@ -1,0 +1,66 @@
+name: Incorporar pendientes directos
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: incorporar-pendientes-directos
+  cancel-in-progress: false
+
+jobs:
+  incorporar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Convertir diagnósticos en fuente estable
+        run: python scripts/incorporar_pendientes_directos.py --require-complete
+
+      - name: Descargar catálogo actual de producción
+        run: python scripts/descargar_produccion.py
+
+      - name: Reconstruir catálogo maestro
+        run: python scripts/construir_catalogo_maestro.py --require-production
+
+      - name: Validar catálogo maestro
+        run: python scripts/validar_catalogo_maestro.py
+
+      - name: Validar cobertura operativa total
+        run: python scripts/validar_cobertura_operativa.py
+
+      - name: Ejecutar pruebas
+        run: python -m unittest discover -s tests -v
+
+      - name: Guardar incorporación
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            data/fuentes/localidades_directas.json \
+            data/fuentes/localidades_produccion.json \
+            data/fuentes/localidades_produccion.meta.json \
+            docs/data/informe_incorporacion_directa.json \
+            docs/data/catalogo_maestro.json \
+            docs/data/informe_validacion.json \
+            docs/data/conflictos.json
+          if git diff --cached --quiet; then
+            echo "No hay cambios para guardar."
+          else
+            git commit -m "Completar cobertura operativa de localidades"
+            git push
+          fi
