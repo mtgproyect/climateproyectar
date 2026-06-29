@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T15:00:32.865389+00:00",
-  "count": 259,
+  "generated_at": "2026-06-29T15:21:53.120808+00:00",
+  "count": 261,
   "locations": [
     {
       "id": 4411,
@@ -2579,6 +2579,26 @@
       "department": null,
       "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
       "query": "Paso San Sebastián",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10835,
+      "name": "Parque Nacional Campo de los Alisios",
+      "department": "Chicligasta",
+      "province": "Tucumán",
+      "query": "Parque Nacional Campo de los Alisios",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10294,
+      "name": "Villa Clodomiro Hileret",
+      "department": "Río Chico",
+      "province": "Tucumán",
+      "query": "Villa Clodomiro Hileret",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
