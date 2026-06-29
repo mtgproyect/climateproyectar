@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T12:26:43.249156+00:00",
-  "count": 189,
+  "generated_at": "2026-06-29T12:41:04.632402+00:00",
+  "count": 195,
   "locations": [
     {
       "id": 4411,
@@ -1769,6 +1769,66 @@
       "department": "Capital",
       "province": "Jujuy",
       "query": "Campo Largo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10837,
+      "name": "Paso de Jama",
+      "department": "Susques",
+      "province": "Jujuy",
+      "query": "Paso de Jama",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9002,
+      "name": "Talamuyuna",
+      "department": "Capital",
+      "province": "La Rioja",
+      "query": "Talamuyuna",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8970,
+      "name": "Anguinan",
+      "department": "Chilecito",
+      "province": "La Rioja",
+      "query": "Anguinan",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8967,
+      "name": "Malligasta",
+      "department": "Chilecito",
+      "province": "La Rioja",
+      "query": "Malligasta",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8965,
+      "name": "Tilimuqui",
+      "department": "Chilecito",
+      "province": "La Rioja",
+      "query": "Tilimuqui",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 9278,
+      "name": "Vichigasta",
+      "department": "Chilecito",
+      "province": "La Rioja",
+      "query": "Vichigasta",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
