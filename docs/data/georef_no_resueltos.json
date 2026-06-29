@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T13:12:57.929512+00:00",
-  "count": 229,
+  "generated_at": "2026-06-29T13:35:01.002468+00:00",
+  "count": 237,
   "locations": [
     {
       "id": 4411,
@@ -2164,6 +2164,16 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 10836,
+      "name": "Paso Sico",
+      "department": "Los Andes",
+      "province": "Salta",
+      "query": "Paso Sico",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 616,
       "name": "Campo Alegre",
       "department": "Rivadavia",
@@ -2199,6 +2209,76 @@
       "department": "Rivadavia",
       "province": "Salta",
       "query": "La Providencia",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10975,
+      "name": "Misión La Paz-Pozo Hondo",
+      "department": "Rivadavia",
+      "province": "Salta",
+      "query": "Misión La Paz-Pozo Hondo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10902,
+      "name": "Pascua Lama",
+      "department": null,
+      "province": "San Juan",
+      "query": "Pascua Lama",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10919,
+      "name": "Paso Miranda",
+      "department": null,
+      "province": "San Juan",
+      "query": "Paso Miranda",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1470,
+      "name": "Balde San Antonio",
+      "department": "25 de Mayo",
+      "province": "San Juan",
+      "query": "Balde San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1481,
+      "name": "Balde San Antonio",
+      "department": "Caucete",
+      "province": "San Juan",
+      "query": "Balde San Antonio",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1446,
+      "name": "Los Médanos",
+      "department": "Caucete",
+      "province": "San Juan",
+      "query": "Los Médanos",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 1428,
+      "name": "Villa Paula Albarracin de Sarmiento",
+      "department": "Chimbas",
+      "province": "San Juan",
+      "query": "Villa Paula Albarracin de Sarmiento",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
