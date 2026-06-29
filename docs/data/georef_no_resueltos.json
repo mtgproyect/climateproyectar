@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T06:12:03.790536+00:00",
-  "count": 143,
+  "generated_at": "2026-06-29T06:24:59.401205+00:00",
+  "count": 168,
   "locations": [
     {
       "id": 4411,
@@ -1254,6 +1254,226 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 10906,
+      "name": "Paso Coyhaique",
+      "department": null,
+      "province": "Chubut",
+      "query": "Paso Coyhaique",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10910,
+      "name": "Paso Futaleufú",
+      "department": null,
+      "province": "Chubut",
+      "query": "Paso Futaleufú",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10916,
+      "name": "Paso Las Pampas",
+      "department": null,
+      "province": "Chubut",
+      "query": "Paso Las Pampas",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10920,
+      "name": "Paso Pampa Alta",
+      "department": null,
+      "province": "Chubut",
+      "query": "Paso Pampa Alta",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10928,
+      "name": "Paso Río Encuentro",
+      "department": null,
+      "province": "Chubut",
+      "query": "Paso Río Encuentro",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10929,
+      "name": "Paso Río Frías",
+      "department": null,
+      "province": "Chubut",
+      "query": "Paso Río Frías",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10934,
+      "name": "Paso Río Puelo",
+      "department": null,
+      "province": "Chubut",
+      "query": "Paso Río Puelo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10940,
+      "name": "Paso Triana",
+      "department": null,
+      "province": "Chubut",
+      "query": "Paso Triana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10826,
+      "name": "Paso Huemules",
+      "department": "Río Senguer",
+      "province": "Chubut",
+      "query": "Paso Huemules",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7105,
+      "name": "La Martona",
+      "department": "General Roca",
+      "province": "Córdoba",
+      "query": "La Martona",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7079,
+      "name": "Mattaldi",
+      "department": "General Roca",
+      "province": "Córdoba",
+      "query": "Mattaldi",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6094,
+      "name": "Baños Unquillo",
+      "department": "Ischilin",
+      "province": "Córdoba",
+      "query": "Baños Unquillo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3362,
+      "name": "Santa Ana",
+      "department": "Silipica",
+      "province": "Santiago del Estero",
+      "query": "Santa Ana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 3666,
+      "name": "Santa Ana",
+      "department": "Quebrachos",
+      "province": "Santiago del Estero",
+      "query": "Santa Ana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6470,
+      "name": "Santa Ana",
+      "department": "Río Primero",
+      "province": "Córdoba",
+      "query": "Santa Ana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 6717,
+      "name": "Santa Ana",
+      "department": "Punilla",
+      "province": "Córdoba",
+      "query": "Santa Ana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7094,
+      "name": "Santa Ana",
+      "department": "Presidente Roque Sáenz Peña",
+      "province": "Córdoba",
+      "query": "Santa Ana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7243,
+      "name": "Santa Ana",
+      "department": "San Cosme",
+      "province": "Corrientes",
+      "query": "Santa Ana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 7546,
+      "name": "Santa Ana",
+      "department": "Federación",
+      "province": "Entre Ríos",
+      "query": "Santa Ana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8519,
+      "name": "Santa Ana",
+      "department": "Valle Grande",
+      "province": "Jujuy",
+      "query": "Santa Ana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 8689,
+      "name": "Santa Ana",
+      "department": "Rinconada",
+      "province": "Jujuy",
+      "query": "Santa Ana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 10297,
+      "name": "Santa Ana",
+      "department": "Río Chico",
+      "province": "Tucumán",
+      "query": "Santa Ana",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 6009,
       "name": "La Rinconada",
       "department": "Río Seco",
@@ -1424,11 +1644,41 @@
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
     },
     {
+      "id": 1839,
+      "name": "El Calafate",
+      "department": "Lago Argentino",
+      "province": "Santa Cruz",
+      "query": "El Calafate",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
       "id": 1788,
       "name": "El Portezuelo",
       "department": "Lago Buenos Aires",
       "province": "Santa Cruz",
       "query": "El Portezuelo",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2003,
+      "name": "Avellaneda",
+      "department": "General Obligado",
+      "province": "Santa Fe",
+      "query": "Avellaneda",
+      "search_status": "success",
+      "attempts": 1,
+      "reason": "El ID no apareció con todos los campos operativos en la respuesta."
+    },
+    {
+      "id": 2755,
+      "name": "Arbol Blanco",
+      "department": "Moreno",
+      "province": "Santiago del Estero",
+      "query": "Arbol Blanco",
       "search_status": "success",
       "attempts": 1,
       "reason": "El ID no apareció con todos los campos operativos en la respuesta."
