@@ -1,0 +1,1234 @@
+{
+  "schema_version": 1,
+  "endpoint": "https://ws1.smn.gob.ar/v1/georef/location/search",
+  "updated_at": "2026-06-29T04:56:09.383953+00:00",
+  "searches": {
+    "parque nacional campos del tuyu": {
+      "query": "Parque Nacional Campos del Tuyú",
+      "searched_at": "2026-06-29T04:55:40.639753+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        10873
+      ],
+      "resolved_ids": [
+        10873
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          10873,
+          "Parque Nacional Campos del Tuyú",
+          null,
+          "Buenos Aires",
+          87648,
+          4159,
+          -56.8667,
+          -36.35,
+          76.42,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "anderson": {
+      "query": "Anderson",
+      "searched_at": "2026-06-29T04:55:41.817230+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3974
+      ],
+      "resolved_ids": [
+        3974
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3974,
+          "Anderson",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.2608,
+          -35.2796,
+          59.16,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "araujo": {
+      "query": "Araujo",
+      "searched_at": "2026-06-29T04:55:43.018409+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3957
+      ],
+      "resolved_ids": [
+        3957
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3957,
+          "Araujo",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.3263,
+          -35.3052,
+          52.63,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "blas duranona": {
+      "query": "Blas Durañona",
+      "searched_at": "2026-06-29T04:55:44.228650+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3972
+      ],
+      "resolved_ids": [
+        3972
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3972,
+          "Blas Durañona",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.1343,
+          -35.4805,
+          68.02,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "cabana": {
+      "query": "Cabaña",
+      "searched_at": "2026-06-29T04:55:45.451393+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3943
+      ],
+      "resolved_ids": [
+        3943,
+        3946,
+        4346
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          3943,
+          "Cabaña",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.1431,
+          -35.2396,
+          70.71,
+          "NUEVE DE JULIO"
+        ],
+        [
+          4346,
+          "Cabaña El Destino",
+          "Coronel Suarez",
+          "Buenos Aires",
+          87637,
+          4338,
+          -61.9957,
+          -37.4081,
+          10.56,
+          "CORONEL SUAREZ AERO"
+        ],
+        [
+          3946,
+          "Cabaña La Florida",
+          "Chivilcoy",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.043,
+          -35.0721,
+          86.52,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "del valle": {
+      "query": "Del Valle",
+      "searched_at": "2026-06-29T04:55:46.630798+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3976
+      ],
+      "resolved_ids": [
+        3976
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3976,
+          "Del Valle",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.7279,
+          -35.8976,
+          52.76,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "el chingolo": {
+      "query": "El Chingolo",
+      "searched_at": "2026-06-29T04:55:47.854048+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3942
+      ],
+      "resolved_ids": [
+        3942
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3942,
+          "El Chingolo",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.1727,
+          -35.515,
+          64.91,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "el lucero": {
+      "query": "El Lucero",
+      "searched_at": "2026-06-29T04:55:49.029390+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3236,
+        3934
+      ],
+      "resolved_ids": [
+        3236,
+        3934
+      ],
+      "result_count": 2,
+      "results": [
+        [
+          3934,
+          "El Lucero",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.252,
+          -35.7136,
+          64.72,
+          "NUEVE DE JULIO"
+        ],
+        [
+          3236,
+          "El Lucero",
+          "Moreno",
+          "Santiago del Estero",
+          87148,
+          3278,
+          -61.7288,
+          -27.3073,
+          138.03,
+          "PRESIDENCIA ROQUE SAENZ PEÑA AERO"
+        ]
+      ],
+      "error": null
+    },
+    "el recluta": {
+      "query": "El Recluta",
+      "searched_at": "2026-06-29T04:55:50.247771+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3923
+      ],
+      "resolved_ids": [
+        3923
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3923,
+          "El Recluta",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.6232,
+          -35.7888,
+          45.34,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "el recreo": {
+      "query": "El Recreo",
+      "searched_at": "2026-06-29T04:55:51.427759+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        721,
+        3941,
+        4938,
+        5351,
+        8199
+      ],
+      "resolved_ids": [
+        721,
+        3941,
+        4938,
+        5351,
+        8199
+      ],
+      "result_count": 5,
+      "results": [
+        [
+          3941,
+          "El Recreo",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.1871,
+          -35.6524,
+          67.31,
+          "NUEVE DE JULIO"
+        ],
+        [
+          5351,
+          "El Recreo",
+          "General Güemes",
+          "Chaco",
+          87065,
+          5385,
+          -62.0729,
+          -24.6175,
+          95.42,
+          "RIVADAVIA"
+        ],
+        [
+          8199,
+          "El Recreo",
+          "Patiño",
+          "Formosa",
+          87078,
+          8088,
+          -59.2773,
+          -25.0317,
+          137.98,
+          "LAS LOMITAS"
+        ],
+        [
+          721,
+          "El Recreo",
+          "Rivadavia",
+          "Salta",
+          87065,
+          794,
+          -62.7368,
+          -23.4614,
+          81.62,
+          "RIVADAVIA"
+        ],
+        [
+          4938,
+          "El Recreo",
+          "Santa María",
+          "Catamarca",
+          87121,
+          4941,
+          -66.0531,
+          -26.7201,
+          94.84,
+          "TUCUMAN AERO"
+        ]
+      ],
+      "error": null
+    },
+    "el retiro": {
+      "query": "El Retiro",
+      "searched_at": "2026-06-29T04:55:52.602835+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        332,
+        1014,
+        1275,
+        2905,
+        3926,
+        4965,
+        5576,
+        6255,
+        8002,
+        8947
+      ],
+      "resolved_ids": [
+        332,
+        1014,
+        1275,
+        2905,
+        3926,
+        4965,
+        5576,
+        6255,
+        8002,
+        8947
+      ],
+      "result_count": 10,
+      "results": [
+        [
+          3926,
+          "El Retiro",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.5518,
+          -35.8228,
+          52.03,
+          "NUEVE DE JULIO"
+        ],
+        [
+          5576,
+          "El Retiro",
+          "Bermejo",
+          "Chaco",
+          87155,
+          5648,
+          -58.8465,
+          -26.84,
+          69.24,
+          "RESISTENCIA AERO"
+        ],
+        [
+          8002,
+          "El Retiro",
+          "Bermejo",
+          "Formosa",
+          87078,
+          7925,
+          -60.3945,
+          -23.9949,
+          80.95,
+          "LAS LOMITAS"
+        ],
+        [
+          332,
+          "El Retiro",
+          "General José de San Martín",
+          "Salta",
+          87022,
+          291,
+          -63.4204,
+          -22.9242,
+          51.5,
+          "TARTAGAL AERO"
+        ],
+        [
+          1275,
+          "El Retiro",
+          "Iglesia",
+          "San Juan",
+          87305,
+          1298,
+          -69.259,
+          -30.2925,
+          50.53,
+          "JACHAL"
+        ],
+        [
+          2905,
+          "El Retiro",
+          "Jimenez",
+          "Santiago del Estero",
+          87127,
+          2819,
+          -64.4283,
+          -27.0721,
+          69.45,
+          "TERMAS DE RIO HONDO AERO"
+        ],
+        [
+          1014,
+          "El Retiro",
+          "Metán",
+          "Salta",
+          87050,
+          1018,
+          -64.8536,
+          -25.4931,
+          12.49,
+          "METAN"
+        ],
+        [
+          8947,
+          "El Retiro",
+          "San Blas de Los Sauces",
+          "La Rioja",
+          87213,
+          8969,
+          -67.0231,
+          -28.2688,
+          112.93,
+          "CHILECITO AERO"
+        ],
+        [
+          6255,
+          "El Retiro",
+          "Sobremonte",
+          "Córdoba",
+          87244,
+          10955,
+          -63.9226,
+          -30.0117,
+          22.18,
+          "VILLA DE MARIA DEL RIO SECO"
+        ],
+        [
+          4965,
+          "El Retiro",
+          "Tinogasta",
+          "Catamarca",
+          87211,
+          5257,
+          -67.6432,
+          -27.7288,
+          38.28,
+          "TINOGASTA"
+        ]
+      ],
+      "error": null
+    },
+    "el terete": {
+      "query": "El Terete",
+      "searched_at": "2026-06-29T04:55:53.821925+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3931
+      ],
+      "resolved_ids": [
+        3931
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3931,
+          "El Terete",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.3224,
+          -35.3733,
+          51.34,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "ernestina": {
+      "query": "Ernestina",
+      "searched_at": "2026-06-29T04:55:55.006656+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4033
+      ],
+      "resolved_ids": [
+        4033
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4033,
+          "Ernestina",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -59.5562,
+          -35.2696,
+          121.95,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "gobernador ugarte": {
+      "query": "Gobernador Ugarte",
+      "searched_at": "2026-06-29T04:55:56.183264+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3986
+      ],
+      "resolved_ids": [
+        3986
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3986,
+          "Gobernador Ugarte",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.0797,
+          -35.1654,
+          79.02,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "haras don santiago": {
+      "query": "Haras Don Santiago",
+      "searched_at": "2026-06-29T04:55:57.383840+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3927
+      ],
+      "resolved_ids": [
+        3927
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3927,
+          "Haras Don Santiago",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.347,
+          -35.5002,
+          49.02,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "isla": {
+      "query": "Isla",
+      "searched_at": "2026-06-29T04:55:58.563767+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3954
+      ],
+      "resolved_ids": [
+        16,
+        258,
+        2816,
+        2818,
+        3002,
+        3954,
+        6143,
+        6319,
+        7962,
+        7963,
+        7976,
+        7983,
+        8646,
+        10800,
+        10861
+      ],
+      "result_count": 15,
+      "results": [
+        [
+          3954,
+          "Isla",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.3559,
+          -35.5669,
+          49.79,
+          "NUEVE DE JULIO"
+        ],
+        [
+          2818,
+          "Isla Aragones",
+          "Río Hondo",
+          "Santiago del Estero",
+          87127,
+          2819,
+          -64.6464,
+          -27.4529,
+          29.06,
+          "TERMAS DE RIO HONDO AERO"
+        ],
+        [
+          7983,
+          "Isla Chica",
+          "Bermejo",
+          "Formosa",
+          87065,
+          7925,
+          -61.7336,
+          -24.3157,
+          117.98,
+          "RIVADAVIA"
+        ],
+        [
+          8646,
+          "Isla Chica",
+          "Santa Bárbara",
+          "Jujuy",
+          87046,
+          8618,
+          -64.325,
+          -24.0211,
+          87.99,
+          "JUJUY AERO"
+        ],
+        [
+          3002,
+          "Isla Corral",
+          "Banda",
+          "Santiago del Estero",
+          87129,
+          2954,
+          -64.1011,
+          -27.7329,
+          19.74,
+          "SANTIAGO DEL ESTERO AERO"
+        ],
+        [
+          258,
+          "Isla de Cañas",
+          "Iruyá",
+          "Salta",
+          87016,
+          291,
+          -64.6668,
+          -22.8963,
+          44.99,
+          "ORAN AERO"
+        ],
+        [
+          7976,
+          "Isla de Cuba",
+          "Matacos",
+          "Formosa",
+          87065,
+          7925,
+          -61.8539,
+          -24.2926,
+          105.56,
+          "RIVADAVIA"
+        ],
+        [
+          6319,
+          "Isla de los Chorros",
+          "Río Seco",
+          "Córdoba",
+          87244,
+          10955,
+          -63.2668,
+          -30.2106,
+          55.82,
+          "VILLA DE MARIA DEL RIO SECO"
+        ],
+        [
+          10861,
+          "Isla de los Estados",
+          null,
+          "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          87934,
+          5908,
+          -64.3909,
+          -54.7975,
+          246.79,
+          "RIO GRANDE B.A."
+        ],
+        [
+          2816,
+          "Isla de Los Sotelos",
+          "Río Hondo",
+          "Santiago del Estero",
+          87127,
+          2819,
+          -64.6886,
+          -27.4735,
+          24.55,
+          "TERMAS DE RIO HONDO AERO"
+        ],
+        [
+          7963,
+          "Isla de Ponce",
+          "Matacos",
+          "Formosa",
+          87065,
+          7925,
+          -62.0228,
+          -24.205,
+          87.79,
+          "RIVADAVIA"
+        ],
+        [
+          6143,
+          "Isla de San Antonio",
+          "Tulumba",
+          "Córdoba",
+          87244,
+          10955,
+          -64.4139,
+          -30.029,
+          67.63,
+          "VILLA DE MARIA DEL RIO SECO"
+        ],
+        [
+          7962,
+          "Isla de Torre",
+          "Matacos",
+          "Formosa",
+          87065,
+          7925,
+          -62.0508,
+          -24.2133,
+          84.97,
+          "RIVADAVIA"
+        ],
+        [
+          10800,
+          "Isla del Cerrito",
+          "Bermejo",
+          "Chaco",
+          87155,
+          5648,
+          -58.6149,
+          -27.2898,
+          45.74,
+          "RESISTENCIA AERO"
+        ],
+        [
+          16,
+          "Isla Diez",
+          "General Roca",
+          "Río Negro",
+          87719,
+          19,
+          -67.9223,
+          -38.9938,
+          7.6,
+          "CIPOLLETTI"
+        ]
+      ],
+      "error": null
+    },
+    "la chacra": {
+      "query": "La Chacra",
+      "searched_at": "2026-06-29T04:55:59.767571+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3932,
+        9505,
+        10001
+      ],
+      "resolved_ids": [
+        3932,
+        9505,
+        10001
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          3932,
+          "La Chacra",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.2712,
+          -35.6577,
+          60.46,
+          "NUEVE DE JULIO"
+        ],
+        [
+          10001,
+          "La Chacra",
+          "Catan Lil",
+          "Neuquén",
+          87761,
+          9933,
+          -70.5859,
+          -39.5642,
+          74.64,
+          "CHAPELCO AERO"
+        ],
+        [
+          9505,
+          "La Chacra",
+          "La Paz",
+          "Mendoza",
+          87416,
+          9450,
+          -67.6052,
+          -33.5074,
+          93.44,
+          "SAN MARTIN (MZA)"
+        ]
+      ],
+      "error": null
+    },
+    "la querencia": {
+      "query": "La Querencia",
+      "searched_at": "2026-06-29T04:56:00.945748+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3933,
+        4550,
+        7702
+      ],
+      "resolved_ids": [
+        3933,
+        4550,
+        7702
+      ],
+      "result_count": 3,
+      "results": [
+        [
+          3933,
+          "La Querencia",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.2915,
+          -35.7139,
+          61.6,
+          "NUEVE DE JULIO"
+        ],
+        [
+          7702,
+          "La Querencia",
+          "Concordia",
+          "Entre Ríos",
+          87395,
+          7706,
+          -58.4384,
+          -31.0727,
+          48.81,
+          "CONCORDIA AERO"
+        ],
+        [
+          4550,
+          "La Querencia",
+          "Patagones",
+          "Buenos Aires",
+          87679,
+          4338,
+          -62.7923,
+          -40.4764,
+          320.35,
+          "PIGUE AERO"
+        ]
+      ],
+      "error": null
+    },
+    "la reforma": {
+      "query": "La Reforma",
+      "searched_at": "2026-06-29T04:56:02.174075+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        1584,
+        3925,
+        4135,
+        8881
+      ],
+      "resolved_ids": [
+        1584,
+        3925,
+        4135,
+        8881
+      ],
+      "result_count": 4,
+      "results": [
+        [
+          3925,
+          "La Reforma",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.5234,
+          -35.7745,
+          49.41,
+          "NUEVE DE JULIO"
+        ],
+        [
+          1584,
+          "La Reforma",
+          "Ayacucho",
+          "San Luis",
+          87322,
+          1601,
+          -66.265,
+          -32.1794,
+          98.87,
+          "CHEPES"
+        ],
+        [
+          8881,
+          "La Reforma",
+          "Limay Mahuida",
+          "La Pampa",
+          87616,
+          8817,
+          -66.2268,
+          -37.5501,
+          164.48,
+          "VICTORICA"
+        ],
+        [
+          4135,
+          "La Reforma",
+          "Pila",
+          "Buenos Aires",
+          87648,
+          4146,
+          -58.6376,
+          -36.209,
+          83.6,
+          "DOLORES AERO"
+        ]
+      ],
+      "error": null
+    },
+    "las dos marias": {
+      "query": "Las Dos Marias",
+      "searched_at": "2026-06-29T04:56:03.354228+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3935
+      ],
+      "resolved_ids": [
+        3935
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3935,
+          "Las Dos Marias",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.2655,
+          -35.7465,
+          65.46,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "mamaguita": {
+      "query": "Mamaguita",
+      "searched_at": "2026-06-29T04:56:04.538907+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3952
+      ],
+      "resolved_ids": [
+        3952
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3952,
+          "Mamaguita",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.2248,
+          -35.6879,
+          65.66,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "martin berraondo": {
+      "query": "Martín Berraondo",
+      "searched_at": "2026-06-29T04:56:05.762460+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4032
+      ],
+      "resolved_ids": [
+        4032
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4032,
+          "Martín Berraondo",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -59.9483,
+          -35.3152,
+          85.94,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "mosconi": {
+      "query": "Mosconi",
+      "searched_at": "2026-06-29T04:56:06.984884+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3996
+      ],
+      "resolved_ids": [
+        3996
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3996,
+          "Mosconi",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.5531,
+          -35.739,
+          44.68,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "norberto de la riestra": {
+      "query": "Norberto de La Riestra",
+      "searched_at": "2026-06-29T04:56:08.162484+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        4048
+      ],
+      "resolved_ids": [
+        4048
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          4048,
+          "Norberto de La Riestra",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -59.7713,
+          -35.2741,
+          102.59,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    },
+    "ortiz de rozas": {
+      "query": "Ortiz de Rozas",
+      "searched_at": "2026-06-29T04:56:09.381627+00:00",
+      "status": "success",
+      "http_status": 200,
+      "attempts": 1,
+      "expected_ids": [
+        3956
+      ],
+      "resolved_ids": [
+        3956
+      ],
+      "result_count": 1,
+      "results": [
+        [
+          3956,
+          "Ortiz de Rozas",
+          "25 de Mayo",
+          "Buenos Aires",
+          87550,
+          3989,
+          -60.3781,
+          -35.4028,
+          45.93,
+          "NUEVE DE JULIO"
+        ]
+      ],
+      "error": null
+    }
+  }
+}
