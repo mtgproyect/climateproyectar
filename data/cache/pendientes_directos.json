@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T19:52:24.005888+00:00",
+  "generated_at": "2026-06-29T19:55:23.890292+00:00",
   "token_page": "https://ws2.smn.gob.ar/pronostico",
   "forecast_endpoint": "https://ws1.smn.gob.ar/v1/forecast/location/{location_id}",
   "weather_endpoint": "https://ws1.smn.gob.ar/v1/weather/location/{location_id}",
@@ -15751,6 +15751,2526 @@
           {
             "path": "station_id",
             "value": 87311
+          }
+        ]
+      }
+    },
+    "1481": {
+      "id": 1481,
+      "name": "Balde San Antonio",
+      "department": "Caucete",
+      "province": "San Juan",
+      "tested_at": "2026-06-29T19:53:57.435330+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1481,
+          "name": "Balde San  Antonio",
+          "department": "Caucete",
+          "province": "San Juan",
+          "type": "Paraje",
+          "coord": {
+            "lon": -67.5177,
+            "lat": -31.287
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T15:00:00-03:00",
+        "temperature": 10.6,
+        "weather": {
+          "description": "Cubierto",
+          "id": 43
+        },
+        "location": {
+          "id": 1481,
+          "name": "Balde San  Antonio",
+          "department": "Caucete",
+          "province": "San Juan",
+          "type": "Paraje",
+          "coord": {
+            "lon": -67.5177,
+            "lat": -31.287
+          },
+          "distance": 88.59
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87322
+          }
+        ]
+      }
+    },
+    "1446": {
+      "id": 1446,
+      "name": "Los Médanos",
+      "department": "Caucete",
+      "province": "San Juan",
+      "tested_at": "2026-06-29T19:53:59.916365+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1446,
+          "name": "Los Médanos",
+          "department": "Caucete",
+          "province": "San Juan",
+          "type": "Paraje",
+          "coord": {
+            "lon": -68.2635,
+            "lat": -31.5983
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 11.7,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "location": {
+          "id": 1446,
+          "name": "Los Médanos",
+          "department": "Caucete",
+          "province": "San Juan",
+          "type": "Paraje",
+          "coord": {
+            "lon": -68.2635,
+            "lat": -31.5983
+          },
+          "distance": 15.31
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87311
+          }
+        ]
+      }
+    },
+    "1428": {
+      "id": 1428,
+      "name": "Villa Paula Albarracin de Sarmiento",
+      "department": "Chimbas",
+      "province": "San Juan",
+      "tested_at": "2026-06-29T19:54:02.349809+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1428,
+          "name": "Villa  Paula Albarracin de Sarmiento",
+          "department": "Chimbas",
+          "province": "San Juan",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -68.5348,
+            "lat": -31.4897
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 11.7,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "location": {
+          "id": 1428,
+          "name": "Villa  Paula Albarracin de Sarmiento",
+          "department": "Chimbas",
+          "province": "San Juan",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -68.5348,
+            "lat": -31.4897
+          },
+          "distance": 14.23
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87311
+          }
+        ]
+      }
+    },
+    "10831": {
+      "id": 10831,
+      "name": "Paso Agua Negra",
+      "department": "Iglesia",
+      "province": "San Juan",
+      "tested_at": "2026-06-29T19:54:04.895933+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10831,
+          "name": "Paso Agua Negra",
+          "department": "Iglesia",
+          "province": "San Juan",
+          "type": "Paso fronterizo",
+          "coord": {
+            "lon": -69.8167,
+            "lat": -30.2
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T15:00:00-03:00",
+        "temperature": 7.5,
+        "weather": {
+          "description": "Mayormente nublado con humo",
+          "id": 37
+        },
+        "location": {
+          "id": 10831,
+          "name": "Paso Agua Negra",
+          "department": "Iglesia",
+          "province": "San Juan",
+          "type": "Paso fronterizo",
+          "coord": {
+            "lon": -69.8167,
+            "lat": -30.2
+          },
+          "distance": 103.81
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87305
+          }
+        ]
+      }
+    },
+    "1288": {
+      "id": 1288,
+      "name": "La Ciénaga",
+      "department": "Jachal",
+      "province": "San Juan",
+      "tested_at": "2026-06-29T19:54:07.335006+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1288,
+          "name": "La Ciénaga",
+          "department": "Jachal",
+          "province": "San Juan",
+          "type": "Caserío",
+          "coord": {
+            "lon": -68.5691,
+            "lat": -30.1465
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T15:00:00-03:00",
+        "temperature": 7.5,
+        "weather": {
+          "description": "Mayormente nublado con humo",
+          "id": 37
+        },
+        "location": {
+          "id": 1288,
+          "name": "La Ciénaga",
+          "department": "Jachal",
+          "province": "San Juan",
+          "type": "Caserío",
+          "coord": {
+            "lon": -68.5691,
+            "lat": -30.1465
+          },
+          "distance": 18.77
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87305
+          }
+        ]
+      }
+    },
+    "1329": {
+      "id": 1329,
+      "name": "Mogna",
+      "department": "Jachal",
+      "province": "San Juan",
+      "tested_at": "2026-06-29T19:54:09.815583+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1329,
+          "name": "Mogna",
+          "department": "Jachal",
+          "province": "San Juan",
+          "type": "Paraje",
+          "coord": {
+            "lon": -68.3707,
+            "lat": -30.6986
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T15:00:00-03:00",
+        "temperature": 7.5,
+        "weather": {
+          "description": "Mayormente nublado con humo",
+          "id": 37
+        },
+        "location": {
+          "id": 1329,
+          "name": "Mogna",
+          "department": "Jachal",
+          "province": "San Juan",
+          "type": "Paraje",
+          "coord": {
+            "lon": -68.3707,
+            "lat": -30.6986
+          },
+          "distance": 62.9
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87305
+          }
+        ]
+      }
+    },
+    "1606": {
+      "id": 1606,
+      "name": "San Celestino",
+      "department": "Ayacucho",
+      "province": "San Luis",
+      "tested_at": "2026-06-29T19:54:12.229005+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1606,
+          "name": "San  Celestino",
+          "department": "Ayacucho",
+          "province": "San Luis",
+          "type": "Paraje",
+          "coord": {
+            "lon": -65.8068,
+            "lat": -32.0557
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 16.4,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 1606,
+          "name": "San  Celestino",
+          "department": "Ayacucho",
+          "province": "San Luis",
+          "type": "Paraje",
+          "coord": {
+            "lon": -65.8068,
+            "lat": -32.0557
+          },
+          "distance": 69.12
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87444
+          }
+        ]
+      }
+    },
+    "1710": {
+      "id": 1710,
+      "name": "El Chorrillo",
+      "department": "Capital",
+      "province": "San Luis",
+      "tested_at": "2026-06-29T19:54:14.663017+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1710,
+          "name": "El  Chorrillo",
+          "department": "Capital",
+          "province": "San Luis",
+          "type": "Localidad",
+          "coord": {
+            "lon": -66.2373,
+            "lat": -33.2938
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 14.3,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "location": {
+          "id": 1710,
+          "name": "El  Chorrillo",
+          "department": "Capital",
+          "province": "San Luis",
+          "type": "Localidad",
+          "coord": {
+            "lon": -66.2373,
+            "lat": -33.2938
+          },
+          "distance": 10.84
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87436
+          }
+        ]
+      }
+    },
+    "1614": {
+      "id": 1614,
+      "name": "Las Chacras",
+      "department": "Libertador General San Martín",
+      "province": "San Luis",
+      "tested_at": "2026-06-29T19:54:17.098385+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1614,
+          "name": "Las Chacras",
+          "department": "Libertador General San Martín",
+          "province": "San Luis",
+          "type": "Caserío",
+          "coord": {
+            "lon": -65.7772,
+            "lat": -32.5634
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 16.4,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 1614,
+          "name": "Las Chacras",
+          "department": "Libertador General San Martín",
+          "province": "San Luis",
+          "type": "Caserío",
+          "coord": {
+            "lon": -65.7772,
+            "lat": -32.5634
+          },
+          "distance": 59.76
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87444
+          }
+        ]
+      }
+    },
+    "10908": {
+      "id": 10908,
+      "name": "Paso Dorotea",
+      "department": null,
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:19.493872+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10908,
+          "name": "Paso Dorotea",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.3494,
+            "lat": -51.5858
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 8.8,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "location": {
+          "id": 10908,
+          "name": "Paso Dorotea",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.3494,
+            "lat": -51.5858
+          },
+          "distance": 146.27
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87904
+          }
+        ]
+      }
+    },
+    "10913": {
+      "id": 10913,
+      "name": "Paso Ingeniero Pallavicini-Ibañez",
+      "department": null,
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:21.936834+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10913,
+          "name": "Paso Ingeniero Pallavicini-Ibañez",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -71.7262,
+            "lat": -46.2751
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 6.2,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "location": {
+          "id": 10913,
+          "name": "Paso Ingeniero Pallavicini-Ibañez",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -71.7262,
+            "lat": -46.2751
+          },
+          "distance": 64.03
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87852
+          }
+        ]
+      }
+    },
+    "10914": {
+      "id": 10914,
+      "name": "Paso Integración Austral",
+      "department": null,
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:24.423970+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10914,
+          "name": "Paso Integración Austral",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -69.5194,
+            "lat": -52.1411
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 8.8,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "location": {
+          "id": 10914,
+          "name": "Paso Integración Austral",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -69.5194,
+            "lat": -52.1411
+          },
+          "distance": 60.69
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87925
+          }
+        ]
+      }
+    },
+    "10915": {
+      "id": 10915,
+      "name": "Paso Lago San Martín-Lago O'Higgins",
+      "department": null,
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:26.819255+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10915,
+          "name": "Paso Lago San Martín-Lago O'Higgins",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.6667,
+            "lat": -48.8667
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 8.8,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "location": {
+          "id": 10915,
+          "name": "Paso Lago San Martín-Lago O'Higgins",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.6667,
+            "lat": -48.8667
+          },
+          "distance": 163.85
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87904
+          }
+        ]
+      }
+    },
+    "10917": {
+      "id": 10917,
+      "name": "Paso Laurita-Casas Viejas",
+      "department": null,
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:29.306530+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10917,
+          "name": "Paso Laurita-Casas Viejas",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.2976,
+            "lat": -51.6894
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 8.8,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "location": {
+          "id": 10917,
+          "name": "Paso Laurita-Casas Viejas",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.2976,
+            "lat": -51.6894
+          },
+          "distance": 157.24
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87904
+          }
+        ]
+      }
+    },
+    "10927": {
+      "id": 10927,
+      "name": "Paso Río Don Guillermo",
+      "department": null,
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:31.788229+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10927,
+          "name": "Paso Río Don Guillermo",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.2573,
+            "lat": -51.2468
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 8.8,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "location": {
+          "id": 10927,
+          "name": "Paso Río Don Guillermo",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.2573,
+            "lat": -51.2468
+          },
+          "distance": 108.02
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87904
+          }
+        ]
+      }
+    },
+    "10930": {
+      "id": 10930,
+      "name": "Paso Río Jeinimeni",
+      "department": null,
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:34.277833+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10930,
+          "name": "Paso Río Jeinimeni",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -71.6684,
+            "lat": -46.5867
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 6.2,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "location": {
+          "id": 10930,
+          "name": "Paso Río Jeinimeni",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -71.6684,
+            "lat": -46.5867
+          },
+          "distance": 52.65
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87852
+          }
+        ]
+      }
+    },
+    "10932": {
+      "id": 10932,
+      "name": "Paso Río Mayer Ribera Norte",
+      "department": null,
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:36.745159+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10932,
+          "name": "Paso Río Mayer Ribera Norte",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.3199,
+            "lat": -48.2121
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 6.2,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "location": {
+          "id": 10932,
+          "name": "Paso Río Mayer Ribera Norte",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.3199,
+            "lat": -48.2121
+          },
+          "distance": 211.65
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87852
+          }
+        ]
+      }
+    },
+    "10933": {
+      "id": 10933,
+      "name": "Paso Río Mosco",
+      "department": null,
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:39.248328+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10933,
+          "name": "Paso Río Mosco",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.55,
+            "lat": -48.4833
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 8.8,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "location": {
+          "id": 10933,
+          "name": "Paso Río Mosco",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -72.55,
+            "lat": -48.4833
+          },
+          "distance": 203.57
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87904
+          }
+        ]
+      }
+    },
+    "10935": {
+      "id": 10935,
+      "name": "Paso Rodolfo Roballos",
+      "department": null,
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:41.686835+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10935,
+          "name": "Paso Rodolfo Roballos",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -71.8528,
+            "lat": -47.158
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 6.2,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "location": {
+          "id": 10935,
+          "name": "Paso Rodolfo Roballos",
+          "department": null,
+          "province": "Santa Cruz",
+          "type": null,
+          "coord": {
+            "lon": -71.8528,
+            "lat": -47.158
+          },
+          "distance": 95.54
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87852
+          }
+        ]
+      }
+    },
+    "1839": {
+      "id": 1839,
+      "name": "El Calafate",
+      "department": "Lago Argentino",
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:44.166204+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1839,
+          "name": "El Calafate",
+          "department": "Lago Argentino",
+          "province": "Santa Cruz",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -72.2632,
+            "lat": -50.3508
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 8.8,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "location": {
+          "id": 1839,
+          "name": "El Calafate",
+          "department": "Lago Argentino",
+          "province": "Santa Cruz",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -72.2632,
+            "lat": -50.3508
+          },
+          "distance": 16.78
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87904
+          }
+        ]
+      }
+    },
+    "1788": {
+      "id": 1788,
+      "name": "El Portezuelo",
+      "department": "Lago Buenos Aires",
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:46.644914+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1788,
+          "name": "El Portezuelo",
+          "department": "Lago Buenos Aires",
+          "province": "Santa Cruz",
+          "type": "Localidad",
+          "coord": {
+            "lon": -71.6587,
+            "lat": -46.0421
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 6.2,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "location": {
+          "id": 1788,
+          "name": "El Portezuelo",
+          "department": "Lago Buenos Aires",
+          "province": "Santa Cruz",
+          "type": "Localidad",
+          "coord": {
+            "lon": -71.6587,
+            "lat": -46.0421
+          },
+          "distance": 75.7
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87852
+          }
+        ]
+      }
+    },
+    "1790": {
+      "id": 1790,
+      "name": "Los Antiguos",
+      "department": "Lago Buenos Aires",
+      "province": "Santa Cruz",
+      "tested_at": "2026-06-29T19:54:49.082983+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 1790,
+          "name": "Los Antiguos",
+          "department": "Lago Buenos Aires",
+          "province": "Santa Cruz",
+          "type": "Caserío",
+          "coord": {
+            "lon": -71.6453,
+            "lat": -46.5441
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 6.2,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "location": {
+          "id": 1790,
+          "name": "Los Antiguos",
+          "department": "Lago Buenos Aires",
+          "province": "Santa Cruz",
+          "type": "Caserío",
+          "coord": {
+            "lon": -71.6453,
+            "lat": -46.5441
+          },
+          "distance": 50.63
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87852
+          }
+        ]
+      }
+    },
+    "2139": {
+      "id": 2139,
+      "name": "Pueblo Terragni ( Plaza Castellanos )",
+      "department": "Castellanos",
+      "province": "Santa Fe",
+      "tested_at": "2026-06-29T19:54:51.602070+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 2139,
+          "name": "Pueblo Terragni  ( Plaza Castellanos )",
+          "department": "Castellanos",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -61.7286,
+            "lat": -31.1546
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T15:00:00-03:00",
+        "temperature": 15.8,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 2139,
+          "name": "Pueblo Terragni  ( Plaza Castellanos )",
+          "department": "Castellanos",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -61.7286,
+            "lat": -31.1546
+          },
+          "distance": 24.93
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87360
+          }
+        ]
+      }
+    },
+    "2003": {
+      "id": 2003,
+      "name": "Avellaneda",
+      "department": "General Obligado",
+      "province": "Santa Fe",
+      "tested_at": "2026-06-29T19:54:54.080084+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 2003,
+          "name": "Avellaneda",
+          "department": "General Obligado",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -59.7539,
+            "lat": -29.0768
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 16.4,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "location": {
+          "id": 2003,
+          "name": "Avellaneda",
+          "department": "General Obligado",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -59.7539,
+            "lat": -29.0768
+          },
+          "distance": 15.39
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87270
+          }
+        ]
+      }
+    },
+    "2073": {
+      "id": 2073,
+      "name": "Colonia A. Alsina",
+      "department": "Las Colonias",
+      "province": "Santa Fe",
+      "tested_at": "2026-06-29T19:54:56.582104+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 2073,
+          "name": "Colonia A.  Alsina",
+          "department": "Las Colonias",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -61.1748,
+            "lat": -30.7508
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 16.2,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 2073,
+          "name": "Colonia A.  Alsina",
+          "department": "Las Colonias",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -61.1748,
+            "lat": -30.7508
+          },
+          "distance": 41.12
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87356
+          }
+        ]
+      }
+    },
+    "2160": {
+      "id": 2160,
+      "name": "Colonia Belgrano",
+      "department": "San Martín",
+      "province": "Santa Fe",
+      "tested_at": "2026-06-29T19:54:59.055467+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 2160,
+          "name": "Colonia Belgrano",
+          "department": "San Martín",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -61.3879,
+            "lat": -31.8752
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T15:00:00-03:00",
+        "temperature": 15.8,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 2160,
+          "name": "Colonia Belgrano",
+          "department": "San Martín",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -61.3879,
+            "lat": -31.8752
+          },
+          "distance": 67.27
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87360
+          }
+        ]
+      }
+    },
+    "3030": {
+      "id": 3030,
+      "name": "Villa Hipolita",
+      "department": "Banda",
+      "province": "Santiago del Estero",
+      "tested_at": "2026-06-29T19:55:01.510859+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 3030,
+          "name": "Villa  Hipolita",
+          "department": "Banda",
+          "province": "Santiago del Estero",
+          "type": "Localidad",
+          "coord": {
+            "lon": -63.9605,
+            "lat": -27.7559
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 11.0,
+        "weather": {
+          "description": "Nublado",
+          "id": 43
+        },
+        "location": {
+          "id": 3030,
+          "name": "Villa  Hipolita",
+          "department": "Banda",
+          "province": "Santiago del Estero",
+          "type": "Localidad",
+          "coord": {
+            "lon": -63.9605,
+            "lat": -27.7559
+          },
+          "distance": 33.45
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87129
+          }
+        ]
+      }
+    },
+    "3722": {
+      "id": 3722,
+      "name": "La Vuelta",
+      "department": "Choya",
+      "province": "Santiago del Estero",
+      "tested_at": "2026-06-29T19:55:04.009846+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 3722,
+          "name": "La  Vuelta",
+          "department": "Choya",
+          "province": "Santiago del Estero",
+          "type": "Paraje",
+          "coord": {
+            "lon": -64.7377,
+            "lat": -29.0464
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 11.0,
+        "weather": {
+          "description": "Nublado",
+          "id": 43
+        },
+        "location": {
+          "id": 3722,
+          "name": "La  Vuelta",
+          "department": "Choya",
+          "province": "Santiago del Estero",
+          "type": "Paraje",
+          "coord": {
+            "lon": -64.7377,
+            "lat": -29.0464
+          },
+          "distance": 149.43
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87129
+          }
+        ]
+      }
+    },
+    "2668": {
+      "id": 2668,
+      "name": "Agua Colorada",
+      "department": "Figueroa",
+      "province": "Santiago del Estero",
+      "tested_at": "2026-06-29T19:55:06.400687+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 2668,
+          "name": "Agua  Colorada",
+          "department": "Figueroa",
+          "province": "Santiago del Estero",
+          "type": "Paraje",
+          "coord": {
+            "lon": -63.5251,
+            "lat": -26.9263
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 11.0,
+        "weather": {
+          "description": "Nublado",
+          "id": 43
+        },
+        "location": {
+          "id": 2668,
+          "name": "Agua  Colorada",
+          "department": "Figueroa",
+          "province": "Santiago del Estero",
+          "type": "Paraje",
+          "coord": {
+            "lon": -63.5251,
+            "lat": -26.9263
+          },
+          "distance": 119.6
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87129
+          }
+        ]
+      }
+    },
+    "2755": {
+      "id": 2755,
+      "name": "Arbol Blanco",
+      "department": "Moreno",
+      "province": "Santiago del Estero",
+      "tested_at": "2026-06-29T19:55:08.882000+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 2755,
+          "name": "Arbol Blanco",
+          "department": "Moreno",
+          "province": "Santiago del Estero",
+          "type": "Localidad",
+          "coord": {
+            "lon": -61.9652,
+            "lat": -26.8328
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 18.2,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "location": {
+          "id": 2755,
+          "name": "Arbol Blanco",
+          "department": "Moreno",
+          "province": "Santiago del Estero",
+          "type": "Localidad",
+          "coord": {
+            "lon": -61.9652,
+            "lat": -26.8328
+          },
+          "distance": 147.32
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87148
+          }
+        ]
+      }
+    },
+    "10925": {
+      "id": 10925,
+      "name": "Paso Puerto Almanza",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "tested_at": "2026-06-29T19:55:11.322591+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10925,
+          "name": "Paso Puerto Almanza",
+          "department": null,
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": null,
+          "coord": {
+            "lon": -67.5679,
+            "lat": -54.8707
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 3.5,
+        "weather": {
+          "description": "Mayormente nublado con lluvia débil",
+          "id": 72
+        },
+        "location": {
+          "id": 10925,
+          "name": "Paso Puerto Almanza",
+          "department": null,
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": null,
+          "coord": {
+            "lon": -67.5679,
+            "lat": -54.8707
+          },
+          "distance": 47.36
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87938
+          }
+        ]
+      }
+    },
+    "10926": {
+      "id": 10926,
+      "name": "Paso Río Bella Vista",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "tested_at": "2026-06-29T19:55:13.772524+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10926,
+          "name": "Paso Río Bella Vista",
+          "department": null,
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": null,
+          "coord": {
+            "lon": -68.6065,
+            "lat": -53.9999
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 6.6,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 10926,
+          "name": "Paso Río Bella Vista",
+          "department": null,
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": null,
+          "coord": {
+            "lon": -68.6065,
+            "lat": -53.9999
+          },
+          "distance": 60.87
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87934
+          }
+        ]
+      }
+    },
+    "10937": {
+      "id": 10937,
+      "name": "Paso San Sebastián",
+      "department": null,
+      "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+      "tested_at": "2026-06-29T19:55:16.200227+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10937,
+          "name": "Paso San Sebastián",
+          "department": null,
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": null,
+          "coord": {
+            "lon": -68.6048,
+            "lat": -53.32
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 6.6,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "location": {
+          "id": 10937,
+          "name": "Paso San Sebastián",
+          "department": null,
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": null,
+          "coord": {
+            "lon": -68.6048,
+            "lat": -53.32
+          },
+          "distance": 75.95
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87934
+          }
+        ]
+      }
+    },
+    "10835": {
+      "id": 10835,
+      "name": "Parque Nacional Campo de los Alisios",
+      "department": "Chicligasta",
+      "province": "Tucumán",
+      "tested_at": "2026-06-29T19:55:18.639393+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10835,
+          "name": "Parque Nacional Campo de los Alisos",
+          "department": "Chicligasta",
+          "province": "Tucumán",
+          "type": "Parque nacional",
+          "coord": {
+            "lon": -66.1,
+            "lat": -27.2167
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 9.5,
+        "weather": {
+          "description": "Cubierto con llovizna",
+          "id": 71
+        },
+        "location": {
+          "id": 10835,
+          "name": "Parque Nacional Campo de los Alisos",
+          "department": "Chicligasta",
+          "province": "Tucumán",
+          "type": "Parque nacional",
+          "coord": {
+            "lon": -66.1,
+            "lat": -27.2167
+          },
+          "distance": 107.0
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87121
+          }
+        ]
+      }
+    },
+    "10294": {
+      "id": 10294,
+      "name": "Villa Clodomiro Hileret",
+      "department": "Río Chico",
+      "province": "Tucumán",
+      "tested_at": "2026-06-29T19:55:21.122452+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10294,
+          "name": "Villa  Clodomiro Hileret",
+          "department": "Río Chico",
+          "province": "Tucumán",
+          "type": "Localidad",
+          "coord": {
+            "lon": -65.6571,
+            "lat": -27.4716
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 9.5,
+        "weather": {
+          "description": "Cubierto con llovizna",
+          "id": 71
+        },
+        "location": {
+          "id": 10294,
+          "name": "Villa  Clodomiro Hileret",
+          "department": "Río Chico",
+          "province": "Tucumán",
+          "type": "Localidad",
+          "coord": {
+            "lon": -65.6571,
+            "lat": -27.4716
+          },
+          "distance": 88.87
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87121
+          }
+        ]
+      }
+    },
+    "10047": {
+      "id": 10047,
+      "name": "El Mollar",
+      "department": "Tafí del Valle",
+      "province": "Tucumán",
+      "tested_at": "2026-06-29T19:55:23.875222+00:00",
+      "attempts": 1,
+      "status": "completed",
+      "forecast": {
+        "available": true,
+        "days": 7,
+        "location": {
+          "id": 10047,
+          "name": "El Mollar",
+          "department": "Tafí del Valle",
+          "province": "Tucumán",
+          "type": "Paraje",
+          "coord": {
+            "lon": -66.0514,
+            "lat": -26.3196
+          }
+        },
+        "top_level_keys": [
+          "forecast",
+          "location",
+          "type",
+          "updated"
+        ],
+        "station_candidates": []
+      },
+      "weather": {
+        "available": true,
+        "date": "2026-06-29T16:00:00-03:00",
+        "temperature": 9.5,
+        "weather": {
+          "description": "Cubierto con llovizna",
+          "id": 71
+        },
+        "location": {
+          "id": 10047,
+          "name": "El Mollar",
+          "department": "Tafí del Valle",
+          "province": "Tucumán",
+          "type": "Paraje",
+          "coord": {
+            "lon": -66.0514,
+            "lat": -26.3196
+          },
+          "distance": 110.07
+        },
+        "top_level_keys": [
+          "date",
+          "feels_like",
+          "humidity",
+          "location",
+          "pressure",
+          "station_id",
+          "temperature",
+          "visibility",
+          "weather",
+          "wind"
+        ],
+        "station_candidates": [
+          {
+            "path": "station_id",
+            "value": 87121
           }
         ]
       }
