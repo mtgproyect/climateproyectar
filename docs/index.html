@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071a33">
+  <meta name="description" content="Pronóstico y observaciones meteorológicas para 10.601 localidades de Argentina, con datos oficiales del SMN.">
+  <title>Clima Argentina V2</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script defer src="./assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true">☀</span>
+        <span>
+          <strong>Clima Argentina</strong>
+          <small>Versión 2</small>
+        </span>
+      </a>
+      <div class="header-meta">
+        <span class="data-pill"><span class="status-dot"></span> Datos SMN</span>
+        <button class="icon-button" id="share-button" type="button" hidden aria-label="Compartir esta localidad">Compartir</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="hero-inner">
+        <p class="eyebrow">Cobertura nacional</p>
+        <h1 id="hero-title">El tiempo en <span id="locality-count">10.601</span> localidades</h1>
+        <p class="hero-copy">Buscá por localidad, departamento o provincia. Los pronósticos y las observaciones se publican sin modificar los datos oficiales.</p>
+
+        <div class="search-panel">
+          <label for="search-input">¿Qué localidad querés consultar?</label>
+          <div class="search-row">
+            <div class="search-box">
+              <span class="search-icon" aria-hidden="true">⌕</span>
+              <input id="search-input" type="search" autocomplete="off" placeholder="Ej.: Córdoba, Ushuaia, San Rafael…" aria-autocomplete="list" aria-controls="suggestions" aria-expanded="false">
+              <button id="clear-search" class="clear-button" type="button" aria-label="Limpiar búsqueda" hidden>×</button>
+              <div id="suggestions" class="suggestions" role="listbox" hidden></div>
+            </div>
+            <button id="location-button" class="secondary-button" type="button">
+              <span aria-hidden="true">◎</span>
+              Usar mi ubicación
+            </button>
+          </div>
+          <p id="search-status" class="search-status" role="status" aria-live="polite">Cargando catálogo de localidades…</p>
+          <div id="recent-searches" class="recent-searches" hidden>
+            <span>Recientes</span>
+            <div id="recent-list" class="chip-list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="result-section" class="result-shell" hidden aria-live="polite">
+      <div id="alert-container"></div>
+
+      <div class="location-heading">
+        <div>
+          <p id="location-kicker" class="eyebrow">Localidad seleccionada</p>
+          <h2 id="location-title">—</h2>
+          <p id="location-subtitle" class="location-subtitle">—</p>
+        </div>
+        <div class="publication-stamp">
+          <span>Datos publicados</span>
+          <strong id="publication-date">—</strong>
+        </div>
+      </div>
+
+      <section class="current-grid" aria-labelledby="current-title">
+        <article class="current-card primary-card">
+          <div class="card-heading">
+            <div>
+              <p class="section-label">Observación más reciente</p>
+              <h3 id="current-title">Condiciones actuales</h3>
+            </div>
+            <span id="observation-badge" class="freshness-badge">—</span>
+          </div>
+          <div class="current-main">
+            <div id="current-glyph" class="weather-glyph" aria-hidden="true">—</div>
+            <div>
+              <div class="temperature-line"><span id="current-temperature">—</span><small>°C</small></div>
+              <p id="current-description" class="weather-description">—</p>
+              <p id="feels-like" class="muted-text"></p>
+            </div>
+          </div>
+          <p id="station-source" class="source-line">—</p>
+        </article>
+
+        <article class="metrics-card">
+          <h3>Detalles de la observación</h3>
+          <div class="metrics-grid">
+            <div class="metric"><span>Humedad</span><strong id="metric-humidity">—</strong></div>
+            <div class="metric"><span>Viento</span><strong id="metric-wind">—</strong></div>
+            <div class="metric"><span>Presión</span><strong id="metric-pressure">—</strong></div>
+            <div class="metric"><span>Visibilidad</span><strong id="metric-visibility">—</strong></div>
+          </div>
+          <p id="observation-time" class="timestamp">—</p>
+        </article>
+      </section>
+
+      <section class="forecast-section" aria-labelledby="forecast-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Pronóstico oficial</p>
+            <h2 id="forecast-title">Próximos días</h2>
+          </div>
+          <p id="forecast-updated" class="timestamp">—</p>
+        </div>
+        <div id="forecast-grid" class="forecast-grid"></div>
+      </section>
+
+      <section class="method-note">
+        <div class="method-icon" aria-hidden="true">i</div>
+        <div>
+          <h3>Cómo interpretar estos datos</h3>
+          <p>La observación corresponde a la estación meteorológica operativa asociada a la localidad. El pronóstico puede estar compartido entre localidades cercanas. Cuando el SMN no publica un pronóstico actual para una base antártica, se muestra el último pronóstico oficial disponible con su fecha original y una advertencia visible.</p>
+        </div>
+      </section>
+    </section>
+
+    <section id="empty-state" class="empty-state">
+      <div class="empty-icon" aria-hidden="true">⌕</div>
+      <h2>Buscá una localidad para comenzar</h2>
+      <p>La consulta se resuelve dentro del navegador sobre el catálogo publicado. No se envía tu búsqueda a servicios externos.</p>
+    </section>
+
+    <section id="error-state" class="error-state" hidden>
+      <h2>No pudimos cargar los datos</h2>
+      <p id="error-message">Reintentá en unos minutos.</p>
+      <button id="retry-button" class="primary-button" type="button">Volver a intentar</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Clima Argentina V2</strong>
+      <p>Sitio independiente. Datos meteorológicos oficiales publicados por el Servicio Meteorológico Nacional.</p>
+    </div>
+    <p id="footer-version">Publicación —</p>
+  </footer>
+
+  <noscript>Esta interfaz necesita JavaScript para buscar y mostrar los datos meteorológicos.</noscript>
+</body>
+</html>
