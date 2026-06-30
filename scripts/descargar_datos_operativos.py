@@ -26,7 +26,18 @@ ERRORS_FILE = ROOT / "docs" / "data" / "errores_descarga_operativa.json"
 
 TOKEN_PAGE = "https://ws2.smn.gob.ar/pronostico"
 FORECAST_URL = "https://ws1.smn.gob.ar/v1/forecast/location/{location_id}"
+LEGACY_FORECAST_URL = (
+    "https://ws.smn.gob.ar/forecast/location/{location_id}"
+)
 WEATHER_URL = "https://ws1.smn.gob.ar/v1/weather/location/{location_id}"
+
+LEGACY_FALLBACK_STATUS = {
+    404,
+    500,
+    502,
+    503,
+    504,
+}
 
 TRANSIENT_HTTP_STATUS = {
     404,
@@ -273,6 +284,125 @@ def request_with_retries(
     raise last_error
 
 
+
+def legacy_headers() -> dict[str, str]:
+    return {
+        **BASE_HEADERS,
+        "Accept": "application/json",
+        "Origin": "https://www.smn.gob.ar",
+        "Referer": "https://www.smn.gob.ar/",
+    }
+
+
+def normalize_legacy_forecast(
+    payload: Any,
+    reference_id: int,
+) -> dict[str, Any]:
+    if not isinstance(payload, list) or not payload:
+        raise ApiError(
+            "El endpoint histórico no devolvió pronósticos."
+        )
+
+    candidates: list[dict[str, Any]] = []
+    for item in payload:
+        if not isinstance(item, dict):
+            continue
+        if as_int(item.get("location_id")) != reference_id:
+            continue
+        forecast = item.get("forecast")
+        if not isinstance(forecast, (dict, list)):
+            continue
+        candidates.append(item)
+
+    if not candidates:
+        raise ApiError(
+            "El endpoint histórico no devolvió un registro válido "
+            f"para {reference_id}."
+        )
+
+    def candidate_key(item: dict[str, Any]) -> tuple[int, str]:
+        timestamp = as_int(item.get("timestamp")) or 0
+        date_time = str(item.get("date_time") or "")
+        return timestamp, date_time
+
+    selected = max(candidates, key=candidate_key)
+    raw_forecast = selected.get("forecast")
+
+    if isinstance(raw_forecast, list):
+        days = [
+            item for item in raw_forecast
+            if isinstance(item, dict)
+        ]
+    else:
+        assert isinstance(raw_forecast, dict)
+
+        def forecast_key(value: tuple[str, Any]) -> tuple[int, str]:
+            key, item = value
+            numeric = as_int(key)
+            date = (
+                str(item.get("date") or "")
+                if isinstance(item, dict)
+                else ""
+            )
+            return (
+                numeric if numeric is not None else 10**9,
+                date,
+            )
+
+        days = [
+            item
+            for _, item in sorted(
+                raw_forecast.items(),
+                key=forecast_key,
+            )
+            if isinstance(item, dict)
+        ]
+
+    if not days:
+        raise ApiError(
+            "El pronóstico histórico no contiene días válidos."
+        )
+
+    for day in days:
+        if not day.get("date"):
+            raise ApiError(
+                "Un día del pronóstico histórico no contiene fecha."
+            )
+
+    return {
+        "source": "smn_legacy_forecast",
+        "historical": True,
+        "updated": selected.get("date_time"),
+        "location": {
+            "id": reference_id,
+        },
+        "type": "legacy_location",
+        "forecast": days,
+        "legacy_metadata": {
+            "_id": selected.get("_id"),
+            "timestamp": selected.get("timestamp"),
+            "date_time": selected.get("date_time"),
+            "location_id": selected.get("location_id"),
+        },
+    }
+
+
+def fetch_legacy_forecast(
+    session: requests.Session,
+    reference_id: int,
+) -> dict[str, Any]:
+    response = session.get(
+        LEGACY_FORECAST_URL.format(location_id=reference_id),
+        headers=legacy_headers(),
+        timeout=30,
+    )
+    payload = response_json(
+        response,
+        f"el pronóstico histórico {reference_id}",
+    )
+    return normalize_legacy_forecast(payload, reference_id)
+
+
 def validate_forecast_payload(
     payload: Any,
     reference_id: int,
@@ -301,16 +431,33 @@ def fetch_forecast(
     target: dict[str, Any],
 ) -> dict[str, Any]:
     reference_id = int(target["query_id"])
-    response = session.get(
-        FORECAST_URL.format(location_id=reference_id),
-        headers=api_headers(token),
-        timeout=30,
-    )
-    payload = response_json(
-        response,
-        f"el pronóstico {reference_id}",
-    )
-    return validate_forecast_payload(payload, reference_id)
+
+    try:
+        response = session.get(
+            FORECAST_URL.format(location_id=reference_id),
+            headers=api_headers(token),
+            timeout=30,
+        )
+        payload = response_json(
+            response,
+            f"el pronóstico moderno {reference_id}",
+        )
+        result = validate_forecast_payload(
+            payload,
+            reference_id,
+        )
+        result.setdefault("source", "smn_modern_forecast")
+        result.setdefault("historical", False)
+        return result
+    except ApiError as error:
+        if error.status_code not in LEGACY_FALLBACK_STATUS:
+            raise
+
+        print(
+            "  El endpoint moderno no respondió; "
+            "se consulta el pronóstico histórico."
+        )
+        return fetch_legacy_forecast(session, reference_id)
 
 
 def validate_weather_payload(
@@ -514,11 +661,17 @@ def cache_statistics(
         records = {}
 
     target_ids = {str(item["query_id"]) for item in targets}
-    successes = sum(
+    fresh = sum(
         isinstance(records.get(target_id), dict)
-        and records[target_id].get("status") in {"success", "stale"}
+        and records[target_id].get("status") == "success"
         for target_id in target_ids
     )
+    stale = sum(
+        isinstance(records.get(target_id), dict)
+        and records[target_id].get("status") == "stale"
+        for target_id in target_ids
+    )
+    successes = fresh + stale
     errors = sum(
         isinstance(records.get(target_id), dict)
         and records[target_id].get("status") == "error"
@@ -530,6 +683,8 @@ def cache_statistics(
         "shard": shard,
         "total": len(targets),
         "success": successes,
+        "fresh": fresh,
+        "stale": stale,
         "errors": errors,
         "pending": len(targets) - successes,
         "cache_file": str(path.relative_to(ROOT)),
@@ -582,6 +737,8 @@ def build_global_state(
 
     total = sum(item["total"] for item in stats)
     success = sum(item["success"] for item in stats)
+    fresh = sum(item["fresh"] for item in stats)
+    stale = sum(item["stale"] for item in stats)
     errors = sum(item["errors"] for item in stats)
 
     state = {
@@ -590,6 +747,8 @@ def build_global_state(
         "totals": {
             "query_keys": total,
             "success": success,
+            "fresh": fresh,
+            "stale": stale,
             "errors": errors,
             "pending": total - success,
         },
@@ -721,6 +880,8 @@ def main() -> None:
     attempted = 0
     completed = 0
     successes = 0
+    fresh_queries = 0
+    stale_queries = 0
     request_errors = 0
     http_attempts_total = 0
     stopped_reason: str | None = None
@@ -762,9 +923,14 @@ def main() -> None:
                 if isinstance(previous, dict)
                 else None
             )
+            is_historical = bool(payload.get("historical"))
+            status = "stale" if is_historical else "success"
+
             records[str(query_id)] = {
                 **target,
-                "status": "success",
+                "status": status,
+                "data_source": payload.get("source"),
+                "historical": is_historical,
                 "attempts": attempts + 1,
                 "http_attempts_last_run": http_attempts,
                 "fetched_at": utc_now(),
@@ -774,7 +940,15 @@ def main() -> None:
                 "payload": payload,
             }
             successes += 1
-            print(f"  OK ({http_attempts} intento(s) HTTP)")
+            if is_historical:
+                stale_queries += 1
+                print(
+                    "  OK HISTÓRICO "
+                    f"({http_attempts} intento(s) HTTP)"
+                )
+            else:
+                fresh_queries += 1
+                print(f"  OK ({http_attempts} intento(s) HTTP)")
         except Exception as error:
             request_errors += 1
             http_attempts_total += args.http_attempts
@@ -842,6 +1016,8 @@ def main() -> None:
         "attempted_queries": attempted,
         "completed_queries": completed,
         "successful_queries": successes,
+        "fresh_queries": fresh_queries,
+        "stale_queries": stale_queries,
         "request_errors": request_errors,
         "http_attempts_total": http_attempts_total,
         "stopped_reason": stopped_reason,
@@ -850,7 +1026,9 @@ def main() -> None:
 
     print("Descarga operativa terminada.")
     print(f"Completadas: {completed}")
-    print(f"Exitosas: {successes}")
+    print(f"Resueltas: {successes}")
+    print(f"Actuales: {fresh_queries}")
+    print(f"Históricas: {stale_queries}")
     print(f"Errores: {request_errors}")
     print(f"Intentos HTTP totales: {http_attempts_total}")
     print(f"Estado: {STATE_FILE}")
