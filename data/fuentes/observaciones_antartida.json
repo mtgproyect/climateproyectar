@@ -13,7 +13,8 @@
         "lon": -34.551,
         "station_id": 89034,
         "station_code": "SAYB",
-        "station_name": "BASE BELGRANO II"
+        "station_name": "BASE BELGRANO II",
+        "distance_km": 3.07
       },
       "observation": {
         "date": "2026-06-15T18:00:00-03:00",
@@ -44,7 +45,8 @@
         "lon": -58.667,
         "station_id": 89053,
         "station_code": "SAYJ",
-        "station_name": "BASE CARLINI"
+        "station_name": "BASE CARLINI",
+        "distance_km": 0.55
       },
       "observation": {
         "date": "2026-06-15T18:00:00-03:00",
@@ -75,7 +77,8 @@
         "lon": -56.984,
         "station_id": 88963,
         "station_code": "SAYE",
-        "station_name": "BASE ESPERANZA"
+        "station_name": "BASE ESPERANZA",
+        "distance_km": 0.7
       },
       "observation": {
         "date": "2026-06-15T18:00:00-03:00",
@@ -106,7 +109,8 @@
         "lon": -56.6333,
         "station_id": 89055,
         "station_code": "SAWB",
-        "station_name": "BASE MARAMBIO"
+        "station_name": "BASE MARAMBIO",
+        "distance_km": 0.87
       },
       "observation": {
         "date": "2026-06-15T19:00:00-03:00",
@@ -137,7 +141,8 @@
         "lon": -44.734,
         "station_id": 88968,
         "station_code": "SAYO",
-        "station_name": "BASE ORCADAS"
+        "station_name": "BASE ORCADAS",
+        "distance_km": 0.48
       },
       "observation": {
         "date": "2026-06-15T18:00:00-03:00",
@@ -168,7 +173,8 @@
         "lon": -67.1,
         "station_id": 89066,
         "station_code": "SAYS",
-        "station_name": "BASE SAN MARTIN"
+        "station_name": "BASE SAN MARTIN",
+        "distance_km": 0.33
       },
       "observation": {
         "date": "2026-06-15T18:00:00-03:00",
