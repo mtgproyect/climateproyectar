@@ -46,7 +46,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: descargar-datos-operativos
+  group: climateproyectar-operacion
   cancel-in-progress: false
 
 jobs:

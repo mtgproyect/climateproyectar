@@ -1,0 +1,150 @@
+name: Actualización por disparo externo
+
+on:
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: "Alcance de la actualización"
+        required: true
+        default: "stations"
+        type: choice
+        options:
+          - stations
+          - full
+      station_max_age_hours:
+        description: "Antigüedad máxima de observaciones"
+        required: true
+        default: "1"
+        type: string
+      forecast_max_age_hours:
+        description: "Antigüedad máxima de pronósticos"
+        required: true
+        default: "6"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: climateproyectar-operacion
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt
+
+      - name: Mostrar plan
+        run: |
+          echo "Disparo: externo/manual"
+          echo "Alcance: ${{ inputs.scope }}"
+          echo "Edad observaciones: \
+          ${{ inputs.station_max_age_hours }} hora(s)"
+          echo "Edad pronósticos: \
+          ${{ inputs.forecast_max_age_hours }} hora(s)"
+
+      - name: Actualizar observaciones
+        run: |
+          python scripts/descargar_datos_operativos.py \
+            --mode stations \
+            --shard 1 \
+            --batch-size 200 \
+            --sleep-seconds 1.5 \
+            --refresh-scope expired \
+            --max-age-hours "${{ inputs.station_max_age_hours }}" \
+            --max-attempts 5 \
+            --http-attempts 4 \
+            --retry-base-seconds 2.0
+
+      - name: Actualizar pronósticos — shard 1
+        if: inputs.scope == 'full'
+        run: |
+          python scripts/descargar_datos_operativos.py \
+            --mode forecast \
+            --shard 1 \
+            --batch-size 250 \
+            --sleep-seconds 2.0 \
+            --refresh-scope expired \
+            --max-age-hours "${{ inputs.forecast_max_age_hours }}" \
+            --max-attempts 5 \
+            --http-attempts 4 \
+            --retry-base-seconds 2.0
+
+      - name: Actualizar pronósticos — shard 2
+        if: inputs.scope == 'full'
+        run: |
+          python scripts/descargar_datos_operativos.py \
+            --mode forecast \
+            --shard 2 \
+            --batch-size 250 \
+            --sleep-seconds 2.0 \
+            --refresh-scope expired \
+            --max-age-hours "${{ inputs.forecast_max_age_hours }}" \
+            --max-attempts 5 \
+            --http-attempts 4 \
+            --retry-base-seconds 2.0
+
+      - name: Generar publicación operativa
+        run: |
+          python scripts/generar_publicacion_operativa.py \
+            --expect-localities 10601 \
+            --expect-forecasts 475 \
+            --expect-stations 121
+
+      - name: Generar publicación web V2
+        run: |
+          python scripts/generar_sitio_v2.py \
+            --expect-localities 10601 \
+            --expect-forecasts 475 \
+            --expect-stations 121
+
+      - name: Validar actualización completa
+        run: python scripts/validar_actualizacion_automatica.py
+
+      - name: Ejecutar pruebas
+        run: |
+          python -m unittest discover -s tests -v
+          node --check docs/assets/js/app.js
+          node tests/test_date_utils.js
+
+      - name: Guardar actualización
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/cache/operativo \
+            data/fuentes/pronosticos_historicos_antartida.json \
+            docs/data/estado_descarga_operativa.json \
+            docs/data/errores_descarga_operativa.json \
+            docs/data/publicacion \
+            docs/data/web
+
+          if git diff --cached --quiet; then
+            echo "No hay cambios para guardar."
+          else
+            git commit -m \
+              "Actualizar datos meteorológicos por disparo externo"
+            git push
+          fi

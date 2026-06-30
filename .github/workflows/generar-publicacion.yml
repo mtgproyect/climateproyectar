@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: generar-publicacion-operativa
+  group: climateproyectar-operacion
   cancel-in-progress: false
 
 jobs:
