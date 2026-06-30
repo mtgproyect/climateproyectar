@@ -47,7 +47,9 @@ jobs:
       - name: Ejecutar pruebas
         run: |
           python -m unittest discover -s tests -v
+          node --check docs/assets/js/date-utils.js
           node --check docs/assets/js/app.js
+          node tests/test_date_utils.js
 
       - name: Guardar publicación
         run: |
