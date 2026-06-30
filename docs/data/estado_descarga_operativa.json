@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T22:06:51.804863+00:00",
+  "generated_at": "2026-06-30T00:13:21.744338+00:00",
   "totals": {
     "query_keys": 599,
     "success": 234,
@@ -40,10 +40,11 @@
     "mode": "forecast",
     "shard": 1,
     "configured_batch_size": 100,
-    "attempted_queries": 17,
-    "completed_queries": 17,
-    "successful_queries": 13,
+    "attempted_queries": 4,
+    "completed_queries": 4,
+    "successful_queries": 0,
     "request_errors": 4,
+    "http_attempts_total": 16,
     "stopped_reason": null
   }
 }

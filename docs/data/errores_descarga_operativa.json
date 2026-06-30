@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T22:06:51.829765+00:00",
+  "generated_at": "2026-06-30T00:13:21.768764+00:00",
   "count": 4,
   "errors": [
     {
       "mode": "forecast",
       "shard": 1,
       "query_id": 10806,
-      "attempts": 2,
-      "last_attempt_at": "2026-06-29T22:06:22.315393+00:00",
+      "attempts": 3,
+      "last_attempt_at": "2026-06-30T00:12:29.230554+00:00",
       "error": {
         "type": "ApiError",
         "message": "HTTP 404 al consultar el pronóstico 10806.",
@@ -19,8 +19,8 @@
       "mode": "forecast",
       "shard": 1,
       "query_id": 10810,
-      "attempts": 2,
-      "last_attempt_at": "2026-06-29T22:06:23.960150+00:00",
+      "attempts": 3,
+      "last_attempt_at": "2026-06-30T00:12:46.642398+00:00",
       "error": {
         "type": "ApiError",
         "message": "HTTP 404 al consultar el pronóstico 10810.",
@@ -31,8 +31,8 @@
       "mode": "forecast",
       "shard": 1,
       "query_id": 10811,
-      "attempts": 2,
-      "last_attempt_at": "2026-06-29T22:06:25.608324+00:00",
+      "attempts": 3,
+      "last_attempt_at": "2026-06-30T00:13:04.008410+00:00",
       "error": {
         "type": "ApiError",
         "message": "HTTP 404 al consultar el pronóstico 10811.",
@@ -43,8 +43,8 @@
       "mode": "forecast",
       "shard": 1,
       "query_id": 10817,
-      "attempts": 2,
-      "last_attempt_at": "2026-06-29T22:06:27.255344+00:00",
+      "attempts": 3,
+      "last_attempt_at": "2026-06-30T00:13:21.418550+00:00",
       "error": {
         "type": "ApiError",
         "message": "HTTP 404 al consultar el pronóstico 10817.",

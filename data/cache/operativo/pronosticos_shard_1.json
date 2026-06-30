@@ -2,7 +2,7 @@
   "schema_version": 1,
   "mode": "forecast",
   "shard": 1,
-  "generated_at": "2026-06-29T22:06:51.623202+00:00",
+  "generated_at": "2026-06-30T00:13:21.562955+00:00",
   "records": {
     "19": {
       "query_id": 19,
@@ -117601,8 +117601,8 @@
       "query_id": 10806,
       "locality_count": 1,
       "status": "error",
-      "attempts": 2,
-      "last_attempt_at": "2026-06-29T22:06:22.315393+00:00",
+      "attempts": 3,
+      "last_attempt_at": "2026-06-30T00:12:29.230554+00:00",
       "error": {
         "type": "ApiError",
         "message": "HTTP 404 al consultar el pronóstico 10806.",
@@ -117613,8 +117613,8 @@
       "query_id": 10810,
       "locality_count": 2,
       "status": "error",
-      "attempts": 2,
-      "last_attempt_at": "2026-06-29T22:06:23.960150+00:00",
+      "attempts": 3,
+      "last_attempt_at": "2026-06-30T00:12:46.642398+00:00",
       "error": {
         "type": "ApiError",
         "message": "HTTP 404 al consultar el pronóstico 10810.",
@@ -117625,8 +117625,8 @@
       "query_id": 10811,
       "locality_count": 7,
       "status": "error",
-      "attempts": 2,
-      "last_attempt_at": "2026-06-29T22:06:25.608324+00:00",
+      "attempts": 3,
+      "last_attempt_at": "2026-06-30T00:13:04.008410+00:00",
       "error": {
         "type": "ApiError",
         "message": "HTTP 404 al consultar el pronóstico 10811.",
@@ -117637,8 +117637,8 @@
       "query_id": 10817,
       "locality_count": 1,
       "status": "error",
-      "attempts": 2,
-      "last_attempt_at": "2026-06-29T22:06:27.255344+00:00",
+      "attempts": 3,
+      "last_attempt_at": "2026-06-30T00:13:21.418550+00:00",
       "error": {
         "type": "ApiError",
         "message": "HTTP 404 al consultar el pronóstico 10817.",
