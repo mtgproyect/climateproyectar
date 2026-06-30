@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T20:08:24.125136+00:00",
+  "generated_at": "2026-06-30T22:12:07.472156+00:00",
   "count": 121,
   "fresh": 121,
   "stale": 0,
@@ -11,15 +11,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:11.719084+00:00",
+      "fetched_at": "2026-06-30T22:08:38.221180+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 48.0,
-        "pressure": 669.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 42.0,
+        "pressure": 670.0,
         "feels_like": null,
-        "temperature": 17.0,
+        "temperature": 14.5,
         "visibility": 30.0,
         "weather": {
           "description": "Ligeramente nublado",
@@ -28,7 +28,7 @@
         "wind": {
           "direction": "Noroeste",
           "deg": 315.0,
-          "speed": 34.0
+          "speed": 25.0
         },
         "station_id": 87007,
         "location": {
@@ -51,24 +51,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:13.427083+00:00",
+      "fetched_at": "2026-06-30T22:08:39.923269+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 82.0,
-        "pressure": 969.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 81.0,
+        "pressure": 969.6,
         "feels_like": null,
-        "temperature": 14.0,
+        "temperature": 14.1,
         "visibility": 10.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Cubierto",
+          "id": 43
         },
         "wind": {
-          "direction": "Sudeste",
-          "deg": 135.0,
-          "speed": 10.0
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
         },
         "station_id": 87016,
         "location": {
@@ -91,24 +91,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:15.144403+00:00",
+      "fetched_at": "2026-06-30T22:08:41.628108+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 59.0,
-        "pressure": 959.9,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 67.0,
+        "pressure": 959.2,
         "feels_like": null,
-        "temperature": 16.6,
+        "temperature": 15.6,
         "visibility": 10.0,
         "weather": {
           "description": "Nublado",
           "id": 43
         },
         "wind": {
-          "direction": "Noreste",
-          "deg": 45.0,
-          "speed": 10.0
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 4.0
         },
         "station_id": 87022,
         "location": {
@@ -131,16 +131,16 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:16.852156+00:00",
+      "fetched_at": "2026-06-30T22:08:43.322509+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 88.0,
-        "pressure": 865.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 87.0,
+        "pressure": 866.1,
         "feels_like": null,
-        "temperature": 10.9,
-        "visibility": 8.0,
+        "temperature": 10.2,
+        "visibility": 6.0,
         "weather": {
           "description": "Cubierto con neblina",
           "id": 61
@@ -148,7 +148,7 @@
         "wind": {
           "direction": "Sudeste",
           "deg": 135.0,
-          "speed": 4.0
+          "speed": 10.0
         },
         "station_id": 87043,
         "location": {
@@ -171,15 +171,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:18.556714+00:00",
+      "fetched_at": "2026-06-30T22:08:45.056094+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 85.0,
-        "pressure": 908.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 88.0,
+        "pressure": 908.9,
         "feels_like": null,
-        "temperature": 11.6,
+        "temperature": 11.0,
         "visibility": 15.0,
         "weather": {
           "description": "Cubierto",
@@ -188,7 +188,7 @@
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 8.0
+          "speed": 6.0
         },
         "station_id": 87046,
         "location": {
@@ -211,24 +211,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:20.238753+00:00",
+      "fetched_at": "2026-06-30T22:08:46.832191+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 74.0,
-        "pressure": 874.3,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 78.0,
+        "pressure": 875.4,
         "feels_like": null,
-        "temperature": 12.0,
+        "temperature": 10.6,
         "visibility": 12.0,
         "weather": {
-          "description": "Mayormente nublado con bruma",
-          "id": 37
+          "description": "Cubierto con bruma",
+          "id": 43
         },
         "wind": {
-          "direction": "Este",
-          "deg": 90.0,
-          "speed": 13.0
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 8.0
         },
         "station_id": 87047,
         "location": {
@@ -251,7 +251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:21.957399+00:00",
+      "fetched_at": "2026-06-30T22:08:48.542419+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -291,24 +291,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:23.685250+00:00",
+      "fetched_at": "2026-06-30T22:08:50.279614+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 48.0,
-        "pressure": 987.9,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 42.0,
+        "pressure": 986.5,
         "feels_like": null,
-        "temperature": 22.4,
+        "temperature": 21.0,
         "visibility": 20.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Norte",
-          "deg": 360.0,
-          "speed": 4.0
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
         },
         "station_id": 87065,
         "location": {
@@ -331,19 +331,19 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:25.386687+00:00",
+      "fetched_at": "2026-06-30T22:08:52.044646+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 68.0,
-        "pressure": 998.9,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 69.0,
+        "pressure": 997.7,
         "feels_like": null,
-        "temperature": 17.4,
+        "temperature": 17.0,
         "visibility": 20.0,
         "weather": {
-          "description": "Cubierto",
-          "id": 43
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "Este",
@@ -371,23 +371,23 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:27.091116+00:00",
+      "fetched_at": "2026-06-30T22:08:53.750415+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": null,
-        "pressure": 981.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 100.0,
+        "pressure": 981.4,
         "feels_like": null,
-        "temperature": 18.1,
-        "visibility": 4.0,
+        "temperature": 18.2,
+        "visibility": 5.0,
         "weather": {
-          "description": "Nublado con lluvia",
-          "id": 73
+          "description": "Nublado con lluvia débil",
+          "id": 72
         },
         "wind": {
-          "direction": "Este",
-          "deg": 90.0,
+          "direction": "Sur",
+          "deg": 180.0,
           "speed": 4.0
         },
         "station_id": 87097,
@@ -411,19 +411,19 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:28.804965+00:00",
+      "fetched_at": "2026-06-30T22:08:55.520089+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 89.0,
-        "pressure": 960.2,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 90.0,
+        "pressure": 960.0,
         "feels_like": null,
-        "temperature": 11.0,
-        "visibility": 5.0,
+        "temperature": 10.5,
+        "visibility": 4.0,
         "weather": {
-          "description": "Cubierto con neblina",
-          "id": 61
+          "description": "Cubierto con llovizna en la hora anterior",
+          "id": 43
         },
         "wind": {
           "direction": "Oeste",
@@ -451,24 +451,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:30.521646+00:00",
+      "fetched_at": "2026-06-30T22:08:57.257406+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 64.0,
-        "pressure": 979.6,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 73.0,
+        "pressure": 979.2,
         "feels_like": null,
-        "temperature": 14.5,
-        "visibility": 12.0,
+        "temperature": 13.2,
+        "visibility": 10.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "Sudoeste",
           "deg": 225.0,
-          "speed": 10.0
+          "speed": 12.0
         },
         "station_id": 87127,
         "location": {
@@ -491,13 +491,13 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:32.224706+00:00",
+      "fetched_at": "2026-06-30T22:08:58.997303+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 48.0,
-        "pressure": 988.8,
+        "date": "2026-06-30T17:00:00-03:00",
+        "humidity": 50.0,
+        "pressure": 988.1,
         "feels_like": null,
         "temperature": 18.4,
         "visibility": 10.0,
@@ -508,7 +508,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 10.0
+          "speed": 8.0
         },
         "station_id": 87129,
         "location": {
@@ -531,15 +531,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:33.935797+00:00",
+      "fetched_at": "2026-06-30T22:09:00.732111+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 51.0,
-        "pressure": 1002.2,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 65.0,
+        "pressure": 1002.0,
         "feels_like": null,
-        "temperature": 18.3,
+        "temperature": 16.0,
         "visibility": 20.0,
         "weather": {
           "description": "Parcialmente nublado",
@@ -548,7 +548,7 @@
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 8.0
+          "speed": 2.0
         },
         "station_id": 87148,
         "location": {
@@ -571,24 +571,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:35.643425+00:00",
+      "fetched_at": "2026-06-30T22:09:02.492170+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 53.0,
-        "pressure": 1007.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 61.0,
+        "pressure": 1007.2,
         "feels_like": null,
-        "temperature": 17.9,
+        "temperature": 15.9,
         "visibility": 15.0,
         "weather": {
           "description": "Algo nublado",
           "id": 19
         },
         "wind": {
-          "direction": "Sudeste",
-          "deg": 135.0,
-          "speed": 6.0
+          "direction": "Este",
+          "deg": 90.0,
+          "speed": 2.0
         },
         "station_id": 87155,
         "location": {
@@ -611,24 +611,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:37.357314+00:00",
+      "fetched_at": "2026-06-30T22:09:04.239937+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 73.0,
-        "pressure": 1007.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 76.0,
+        "pressure": 1006.5,
         "feels_like": null,
-        "temperature": 14.8,
+        "temperature": 14.4,
         "visibility": 20.0,
         "weather": {
           "description": "Cubierto",
           "id": 43
         },
         "wind": {
-          "direction": "Sur",
-          "deg": 180.0,
-          "speed": 12.0
+          "direction": "Sudeste",
+          "deg": 135.0,
+          "speed": 6.0
         },
         "station_id": 87162,
         "location": {
@@ -651,24 +651,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:39.080395+00:00",
+      "fetched_at": "2026-06-30T22:09:06.013756+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 100.0,
-        "pressure": 921.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": null,
+        "pressure": 920.8,
         "feels_like": null,
-        "temperature": 17.4,
-        "visibility": 2.0,
+        "temperature": 16.4,
+        "visibility": 4.0,
         "weather": {
-          "description": "Nublado con lluvia débil",
-          "id": 72
+          "description": "Mayormente nublado con tormenta débil",
+          "id": 76
         },
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 10.0
+          "speed": 4.0
         },
         "station_id": 87163,
         "location": {
@@ -691,24 +691,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:40.796449+00:00",
+      "fetched_at": "2026-06-30T22:09:07.764899+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 59.0,
-        "pressure": 1006.5,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 71.0,
+        "pressure": 1006.1,
         "feels_like": null,
-        "temperature": 17.3,
+        "temperature": 15.5,
         "visibility": 10.0,
         "weather": {
           "description": "Algo nublado",
           "id": 19
         },
         "wind": {
-          "direction": "Direcciones Variables",
-          "deg": null,
-          "speed": 4.0
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 6.0
         },
         "station_id": 87166,
         "location": {
@@ -731,24 +731,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:42.503323+00:00",
+      "fetched_at": "2026-06-30T22:09:09.470336+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 85.0,
-        "pressure": 1005.3,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 91.0,
+        "pressure": 1004.5,
         "feels_like": null,
-        "temperature": 13.8,
-        "visibility": 15.0,
+        "temperature": 13.4,
+        "visibility": 4.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Cubierto con neblina",
+          "id": 61
         },
         "wind": {
-          "direction": "Noreste",
-          "deg": 45.0,
-          "speed": 10.0
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
         },
         "station_id": 87173,
         "location": {
@@ -771,24 +771,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:44.221549+00:00",
+      "fetched_at": "2026-06-30T22:09:11.213803+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 87.0,
-        "pressure": 999.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 91.0,
+        "pressure": 999.2,
         "feels_like": null,
-        "temperature": 14.7,
+        "temperature": 14.3,
         "visibility": 20.0,
         "weather": {
-          "description": "Nublado con lluvia en la hora anterior",
+          "description": "Nublado",
           "id": 43
         },
         "wind": {
           "direction": "Sur",
           "deg": 180.0,
-          "speed": 10.0
+          "speed": 8.0
         },
         "station_id": 87178,
         "location": {
@@ -811,7 +811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:45.918936+00:00",
+      "fetched_at": "2026-06-30T22:09:12.957268+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -851,24 +851,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:47.642125+00:00",
+      "fetched_at": "2026-06-30T22:09:14.693047+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 43.0,
-        "pressure": 873.1,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 47.0,
+        "pressure": 873.4,
         "feels_like": null,
-        "temperature": 15.2,
+        "temperature": 13.6,
         "visibility": 20.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 15.0
+          "speed": 34.0
         },
         "station_id": 87211,
         "location": {
@@ -891,7 +891,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:49.367185+00:00",
+      "fetched_at": "2026-06-30T22:09:16.432588+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -931,23 +931,23 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:51.083161+00:00",
+      "fetched_at": "2026-06-30T22:09:18.202651+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 45.0,
-        "pressure": 959.3,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 47.0,
+        "pressure": 958.5,
         "feels_like": null,
-        "temperature": 16.0,
+        "temperature": 16.6,
         "visibility": 20.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Sur",
-          "deg": 180.0,
+          "direction": "Sudeste",
+          "deg": 135.0,
           "speed": 4.0
         },
         "station_id": 87217,
@@ -971,24 +971,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:52.800513+00:00",
+      "fetched_at": "2026-06-30T22:09:19.967385+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 42.0,
-        "pressure": 955.2,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 47.0,
+        "pressure": 954.5,
         "feels_like": null,
-        "temperature": 18.8,
+        "temperature": 17.2,
         "visibility": 20.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
-          "direction": "Norte",
-          "deg": 360.0,
-          "speed": 30.0
+          "direction": "Noreste",
+          "deg": 45.0,
+          "speed": 19.0
         },
         "station_id": 87222,
         "location": {
@@ -1011,7 +1011,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:54.813253+00:00",
+      "fetched_at": "2026-06-30T22:09:21.698894+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1051,24 +1051,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:56.525343+00:00",
+      "fetched_at": "2026-06-30T22:09:23.480939+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 43.0,
-        "pressure": 1003.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 66.0,
+        "pressure": 1003.0,
         "feels_like": null,
-        "temperature": 17.1,
+        "temperature": 13.6,
         "visibility": 15.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "Noreste",
           "deg": 45.0,
-          "speed": 12.0
+          "speed": 6.0
         },
         "station_id": 87257,
         "location": {
@@ -1091,15 +1091,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:58.233441+00:00",
+      "fetched_at": "2026-06-30T22:09:25.180066+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 53.0,
-        "pressure": 1008.6,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 60.0,
+        "pressure": 1008.2,
         "feels_like": null,
-        "temperature": 16.5,
+        "temperature": 15.0,
         "visibility": 15.0,
         "weather": {
           "description": "Ligeramente nublado",
@@ -1108,7 +1108,7 @@
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 15.0
+          "speed": 10.0
         },
         "station_id": 87270,
         "location": {
@@ -1131,24 +1131,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:31:59.950995+00:00",
+      "fetched_at": "2026-06-30T22:09:26.927794+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 61.0,
-        "pressure": 1002.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 63.0,
+        "pressure": 1001.9,
         "feels_like": null,
-        "temperature": 15.0,
+        "temperature": 13.2,
         "visibility": 15.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 12.0
+          "speed": 6.0
         },
         "station_id": 87281,
         "location": {
@@ -1171,24 +1171,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:01.669286+00:00",
+      "fetched_at": "2026-06-30T22:09:28.697658+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 77.0,
-        "pressure": 1006.9,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 88.0,
+        "pressure": 1007.4,
         "feels_like": null,
-        "temperature": 12.9,
+        "temperature": 11.0,
         "visibility": 10.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 15.0
+          "speed": 8.0
         },
         "station_id": 87289,
         "location": {
@@ -1211,24 +1211,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:03.371527+00:00",
+      "fetched_at": "2026-06-30T22:09:30.438548+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 33.0,
-        "pressure": 876.9,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 32.0,
+        "pressure": 875.7,
         "feels_like": null,
-        "temperature": 12.7,
+        "temperature": 13.8,
         "visibility": 10.0,
         "weather": {
           "description": "Ligeramente nublado con polvo en suspensión",
           "id": 13
         },
         "wind": {
-          "direction": "Este",
-          "deg": 90.0,
-          "speed": 4.0
+          "direction": "Sudeste",
+          "deg": 135.0,
+          "speed": 10.0
         },
         "station_id": 87305,
         "location": {
@@ -1251,24 +1251,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:05.076627+00:00",
+      "fetched_at": "2026-06-30T22:09:32.208897+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 31.0,
-        "pressure": 939.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 33.0,
+        "pressure": 939.4,
         "feels_like": null,
-        "temperature": 16.6,
+        "temperature": 14.5,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Sur",
-          "deg": 180.0,
-          "speed": 4.0
+          "direction": "Sudeste",
+          "deg": 135.0,
+          "speed": 15.0
         },
         "station_id": 87311,
         "location": {
@@ -1291,15 +1291,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:06.779258+00:00",
+      "fetched_at": "2026-06-30T22:09:33.903979+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 57.0,
-        "pressure": 958.2,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 55.0,
+        "pressure": 956.6,
         "feels_like": null,
-        "temperature": 14.2,
+        "temperature": 14.0,
         "visibility": 20.0,
         "weather": {
           "description": "Parcialmente nublado",
@@ -1331,7 +1331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:08.490387+00:00",
+      "fetched_at": "2026-06-30T22:09:35.650504+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1371,24 +1371,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:10.192456+00:00",
+      "fetched_at": "2026-06-30T22:09:37.386897+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 39.0,
-        "pressure": 945.4,
+        "date": "2026-06-30T17:00:00-03:00",
+        "humidity": 33.0,
+        "pressure": 945.0,
         "feels_like": null,
-        "temperature": 17.4,
+        "temperature": 16.8,
         "visibility": 30.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Norte",
-          "deg": 360.0,
-          "speed": 23.0
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 28.0
         },
         "station_id": 87328,
         "location": {
@@ -1411,15 +1411,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:11.904729+00:00",
+      "fetched_at": "2026-06-30T22:09:39.197364+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 41.0,
-        "pressure": 954.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 68.0,
+        "pressure": 954.2,
         "feels_like": null,
-        "temperature": 15.9,
+        "temperature": 11.5,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
@@ -1428,7 +1428,7 @@
         "wind": {
           "direction": "Noreste",
           "deg": 45.0,
-          "speed": 21.0
+          "speed": 19.0
         },
         "station_id": 87344,
         "location": {
@@ -1451,15 +1451,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:13.601490+00:00",
+      "fetched_at": "2026-06-30T22:09:40.947219+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 36.0,
-        "pressure": 962.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 52.0,
+        "pressure": 962.6,
         "feels_like": null,
-        "temperature": 16.7,
+        "temperature": 13.8,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -1468,7 +1468,7 @@
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 12.0
+          "speed": 13.0
         },
         "station_id": 87345,
         "location": {
@@ -1491,24 +1491,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:15.305470+00:00",
+      "fetched_at": "2026-06-30T22:09:43.041494+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 40.0,
-        "pressure": 954.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 52.0,
+        "pressure": 954.4,
         "feels_like": null,
-        "temperature": 16.0,
+        "temperature": 13.5,
         "visibility": 10.0,
         "weather": {
-          "description": "Despejado",
+          "description": "Despejado con humo",
           "id": 3
         },
         "wind": {
           "direction": "Noreste",
           "deg": 45.0,
-          "speed": 19.0
+          "speed": 15.0
         },
         "station_id": 87347,
         "location": {
@@ -1531,15 +1531,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:17.008361+00:00",
+      "fetched_at": "2026-06-30T22:09:44.744019+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 43.0,
-        "pressure": 972.6,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 51.0,
+        "pressure": 972.9,
         "feels_like": null,
-        "temperature": 15.4,
+        "temperature": 13.6,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -1548,7 +1548,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 19.0
+          "speed": 17.0
         },
         "station_id": 87349,
         "location": {
@@ -1571,24 +1571,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:18.715049+00:00",
+      "fetched_at": "2026-06-30T22:09:46.447534+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 50.0,
-        "pressure": 1003.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 65.0,
+        "pressure": 1003.3,
         "feels_like": null,
-        "temperature": 15.1,
+        "temperature": 12.7,
         "visibility": 15.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 25.0
+          "speed": 10.0
         },
         "station_id": 87356,
         "location": {
@@ -1611,7 +1611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:20.438125+00:00",
+      "fetched_at": "2026-06-30T22:09:48.184530+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1651,24 +1651,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:22.143402+00:00",
+      "fetched_at": "2026-06-30T22:09:49.964136+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 48.0,
-        "pressure": 1013.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 55.0,
+        "pressure": 1013.0,
         "feels_like": null,
-        "temperature": 16.7,
+        "temperature": 14.7,
         "visibility": 12.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Noreste",
-          "deg": 45.0,
-          "speed": 15.0
+          "direction": "Este",
+          "deg": 90.0,
+          "speed": 10.0
         },
         "station_id": 87371,
         "location": {
@@ -1691,15 +1691,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:23.865236+00:00",
+      "fetched_at": "2026-06-30T22:09:51.702974+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 58.0,
-        "pressure": 1006.2,
+        "date": "2026-06-30T17:00:00-03:00",
+        "humidity": 61.0,
+        "pressure": 1006.1,
         "feels_like": null,
-        "temperature": 16.3,
+        "temperature": 15.7,
         "visibility": 15.0,
         "weather": {
           "description": "Ligeramente nublado",
@@ -1708,7 +1708,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 15.0
+          "speed": 13.0
         },
         "station_id": 87374,
         "location": {
@@ -1731,24 +1731,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:25.559331+00:00",
+      "fetched_at": "2026-06-30T22:09:53.469082+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 64.0,
-        "pressure": 1009.3,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 72.0,
+        "pressure": 1009.0,
         "feels_like": null,
-        "temperature": 14.2,
+        "temperature": 13.4,
         "visibility": 20.0,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
         },
         "wind": {
-          "direction": "Sur",
-          "deg": 180.0,
-          "speed": 12.0
+          "direction": "Sudeste",
+          "deg": 135.0,
+          "speed": 10.0
         },
         "station_id": 87393,
         "location": {
@@ -1771,24 +1771,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:27.273594+00:00",
+      "fetched_at": "2026-06-30T22:09:55.229062+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 46.0,
-        "pressure": 1011.9,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 64.0,
+        "pressure": 1011.4,
         "feels_like": null,
-        "temperature": 14.8,
+        "temperature": 11.7,
         "visibility": 15.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
-          "direction": "Sudeste",
-          "deg": 135.0,
-          "speed": 10.0
+          "direction": "Este",
+          "deg": 90.0,
+          "speed": 8.0
         },
         "station_id": 87395,
         "location": {
@@ -1811,24 +1811,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:28.975707+00:00",
+      "fetched_at": "2026-06-30T22:09:56.922283+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
+        "date": "2026-06-30T18:00:00-03:00",
         "humidity": 18.0,
-        "pressure": 802.2,
+        "pressure": 802.8,
         "feels_like": null,
-        "temperature": 17.2,
+        "temperature": 15.2,
         "visibility": 15.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
-          "direction": "Calma",
-          "deg": null,
-          "speed": null
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 4.0
         },
         "station_id": 87405,
         "location": {
@@ -1851,15 +1851,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:30.697044+00:00",
+      "fetched_at": "2026-06-30T22:09:58.658554+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 30.0,
-        "pressure": 933.6,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 33.0,
+        "pressure": 933.2,
         "feels_like": null,
-        "temperature": 14.3,
+        "temperature": 13.7,
         "visibility": 15.0,
         "weather": {
           "description": "Ligeramente nublado",
@@ -1868,7 +1868,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 12.0
+          "speed": 8.0
         },
         "station_id": 87416,
         "location": {
@@ -1891,24 +1891,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:32.391126+00:00",
+      "fetched_at": "2026-06-30T22:10:00.359521+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 33.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 36.0,
         "pressure": 928.2,
         "feels_like": null,
-        "temperature": 13.1,
-        "visibility": 8.0,
+        "temperature": 12.5,
+        "visibility": 15.0,
         "weather": {
-          "description": "Despejado con bruma",
+          "description": "Despejado",
           "id": 3
         },
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 15.0
+          "speed": 13.0
         },
         "station_id": 87418,
         "location": {
@@ -1931,15 +1931,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:34.081080+00:00",
+      "fetched_at": "2026-06-30T22:10:02.047280+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 45.0,
-        "pressure": 914.2,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 53.0,
+        "pressure": 914.4,
         "feels_like": null,
-        "temperature": 12.5,
+        "temperature": 10.2,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
@@ -1971,15 +1971,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:35.763424+00:00",
+      "fetched_at": "2026-06-30T22:10:03.751940+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 40.0,
-        "pressure": 928.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 44.0,
+        "pressure": 927.8,
         "feels_like": null,
-        "temperature": 15.3,
+        "temperature": 14.1,
         "visibility": 20.0,
         "weather": {
           "description": "Despejado",
@@ -1988,7 +1988,7 @@
         "wind": {
           "direction": "Noroeste",
           "deg": 315.0,
-          "speed": 21.0
+          "speed": 15.0
         },
         "station_id": 87436,
         "location": {
@@ -2011,15 +2011,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:37.493170+00:00",
+      "fetched_at": "2026-06-30T22:10:05.458158+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 41.0,
-        "pressure": 939.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 44.0,
+        "pressure": 938.9,
         "feels_like": null,
-        "temperature": 16.0,
+        "temperature": 14.8,
         "visibility": 20.0,
         "weather": {
           "description": "Despejado",
@@ -2028,7 +2028,7 @@
         "wind": {
           "direction": "Noroeste",
           "deg": 315.0,
-          "speed": 15.0
+          "speed": 8.0
         },
         "station_id": 87444,
         "location": {
@@ -2051,24 +2051,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:39.206936+00:00",
+      "fetched_at": "2026-06-30T22:10:07.207405+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 24.0,
-        "pressure": 953.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 37.0,
+        "pressure": 954.0,
         "feels_like": null,
-        "temperature": 19.0,
+        "temperature": 15.4,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Noroeste",
-          "deg": 315.0,
-          "speed": 28.0
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 10.0
         },
         "station_id": 87448,
         "location": {
@@ -2091,15 +2091,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:40.915026+00:00",
+      "fetched_at": "2026-06-30T22:10:08.913391+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 36.0,
-        "pressure": 962.2,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 46.0,
+        "pressure": 961.8,
         "feels_like": null,
-        "temperature": 15.8,
+        "temperature": 13.0,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
@@ -2108,7 +2108,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 34.0
+          "speed": 25.0
         },
         "station_id": 87453,
         "location": {
@@ -2131,24 +2131,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:42.632837+00:00",
+      "fetched_at": "2026-06-30T22:10:10.675809+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 46.0,
-        "pressure": 1001.9,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 58.0,
+        "pressure": 1000.7,
         "feels_like": null,
-        "temperature": 16.0,
+        "temperature": 13.0,
         "visibility": 20.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Noreste",
-          "deg": 45.0,
-          "speed": 25.0
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 15.0
         },
         "station_id": 87467,
         "location": {
@@ -2171,15 +2171,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:44.356939+00:00",
+      "fetched_at": "2026-06-30T22:10:12.432493+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 39.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 48.0,
         "pressure": 1000.6,
         "feels_like": null,
-        "temperature": 15.4,
+        "temperature": 14.2,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -2188,7 +2188,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 15.0
+          "speed": 10.0
         },
         "station_id": 87468,
         "location": {
@@ -2211,15 +2211,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:46.067683+00:00",
+      "fetched_at": "2026-06-30T22:10:14.133231+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 50.0,
-        "pressure": 1012.1,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 65.0,
+        "pressure": 1012.0,
         "feels_like": null,
-        "temperature": 15.4,
+        "temperature": 13.2,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
@@ -2228,7 +2228,7 @@
         "wind": {
           "direction": "Oeste",
           "deg": 270.0,
-          "speed": 12.0
+          "speed": 4.0
         },
         "station_id": 87480,
         "location": {
@@ -2251,24 +2251,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:47.772551+00:00",
+      "fetched_at": "2026-06-30T22:10:15.831104+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 54.0,
-        "pressure": 1013.7,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 65.0,
+        "pressure": 1013.6,
         "feels_like": null,
-        "temperature": 15.2,
+        "temperature": 13.0,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Norte",
-          "deg": 360.0,
-          "speed": 10.0
+          "direction": "Noreste",
+          "deg": 45.0,
+          "speed": 8.0
         },
         "station_id": 87497,
         "location": {
@@ -2291,24 +2291,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:49.489313+00:00",
+      "fetched_at": "2026-06-30T22:10:17.526426+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 26.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 28.0,
         "pressure": 851.0,
         "feels_like": null,
-        "temperature": 12.2,
+        "temperature": 11.4,
         "visibility": 20.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
-          "direction": "Este",
-          "deg": 90.0,
-          "speed": 8.0
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 6.0
         },
         "station_id": 87506,
         "location": {
@@ -2331,24 +2331,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:51.189714+00:00",
+      "fetched_at": "2026-06-30T22:10:19.279449+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 23.0,
-        "pressure": 922.1,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 31.0,
+        "pressure": 922.9,
         "feels_like": null,
-        "temperature": 16.6,
+        "temperature": 13.8,
         "visibility": 20.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Noreste",
-          "deg": 45.0,
-          "speed": 13.0
+          "direction": "Este",
+          "deg": 90.0,
+          "speed": 19.0
         },
         "station_id": 87509,
         "location": {
@@ -2371,24 +2371,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:52.905048+00:00",
+      "fetched_at": "2026-06-30T22:10:21.015221+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 29.0,
-        "pressure": 994.9,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 39.0,
+        "pressure": 995.4,
         "feels_like": null,
-        "temperature": 16.8,
+        "temperature": 14.4,
         "visibility": 20.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 25.0
+          "speed": 13.0
         },
         "station_id": 87532,
         "location": {
@@ -2411,15 +2411,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:54.622364+00:00",
+      "fetched_at": "2026-06-30T22:10:22.782714+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 31.0,
-        "pressure": 998.5,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 40.0,
+        "pressure": 997.2,
         "feels_like": null,
-        "temperature": 16.1,
+        "temperature": 13.3,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
@@ -2428,7 +2428,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 25.0
+          "speed": 10.0
         },
         "station_id": 87534,
         "location": {
@@ -2451,15 +2451,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:56.336782+00:00",
+      "fetched_at": "2026-06-30T22:10:24.519528+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 40.0,
-        "pressure": 1002.6,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 51.0,
+        "pressure": 1002.5,
         "feels_like": null,
-        "temperature": 16.0,
+        "temperature": 13.6,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
@@ -2468,7 +2468,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 15.0
+          "speed": 10.0
         },
         "station_id": 87540,
         "location": {
@@ -2491,15 +2491,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:58.041573+00:00",
+      "fetched_at": "2026-06-30T22:10:26.225930+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 45.0,
-        "pressure": 1004.2,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 58.0,
+        "pressure": 1004.4,
         "feels_like": null,
-        "temperature": 14.7,
+        "temperature": 11.5,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
@@ -2508,7 +2508,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 19.0
+          "speed": 12.0
         },
         "station_id": 87544,
         "location": {
@@ -2531,24 +2531,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:32:59.771357+00:00",
+      "fetched_at": "2026-06-30T22:10:27.965554+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 34.0,
-        "pressure": 1005.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 49.0,
+        "pressure": 1005.3,
         "feels_like": null,
-        "temperature": 15.4,
+        "temperature": 11.4,
         "visibility": 12.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Noroeste",
-          "deg": 315.0,
-          "speed": 15.0
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 12.0
         },
         "station_id": 87548,
         "location": {
@@ -2571,15 +2571,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:01.494248+00:00",
+      "fetched_at": "2026-06-30T22:10:29.738021+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 44.0,
-        "pressure": 1007.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 59.0,
+        "pressure": 1006.2,
         "feels_like": null,
-        "temperature": 14.4,
+        "temperature": 12.2,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
@@ -2588,7 +2588,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 15.0
+          "speed": 12.0
         },
         "station_id": 87550,
         "location": {
@@ -2611,15 +2611,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:03.201032+00:00",
+      "fetched_at": "2026-06-30T22:10:31.489730+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 47.0,
-        "pressure": 1015.2,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 58.0,
+        "pressure": 1015.6,
         "feels_like": null,
-        "temperature": 15.7,
+        "temperature": 11.2,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -2651,24 +2651,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:04.907989+00:00",
+      "fetched_at": "2026-06-30T22:10:33.230367+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 56.0,
-        "pressure": 1012.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 67.0,
+        "pressure": 1011.3,
         "feels_like": null,
-        "temperature": 13.0,
+        "temperature": 11.0,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Norte",
-          "deg": 360.0,
-          "speed": 8.0
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
         },
         "station_id": 87563,
         "location": {
@@ -2691,15 +2691,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:06.590545+00:00",
+      "fetched_at": "2026-06-30T22:10:34.966270+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 42.0,
-        "pressure": 1013.3,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 78.0,
+        "pressure": 1013.8,
         "feels_like": null,
-        "temperature": 15.7,
+        "temperature": 11.4,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -2708,7 +2708,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 13.0
+          "speed": 6.0
         },
         "station_id": 87570,
         "location": {
@@ -2731,24 +2731,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:08.297603+00:00",
+      "fetched_at": "2026-06-30T22:10:36.701948+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 47.0,
-        "pressure": 1014.6,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 62.0,
+        "pressure": 1015.0,
         "feels_like": null,
-        "temperature": 15.3,
+        "temperature": 12.4,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Noreste",
-          "deg": 45.0,
-          "speed": 8.0
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 4.0
         },
         "station_id": 87571,
         "location": {
@@ -2771,15 +2771,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:10.022250+00:00",
+      "fetched_at": "2026-06-30T22:10:38.407296+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 48.0,
-        "pressure": 1012.1,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 60.0,
+        "pressure": 1012.5,
         "feels_like": null,
-        "temperature": 15.2,
+        "temperature": 12.6,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -2788,7 +2788,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 8.0
+          "speed": 4.0
         },
         "station_id": 87572,
         "location": {
@@ -2811,15 +2811,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:11.730648+00:00",
+      "fetched_at": "2026-06-30T22:10:40.193364+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 42.0,
-        "pressure": 1014.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 69.0,
+        "pressure": 1014.0,
         "feels_like": null,
-        "temperature": 15.2,
+        "temperature": 12.1,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -2828,7 +2828,7 @@
         "wind": {
           "direction": "Oeste",
           "deg": 270.0,
-          "speed": 13.0
+          "speed": 10.0
         },
         "station_id": 87573,
         "location": {
@@ -2851,15 +2851,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:13.438124+00:00",
+      "fetched_at": "2026-06-30T22:10:41.962352+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 36.0,
-        "pressure": 1012.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 60.0,
+        "pressure": 1013.0,
         "feels_like": null,
-        "temperature": 15.2,
+        "temperature": 13.1,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -2868,7 +2868,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 13.0
+          "speed": 6.0
         },
         "station_id": 87574,
         "location": {
@@ -2891,15 +2891,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:15.144205+00:00",
+      "fetched_at": "2026-06-30T22:10:43.680496+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 40.0,
-        "pressure": 1013.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 62.0,
+        "pressure": 1014.2,
         "feels_like": null,
-        "temperature": 15.1,
+        "temperature": 12.4,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -2908,7 +2908,7 @@
         "wind": {
           "direction": "Noreste",
           "deg": 45.0,
-          "speed": 12.0
+          "speed": 8.0
         },
         "station_id": 87576,
         "location": {
@@ -2931,15 +2931,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:16.846514+00:00",
+      "fetched_at": "2026-06-30T22:10:45.381189+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 66.0,
-        "pressure": 1015.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 70.0,
+        "pressure": 1016.0,
         "feels_like": null,
-        "temperature": 13.3,
+        "temperature": 13.0,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -2948,7 +2948,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 12.0
+          "speed": 13.0
         },
         "station_id": 87582,
         "location": {
@@ -2971,15 +2971,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:18.540064+00:00",
+      "fetched_at": "2026-06-30T22:10:47.103206+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 55.0,
-        "pressure": 1013.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 65.0,
+        "pressure": 1013.7,
         "feels_like": null,
-        "temperature": 15.2,
+        "temperature": 13.0,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -2988,7 +2988,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 12.0
+          "speed": 8.0
         },
         "station_id": 87585,
         "location": {
@@ -3011,24 +3011,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:20.256534+00:00",
+      "fetched_at": "2026-06-30T22:10:48.847480+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 58.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 79.0,
         "pressure": 1014.8,
-        "feels_like": null,
-        "temperature": 13.0,
-        "visibility": 10.0,
+        "feels_like": 9.4,
+        "temperature": 9.8,
+        "visibility": 8.0,
         "weather": {
-          "description": "Despejado",
-          "id": 3
+          "description": "Despejado con neblina",
+          "id": 61
         },
         "wind": {
-          "direction": "Noreste",
-          "deg": 45.0,
-          "speed": 8.0
+          "direction": "Este",
+          "deg": 90.0,
+          "speed": 6.0
         },
         "station_id": 87593,
         "location": {
@@ -3051,15 +3051,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:21.964089+00:00",
+      "fetched_at": "2026-06-30T22:10:50.609886+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 89.0,
-        "pressure": 1015.5,
-        "feels_like": null,
-        "temperature": 12.0,
+        "date": "2026-06-30T19:00:00-03:00",
+        "humidity": 98.0,
+        "pressure": 1015.1,
+        "feels_like": 5.2,
+        "temperature": 7.0,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -3068,7 +3068,7 @@
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 17.0
+          "speed": 10.0
         },
         "station_id": 87596,
         "location": {
@@ -3091,7 +3091,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:23.675941+00:00",
+      "fetched_at": "2026-06-30T22:10:52.348013+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3131,24 +3131,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:25.382238+00:00",
+      "fetched_at": "2026-06-30T22:10:54.093991+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 44.0,
-        "pressure": 988.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 55.0,
+        "pressure": 989.4,
         "feels_like": null,
-        "temperature": 16.8,
+        "temperature": 14.1,
         "visibility": 30.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
-          "direction": "Noroeste",
-          "deg": 315.0,
-          "speed": 21.0
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 8.0
         },
         "station_id": 87623,
         "location": {
@@ -3171,7 +3171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:27.088060+00:00",
+      "fetched_at": "2026-06-30T22:10:55.789914+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3211,15 +3211,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:28.788932+00:00",
+      "fetched_at": "2026-06-30T22:10:57.526561+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 50.0,
-        "pressure": 1004.2,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 64.0,
+        "pressure": 1004.1,
         "feels_like": null,
-        "temperature": 13.8,
+        "temperature": 10.2,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
@@ -3228,7 +3228,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 15.0
+          "speed": 10.0
         },
         "station_id": 87640,
         "location": {
@@ -3251,15 +3251,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:30.504473+00:00",
+      "fetched_at": "2026-06-30T22:10:59.246920+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 46.0,
-        "pressure": 998.0,
-        "feels_like": null,
-        "temperature": 12.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 58.0,
+        "pressure": 998.1,
+        "feels_like": 9.1,
+        "temperature": 9.6,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
@@ -3268,7 +3268,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 15.0
+          "speed": 6.0
         },
         "station_id": 87641,
         "location": {
@@ -3291,7 +3291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:32.206996+00:00",
+      "fetched_at": "2026-06-30T22:11:00.949562+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3331,15 +3331,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:33.915504+00:00",
+      "fetched_at": "2026-06-30T22:11:02.701546+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 49.0,
-        "pressure": 994.8,
-        "feels_like": null,
-        "temperature": 11.3,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 60.0,
+        "pressure": 995.2,
+        "feels_like": 7.6,
+        "temperature": 8.7,
         "visibility": 20.0,
         "weather": {
           "description": "Ligeramente nublado",
@@ -3348,7 +3348,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 23.0
+          "speed": 8.0
         },
         "station_id": 87645,
         "location": {
@@ -3371,15 +3371,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:35.627354+00:00",
+      "fetched_at": "2026-06-30T22:11:04.449378+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 47.0,
-        "pressure": 1015.7,
-        "feels_like": null,
-        "temperature": 13.6,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 72.0,
+        "pressure": 1016.0,
+        "feels_like": 7.0,
+        "temperature": 8.2,
         "visibility": 10.0,
         "weather": {
           "description": "Despejado",
@@ -3388,7 +3388,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 19.0
+          "speed": 8.0
         },
         "station_id": 87648,
         "location": {
@@ -3411,7 +3411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:37.351768+00:00",
+      "fetched_at": "2026-06-30T22:11:06.218086+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3451,24 +3451,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:39.062257+00:00",
+      "fetched_at": "2026-06-30T22:11:07.962213+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 60.0,
-        "pressure": 1017.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 80.0,
+        "pressure": 1016.9,
         "feels_like": null,
-        "temperature": 11.0,
+        "temperature": 6.8,
         "visibility": 10.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
-          "direction": "Noroeste",
-          "deg": 315.0,
-          "speed": 15.0
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
         },
         "station_id": 87663,
         "location": {
@@ -3491,7 +3491,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:40.779021+00:00",
+      "fetched_at": "2026-06-30T22:11:09.663648+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3531,24 +3531,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:42.500515+00:00",
+      "fetched_at": "2026-06-30T22:11:11.404991+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 61.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 74.0,
         "pressure": 1001.0,
-        "feels_like": null,
-        "temperature": 11.4,
-        "visibility": 12.0,
+        "feels_like": 6.5,
+        "temperature": 8.8,
+        "visibility": 10.0,
         "weather": {
           "description": "Parcialmente nublado",
           "id": 25
         },
         "wind": {
-          "direction": "Noroeste",
-          "deg": 315.0,
-          "speed": 30.0
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 15.0
         },
         "station_id": 87688,
         "location": {
@@ -3571,15 +3571,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:44.208164+00:00",
+      "fetched_at": "2026-06-30T22:11:13.148691+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 55.0,
-        "pressure": 1014.5,
-        "feels_like": null,
-        "temperature": 11.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 62.0,
+        "pressure": 1014.4,
+        "feels_like": 7.6,
+        "temperature": 9.0,
         "visibility": 10.0,
         "weather": {
           "description": "Ligeramente nublado",
@@ -3588,7 +3588,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 19.0
+          "speed": 10.0
         },
         "station_id": 87692,
         "location": {
@@ -3611,14 +3611,14 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:45.938198+00:00",
+      "fetched_at": "2026-06-30T22:11:14.887542+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 51.0,
-        "pressure": 980.2,
-        "feels_like": 9.4,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 44.0,
+        "pressure": 982.1,
+        "feels_like": 8.5,
         "temperature": 9.8,
         "visibility": 15.0,
         "weather": {
@@ -3626,9 +3626,9 @@
           "id": 37
         },
         "wind": {
-          "direction": "Sudoeste",
-          "deg": 225.0,
-          "speed": 6.0
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 10.0
         },
         "station_id": 87715,
         "location": {
@@ -3651,7 +3651,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:47.643727+00:00",
+      "fetched_at": "2026-06-30T22:11:16.651060+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3691,7 +3691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:49.348988+00:00",
+      "fetched_at": "2026-06-30T22:11:18.346520+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3731,24 +3731,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:51.046752+00:00",
+      "fetched_at": "2026-06-30T22:11:20.102775+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 54.0,
-        "pressure": 1002.1,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 61.0,
+        "pressure": 1003.0,
         "feels_like": null,
-        "temperature": 12.4,
+        "temperature": 10.6,
         "visibility": 15.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Mayormente nublado",
+          "id": 37
         },
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 26.0
+          "speed": 13.0
         },
         "station_id": 87750,
         "location": {
@@ -3771,24 +3771,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:52.747341+00:00",
+      "fetched_at": "2026-06-30T22:11:21.849677+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 84.0,
-        "pressure": 922.4,
-        "feels_like": -1.0,
-        "temperature": 3.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 97.0,
+        "pressure": 924.8,
+        "feels_like": 0.2,
+        "temperature": 1.8,
         "visibility": 8.0,
         "weather": {
           "description": "Nublado con lluvia débil",
           "id": 72
         },
         "wind": {
-          "direction": "Oeste",
-          "deg": 270.0,
-          "speed": 17.0
+          "direction": "Direcciones Variables",
+          "deg": null,
+          "speed": 6.0
         },
         "station_id": 87761,
         "location": {
@@ -3811,24 +3811,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:54.473118+00:00",
+      "fetched_at": "2026-06-30T22:11:23.594176+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 77.0,
-        "pressure": 918.2,
-        "feels_like": -2.7,
-        "temperature": 3.0,
-        "visibility": 8.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 69.0,
+        "pressure": 922.1,
+        "feels_like": -7.9,
+        "temperature": 0.1,
+        "visibility": 10.0,
         "weather": {
-          "description": "Nublado con nevada en la hora anterior",
-          "id": 43
+          "description": "Parcialmente nublado con nevada en la hora anterior",
+          "id": 25
         },
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 32.0
+          "speed": 49.0
         },
         "station_id": 87765,
         "location": {
@@ -3851,24 +3851,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:56.179654+00:00",
+      "fetched_at": "2026-06-30T22:11:25.360711+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 81.0,
-        "pressure": 912.4,
-        "feels_like": -0.5,
-        "temperature": 2.2,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 75.0,
+        "pressure": 915.3,
+        "feels_like": -2.5,
+        "temperature": 1.5,
         "visibility": 40.0,
         "weather": {
-          "description": "Parcialmente nublado con nevada débil",
-          "id": 78
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "Sudoeste",
           "deg": 225.0,
-          "speed": 10.0
+          "speed": 15.0
         },
         "station_id": 87774,
         "location": {
@@ -3891,7 +3891,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:57.875484+00:00",
+      "fetched_at": "2026-06-30T22:11:27.100557+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3931,24 +3931,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:33:59.582851+00:00",
+      "fetched_at": "2026-06-30T22:11:28.845397+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 55.0,
-        "pressure": 1011.8,
-        "feels_like": null,
-        "temperature": 10.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 71.0,
+        "pressure": 1013.8,
+        "feels_like": 6.4,
+        "temperature": 8.3,
         "visibility": 30.0,
         "weather": {
           "description": "Nublado",
           "id": 43
         },
         "wind": {
-          "direction": "Sur",
-          "deg": 180.0,
-          "speed": 21.0
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 12.0
         },
         "station_id": 87791,
         "location": {
@@ -3971,24 +3971,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:01.300370+00:00",
+      "fetched_at": "2026-06-30T22:11:30.581996+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 87.0,
-        "pressure": 978.8,
-        "feels_like": null,
-        "temperature": 4.0,
-        "visibility": 5.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 61.0,
+        "pressure": 985.3,
+        "feels_like": -2.2,
+        "temperature": 3.2,
+        "visibility": 15.0,
         "weather": {
-          "description": "Nublado con lluvia débil",
-          "id": 72
+          "description": "Nublado con llovizna",
+          "id": 71
         },
         "wind": {
-          "direction": "Calma",
-          "deg": null,
-          "speed": null
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 30.0
         },
         "station_id": 87800,
         "location": {
@@ -4011,24 +4011,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:03.002159+00:00",
+      "fetched_at": "2026-06-30T22:11:32.321397+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
+        "date": "2026-06-30T19:00:00-03:00",
         "humidity": 69.0,
-        "pressure": 929.5,
-        "feels_like": -7.3,
-        "temperature": -1.4,
-        "visibility": 7.0,
+        "pressure": 933.7,
+        "feels_like": -7.8,
+        "temperature": -4.0,
+        "visibility": 30.0,
         "weather": {
-          "description": "Cubierto con nevada débil ",
-          "id": 78
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
-          "direction": "Sudeste",
-          "deg": 135.0,
-          "speed": 23.0
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 10.0
         },
         "station_id": 87803,
         "location": {
@@ -4051,24 +4051,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:04.715199+00:00",
+      "fetched_at": "2026-06-30T22:11:34.071714+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
+        "date": "2026-06-30T18:00:00-03:00",
         "humidity": 90.0,
-        "pressure": 965.8,
-        "feels_like": -5.6,
-        "temperature": 0.3,
+        "pressure": 969.2,
+        "feels_like": -5.0,
+        "temperature": -0.5,
         "visibility": 45.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
-          "direction": "Sudeste",
-          "deg": 135.0,
-          "speed": 26.0
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 15.0
         },
         "station_id": 87814,
         "location": {
@@ -4091,24 +4091,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:06.423256+00:00",
+      "fetched_at": "2026-06-30T22:11:35.856229+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 90.0,
-        "pressure": 1000.0,
-        "feels_like": -0.2,
-        "temperature": 5.5,
+        "date": "2026-06-30T19:00:00-03:00",
+        "humidity": 82.0,
+        "pressure": 1004.6,
+        "feels_like": -2.3,
+        "temperature": 3.4,
         "visibility": 30.0,
         "weather": {
-          "description": "Nublado con lluvia en la hora anterior",
-          "id": 43
+          "description": "Mayormente nublado con lluvia en la hora anterior",
+          "id": 37
         },
         "wind": {
           "direction": "Sur",
           "deg": 180.0,
-          "speed": 43.0
+          "speed": 34.0
         },
         "station_id": 87823,
         "location": {
@@ -4131,15 +4131,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:08.110344+00:00",
+      "fetched_at": "2026-06-30T22:11:37.593239+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 72.0,
-        "pressure": 1012.8,
-        "feels_like": 1.4,
-        "temperature": 6.4,
+        "date": "2026-06-30T19:00:00-03:00",
+        "humidity": 61.0,
+        "pressure": 1017.8,
+        "feels_like": -0.3,
+        "temperature": 4.4,
         "visibility": 30.0,
         "weather": {
           "description": "Mayormente nublado",
@@ -4148,7 +4148,7 @@
         "wind": {
           "direction": "Sur",
           "deg": 180.0,
-          "speed": 38.0
+          "speed": 26.0
         },
         "station_id": 87828,
         "location": {
@@ -4171,24 +4171,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:09.826556+00:00",
+      "fetched_at": "2026-06-30T22:11:39.288475+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 39.0,
-        "pressure": 974.5,
-        "feels_like": 0.6,
-        "temperature": 4.0,
+        "date": "2026-06-30T19:00:00-03:00",
+        "humidity": 47.0,
+        "pressure": 977.7,
+        "feels_like": null,
+        "temperature": 0.5,
         "visibility": 50.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Este",
-          "deg": 90.0,
-          "speed": 15.0
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
         },
         "station_id": 87852,
         "location": {
@@ -4211,24 +4211,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:11.528510+00:00",
+      "fetched_at": "2026-06-30T22:11:41.041580+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 42.0,
-        "pressure": 1017.3,
-        "feels_like": 1.0,
-        "temperature": 5.6,
+        "date": "2026-06-30T19:00:00-03:00",
+        "humidity": 46.0,
+        "pressure": 1020.6,
+        "feels_like": 0.4,
+        "temperature": 4.5,
         "visibility": 30.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
-          "direction": "Sur",
-          "deg": 180.0,
-          "speed": 28.0
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 21.0
         },
         "station_id": 87860,
         "location": {
@@ -4251,7 +4251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:13.234245+00:00",
+      "fetched_at": "2026-06-30T22:11:42.735933+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4291,7 +4291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:14.932619+00:00",
+      "fetched_at": "2026-06-30T22:11:44.509098+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4331,24 +4331,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:16.641456+00:00",
+      "fetched_at": "2026-06-30T22:11:46.253477+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 39.0,
-        "pressure": 1002.6,
-        "feels_like": 1.0,
-        "temperature": 5.8,
+        "date": "2026-06-30T19:00:00-03:00",
+        "humidity": 51.0,
+        "pressure": 1005.0,
+        "feels_like": -2.5,
+        "temperature": 2.0,
         "visibility": 30.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Sudoeste",
-          "deg": 225.0,
-          "speed": 32.0
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 19.0
         },
         "station_id": 87904,
         "location": {
@@ -4371,7 +4371,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:18.358593+00:00",
+      "fetched_at": "2026-06-30T22:11:47.990206+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4411,7 +4411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:20.073932+00:00",
+      "fetched_at": "2026-06-30T22:11:49.733113+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4451,24 +4451,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:21.790542+00:00",
+      "fetched_at": "2026-06-30T22:11:51.479816+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 59.0,
-        "pressure": 1021.0,
-        "feels_like": -2.0,
-        "temperature": 4.1,
+        "date": "2026-06-30T19:00:00-03:00",
+        "humidity": 73.0,
+        "pressure": 1023.6,
+        "feels_like": -4.2,
+        "temperature": 1.7,
         "visibility": 30.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "Sudoeste",
           "deg": 225.0,
-          "speed": 41.0
+          "speed": 30.0
         },
         "station_id": 87925,
         "location": {
@@ -4491,15 +4491,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:23.494536+00:00",
+      "fetched_at": "2026-06-30T22:11:53.225056+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 78.0,
-        "pressure": 1017.2,
-        "feels_like": -2.3,
-        "temperature": 1.4,
+        "date": "2026-06-30T19:00:00-03:00",
+        "humidity": 90.0,
+        "pressure": 1020.0,
+        "feels_like": -6.2,
+        "temperature": -1.2,
         "visibility": 30.0,
         "weather": {
           "description": "Ligeramente nublado",
@@ -4508,7 +4508,7 @@
         "wind": {
           "direction": "Sudoeste",
           "deg": 225.0,
-          "speed": 13.0
+          "speed": 17.0
         },
         "station_id": 87934,
         "location": {
@@ -4531,24 +4531,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:25.215331+00:00",
+      "fetched_at": "2026-06-30T22:11:54.973489+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 77.0,
-        "pressure": 1013.2,
-        "feels_like": -5.3,
-        "temperature": 1.4,
-        "visibility": 8.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 87.0,
+        "pressure": 1015.4,
+        "feels_like": -5.5,
+        "temperature": 1.1,
+        "visibility": 5.0,
         "weather": {
-          "description": "Algo nublado con nevada en la hora anterior",
-          "id": 19
+          "description": "Parcialmente nublado con nevada débil",
+          "id": 78
         },
         "wind": {
           "direction": "Sudoeste",
           "deg": 225.0,
-          "speed": 38.0
+          "speed": 36.0
         },
         "station_id": 87938,
         "location": {
@@ -4571,24 +4571,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:26.927961+00:00",
+      "fetched_at": "2026-06-30T22:11:56.677603+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 100.0,
-        "pressure": 993.8,
-        "feels_like": -7.8,
-        "temperature": -1.8,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 88.0,
+        "pressure": 997.4,
+        "feels_like": -8.5,
+        "temperature": -0.4,
         "visibility": null,
         "weather": {
-          "description": "Cubierto",
-          "id": 43
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
-          "direction": "Sudoeste",
-          "deg": 225.0,
-          "speed": 23.0
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 49.0
         },
         "station_id": 88889,
         "location": {
@@ -4611,24 +4611,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:28.652480+00:00",
+      "fetched_at": "2026-06-30T22:11:58.412333+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 52.0,
-        "pressure": 996.0,
-        "feels_like": -14.5,
-        "temperature": -8.6,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 47.0,
+        "pressure": 998.1,
+        "feels_like": -13.0,
+        "temperature": -6.1,
         "visibility": 10.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
-          "direction": "Sudeste",
-          "deg": 135.0,
-          "speed": 13.0
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 21.0
         },
         "station_id": 88963,
         "location": {
@@ -4651,15 +4651,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:30.371737+00:00",
+      "fetched_at": "2026-06-30T22:12:00.152380+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 87.0,
-        "pressure": 992.6,
-        "feels_like": -20.8,
-        "temperature": -10.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 85.0,
+        "pressure": 996.1,
+        "feels_like": -21.0,
+        "temperature": -11.2,
         "visibility": 20.0,
         "weather": {
           "description": "Nublado con ventisca baja",
@@ -4668,7 +4668,7 @@
         "wind": {
           "direction": "Sur",
           "deg": 180.0,
-          "speed": 41.0
+          "speed": 30.0
         },
         "station_id": 88968,
         "location": {
@@ -4691,24 +4691,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:32.082708+00:00",
+      "fetched_at": "2026-06-30T22:12:01.908634+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 60.0,
-        "pressure": 942.1,
-        "feels_like": -16.3,
-        "temperature": -8.7,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 75.0,
+        "pressure": 945.6,
+        "feels_like": -19.7,
+        "temperature": -12.1,
         "visibility": 5.0,
         "weather": {
-          "description": "Nublado con ventisca baja",
-          "id": 96
+          "description": "Mayormente nublado con nevada débil",
+          "id": 78
         },
         "wind": {
-          "direction": "Oeste",
-          "deg": 270.0,
-          "speed": 21.0
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 17.0
         },
         "station_id": 89034,
         "location": {
@@ -4731,24 +4731,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:33.791357+00:00",
+      "fetched_at": "2026-06-30T22:12:03.607510+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 72.0,
-        "pressure": 998.9,
-        "feels_like": -10.8,
-        "temperature": -4.1,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 93.0,
+        "pressure": 1002.4,
+        "feels_like": -10.4,
+        "temperature": -4.9,
         "visibility": 10.0,
         "weather": {
           "description": "Ligeramente nublado",
           "id": 13
         },
         "wind": {
-          "direction": "Sur",
-          "deg": 180.0,
-          "speed": 23.0
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 15.0
         },
         "station_id": 89053,
         "location": {
@@ -4771,23 +4771,23 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:35.513373+00:00",
+      "fetched_at": "2026-06-30T22:12:05.351916+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T16:00:00-03:00",
-        "humidity": 49.0,
-        "pressure": 973.8,
-        "feels_like": -19.9,
-        "temperature": -11.3,
+        "date": "2026-06-30T19:00:00-03:00",
+        "humidity": 55.0,
+        "pressure": 975.0,
+        "feels_like": -17.7,
+        "temperature": -9.6,
         "visibility": 15.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
-          "direction": "Sudoeste",
-          "deg": 225.0,
+          "direction": "Oeste",
+          "deg": 270.0,
           "speed": 23.0
         },
         "station_id": 89055,
@@ -4811,19 +4811,19 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-06-30T19:34:37.216534+00:00",
+      "fetched_at": "2026-06-30T22:12:07.050634+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-06-30T15:00:00-03:00",
-        "humidity": 90.0,
+        "date": "2026-06-30T18:00:00-03:00",
+        "humidity": 94.0,
         "pressure": 996.5,
-        "feels_like": -8.6,
-        "temperature": -2.0,
-        "visibility": 0.9,
+        "feels_like": -9.1,
+        "temperature": -2.4,
+        "visibility": 20.0,
         "weather": {
-          "description": "Cubierto con nevada",
-          "id": 79
+          "description": "Cubierto con niebla en la hora anterior",
+          "id": 43
         },
         "wind": {
           "direction": "Norte",

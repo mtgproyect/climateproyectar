@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T20:06:46.249009+00:00",
+  "generated_at": "2026-06-30T22:12:07.167618+00:00",
   "totals": {
     "query_keys": 596,
     "success": 596,
@@ -50,13 +50,13 @@
     "configured_batch_size": 200,
     "refresh_scope": "expired",
     "max_age_hours": 1.0,
-    "attempted_queries": 0,
-    "completed_queries": 0,
-    "successful_queries": 0,
-    "fresh_queries": 0,
+    "attempted_queries": 121,
+    "completed_queries": 121,
+    "successful_queries": 121,
+    "fresh_queries": 121,
     "stale_queries": 0,
     "request_errors": 0,
-    "http_attempts_total": 0,
+    "http_attempts_total": 121,
     "synchronized_local_records": 0,
     "stopped_reason": null
   }
