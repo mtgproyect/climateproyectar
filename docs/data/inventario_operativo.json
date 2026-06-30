@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T20:34:17.455343+00:00",
+  "generated_at": "2026-06-30T05:44:11.192133+00:00",
   "catalog_total": 10601,
   "operational_coverage": {
     "with_forecast_reference": 10601,
@@ -8,9 +8,23 @@
   },
   "unique_query_keys": {
     "forecast_references": 475,
-    "stations": 124,
-    "total_per_full_refresh": 599
+    "stations": 121,
+    "total_per_full_refresh": 596
   },
+  "station_operational_aliases": [
+    {
+      "source_station_number": 87412,
+      "operational_station_number": 87420
+    },
+    {
+      "source_station_number": 87470,
+      "operational_station_number": 87360
+    },
+    {
+      "source_station_number": 87683,
+      "operational_station_number": 87637
+    }
+  ],
   "recommended_architecture": {
     "forecast_shards": 2,
     "station_shards": 1,
@@ -19,10 +33,10 @@
       237
     ],
     "station_queries_by_shard": [
-      124
+      121
     ],
     "minimum_spacing_seconds": 1.0,
-    "minimum_request_spacing_time_seconds": 599,
+    "minimum_request_spacing_time_seconds": 596,
     "strategy": "Consultar una vez por forecast_reference_id y una vez por station_number, usando una localidad representante para verificar cada estación."
   },
   "largest_groups": {

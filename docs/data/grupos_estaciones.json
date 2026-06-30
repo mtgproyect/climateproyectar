@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T20:34:17.455343+00:00",
-  "count": 124,
+  "generated_at": "2026-06-30T05:44:11.192133+00:00",
+  "count": 121,
   "groups": [
     {
       "station_number": 87007,
@@ -9,6 +9,10 @@
       "station_name_candidates": [
         "LA QUIACA OBSERVATORIO"
       ],
+      "source_station_numbers": [
+        87007
+      ],
+      "station_number_aliases": [],
       "locality_count": 286,
       "representative_locality_id": 8367,
       "representative_distance_km": 4.92,
@@ -349,6 +353,10 @@
       "station_name_candidates": [
         "ORAN AERO"
       ],
+      "source_station_numbers": [
+        87016
+      ],
+      "station_number_aliases": [],
       "locality_count": 92,
       "representative_locality_id": 365,
       "representative_distance_km": 2.58,
@@ -495,6 +503,10 @@
       "station_name_candidates": [
         "TARTAGAL AERO"
       ],
+      "source_station_numbers": [
+        87022
+      ],
+      "station_number_aliases": [],
       "locality_count": 87,
       "representative_locality_id": 1243,
       "representative_distance_km": 2.96,
@@ -636,6 +648,10 @@
       "station_name_candidates": [
         "JUJUY U N"
       ],
+      "source_station_numbers": [
+        87043
+      ],
+      "station_number_aliases": [],
       "locality_count": 1,
       "representative_locality_id": 10825,
       "representative_distance_km": 0.2,
@@ -659,6 +675,10 @@
       "station_name_candidates": [
         "JUJUY AERO"
       ],
+      "source_station_numbers": [
+        87046
+      ],
+      "station_number_aliases": [],
       "locality_count": 212,
       "representative_locality_id": 8564,
       "representative_distance_km": 4.79,
@@ -925,6 +945,10 @@
       "station_name_candidates": [
         "SALTA AERO"
       ],
+      "source_station_numbers": [
+        87047
+      ],
+      "station_number_aliases": [],
       "locality_count": 300,
       "representative_locality_id": 10701,
       "representative_distance_km": 3.33,
@@ -1279,6 +1303,10 @@
       "station_name_candidates": [
         "METAN"
       ],
+      "source_station_numbers": [
+        87050
+      ],
+      "station_number_aliases": [],
       "locality_count": 373,
       "representative_locality_id": 1046,
       "representative_distance_km": 1.63,
@@ -1706,6 +1734,10 @@
       "station_name_candidates": [
         "RIVADAVIA"
       ],
+      "source_station_numbers": [
+        87065
+      ],
+      "station_number_aliases": [],
       "locality_count": 432,
       "representative_locality_id": 794,
       "representative_distance_km": 0.16,
@@ -2192,6 +2224,10 @@
       "station_name_candidates": [
         "LAS LOMITAS"
       ],
+      "source_station_numbers": [
+        87078
+      ],
+      "station_number_aliases": [],
       "locality_count": 259,
       "representative_locality_id": 8088,
       "representative_distance_km": 0.91,
@@ -2505,6 +2541,10 @@
       "station_name_candidates": [
         "IGUAZU AERO"
       ],
+      "source_station_numbers": [
+        87097
+      ],
+      "station_number_aliases": [],
       "locality_count": 55,
       "representative_locality_id": 9580,
       "representative_distance_km": 6.21,
@@ -2614,6 +2654,10 @@
       "station_name_candidates": [
         "TUCUMAN AERO"
       ],
+      "source_station_numbers": [
+        87121
+      ],
+      "station_number_aliases": [],
       "locality_count": 617,
       "representative_locality_id": 10237,
       "representative_distance_km": 1.64,
@@ -3285,6 +3329,10 @@
       "station_name_candidates": [
         "TERMAS DE RIO HONDO AERO"
       ],
+      "source_station_numbers": [
+        87127
+      ],
+      "station_number_aliases": [],
       "locality_count": 177,
       "representative_locality_id": 2784,
       "representative_distance_km": 5.97,
@@ -3516,6 +3564,10 @@
       "station_name_candidates": [
         "SANTIAGO DEL ESTERO AERO"
       ],
+      "source_station_numbers": [
+        87129
+      ],
+      "station_number_aliases": [],
       "locality_count": 682,
       "representative_locality_id": 2955,
       "representative_distance_km": 3.09,
@@ -4252,6 +4304,10 @@
       "station_name_candidates": [
         "PRESIDENCIA ROQUE SAENZ PEÑA AERO"
       ],
+      "source_station_numbers": [
+        87148
+      ],
+      "station_number_aliases": [],
       "locality_count": 288,
       "representative_locality_id": 5709,
       "representative_distance_km": 2.65,
@@ -4594,6 +4650,10 @@
       "station_name_candidates": [
         "RESISTENCIA AERO"
       ],
+      "source_station_numbers": [
+        87155
+      ],
+      "station_number_aliases": [],
       "locality_count": 43,
       "representative_locality_id": 10562,
       "representative_distance_km": 2.05,
@@ -4691,6 +4751,10 @@
       "station_name_candidates": [
         "FORMOSA AERO"
       ],
+      "source_station_numbers": [
+        87162
+      ],
+      "station_number_aliases": [],
       "locality_count": 114,
       "representative_locality_id": 8297,
       "representative_distance_km": 3.68,
@@ -4859,6 +4923,10 @@
       "station_name_candidates": [
         "BERNARDO DE IRIGOYEN AERO"
       ],
+      "source_station_numbers": [
+        87163
+      ],
+      "station_number_aliases": [],
       "locality_count": 22,
       "representative_locality_id": 9589,
       "representative_distance_km": 3.72,
@@ -4935,6 +5003,10 @@
       "station_name_candidates": [
         "CORRIENTES AERO"
       ],
+      "source_station_numbers": [
+        87166
+      ],
+      "station_number_aliases": [],
       "locality_count": 94,
       "representative_locality_id": 7242,
       "representative_distance_km": 6.35,
@@ -5083,6 +5155,10 @@
       "station_name_candidates": [
         "ITUZAINGO"
       ],
+      "source_station_numbers": [
+        87173
+      ],
+      "station_number_aliases": [],
       "locality_count": 25,
       "representative_locality_id": 7152,
       "representative_distance_km": 2.29,
@@ -5162,6 +5238,10 @@
       "station_name_candidates": [
         "POSADAS AERO"
       ],
+      "source_station_numbers": [
+        87178
+      ],
+      "station_number_aliases": [],
       "locality_count": 63,
       "representative_locality_id": 9597,
       "representative_distance_km": 6.07,
@@ -5279,6 +5359,10 @@
       "station_name_candidates": [
         "OBERA"
       ],
+      "source_station_numbers": [
+        87187
+      ],
+      "station_number_aliases": [],
       "locality_count": 94,
       "representative_locality_id": 9751,
       "representative_distance_km": 2.31,
@@ -5427,6 +5511,10 @@
       "station_name_candidates": [
         "TINOGASTA"
       ],
+      "source_station_numbers": [
+        87211
+      ],
+      "station_number_aliases": [],
       "locality_count": 160,
       "representative_locality_id": 5253,
       "representative_distance_km": 4.68,
@@ -5641,6 +5729,10 @@
       "station_name_candidates": [
         "CHILECITO AERO"
       ],
+      "source_station_numbers": [
+        87213
+      ],
+      "station_number_aliases": [],
       "locality_count": 138,
       "representative_locality_id": 8970,
       "representative_distance_km": 2.41,
@@ -5833,6 +5925,10 @@
       "station_name_candidates": [
         "LA RIOJA AERO"
       ],
+      "source_station_numbers": [
+        87217
+      ],
+      "station_number_aliases": [],
       "locality_count": 74,
       "representative_locality_id": 8985,
       "representative_distance_km": 4.57,
@@ -5961,6 +6057,10 @@
       "station_name_candidates": [
         "CATAMARCA AERO"
       ],
+      "source_station_numbers": [
+        87222
+      ],
+      "station_number_aliases": [],
       "locality_count": 250,
       "representative_locality_id": 5157,
       "representative_distance_km": 7.18,
@@ -6265,6 +6365,10 @@
       "station_name_candidates": [
         "VILLA DE MARIA DEL RIO SECO"
       ],
+      "source_station_numbers": [
+        87244
+      ],
+      "station_number_aliases": [],
       "locality_count": 280,
       "representative_locality_id": 10955,
       "representative_distance_km": 1.23,
@@ -6599,6 +6703,10 @@
       "station_name_candidates": [
         "CERES AERO"
       ],
+      "source_station_numbers": [
+        87257
+      ],
+      "station_number_aliases": [],
       "locality_count": 169,
       "representative_locality_id": 3759,
       "representative_distance_km": 16.42,
@@ -6822,6 +6930,10 @@
       "station_name_candidates": [
         "RECONQUISTA AERO"
       ],
+      "source_station_numbers": [
+        87270
+      ],
+      "station_number_aliases": [],
       "locality_count": 198,
       "representative_locality_id": 2013,
       "representative_distance_km": 5.04,
@@ -7074,6 +7186,10 @@
       "station_name_candidates": [
         "MERCEDES AERO (CTES)"
       ],
+      "source_station_numbers": [
+        87281
+      ],
+      "station_number_aliases": [],
       "locality_count": 93,
       "representative_locality_id": 7416,
       "representative_distance_km": 4.9,
@@ -7221,6 +7337,10 @@
       "station_name_candidates": [
         "PASO DE LOS LIBRES AERO"
       ],
+      "source_station_numbers": [
+        87289
+      ],
+      "station_number_aliases": [],
       "locality_count": 55,
       "representative_locality_id": 7434,
       "representative_distance_km": 3.87,
@@ -7330,6 +7450,10 @@
       "station_name_candidates": [
         "JACHAL"
       ],
+      "source_station_numbers": [
+        87305
+      ],
+      "station_number_aliases": [],
       "locality_count": 69,
       "representative_locality_id": 1297,
       "representative_distance_km": 1.84,
@@ -7453,6 +7577,10 @@
       "station_name_candidates": [
         "SAN JUAN AERO"
       ],
+      "source_station_numbers": [
+        87311
+      ],
+      "station_number_aliases": [],
       "locality_count": 122,
       "representative_locality_id": 1422,
       "representative_distance_km": 2.1,
@@ -7629,6 +7757,10 @@
       "station_name_candidates": [
         "CHAMICAL AERO"
       ],
+      "source_station_numbers": [
+        87320
+      ],
+      "station_number_aliases": [],
       "locality_count": 114,
       "representative_locality_id": 9131,
       "representative_distance_km": 4.36,
@@ -7797,6 +7929,10 @@
       "station_name_candidates": [
         "CHEPES"
       ],
+      "source_station_numbers": [
+        87322
+      ],
+      "station_number_aliases": [],
       "locality_count": 116,
       "representative_locality_id": 9227,
       "representative_distance_km": 6.82,
@@ -7967,6 +8103,10 @@
       "station_name_candidates": [
         "VILLA DOLORES AERO"
       ],
+      "source_station_numbers": [
+        87328
+      ],
+      "station_number_aliases": [],
       "locality_count": 203,
       "representative_locality_id": 6631,
       "representative_distance_km": 2.74,
@@ -8224,6 +8364,10 @@
       "station_name_candidates": [
         "CORDOBA AERO"
       ],
+      "source_station_numbers": [
+        87344
+      ],
+      "station_number_aliases": [],
       "locality_count": 201,
       "representative_locality_id": 6420,
       "representative_distance_km": 4.5,
@@ -8479,6 +8623,10 @@
       "station_name_candidates": [
         "CORDOBA OBSERVATORIO"
       ],
+      "source_station_numbers": [
+        87345
+      ],
+      "station_number_aliases": [],
       "locality_count": 78,
       "representative_locality_id": 10823,
       "representative_distance_km": 0.05,
@@ -8611,6 +8759,10 @@
       "station_name_candidates": [
         "ESCUELA DE AVIACION MILITAR AERO"
       ],
+      "source_station_numbers": [
+        87347
+      ],
+      "station_number_aliases": [],
       "locality_count": 1,
       "representative_locality_id": 10824,
       "representative_distance_km": 0.77,
@@ -8634,6 +8786,10 @@
       "station_name_candidates": [
         "PILAR OBSERVATORIO"
       ],
+      "source_station_numbers": [
+        87349
+      ],
+      "station_number_aliases": [],
       "locality_count": 145,
       "representative_locality_id": 6480,
       "representative_distance_km": 2.04,
@@ -8833,6 +8989,10 @@
       "station_name_candidates": [
         "SUNCHALES AERO"
       ],
+      "source_station_numbers": [
+        87356
+      ],
+      "station_number_aliases": [],
       "locality_count": 50,
       "representative_locality_id": 2060,
       "representative_distance_km": 3.1,
@@ -8937,7 +9097,14 @@
       "station_name_candidates": [
         "RAFAELA AERO"
       ],
-      "locality_count": 107,
+      "source_station_numbers": [
+        87360,
+        87470
+      ],
+      "station_number_aliases": [
+        87470
+      ],
+      "locality_count": 108,
       "representative_locality_id": 2153,
       "representative_distance_km": 8.67,
       "locality_ids": [
@@ -9020,6 +9187,7 @@
         2245,
         2246,
         2247,
+        2248,
         2249,
         2250,
         2251,
@@ -9098,6 +9266,10 @@
       "station_name_candidates": [
         "SAUCE VIEJO AERO"
       ],
+      "source_station_numbers": [
+        87371
+      ],
+      "station_number_aliases": [],
       "locality_count": 63,
       "representative_locality_id": 2221,
       "representative_distance_km": 5.3,
@@ -9215,6 +9387,10 @@
       "station_name_candidates": [
         "PARANA AERO"
       ],
+      "source_station_numbers": [
+        87374
+      ],
+      "station_number_aliases": [],
       "locality_count": 147,
       "representative_locality_id": 7657,
       "representative_distance_km": 2.3,
@@ -9416,6 +9592,10 @@
       "station_name_candidates": [
         "MONTE CASEROS AERO"
       ],
+      "source_station_numbers": [
+        87393
+      ],
+      "station_number_aliases": [],
       "locality_count": 21,
       "representative_locality_id": 7499,
       "representative_distance_km": 1.19,
@@ -9491,6 +9671,10 @@
       "station_name_candidates": [
         "CONCORDIA AERO"
       ],
+      "source_station_numbers": [
+        87395
+      ],
+      "station_number_aliases": [],
       "locality_count": 106,
       "representative_locality_id": 7707,
       "representative_distance_km": 2.46,
@@ -9651,6 +9835,10 @@
       "station_name_candidates": [
         "USPALLATA"
       ],
+      "source_station_numbers": [
+        87405
+      ],
+      "station_number_aliases": [],
       "locality_count": 33,
       "representative_locality_id": 9351,
       "representative_distance_km": 3.52,
@@ -9733,32 +9921,15 @@
       ]
     },
     {
-      "station_number": 87412,
-      "station_name": null,
-      "station_name_candidates": [],
-      "locality_count": 1,
-      "representative_locality_id": 9539,
-      "representative_distance_km": null,
-      "locality_ids": [
-        9539
-      ],
-      "sample_localities": [
-        {
-          "id": 9539,
-          "name": "Tunuyan",
-          "department": "Tunuyan",
-          "province": "Mendoza",
-          "type": "Ciudad",
-          "distance_km": null
-        }
-      ]
-    },
-    {
       "station_number": 87416,
       "station_name": "SAN MARTIN (MZA)",
       "station_name_candidates": [
         "SAN MARTIN (MZA)"
       ],
+      "source_station_numbers": [
+        87416
+      ],
+      "station_number_aliases": [],
       "locality_count": 111,
       "representative_locality_id": 9446,
       "representative_distance_km": 1.05,
@@ -9924,6 +10095,10 @@
       "station_name_candidates": [
         "MENDOZA AERO"
       ],
+      "source_station_numbers": [
+        87418
+      ],
+      "station_number_aliases": [],
       "locality_count": 17,
       "representative_locality_id": 9380,
       "representative_distance_km": 2.68,
@@ -9995,7 +10170,14 @@
       "station_name_candidates": [
         "MENDOZA OBSERVATORIO"
       ],
-      "locality_count": 51,
+      "source_station_numbers": [
+        87412,
+        87420
+      ],
+      "station_number_aliases": [
+        87412
+      ],
+      "locality_count": 52,
       "representative_locality_id": 10822,
       "representative_distance_km": 0.82,
       "locality_ids": [
@@ -10044,6 +10226,7 @@
         9534,
         9535,
         9536,
+        9539,
         9540,
         9567,
         9568,
@@ -10100,6 +10283,10 @@
       "station_name_candidates": [
         "SAN LUIS AERO"
       ],
+      "source_station_numbers": [
+        87436
+      ],
+      "station_number_aliases": [],
       "locality_count": 127,
       "representative_locality_id": 1712,
       "representative_distance_km": 3.68,
@@ -10281,6 +10468,10 @@
       "station_name_candidates": [
         "SANTA ROSA DE CONLARA AERO"
       ],
+      "source_station_numbers": [
+        87444
+      ],
+      "station_number_aliases": [],
       "locality_count": 124,
       "representative_locality_id": 1656,
       "representative_distance_km": 4.45,
@@ -10459,6 +10650,10 @@
       "station_name_candidates": [
         "VILLA REYNOLDS AERO"
       ],
+      "source_station_numbers": [
+        87448
+      ],
+      "station_number_aliases": [],
       "locality_count": 32,
       "representative_locality_id": 1755,
       "representative_distance_km": 10.19,
@@ -10545,6 +10740,10 @@
       "station_name_candidates": [
         "RIO CUARTO AERO"
       ],
+      "source_station_numbers": [
+        87453
+      ],
+      "station_number_aliases": [],
       "locality_count": 99,
       "representative_locality_id": 7021,
       "representative_distance_km": 1.13,
@@ -10698,6 +10897,10 @@
       "station_name_candidates": [
         "MARCOS JUAREZ AERO"
       ],
+      "source_station_numbers": [
+        87467
+      ],
+      "station_number_aliases": [],
       "locality_count": 111,
       "representative_locality_id": 6825,
       "representative_distance_km": 5.54,
@@ -10863,6 +11066,10 @@
       "station_name_candidates": [
         "VENADO TUERTO AERO"
       ],
+      "source_station_numbers": [
+        87468
+      ],
+      "station_number_aliases": [],
       "locality_count": 62,
       "representative_locality_id": 2343,
       "representative_distance_km": 10.24,
@@ -10974,32 +11181,15 @@
       ]
     },
     {
-      "station_number": 87470,
-      "station_name": null,
-      "station_name_candidates": [],
-      "locality_count": 1,
-      "representative_locality_id": 2248,
-      "representative_distance_km": null,
-      "locality_ids": [
-        2248
-      ],
-      "sample_localities": [
-        {
-          "id": 2248,
-          "name": "Las Rosas",
-          "department": "Belgrano",
-          "province": "Santa Fe",
-          "type": "Localidad",
-          "distance_km": null
-        }
-      ]
-    },
-    {
       "station_number": 87480,
       "station_name": "ROSARIO AERO",
       "station_name_candidates": [
         "ROSARIO AERO"
       ],
+      "source_station_numbers": [
+        87480
+      ],
+      "station_number_aliases": [],
       "locality_count": 133,
       "representative_locality_id": 2260,
       "representative_distance_km": 1.57,
@@ -11187,6 +11377,10 @@
       "station_name_candidates": [
         "GUALEGUAYCHU AERO"
       ],
+      "source_station_numbers": [
+        87497
+      ],
+      "station_number_aliases": [],
       "locality_count": 125,
       "representative_locality_id": 7720,
       "representative_distance_km": 7.83,
@@ -11366,6 +11560,10 @@
       "station_name_candidates": [
         "MALARGUE AERO"
       ],
+      "source_station_numbers": [
+        87506
+      ],
+      "station_number_aliases": [],
       "locality_count": 131,
       "representative_locality_id": 9295,
       "representative_distance_km": 16.08,
@@ -11551,6 +11749,10 @@
       "station_name_candidates": [
         "SAN RAFAEL AERO"
       ],
+      "source_station_numbers": [
+        87509
+      ],
+      "station_number_aliases": [],
       "locality_count": 44,
       "representative_locality_id": 9550,
       "representative_distance_km": 5.03,
@@ -11649,6 +11851,10 @@
       "station_name_candidates": [
         "GENERAL PICO AERO"
       ],
+      "source_station_numbers": [
+        87532
+      ],
+      "station_number_aliases": [],
       "locality_count": 54,
       "representative_locality_id": 8802,
       "representative_distance_km": 10.51,
@@ -11757,6 +11963,10 @@
       "station_name_candidates": [
         "LABOULAYE AERO"
       ],
+      "source_station_numbers": [
+        87534
+      ],
+      "station_number_aliases": [],
       "locality_count": 80,
       "representative_locality_id": 7098,
       "representative_distance_km": 13.0,
@@ -11891,6 +12101,10 @@
       "station_name_candidates": [
         "TRENQUE LAUQUEN"
       ],
+      "source_station_numbers": [
+        87540
+      ],
+      "station_number_aliases": [],
       "locality_count": 72,
       "representative_locality_id": 3865,
       "representative_distance_km": 13.56,
@@ -12017,6 +12231,10 @@
       "station_name_candidates": [
         "PEHUAJO AERO"
       ],
+      "source_station_numbers": [
+        87544
+      ],
+      "station_number_aliases": [],
       "locality_count": 53,
       "representative_locality_id": 3885,
       "representative_distance_km": 9.44,
@@ -12124,6 +12342,10 @@
       "station_name_candidates": [
         "JUNIN AERO"
       ],
+      "source_station_numbers": [
+        87548
+      ],
+      "station_number_aliases": [],
       "locality_count": 140,
       "representative_locality_id": 4712,
       "representative_distance_km": 3.56,
@@ -12318,6 +12540,10 @@
       "station_name_candidates": [
         "NUEVE DE JULIO"
       ],
+      "source_station_numbers": [
+        87550
+      ],
+      "station_number_aliases": [],
       "locality_count": 110,
       "representative_locality_id": 3989,
       "representative_distance_km": 0.82,
@@ -12482,6 +12708,10 @@
       "station_name_candidates": [
         "SAN FERNANDO AERO"
       ],
+      "source_station_numbers": [
+        87553
+      ],
+      "station_number_aliases": [],
       "locality_count": 29,
       "representative_locality_id": 4750,
       "representative_distance_km": 2.72,
@@ -12565,6 +12795,10 @@
       "station_name_candidates": [
         "LAS FLORES"
       ],
+      "source_station_numbers": [
+        87563
+      ],
+      "station_number_aliases": [],
       "locality_count": 59,
       "representative_locality_id": 4129,
       "representative_distance_km": 4.32,
@@ -12678,6 +12912,10 @@
       "station_name_candidates": [
         "CAMPO DE MAYO"
       ],
+      "source_station_numbers": [
+        87570
+      ],
+      "station_number_aliases": [],
       "locality_count": 12,
       "representative_locality_id": 10644,
       "representative_distance_km": 2.77,
@@ -12744,6 +12982,10 @@
       "station_name_candidates": [
         "EL PALOMAR AERO"
       ],
+      "source_station_numbers": [
+        87571
+      ],
+      "station_number_aliases": [],
       "locality_count": 15,
       "representative_locality_id": 10630,
       "representative_distance_km": 0.78,
@@ -12813,6 +13055,10 @@
       "station_name_candidates": [
         "MARIANO MORENO AERO"
       ],
+      "source_station_numbers": [
+        87572
+      ],
+      "station_number_aliases": [],
       "locality_count": 76,
       "representative_locality_id": 4811,
       "representative_distance_km": 9.29,
@@ -12943,6 +13189,10 @@
       "station_name_candidates": [
         "MERLO AERO"
       ],
+      "source_station_numbers": [
+        87573
+      ],
+      "station_number_aliases": [],
       "locality_count": 17,
       "representative_locality_id": 10625,
       "representative_distance_km": 4.69,
@@ -13014,6 +13264,10 @@
       "station_name_candidates": [
         "MORON AERO"
       ],
+      "source_station_numbers": [
+        87574
+      ],
+      "station_number_aliases": [],
       "locality_count": 4,
       "representative_locality_id": 10629,
       "representative_distance_km": 2.24,
@@ -13064,6 +13318,10 @@
       "station_name_candidates": [
         "EZEIZA AERO"
       ],
+      "source_station_numbers": [
+        87576
+      ],
+      "station_number_aliases": [],
       "locality_count": 46,
       "representative_locality_id": 4836,
       "representative_distance_km": 2.24,
@@ -13164,6 +13422,10 @@
       "station_name_candidates": [
         "AEROPARQUE AERO"
       ],
+      "source_station_numbers": [
+        87582
+      ],
+      "station_number_aliases": [],
       "locality_count": 16,
       "representative_locality_id": 4871,
       "representative_distance_km": 12.05,
@@ -13234,6 +13496,10 @@
       "station_name_candidates": [
         "BUENOS AIRES OBSERVATORIO"
       ],
+      "source_station_numbers": [
+        87585
+      ],
+      "station_number_aliases": [],
       "locality_count": 7,
       "representative_locality_id": 10602,
       "representative_distance_km": 4.04,
@@ -13295,6 +13561,10 @@
       "station_name_candidates": [
         "LA PLATA AERO"
       ],
+      "source_station_numbers": [
+        87593
+      ],
+      "station_number_aliases": [],
       "locality_count": 37,
       "representative_locality_id": 10573,
       "representative_distance_km": 3.44,
@@ -13386,6 +13656,10 @@
       "station_name_candidates": [
         "PUNTA INDIO B.A."
       ],
+      "source_station_numbers": [
+        87596
+      ],
+      "station_number_aliases": [],
       "locality_count": 15,
       "representative_locality_id": 3830,
       "representative_distance_km": 0.98,
@@ -13455,6 +13729,10 @@
       "station_name_candidates": [
         "VICTORICA"
       ],
+      "source_station_numbers": [
+        87616
+      ],
+      "station_number_aliases": [],
       "locality_count": 34,
       "representative_locality_id": 8816,
       "representative_distance_km": 9.27,
@@ -13543,6 +13821,10 @@
       "station_name_candidates": [
         "SANTA ROSA AERO"
       ],
+      "source_station_numbers": [
+        87623
+      ],
+      "station_number_aliases": [],
       "locality_count": 58,
       "representative_locality_id": 8861,
       "representative_distance_km": 4.85,
@@ -13655,11 +13937,19 @@
       "station_name_candidates": [
         "CORONEL SUAREZ AERO"
       ],
-      "locality_count": 30,
+      "source_station_numbers": [
+        87637,
+        87683
+      ],
+      "station_number_aliases": [
+        87683
+      ],
+      "locality_count": 31,
       "representative_locality_id": 4349,
       "representative_distance_km": 4.87,
       "locality_ids": [
         4231,
+        4232,
         4233,
         4344,
         4345,
@@ -13700,6 +13990,14 @@
           "distance_km": 72.22
         },
         {
+          "id": 4232,
+          "name": "Coronel Pringles",
+          "department": "Coronel Pringles",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "distance_km": null
+        },
+        {
           "id": 4233,
           "name": "Krabbe",
           "department": "Coronel Pringles",
@@ -13722,14 +14020,6 @@
           "province": "Buenos Aires",
           "type": "Caserío",
           "distance_km": 35.12
-        },
-        {
-          "id": 4346,
-          "name": "Cabaña El Destino",
-          "department": "Coronel Suarez",
-          "province": "Buenos Aires",
-          "type": "Paraje",
-          "distance_km": 10.56
         }
       ]
     },
@@ -13739,6 +14029,10 @@
       "station_name_candidates": [
         "BOLIVAR AERO"
       ],
+      "source_station_numbers": [
+        87640
+      ],
+      "station_number_aliases": [],
       "locality_count": 25,
       "representative_locality_id": 4177,
       "representative_distance_km": 7.06,
@@ -13818,6 +14112,10 @@
       "station_name_candidates": [
         "AZUL AERO"
       ],
+      "source_station_numbers": [
+        87641
+      ],
+      "station_number_aliases": [],
       "locality_count": 27,
       "representative_locality_id": 4116,
       "representative_distance_km": 5.5,
@@ -13899,6 +14197,10 @@
       "station_name_candidates": [
         "OLAVARRIA AERO"
       ],
+      "source_station_numbers": [
+        87643
+      ],
+      "station_number_aliases": [],
       "locality_count": 38,
       "representative_locality_id": 4200,
       "representative_distance_km": 1.14,
@@ -13991,6 +14293,10 @@
       "station_name_candidates": [
         "TANDIL AERO"
       ],
+      "source_station_numbers": [
+        87645
+      ],
+      "station_number_aliases": [],
       "locality_count": 16,
       "representative_locality_id": 4265,
       "representative_distance_km": 11.37,
@@ -14061,6 +14367,10 @@
       "station_name_candidates": [
         "DOLORES AERO"
       ],
+      "source_station_numbers": [
+        87648
+      ],
+      "station_number_aliases": [],
       "locality_count": 26,
       "representative_locality_id": 4146,
       "representative_distance_km": 3.27,
@@ -14141,6 +14451,10 @@
       "station_name_candidates": [
         "BENITO JUAREZ AERO"
       ],
+      "source_station_numbers": [
+        87649
+      ],
+      "station_number_aliases": [],
       "locality_count": 7,
       "representative_locality_id": 4251,
       "representative_distance_km": 6.46,
@@ -14202,6 +14516,10 @@
       "station_name_candidates": [
         "VILLA GESELL AERO"
       ],
+      "source_station_numbers": [
+        87663
+      ],
+      "station_number_aliases": [],
       "locality_count": 30,
       "representative_locality_id": 4308,
       "representative_distance_km": 9.0,
@@ -14286,6 +14604,10 @@
       "station_name_candidates": [
         "PIGUE AERO"
       ],
+      "source_station_numbers": [
+        87679
+      ],
+      "station_number_aliases": [],
       "locality_count": 70,
       "representative_locality_id": 4342,
       "representative_distance_km": 12.47,
@@ -14405,32 +14727,15 @@
       ]
     },
     {
-      "station_number": 87683,
-      "station_name": null,
-      "station_name_candidates": [],
-      "locality_count": 1,
-      "representative_locality_id": 4232,
-      "representative_distance_km": null,
-      "locality_ids": [
-        4232
-      ],
-      "sample_localities": [
-        {
-          "id": 4232,
-          "name": "Coronel Pringles",
-          "department": "Coronel Pringles",
-          "province": "Buenos Aires",
-          "type": "Ciudad",
-          "distance_km": null
-        }
-      ]
-    },
-    {
       "station_number": 87688,
       "station_name": "TRES ARROYOS",
       "station_name_candidates": [
         "TRES ARROYOS"
       ],
+      "source_station_numbers": [
+        87688
+      ],
+      "station_number_aliases": [],
       "locality_count": 45,
       "representative_locality_id": 4465,
       "representative_distance_km": 7.12,
@@ -14530,6 +14835,10 @@
       "station_name_candidates": [
         "MAR DEL PLATA AERO"
       ],
+      "source_station_numbers": [
+        87692
+      ],
+      "station_number_aliases": [],
       "locality_count": 54,
       "representative_locality_id": 10574,
       "representative_distance_km": 5.33,
@@ -14638,6 +14947,10 @@
       "station_name_candidates": [
         "NEUQUEN AERO"
       ],
+      "source_station_numbers": [
+        87715
+      ],
+      "station_number_aliases": [],
       "locality_count": 52,
       "representative_locality_id": 9905,
       "representative_distance_km": 8.15,
@@ -14744,6 +15057,10 @@
       "station_name_candidates": [
         "CIPOLLETTI"
       ],
+      "source_station_numbers": [
+        87719
+      ],
+      "station_number_aliases": [],
       "locality_count": 50,
       "representative_locality_id": 20,
       "representative_distance_km": 4.79,
@@ -14848,6 +15165,10 @@
       "station_name_candidates": [
         "RIO COLORADO"
       ],
+      "source_station_numbers": [
+        87736
+      ],
+      "station_number_aliases": [],
       "locality_count": 23,
       "representative_locality_id": 8915,
       "representative_distance_km": 0.52,
@@ -14925,6 +15246,10 @@
       "station_name_candidates": [
         "BAHIA BLANCA AERO"
       ],
+      "source_station_numbers": [
+        87750
+      ],
+      "station_number_aliases": [],
       "locality_count": 41,
       "representative_locality_id": 4414,
       "representative_distance_km": 2.84,
@@ -15020,6 +15345,10 @@
       "station_name_candidates": [
         "CHAPELCO AERO"
       ],
+      "source_station_numbers": [
+        87761
+      ],
+      "station_number_aliases": [],
       "locality_count": 122,
       "representative_locality_id": 10030,
       "representative_distance_km": 11.38,
@@ -15196,6 +15525,10 @@
       "station_name_candidates": [
         "BARILOCHE AERO"
       ],
+      "source_station_numbers": [
+        87765
+      ],
+      "station_number_aliases": [],
       "locality_count": 31,
       "representative_locality_id": 138,
       "representative_distance_km": 5.59,
@@ -15281,6 +15614,10 @@
       "station_name_candidates": [
         "MAQUINCHAO"
       ],
+      "source_station_numbers": [
+        87774
+      ],
+      "station_number_aliases": [],
       "locality_count": 79,
       "representative_locality_id": 176,
       "representative_distance_km": 33.53,
@@ -15414,6 +15751,10 @@
       "station_name_candidates": [
         "SAN ANTONIO OESTE AERO"
       ],
+      "source_station_numbers": [
+        87784
+      ],
+      "station_number_aliases": [],
       "locality_count": 45,
       "representative_locality_id": 118,
       "representative_distance_km": 2.91,
@@ -15513,6 +15854,10 @@
       "station_name_candidates": [
         "VIEDMA AERO"
       ],
+      "source_station_numbers": [
+        87791
+      ],
+      "station_number_aliases": [],
       "locality_count": 26,
       "representative_locality_id": 88,
       "representative_distance_km": 5.73,
@@ -15593,6 +15938,10 @@
       "station_name_candidates": [
         "EL BOLSON AERO"
       ],
+      "source_station_numbers": [
+        87800
+      ],
+      "station_number_aliases": [],
       "locality_count": 19,
       "representative_locality_id": 133,
       "representative_distance_km": 1.59,
@@ -15666,6 +16015,10 @@
       "station_name_candidates": [
         "ESQUEL AERO"
       ],
+      "source_station_numbers": [
+        87803
+      ],
+      "station_number_aliases": [],
       "locality_count": 50,
       "representative_locality_id": 10865,
       "representative_distance_km": 12.16,
@@ -15770,6 +16123,10 @@
       "station_name_candidates": [
         "PASO DE INDIOS"
       ],
+      "source_station_numbers": [
+        87814
+      ],
+      "station_number_aliases": [],
       "locality_count": 40,
       "representative_locality_id": 5807,
       "representative_distance_km": 20.09,
@@ -15864,6 +16221,10 @@
       "station_name_candidates": [
         "PUERTO MADRYN AERO"
       ],
+      "source_station_numbers": [
+        87823
+      ],
+      "station_number_aliases": [],
       "locality_count": 3,
       "representative_locality_id": 5885,
       "representative_distance_km": 60.18,
@@ -15905,6 +16266,10 @@
       "station_name_candidates": [
         "TRELEW AERO"
       ],
+      "source_station_numbers": [
+        87828
+      ],
+      "station_number_aliases": [],
       "locality_count": 22,
       "representative_locality_id": 5888,
       "representative_distance_km": 18.27,
@@ -15981,6 +16346,10 @@
       "station_name_candidates": [
         "PERITO MORENO AERO"
       ],
+      "source_station_numbers": [
+        87852
+      ],
+      "station_number_aliases": [],
       "locality_count": 42,
       "representative_locality_id": 1801,
       "representative_distance_km": 48.67,
@@ -16077,6 +16446,10 @@
       "station_name_candidates": [
         "COMODORO RIVADAVIA AERO"
       ],
+      "source_station_numbers": [
+        87860
+      ],
+      "station_number_aliases": [],
       "locality_count": 39,
       "representative_locality_id": 10794,
       "representative_distance_km": 0.62,
@@ -16170,6 +16543,10 @@
       "station_name_candidates": [
         "GOBERNADOR GREGORES AERO"
       ],
+      "source_station_numbers": [
+        87880
+      ],
+      "station_number_aliases": [],
       "locality_count": 19,
       "representative_locality_id": 1828,
       "representative_distance_km": 67.98,
@@ -16243,6 +16620,10 @@
       "station_name_candidates": [
         "PUERTO DESEADO AERO"
       ],
+      "source_station_numbers": [
+        87896
+      ],
+      "station_number_aliases": [],
       "locality_count": 7,
       "representative_locality_id": 1856,
       "representative_distance_km": 13.96,
@@ -16304,6 +16685,10 @@
       "station_name_candidates": [
         "EL CALAFATE AERO"
       ],
+      "source_station_numbers": [
+        87904
+      ],
+      "station_number_aliases": [],
       "locality_count": 29,
       "representative_locality_id": 1841,
       "representative_distance_km": 11.41,
@@ -16387,6 +16772,10 @@
       "station_name_candidates": [
         "SAN JULIAN AERO"
       ],
+      "source_station_numbers": [
+        87909
+      ],
+      "station_number_aliases": [],
       "locality_count": 4,
       "representative_locality_id": 1871,
       "representative_distance_km": 130.38,
@@ -16437,6 +16826,10 @@
       "station_name_candidates": [
         "SANTA CRUZ AERO"
       ],
+      "source_station_numbers": [
+        87912
+      ],
+      "station_number_aliases": [],
       "locality_count": 4,
       "representative_locality_id": 1861,
       "representative_distance_km": 24.5,
@@ -16487,6 +16880,10 @@
       "station_name_candidates": [
         "RIO GALLEGOS AERO"
       ],
+      "source_station_numbers": [
+        87925
+      ],
+      "station_number_aliases": [],
       "locality_count": 8,
       "representative_locality_id": 1870,
       "representative_distance_km": 4.71,
@@ -16549,6 +16946,10 @@
       "station_name_candidates": [
         "RIO GRANDE B.A."
       ],
+      "source_station_numbers": [
+        87934
+      ],
+      "station_number_aliases": [],
       "locality_count": 8,
       "representative_locality_id": 5912,
       "representative_distance_km": 3.47,
@@ -16611,6 +17012,10 @@
       "station_name_candidates": [
         "USHUAIA AERO"
       ],
+      "source_station_numbers": [
+        87938
+      ],
+      "station_number_aliases": [],
       "locality_count": 8,
       "representative_locality_id": 10856,
       "representative_distance_km": 8.8,
@@ -16673,6 +17078,10 @@
       "station_name_candidates": [
         "MONTE AGRADABLE AERO"
       ],
+      "source_station_numbers": [
+        88889
+      ],
+      "station_number_aliases": [],
       "locality_count": 36,
       "representative_locality_id": 5970,
       "representative_distance_km": 15.66,
@@ -16763,6 +17172,10 @@
       "station_name_candidates": [
         "BASE ESPERANZA"
       ],
+      "source_station_numbers": [
+        88963
+      ],
+      "station_number_aliases": [],
       "locality_count": 2,
       "representative_locality_id": 10810,
       "representative_distance_km": 0.0,
@@ -16795,6 +17208,10 @@
       "station_name_candidates": [
         "BASE ORCADAS"
       ],
+      "source_station_numbers": [
+        88968
+      ],
+      "station_number_aliases": [],
       "locality_count": 1,
       "representative_locality_id": 10814,
       "representative_distance_km": 0.0,
@@ -16818,6 +17235,10 @@
       "station_name_candidates": [
         "BASE BELGRANO II"
       ],
+      "source_station_numbers": [
+        89034
+      ],
+      "station_number_aliases": [],
       "locality_count": 1,
       "representative_locality_id": 10806,
       "representative_distance_km": 0.0,
@@ -16841,6 +17262,10 @@
       "station_name_candidates": [
         "BASE CARLINI"
       ],
+      "source_station_numbers": [
+        89053
+      ],
+      "station_number_aliases": [],
       "locality_count": 7,
       "representative_locality_id": 10811,
       "representative_distance_km": 0.0,
@@ -16902,6 +17327,10 @@
       "station_name_candidates": [
         "BASE MARAMBIO"
       ],
+      "source_station_numbers": [
+        89055
+      ],
+      "station_number_aliases": [],
       "locality_count": 1,
       "representative_locality_id": 10818,
       "representative_distance_km": 0.0,
@@ -16925,6 +17354,10 @@
       "station_name_candidates": [
         "BASE SAN MARTIN"
       ],
+      "source_station_numbers": [
+        89066
+      ],
+      "station_number_aliases": [],
       "locality_count": 1,
       "representative_locality_id": 10817,
       "representative_distance_km": 0.0,
