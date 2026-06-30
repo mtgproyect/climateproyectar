@@ -20,6 +20,17 @@ STATION_GROUPS_FILE = ROOT / "docs" / "data" / "grupos_estaciones.json"
 PARTITIONS_FILE = ROOT / "docs" / "data" / "particiones_operativas.json"
 
 
+# El endpoint weather puede reasignar localidades vinculadas a estaciones
+# históricas o actualmente inactivas hacia una estación operativa activa.
+# Esta tabla afecta solamente a la capa de consultas; no modifica el
+# station_number de procedencia almacenado en el catálogo maestro.
+STATION_OPERATIONAL_ALIASES: dict[int, int] = {
+    87412: 87420,  # SAN CARLOS (MZA) -> MENDOZA OBSERVATORIO
+    87470: 87360,  # EL TREBOL -> RAFAELA AERO
+    87683: 87637,  # CORONEL PRINGLES AERO -> CORONEL SUAREZ AERO
+}
+
+
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
@@ -103,6 +114,15 @@ def locality_summary(item: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def resolve_operational_station_number(
+    station_number: int,
+) -> int:
+    return STATION_OPERATIONAL_ALIASES.get(
+        station_number,
+        station_number,
+    )
+
+
 def select_station_representative(
     items: list[dict[str, Any]],
 ) -> dict[str, Any]:
@@ -116,6 +136,21 @@ def select_station_representative(
         )
 
     return min(items, key=key)
+
+
+def select_operational_station_representative(
+    items: list[dict[str, Any]],
+    operational_station_number: int,
+) -> dict[str, Any]:
+    canonical_items = [
+        item
+        for item in items
+        if as_int(item.get("station_number"))
+        == operational_station_number
+    ]
+    return select_station_representative(
+        canonical_items or items
+    )
 
 
 def build_balanced_partitions(
@@ -205,7 +240,7 @@ def main() -> None:
     parser.add_argument(
         "--expect-station-groups",
         type=int,
-        default=124,
+        default=121,
     )
     parser.add_argument(
         "--forecast-shards",
@@ -225,6 +260,7 @@ def main() -> None:
 
     forecast_map: dict[int, list[dict[str, Any]]] = defaultdict(list)
     station_map: dict[int, list[dict[str, Any]]] = defaultdict(list)
+    station_source_numbers: dict[int, set[int]] = defaultdict(set)
 
     missing_forecast: list[int] = []
     missing_station: list[int] = []
@@ -241,7 +277,15 @@ def main() -> None:
         if station_number is None:
             missing_station.append(locality_id)
         else:
-            station_map[station_number].append(item)
+            operational_station = (
+                resolve_operational_station_number(
+                    station_number
+                )
+            )
+            station_map[operational_station].append(item)
+            station_source_numbers[
+                operational_station
+            ].add(station_number)
 
     forecast_groups: list[dict[str, Any]] = []
     for reference_id in sorted(forecast_map):
@@ -266,7 +310,12 @@ def main() -> None:
     station_groups: list[dict[str, Any]] = []
     for station_number in sorted(station_map):
         items = station_map[station_number]
-        representative = select_station_representative(items)
+        representative = (
+            select_operational_station_representative(
+                items,
+                station_number,
+            )
+        )
         names = sorted(
             {
                 name
@@ -274,13 +323,43 @@ def main() -> None:
                 if (name := clean_text(item.get("station_name")))
             }
         )
+        canonical_names = sorted(
+            {
+                name
+                for item in items
+                if (
+                    as_int(item.get("station_number"))
+                    == station_number
+                    and (
+                        name := clean_text(
+                            item.get("station_name")
+                        )
+                    )
+                )
+            }
+        )
+        source_numbers = sorted(
+            station_source_numbers[station_number]
+        )
         locality_ids = sorted(int(item["id"]) for item in items)
 
         station_groups.append(
             {
                 "station_number": station_number,
-                "station_name": names[0] if len(names) == 1 else None,
+                "station_name": (
+                    canonical_names[0]
+                    if len(canonical_names) == 1
+                    else (
+                        names[0] if len(names) == 1 else None
+                    )
+                ),
                 "station_name_candidates": names,
+                "source_station_numbers": source_numbers,
+                "station_number_aliases": [
+                    value
+                    for value in source_numbers
+                    if value != station_number
+                ],
                 "locality_count": len(items),
                 "representative_locality_id": int(
                     representative["id"]
@@ -371,6 +450,15 @@ def main() -> None:
             "stations": len(station_groups),
             "total_per_full_refresh": total_queries,
         },
+        "station_operational_aliases": [
+            {
+                "source_station_number": source,
+                "operational_station_number": target,
+            }
+            for source, target in sorted(
+                STATION_OPERATIONAL_ALIASES.items()
+            )
+        ],
         "recommended_architecture": {
             "forecast_shards": args.forecast_shards,
             "station_shards": args.station_shards,
