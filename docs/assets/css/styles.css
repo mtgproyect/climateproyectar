@@ -33,6 +33,7 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
+  overflow-x: hidden;
   min-width: 320px;
   background: linear-gradient(180deg, #eef9ff 0%, #f8fbfd 42%, #ffffff 100%);
   color: var(--slate-900);
@@ -117,7 +118,8 @@ a { color: inherit; }
 
 .hero {
   position: relative;
-  overflow: hidden;
+  z-index: 20;
+  overflow: visible;
   color: var(--white);
   background:
     radial-gradient(circle at 80% 20%, rgba(53,169,232,.30), transparent 32%),
@@ -225,7 +227,7 @@ a { color: inherit; }
   width: min(calc(100% - 32px), var(--max-width));
   margin: 0 auto;
 }
-.result-shell { padding: 52px 0 80px; }
+.result-shell { position: relative; z-index: 1; padding: 52px 0 80px; }
 .empty-state, .error-state { padding: 74px 20px 100px; text-align: center; }
 .empty-icon { width: 74px; height: 74px; display: grid; place-items: center; margin: 0 auto 16px; border-radius: 24px; background: var(--sky-100); color: var(--blue-700); font-size: 38px; }
 .empty-state h2, .error-state h2 { margin: 0 0 8px; }
@@ -344,4 +346,8 @@ a { color: inherit; }
   .metrics-grid { grid-template-columns: 1fr; }
   .current-main { align-items: flex-start; }
   .weather-glyph { width: 64px; height: 64px; font-size: 38px; }
+}
+
+@media print {
+  .skip-link { display: none !important; }
 }

@@ -98,35 +98,11 @@
     return new Intl.NumberFormat("es-AR", { maximumFractionDigits }).format(Number(value));
   }
 
-  function parseDate(value) {
-    if (!value) return null;
-    const normalized = String(value).includes("T") ? String(value) : String(value).replace(" ", "T");
-    const date = new Date(normalized);
-    return Number.isNaN(date.getTime()) ? null : date;
+  const dateUtils = window.ClimaDateUtils;
+  if (!dateUtils) {
+    throw new Error("No se cargaron las utilidades de fecha.");
   }
-
-  function formatDate(value, options = {}) {
-    const date = parseDate(value);
-    if (!date) return value || "—";
-    return new Intl.DateTimeFormat("es-AR", {
-      day: "numeric",
-      month: "long",
-      year: "numeric",
-      ...options,
-    }).format(date);
-  }
-
-  function formatDateTime(value) {
-    const date = parseDate(value);
-    if (!date) return value || "—";
-    return new Intl.DateTimeFormat("es-AR", {
-      day: "numeric",
-      month: "long",
-      year: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-    }).format(date);
-  }
+  const { parseDate, formatDateTime } = dateUtils;
 
   function weatherGlyph(description) {
     const text = normalizeText(description);

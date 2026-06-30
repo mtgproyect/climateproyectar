@@ -491,7 +491,7 @@ def merge_antarctica(
             "station_number": location.get("station_id"),
             "station_code": location.get("station_code"),
             "station_name": location.get("station_name"),
-            "distance_km": 0,
+            "distance_km": as_float(location.get("distance_km")),
             "area": "Antártida",
         }
 
