@@ -26,6 +26,21 @@ on:
         required: true
         default: "1.0"
         type: string
+      refresh_scope:
+        description: "Qué registros procesar"
+        required: true
+        default: "pending"
+        type: choice
+        options:
+          - pending
+          - stale
+          - expired
+          - all
+      max_age_hours:
+        description: "Antigüedad para expired"
+        required: true
+        default: "6"
+        type: string
 
 permissions:
   contents: write
@@ -59,6 +74,8 @@ jobs:
             --shard "${{ inputs.shard }}" \
             --batch-size "${{ inputs.batch_size }}" \
             --sleep-seconds "${{ inputs.sleep_seconds }}" \
+            --refresh-scope "${{ inputs.refresh_scope }}" \
+            --max-age-hours "${{ inputs.max_age_hours }}" \
             --max-attempts 5 \
             --http-attempts 4 \
             --retry-base-seconds 2.0
