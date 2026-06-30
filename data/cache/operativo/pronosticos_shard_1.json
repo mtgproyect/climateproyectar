@@ -2,7 +2,7 @@
   "schema_version": 1,
   "mode": "forecast",
   "shard": 1,
-  "generated_at": "2026-06-30T04:20:13.830808+00:00",
+  "generated_at": "2026-06-30T04:58:41.790082+00:00",
   "records": {
     "19": {
       "query_id": 19,
@@ -117600,13 +117600,46 @@
     "10806": {
       "query_id": 10806,
       "locality_count": 1,
-      "status": "error",
-      "attempts": 4,
-      "last_attempt_at": "2026-06-30T04:19:33.242882+00:00",
-      "error": {
-        "type": "ApiError",
-        "message": "HTTP 503 al consultar el pronóstico histórico 10806.",
-        "status_code": 503
+      "status": "stale",
+      "data_source": "smn_legacy_local_seed",
+      "historical": true,
+      "attempts": 5,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T04:58:34.584347+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "source": "smn_legacy_local_seed",
+        "historical": true,
+        "updated": "2026-05-15 09:00",
+        "location": {
+          "id": 10806
+        },
+        "type": "legacy_location",
+        "forecast": [
+          {
+            "date": "2026-05-15",
+            "temp_min": -19,
+            "temp_max": -14,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 5,
+              "description": "Cielo cubierto. Probables nevadas aisladas. Vientos moderados a regulares del Noreste. Visibilidad regular a mala."
+            },
+            "afternoon": {
+              "weather_id": 16,
+              "description": "Nubosidad variable. Probables nevadas aisladas. Mejorando. Vientos moderados del sector Este. Visibilidad regular a buena."
+            }
+          }
+        ],
+        "legacy_metadata": {
+          "_id": "598b871ff9a90f9a3d47078b",
+          "timestamp": 1778770803604,
+          "date_time": "2026-05-15 09:00",
+          "location_id": 10806,
+          "seed_file": "data/fuentes/pronosticos_historicos_antartida.json"
+        }
       }
     },
     "10810": {
@@ -117656,25 +117689,91 @@
     "10811": {
       "query_id": 10811,
       "locality_count": 7,
-      "status": "error",
-      "attempts": 4,
-      "last_attempt_at": "2026-06-30T04:19:55.260698+00:00",
-      "error": {
-        "type": "ApiError",
-        "message": "HTTP 503 al consultar el pronóstico histórico 10811.",
-        "status_code": 503
+      "status": "stale",
+      "data_source": "smn_legacy_local_seed",
+      "historical": true,
+      "attempts": 5,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T04:58:38.074054+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "source": "smn_legacy_local_seed",
+        "historical": true,
+        "updated": "2026-05-15 09:00",
+        "location": {
+          "id": 10811
+        },
+        "type": "legacy_location",
+        "forecast": [
+          {
+            "date": "2026-05-15",
+            "temp_min": -5,
+            "temp_max": 1,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 15,
+              "description": "Nubosidad variable. Probables neblinas. Probables nevadas aisladas. Vientos muy fuertes a fuertes del sector Oeste con ráfagas. Visibilidad regular a buena."
+            },
+            "afternoon": {
+              "weather_id": 7,
+              "description": "Nubosidad variable. Probables neblinas. Probables nevadas aisladas. Vientos muy fuertes a fuertes del sector Oeste con ráfagas. Visibilidad regular a mala. "
+            }
+          }
+        ],
+        "legacy_metadata": {
+          "_id": "598b871ff9a90f9a3d47074a",
+          "timestamp": 1778770803513,
+          "date_time": "2026-05-15 09:00",
+          "location_id": 10811,
+          "seed_file": "data/fuentes/pronosticos_historicos_antartida.json"
+        }
       }
     },
     "10817": {
       "query_id": 10817,
       "locality_count": 1,
-      "status": "error",
-      "attempts": 4,
-      "last_attempt_at": "2026-06-30T04:20:13.688517+00:00",
-      "error": {
-        "type": "ApiError",
-        "message": "HTTP 503 al consultar el pronóstico histórico 10817.",
-        "status_code": 503
+      "status": "stale",
+      "data_source": "smn_legacy_local_seed",
+      "historical": true,
+      "attempts": 5,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T04:58:41.649263+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "source": "smn_legacy_local_seed",
+        "historical": true,
+        "updated": "2026-05-15 09:00",
+        "location": {
+          "id": 10817
+        },
+        "type": "legacy_location",
+        "forecast": [
+          {
+            "date": "2026-05-15",
+            "temp_min": -8,
+            "temp_max": -2,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 5,
+              "description": "Cielo cubierto. Probables neblinas. Ventisca. Probables nevadas intermitentes. Vientos muy fuertes a regulares del Noroeste con ráfagas, en disminución. Visibilidad regular a buena."
+            },
+            "afternoon": {
+              "weather_id": 15,
+              "description": "Nubosidad variable. Vientos regulares a moderados del Noroeste rotando al Noreste. Visibilidad buena."
+            }
+          }
+        ],
+        "legacy_metadata": {
+          "_id": "598b871ff9a90f9a3d47074b",
+          "timestamp": 1778770803513,
+          "date_time": "2026-05-15 09:00",
+          "location_id": 10817,
+          "seed_file": "data/fuentes/pronosticos_historicos_antartida.json"
+        }
       }
     },
     "10821": {

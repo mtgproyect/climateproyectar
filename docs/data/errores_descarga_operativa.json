@@ -1,43 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T04:20:14.038457+00:00",
-  "count": 3,
-  "errors": [
-    {
-      "mode": "forecast",
-      "shard": 1,
-      "query_id": 10806,
-      "attempts": 4,
-      "last_attempt_at": "2026-06-30T04:19:33.242882+00:00",
-      "error": {
-        "type": "ApiError",
-        "message": "HTTP 503 al consultar el pronóstico histórico 10806.",
-        "status_code": 503
-      }
-    },
-    {
-      "mode": "forecast",
-      "shard": 1,
-      "query_id": 10811,
-      "attempts": 4,
-      "last_attempt_at": "2026-06-30T04:19:55.260698+00:00",
-      "error": {
-        "type": "ApiError",
-        "message": "HTTP 503 al consultar el pronóstico histórico 10811.",
-        "status_code": 503
-      }
-    },
-    {
-      "mode": "forecast",
-      "shard": 1,
-      "query_id": 10817,
-      "attempts": 4,
-      "last_attempt_at": "2026-06-30T04:20:13.688517+00:00",
-      "error": {
-        "type": "ApiError",
-        "message": "HTTP 503 al consultar el pronóstico histórico 10817.",
-        "status_code": 503
-      }
-    }
-  ]
+  "generated_at": "2026-06-30T04:58:42.015657+00:00",
+  "count": 0,
+  "errors": []
 }

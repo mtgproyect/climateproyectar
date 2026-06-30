@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T04:40:08.119575+00:00",
-  "source": "Respuestas oficiales del endpoint histórico del SMN, capturadas para respaldo operativo.",
+  "generated_at": "2026-06-30T04:58:41.953489+00:00",
+  "source": "Respuestas oficiales del endpoint histórico del SMN, capturadas o sincronizadas desde el caché operativo.",
   "expected_antartic_references": [
     10806,
     10810,
@@ -10,7 +10,7 @@
     10817,
     10818
   ],
-  "count": 5,
+  "count": 6,
   "records": {
     "10806": [
       {
@@ -33,6 +33,32 @@
             "afternoon": {
               "weather_id": 16,
               "description": "Nubosidad variable. Probables nevadas aisladas. Mejorando. Vientos moderados del sector Este. Visibilidad regular a buena."
+            }
+          }
+        }
+      }
+    ],
+    "10810": [
+      {
+        "_id": "598b871ff9a90f9a3d470749",
+        "timestamp": 1778770803513,
+        "date_time": "2026-05-15 09:00",
+        "location_id": 10810,
+        "forecast": {
+          "0": {
+            "date": "2026-05-15",
+            "temp_min": -5,
+            "temp_max": 4,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 1,
+              "description": "Cielo algo a parcial nublado. Vientos moderados a regulares del Sudoeste. Visibilidad buena."
+            },
+            "afternoon": {
+              "weather_id": 2,
+              "description": "Cielo algo a parcial nublado. Vientos regulares a muy fuertes del Sudoeste con ráfagas. Visibilidad buena."
             }
           }
         }
