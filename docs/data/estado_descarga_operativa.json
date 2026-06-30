@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T05:18:56.785026+00:00",
+  "generated_at": "2026-06-30T05:24:23.449621+00:00",
   "totals": {
     "query_keys": 599,
-    "success": 500,
-    "fresh": 494,
+    "success": 596,
+    "fresh": 590,
     "stale": 6,
-    "errors": 0,
-    "pending": 99
+    "errors": 3,
+    "pending": 3
   },
   "partitions": [
     {
@@ -36,25 +36,25 @@
       "mode": "stations",
       "shard": 1,
       "total": 124,
-      "success": 25,
-      "fresh": 25,
+      "success": 121,
+      "fresh": 121,
       "stale": 0,
-      "errors": 0,
-      "pending": 99,
+      "errors": 3,
+      "pending": 3,
       "cache_file": "data/cache/operativo/estaciones_shard_1.json"
     }
   ],
   "last_run": {
     "mode": "stations",
     "shard": 1,
-    "configured_batch_size": 25,
-    "attempted_queries": 25,
-    "completed_queries": 25,
-    "successful_queries": 25,
-    "fresh_queries": 25,
+    "configured_batch_size": 100,
+    "attempted_queries": 99,
+    "completed_queries": 99,
+    "successful_queries": 96,
+    "fresh_queries": 96,
     "stale_queries": 0,
-    "request_errors": 0,
-    "http_attempts_total": 25,
+    "request_errors": 3,
+    "http_attempts_total": 108,
     "synchronized_local_records": 0,
     "stopped_reason": null
   }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "mode": "stations",
   "shard": 1,
-  "generated_at": "2026-06-30T05:18:56.666941+00:00",
+  "generated_at": "2026-06-30T05:24:23.324896+00:00",
   "records": {
     "87007": {
       "query_id": 87007,
@@ -1076,6 +1076,4176 @@
             "lat": -28.6537
           },
           "distance": 7.18
+        }
+      }
+    },
+    "87244": {
+      "query_id": 87244,
+      "representative_locality_id": 10955,
+      "expected_station_name": "VILLA DE MARIA DEL RIO SECO",
+      "locality_count": 280,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:30.506371+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 80.0,
+        "pressure": 980.8,
+        "feels_like": null,
+        "temperature": 9.2,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Cubierto",
+          "id": 43
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87244,
+        "location": {
+          "id": 10955,
+          "name": "Villa Maria del Rio Seco",
+          "department": "Río Seco",
+          "province": "Córdoba",
+          "type": "Localidad",
+          "coord": {
+            "lon": -63.7167,
+            "lat": -29.9
+          },
+          "distance": 1.23
+        }
+      }
+    },
+    "87257": {
+      "query_id": 87257,
+      "representative_locality_id": 3759,
+      "expected_station_name": "CERES AERO",
+      "locality_count": 169,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:32.372360+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 79.0,
+        "pressure": 1010.6,
+        "feels_like": 8.7,
+        "temperature": 9.2,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 6.0
+        },
+        "station_id": 87257,
+        "location": {
+          "id": 3759,
+          "name": "Selva",
+          "department": "Rivadavia",
+          "province": "Santiago del Estero",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -62.052,
+            "lat": -29.7673
+          },
+          "distance": 16.42
+        }
+      }
+    },
+    "87270": {
+      "query_id": 87270,
+      "representative_locality_id": 2013,
+      "expected_station_name": "RECONQUISTA AERO",
+      "locality_count": 198,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:34.117357+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 87.0,
+        "pressure": 1014.4,
+        "feels_like": null,
+        "temperature": 9.0,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 4.0
+        },
+        "station_id": 87270,
+        "location": {
+          "id": 2013,
+          "name": "Colonia. La Lola",
+          "department": "General Obligado",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -59.6647,
+            "lat": -29.243
+          },
+          "distance": 5.04
+        }
+      }
+    },
+    "87281": {
+      "query_id": 87281,
+      "representative_locality_id": 7416,
+      "expected_station_name": "MERCEDES AERO (CTES)",
+      "locality_count": 93,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:35.874380+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 74.0,
+        "pressure": 1007.8,
+        "feels_like": 6.8,
+        "temperature": 8.6,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "wind": {
+          "direction": "Este",
+          "deg": 90.0,
+          "speed": 12.0
+        },
+        "station_id": 87281,
+        "location": {
+          "id": 7416,
+          "name": "Mercedes",
+          "department": "Mercedes",
+          "province": "Corrientes",
+          "type": "Localidad",
+          "coord": {
+            "lon": -58.0785,
+            "lat": -29.1822
+          },
+          "distance": 4.9
+        }
+      }
+    },
+    "87289": {
+      "query_id": 87289,
+      "representative_locality_id": 7434,
+      "expected_station_name": "PASO DE LOS LIBRES AERO",
+      "locality_count": 55,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:37.623968+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 97.0,
+        "pressure": 1012.8,
+        "feels_like": 5.9,
+        "temperature": 7.6,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 10.0
+        },
+        "station_id": 87289,
+        "location": {
+          "id": 7434,
+          "name": "Ombucito",
+          "department": "Paso de Los Libres",
+          "province": "Corrientes",
+          "type": "Paraje",
+          "coord": {
+            "lon": -57.1095,
+            "lat": -29.6972
+          },
+          "distance": 3.87
+        }
+      }
+    },
+    "87305": {
+      "query_id": 87305,
+      "representative_locality_id": 1297,
+      "expected_station_name": "JACHAL",
+      "locality_count": 69,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:39.424304+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 53.0,
+        "pressure": 885.7,
+        "feels_like": null,
+        "temperature": 6.5,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Parcialmente nublado con humo",
+          "id": 25
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 4.0
+        },
+        "station_id": 87305,
+        "location": {
+          "id": 1297,
+          "name": "Bella Vista",
+          "department": "Jachal",
+          "province": "San Juan",
+          "type": "Paraje",
+          "coord": {
+            "lon": -68.7504,
+            "lat": -30.2161
+          },
+          "distance": 1.84
+        }
+      }
+    },
+    "87311": {
+      "query_id": 87311,
+      "representative_locality_id": 1422,
+      "expected_station_name": "SAN JUAN AERO",
+      "locality_count": 122,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:41.184800+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 58.0,
+        "pressure": 948.4,
+        "feels_like": null,
+        "temperature": 6.5,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87311,
+        "location": {
+          "id": 1422,
+          "name": "Las Chacritas",
+          "department": "9 de Julio",
+          "province": "San Juan",
+          "type": "Localidad",
+          "coord": {
+            "lon": -68.4227,
+            "lat": -31.5936
+          },
+          "distance": 2.1
+        }
+      }
+    },
+    "87320": {
+      "query_id": 87320,
+      "representative_locality_id": 9131,
+      "expected_station_name": "CHAMICAL AERO",
+      "locality_count": 114,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:42.929817+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 68.0,
+        "pressure": 966.4,
+        "feels_like": null,
+        "temperature": 9.2,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Cubierto",
+          "id": 43
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87320,
+        "location": {
+          "id": 9131,
+          "name": "Los Talar",
+          "department": "Gobernador Gordillo",
+          "province": "La Rioja",
+          "type": "Paraje",
+          "coord": {
+            "lon": -66.3026,
+            "lat": -30.3868
+          },
+          "distance": 4.36
+        }
+      }
+    },
+    "87322": {
+      "query_id": 87322,
+      "representative_locality_id": 9227,
+      "expected_station_name": "CHEPES",
+      "locality_count": 116,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:44.704692+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 67.0,
+        "pressure": 944.9,
+        "feels_like": null,
+        "temperature": 8.2,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Cubierto",
+          "id": 43
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87322,
+        "location": {
+          "id": 9227,
+          "name": "Abra Verde",
+          "department": "Rosario Vera Peñaloza",
+          "province": "La Rioja",
+          "type": "Paraje",
+          "coord": {
+            "lon": -66.627,
+            "lat": -31.3836
+          },
+          "distance": 6.82
+        }
+      }
+    },
+    "87328": {
+      "query_id": 87328,
+      "representative_locality_id": 6631,
+      "expected_station_name": "VILLA DOLORES AERO",
+      "locality_count": 203,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:46.448511+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 71.0,
+        "pressure": 954.4,
+        "feels_like": null,
+        "temperature": 8.3,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Cubierto",
+          "id": 43
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87328,
+        "location": {
+          "id": 6631,
+          "name": "Piedra Pintada",
+          "department": "San Alberto",
+          "province": "Córdoba",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -65.1491,
+            "lat": -31.9266
+          },
+          "distance": 2.74
+        }
+      }
+    },
+    "87344": {
+      "query_id": 87344,
+      "representative_locality_id": 6420,
+      "expected_station_name": "CORDOBA AERO",
+      "locality_count": 201,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:48.343787+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 74.0,
+        "pressure": 961.7,
+        "feels_like": 4.5,
+        "temperature": 7.0,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 13.0
+        },
+        "station_id": 87344,
+        "location": {
+          "id": 6420,
+          "name": "Española",
+          "department": "Colón",
+          "province": "Córdoba",
+          "type": "Colonia",
+          "coord": {
+            "lon": -64.1969,
+            "lat": -31.2581
+          },
+          "distance": 4.5
+        }
+      }
+    },
+    "87345": {
+      "query_id": 87345,
+      "representative_locality_id": 10823,
+      "expected_station_name": "CORDOBA OBSERVATORIO",
+      "locality_count": 78,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:50.102469+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 66.0,
+        "pressure": 971.4,
+        "feels_like": null,
+        "temperature": 8.8,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Noreste",
+          "deg": 45.0,
+          "speed": 4.0
+        },
+        "station_id": 87345,
+        "location": {
+          "id": 10823,
+          "name": "Córdoba Observatorio",
+          "department": "Capital",
+          "province": "Córdoba",
+          "type": "",
+          "coord": {
+            "lon": -64.1988,
+            "lat": -31.4206
+          },
+          "distance": 0.05
+        }
+      }
+    },
+    "87347": {
+      "query_id": 87347,
+      "representative_locality_id": 10824,
+      "expected_station_name": "ESCUELA DE AVIACION MILITAR AERO",
+      "locality_count": 1,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:51.858884+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T00:00:00-03:00",
+        "humidity": 81.0,
+        "pressure": 962.8,
+        "feels_like": 0.0,
+        "temperature": 1.6,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 6.0
+        },
+        "station_id": 87347,
+        "location": {
+          "id": 10824,
+          "name": "Escuela de Aviación Militar",
+          "department": "Capital",
+          "province": "Córdoba",
+          "type": "",
+          "coord": {
+            "lon": -64.2742,
+            "lat": -31.4463
+          },
+          "distance": 0.77
+        }
+      }
+    },
+    "87349": {
+      "query_id": 87349,
+      "representative_locality_id": 6480,
+      "expected_station_name": "PILAR OBSERVATORIO",
+      "locality_count": 145,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:53.614927+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 60.0,
+        "pressure": 981.2,
+        "feels_like": null,
+        "temperature": 7.1,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87349,
+        "location": {
+          "id": 6480,
+          "name": "Pilar",
+          "department": "Río Segundo",
+          "province": "Córdoba",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -63.8734,
+            "lat": -31.685
+          },
+          "distance": 2.04
+        }
+      }
+    },
+    "87356": {
+      "query_id": 87356,
+      "representative_locality_id": 2060,
+      "expected_station_name": "SUNCHALES AERO",
+      "locality_count": 50,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:55.359812+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 89.0,
+        "pressure": 1009.6,
+        "feels_like": null,
+        "temperature": 3.6,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sudeste",
+          "deg": 135.0,
+          "speed": 4.0
+        },
+        "station_id": 87356,
+        "location": {
+          "id": 2060,
+          "name": "Sunchales",
+          "department": "Castellanos",
+          "province": "Santa Fe",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -61.5605,
+            "lat": -30.9429
+          },
+          "distance": 3.1
+        }
+      }
+    },
+    "87360": {
+      "query_id": 87360,
+      "representative_locality_id": 2153,
+      "expected_station_name": "RAFAELA AERO",
+      "locality_count": 107,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:57.105952+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 81.0,
+        "pressure": 1009.4,
+        "feels_like": null,
+        "temperature": 6.4,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87360,
+        "location": {
+          "id": 2153,
+          "name": "Susana",
+          "department": "Castellanos",
+          "province": "Santa Fe",
+          "type": "Localidad",
+          "coord": {
+            "lon": -61.5173,
+            "lat": -31.3554
+          },
+          "distance": 8.67
+        }
+      }
+    },
+    "87371": {
+      "query_id": 87371,
+      "representative_locality_id": 2221,
+      "expected_station_name": "SAUCE VIEJO AERO",
+      "locality_count": 63,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:21:58.856056+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 97.0,
+        "pressure": 1019.2,
+        "feels_like": 1.8,
+        "temperature": 3.2,
+        "visibility": 8.0,
+        "weather": {
+          "description": "Despejado con neblina",
+          "id": 61
+        },
+        "wind": {
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 6.0
+        },
+        "station_id": 87371,
+        "location": {
+          "id": 2221,
+          "name": "Santo Tomé",
+          "department": "Capital",
+          "province": "Santa Fe",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -60.7658,
+            "lat": -31.674
+          },
+          "distance": 5.3
+        }
+      }
+    },
+    "87374": {
+      "query_id": 87374,
+      "representative_locality_id": 7657,
+      "expected_station_name": "PARANA AERO",
+      "locality_count": 147,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:00.602014+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 91.0,
+        "pressure": 1012.0,
+        "feels_like": 4.9,
+        "temperature": 5.9,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 6.0
+        },
+        "station_id": 87374,
+        "location": {
+          "id": 7657,
+          "name": "Villa Uranga",
+          "department": "Paraná",
+          "province": "Entre Ríos",
+          "type": "Paraje",
+          "coord": {
+            "lon": -60.4786,
+            "lat": -31.7702
+          },
+          "distance": 2.3
+        }
+      }
+    },
+    "87393": {
+      "query_id": 87393,
+      "representative_locality_id": 7499,
+      "expected_station_name": "MONTE CASEROS AERO",
+      "locality_count": 21,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:02.431246+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 94.0,
+        "pressure": 1014.0,
+        "feels_like": 3.3,
+        "temperature": 5.0,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sudeste",
+          "deg": 135.0,
+          "speed": 8.0
+        },
+        "station_id": 87393,
+        "location": {
+          "id": 7499,
+          "name": "Monte Caseros",
+          "department": "Montes Caseros",
+          "province": "Corrientes",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -57.6407,
+            "lat": -30.2511
+          },
+          "distance": 1.19
+        }
+      }
+    },
+    "87395": {
+      "query_id": 87395,
+      "representative_locality_id": 7707,
+      "expected_station_name": "CONCORDIA AERO",
+      "locality_count": 106,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:04.191347+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 96.0,
+        "pressure": 1017.0,
+        "feels_like": null,
+        "temperature": 6.8,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado con banco delgado de niebla",
+          "id": 67
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87395,
+        "location": {
+          "id": 7707,
+          "name": "Villa Zorraquín",
+          "department": "Concordia",
+          "province": "Entre Ríos",
+          "type": "Localidad",
+          "coord": {
+            "lon": -58.0141,
+            "lat": -31.3216
+          },
+          "distance": 2.46
+        }
+      }
+    },
+    "87405": {
+      "query_id": 87405,
+      "representative_locality_id": 9351,
+      "expected_station_name": "USPALLATA",
+      "locality_count": 33,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:05.971017+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 54.0,
+        "pressure": 811.3,
+        "feels_like": null,
+        "temperature": 1.8,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87405,
+        "location": {
+          "id": 9351,
+          "name": "La Bóveda",
+          "department": "Las Heras",
+          "province": "Mendoza",
+          "type": "Paraje",
+          "coord": {
+            "lon": -69.3379,
+            "lat": -32.5629
+          },
+          "distance": 3.52
+        }
+      }
+    },
+    "87412": {
+      "query_id": 87412,
+      "representative_locality_id": 9539,
+      "expected_station_name": null,
+      "locality_count": 1,
+      "status": "error",
+      "attempts": 1,
+      "last_attempt_at": "2026-06-30T05:22:07.722354+00:00",
+      "error": {
+        "type": "ApiError",
+        "message": "El tiempo actual devolvió station_id 87420; se esperaba 87412.",
+        "status_code": null
+      }
+    },
+    "87416": {
+      "query_id": 87416,
+      "representative_locality_id": 9446,
+      "expected_station_name": "SAN MARTIN (MZA)",
+      "locality_count": 111,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:09.511883+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 50.0,
+        "pressure": 943.0,
+        "feels_like": null,
+        "temperature": 9.3,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 4.0
+        },
+        "station_id": 87416,
+        "location": {
+          "id": 9446,
+          "name": "Villa Italia",
+          "department": "San Martín",
+          "province": "Mendoza",
+          "type": "Paraje",
+          "coord": {
+            "lon": -68.4679,
+            "lat": -33.0641
+          },
+          "distance": 1.05
+        }
+      }
+    },
+    "87418": {
+      "query_id": 87418,
+      "representative_locality_id": 9380,
+      "expected_station_name": "MENDOZA AERO",
+      "locality_count": 17,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:11.261379+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 70.0,
+        "pressure": 935.8,
+        "feels_like": 0.4,
+        "temperature": 2.5,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 8.0
+        },
+        "station_id": 87418,
+        "location": {
+          "id": 9380,
+          "name": "Espejo",
+          "department": "Las Heras",
+          "province": "Mendoza",
+          "type": "Paraje",
+          "coord": {
+            "lon": -68.8158,
+            "lat": -32.826
+          },
+          "distance": 2.68
+        }
+      }
+    },
+    "87420": {
+      "query_id": 87420,
+      "representative_locality_id": 10822,
+      "expected_station_name": "MENDOZA OBSERVATORIO",
+      "locality_count": 51,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:13.021899+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 68.0,
+        "pressure": 923.7,
+        "feels_like": 1.7,
+        "temperature": 3.6,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 8.0
+        },
+        "station_id": 87420,
+        "location": {
+          "id": 10822,
+          "name": "Mendoza Observatorio",
+          "department": "Capital",
+          "province": "Mendoza",
+          "type": "",
+          "coord": {
+            "lon": -68.866667,
+            "lat": -32.9
+          },
+          "distance": 0.82
+        }
+      }
+    },
+    "87436": {
+      "query_id": 87436,
+      "representative_locality_id": 1712,
+      "expected_station_name": "SAN LUIS AERO",
+      "locality_count": 127,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:14.770814+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 66.0,
+        "pressure": 935.3,
+        "feels_like": 3.1,
+        "temperature": 4.8,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "Noreste",
+          "deg": 45.0,
+          "speed": 8.0
+        },
+        "station_id": 87436,
+        "location": {
+          "id": 1712,
+          "name": "San Luis",
+          "department": "Capital",
+          "province": "San Luis",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -66.3331,
+            "lat": -33.3039
+          },
+          "distance": 3.68
+        }
+      }
+    },
+    "87444": {
+      "query_id": 87444,
+      "representative_locality_id": 1656,
+      "expected_station_name": "SANTA ROSA DE CONLARA AERO",
+      "locality_count": 124,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:16.507923+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 78.0,
+        "pressure": 948.1,
+        "feels_like": null,
+        "temperature": 4.4,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87444,
+        "location": {
+          "id": 1656,
+          "name": "Santa Rosa del Conlara",
+          "department": "Junín",
+          "province": "San Luis",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -65.1967,
+            "lat": -32.3415
+          },
+          "distance": 4.45
+        }
+      }
+    },
+    "87448": {
+      "query_id": 87448,
+      "representative_locality_id": 1755,
+      "expected_station_name": "VILLA REYNOLDS AERO",
+      "locality_count": 32,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:18.254496+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 83.0,
+        "pressure": 961.8,
+        "feels_like": null,
+        "temperature": 0.2,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 4.0
+        },
+        "station_id": 87448,
+        "location": {
+          "id": 1755,
+          "name": "Villa Mercedes",
+          "department": "General Pedernera",
+          "province": "San Luis",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -65.4569,
+            "lat": -33.6581
+          },
+          "distance": 10.19
+        }
+      }
+    },
+    "87453": {
+      "query_id": 87453,
+      "representative_locality_id": 7021,
+      "expected_station_name": "RIO CUARTO AERO",
+      "locality_count": 99,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:20.000377+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 53.0,
+        "pressure": 970.6,
+        "feels_like": null,
+        "temperature": 11.0,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 6.0
+        },
+        "station_id": 87453,
+        "location": {
+          "id": 7021,
+          "name": "Las Higueras",
+          "department": "Río Cuarto",
+          "province": "Córdoba",
+          "type": "Paraje",
+          "coord": {
+            "lon": -64.2883,
+            "lat": -33.0918
+          },
+          "distance": 1.13
+        }
+      }
+    },
+    "87467": {
+      "query_id": 87467,
+      "representative_locality_id": 6825,
+      "expected_station_name": "MARCOS JUAREZ AERO",
+      "locality_count": 111,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:21.769412+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 69.0,
+        "pressure": 1007.8,
+        "feels_like": 3.8,
+        "temperature": 4.9,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sudeste",
+          "deg": 135.0,
+          "speed": 6.0
+        },
+        "station_id": 87467,
+        "location": {
+          "id": 6825,
+          "name": "Villa Argentina",
+          "department": "Marcos Juárez",
+          "province": "Córdoba",
+          "type": "Paraje",
+          "coord": {
+            "lon": -62.1004,
+            "lat": -32.6533
+          },
+          "distance": 5.54
+        }
+      }
+    },
+    "87468": {
+      "query_id": 87468,
+      "representative_locality_id": 2343,
+      "expected_station_name": "VENADO TUERTO AERO",
+      "locality_count": 62,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:23.516665+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 70.0,
+        "pressure": 1007.4,
+        "feels_like": null,
+        "temperature": 6.6,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 4.0
+        },
+        "station_id": 87468,
+        "location": {
+          "id": 2343,
+          "name": "Murphy",
+          "department": "General López",
+          "province": "Santa Fe",
+          "type": "Localidad",
+          "coord": {
+            "lon": -61.8616,
+            "lat": -33.6428
+          },
+          "distance": 10.24
+        }
+      }
+    },
+    "87470": {
+      "query_id": 87470,
+      "representative_locality_id": 2248,
+      "expected_station_name": null,
+      "locality_count": 1,
+      "status": "error",
+      "attempts": 1,
+      "last_attempt_at": "2026-06-30T05:22:25.253195+00:00",
+      "error": {
+        "type": "ApiError",
+        "message": "El tiempo actual devolvió station_id 87360; se esperaba 87470.",
+        "status_code": null
+      }
+    },
+    "87480": {
+      "query_id": 87480,
+      "representative_locality_id": 2260,
+      "expected_station_name": "ROSARIO AERO",
+      "locality_count": 133,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:26.997077+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 97.0,
+        "pressure": 1018.0,
+        "feels_like": null,
+        "temperature": 1.6,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado con neblina",
+          "id": 61
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87480,
+        "location": {
+          "id": 2260,
+          "name": "Estación Antártida Argentina",
+          "department": "Rosario",
+          "province": "Santa Fe",
+          "type": "Paraje",
+          "coord": {
+            "lon": -60.7891,
+            "lat": -32.921
+          },
+          "distance": 1.57
+        }
+      }
+    },
+    "87497": {
+      "query_id": 87497,
+      "representative_locality_id": 7720,
+      "expected_station_name": "GUALEGUAYCHU AERO",
+      "locality_count": 125,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:28.748475+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 66.0,
+        "pressure": 1018.4,
+        "feels_like": 7.0,
+        "temperature": 8.2,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 8.0
+        },
+        "station_id": 87497,
+        "location": {
+          "id": 7720,
+          "name": "Palavecino",
+          "department": "Gualeguaychú",
+          "province": "Entre Ríos",
+          "type": "Paraje",
+          "coord": {
+            "lon": -58.64,
+            "lat": -32.9463
+          },
+          "distance": 7.83
+        }
+      }
+    },
+    "87506": {
+      "query_id": 87506,
+      "representative_locality_id": 9295,
+      "expected_station_name": "MALARGUE AERO",
+      "locality_count": 131,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:30.494646+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 57.0,
+        "pressure": 858.6,
+        "feels_like": null,
+        "temperature": 1.0,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 4.0
+        },
+        "station_id": 87506,
+        "location": {
+          "id": 9295,
+          "name": "El Chacay",
+          "department": "Malargüe",
+          "province": "Mendoza",
+          "type": "Paraje",
+          "coord": {
+            "lon": -69.5966,
+            "lat": -35.3368
+          },
+          "distance": 16.08
+        }
+      }
+    },
+    "87509": {
+      "query_id": 87509,
+      "representative_locality_id": 9550,
+      "expected_station_name": "SAN RAFAEL AERO",
+      "locality_count": 44,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:32.237772+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 56.0,
+        "pressure": 932.0,
+        "feels_like": 1.2,
+        "temperature": 3.6,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 10.0
+        },
+        "station_id": 87509,
+        "location": {
+          "id": 9550,
+          "name": "Capitan Montoya",
+          "department": "San Rafael",
+          "province": "Mendoza",
+          "type": "Caserío",
+          "coord": {
+            "lon": -68.4557,
+            "lat": -34.5834
+          },
+          "distance": 5.03
+        }
+      }
+    },
+    "87532": {
+      "query_id": 87532,
+      "representative_locality_id": 8802,
+      "expected_station_name": "GENERAL PICO AERO",
+      "locality_count": 54,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:34.000443+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 71.0,
+        "pressure": 1003.4,
+        "feels_like": 5.9,
+        "temperature": 6.8,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 6.0
+        },
+        "station_id": 87532,
+        "location": {
+          "id": 8802,
+          "name": "Dorila",
+          "department": "Maracó",
+          "province": "La Pampa",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -63.7153,
+            "lat": -35.7758
+          },
+          "distance": 10.51
+        }
+      }
+    },
+    "87534": {
+      "query_id": 87534,
+      "representative_locality_id": 7098,
+      "expected_station_name": "LABOULAYE AERO",
+      "locality_count": 80,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:35.792733+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 68.0,
+        "pressure": 1004.9,
+        "feels_like": null,
+        "temperature": 5.1,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87534,
+        "location": {
+          "id": 7098,
+          "name": "Salguero",
+          "department": "Presidente Roque Sáenz Peña",
+          "province": "Córdoba",
+          "type": "Paraje",
+          "coord": {
+            "lon": -63.4243,
+            "lat": -34.2352
+          },
+          "distance": 13.0
+        }
+      }
+    },
+    "87540": {
+      "query_id": 87540,
+      "representative_locality_id": 3865,
+      "expected_station_name": "TRENQUE LAUQUEN",
+      "locality_count": 72,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:37.565999+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 81.0,
+        "pressure": 1009.8,
+        "feels_like": null,
+        "temperature": 7.2,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sudeste",
+          "deg": 135.0,
+          "speed": 4.0
+        },
+        "station_id": 87540,
+        "location": {
+          "id": 3865,
+          "name": "El Teson",
+          "department": "Trenque Lauquen",
+          "province": "Buenos Aires",
+          "type": "Paraje",
+          "coord": {
+            "lon": -62.5847,
+            "lat": -35.9277
+          },
+          "distance": 13.56
+        }
+      }
+    },
+    "87544": {
+      "query_id": 87544,
+      "representative_locality_id": 3885,
+      "expected_station_name": "PEHUAJO AERO",
+      "locality_count": 53,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:39.314556+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 76.0,
+        "pressure": 1010.9,
+        "feels_like": 4.6,
+        "temperature": 5.6,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 6.0
+        },
+        "station_id": 87544,
+        "location": {
+          "id": 3885,
+          "name": "Nueva Plata",
+          "department": "Pehuajó",
+          "province": "Buenos Aires",
+          "type": "Caserío",
+          "coord": {
+            "lon": -61.8098,
+            "lat": -35.9154
+          },
+          "distance": 9.44
+        }
+      }
+    },
+    "87548": {
+      "query_id": 87548,
+      "representative_locality_id": 4712,
+      "expected_station_name": "JUNIN AERO",
+      "locality_count": 140,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:41.101620+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 89.0,
+        "pressure": 1011.6,
+        "feels_like": null,
+        "temperature": -1.3,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87548,
+        "location": {
+          "id": 4712,
+          "name": "Junín",
+          "department": "Junín",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -60.9409,
+            "lat": -34.5836
+          },
+          "distance": 3.56
+        }
+      }
+    },
+    "87550": {
+      "query_id": 87550,
+      "representative_locality_id": 3989,
+      "expected_station_name": "NUEVE DE JULIO",
+      "locality_count": 110,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:42.854484+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 77.0,
+        "pressure": 1012.2,
+        "feels_like": null,
+        "temperature": 6.1,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Noreste",
+          "deg": 45.0,
+          "speed": 4.0
+        },
+        "station_id": 87550,
+        "location": {
+          "id": 3989,
+          "name": "9 de Julio",
+          "department": "9 de Julio",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -60.8867,
+            "lat": -35.4453
+          },
+          "distance": 0.82
+        }
+      }
+    },
+    "87553": {
+      "query_id": 87553,
+      "representative_locality_id": 4750,
+      "expected_station_name": "SAN FERNANDO AERO",
+      "locality_count": 29,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:44.615267+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 95.0,
+        "pressure": 1020.6,
+        "feels_like": null,
+        "temperature": 3.0,
+        "visibility": 7.0,
+        "weather": {
+          "description": "Despejado con neblina",
+          "id": 61
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87553,
+        "location": {
+          "id": 4750,
+          "name": "San Fernando",
+          "department": "San Fernando",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -58.5563,
+            "lat": -34.4476
+          },
+          "distance": 2.72
+        }
+      }
+    },
+    "87563": {
+      "query_id": 87563,
+      "representative_locality_id": 4129,
+      "expected_station_name": "LAS FLORES",
+      "locality_count": 59,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:46.374602+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 87.0,
+        "pressure": 1016.0,
+        "feels_like": null,
+        "temperature": 4.0,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87563,
+        "location": {
+          "id": 4129,
+          "name": "Las Flores",
+          "department": "Las Flores",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -59.1004,
+            "lat": -36.0164
+          },
+          "distance": 4.32
+        }
+      }
+    },
+    "87570": {
+      "query_id": 87570,
+      "representative_locality_id": 10644,
+      "expected_station_name": "CAMPO DE MAYO",
+      "locality_count": 12,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:48.164339+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 86.0,
+        "pressure": 1018.6,
+        "feels_like": 3.4,
+        "temperature": 4.6,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 6.0
+        },
+        "station_id": 87570,
+        "location": {
+          "id": 10644,
+          "name": "Muñiz",
+          "department": "San Miguel",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -58.7006,
+            "lat": -34.5522
+          },
+          "distance": 2.77
+        }
+      }
+    },
+    "87571": {
+      "query_id": 87571,
+      "representative_locality_id": 10630,
+      "expected_station_name": "EL PALOMAR AERO",
+      "locality_count": 15,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:49.957542+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T01:00:00-03:00",
+        "humidity": 96.0,
+        "pressure": 1020.2,
+        "feels_like": null,
+        "temperature": -1.2,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 2.0
+        },
+        "station_id": 87571,
+        "location": {
+          "id": 10630,
+          "name": "El Palomar",
+          "department": "Moron",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -58.6124,
+            "lat": -34.6101
+          },
+          "distance": 0.78
+        }
+      }
+    },
+    "87572": {
+      "query_id": 87572,
+      "representative_locality_id": 4811,
+      "expected_station_name": "MARIANO MORENO AERO",
+      "locality_count": 76,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:51.695175+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 82.0,
+        "pressure": 1017.6,
+        "feels_like": 3.5,
+        "temperature": 5.2,
+        "visibility": 7.0,
+        "weather": {
+          "description": "Despejado con humo",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 8.0
+        },
+        "station_id": 87572,
+        "location": {
+          "id": 4811,
+          "name": "Presidente Derqui",
+          "department": "Pilar",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -58.8459,
+            "lat": -34.4901
+          },
+          "distance": 9.29
+        }
+      }
+    },
+    "87573": {
+      "query_id": 87573,
+      "representative_locality_id": 10625,
+      "expected_station_name": "MERLO AERO",
+      "locality_count": 17,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:53.451228+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T00:00:00-03:00",
+        "humidity": 92.0,
+        "pressure": 1018.6,
+        "feels_like": null,
+        "temperature": 4.0,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87573,
+        "location": {
+          "id": 10625,
+          "name": "San Antonio de Padua",
+          "department": "Merlo",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -58.6996,
+            "lat": -34.6648
+          },
+          "distance": 4.69
+        }
+      }
+    },
+    "87574": {
+      "query_id": 87574,
+      "representative_locality_id": 10629,
+      "expected_station_name": "MORON AERO",
+      "locality_count": 4,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:55.217796+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 77.0,
+        "pressure": 1018.2,
+        "feels_like": null,
+        "temperature": 3.4,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 2.0
+        },
+        "station_id": 87574,
+        "location": {
+          "id": 10629,
+          "name": "Castelar",
+          "department": "Moron",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -58.6427,
+            "lat": -34.6513
+          },
+          "distance": 2.24
+        }
+      }
+    },
+    "87576": {
+      "query_id": 87576,
+      "representative_locality_id": 4836,
+      "expected_station_name": "EZEIZA AERO",
+      "locality_count": 46,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:56.958078+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 95.0,
+        "pressure": 1019.2,
+        "feels_like": null,
+        "temperature": 1.3,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87576,
+        "location": {
+          "id": 4836,
+          "name": "Barrio Esteban Echeverría",
+          "department": "Ezeiza",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.5326,
+            "lat": -34.8
+          },
+          "distance": 2.24
+        }
+      }
+    },
+    "87582": {
+      "query_id": 87582,
+      "representative_locality_id": 4871,
+      "expected_station_name": "AEROPARQUE AERO",
+      "locality_count": 16,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:22:58.704813+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 70.0,
+        "pressure": 1020.6,
+        "feels_like": 7.0,
+        "temperature": 8.2,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 8.0
+        },
+        "station_id": 87582,
+        "location": {
+          "id": 4871,
+          "name": "Avellaneda",
+          "department": "Avellaneda",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -58.3694,
+            "lat": -34.6592
+          },
+          "distance": 12.05
+        }
+      }
+    },
+    "87585": {
+      "query_id": 87585,
+      "representative_locality_id": 10602,
+      "expected_station_name": "BUENOS AIRES OBSERVATORIO",
+      "locality_count": 7,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:00.459233+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 86.0,
+        "pressure": 1018.4,
+        "feels_like": null,
+        "temperature": 4.9,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 4.0
+        },
+        "station_id": 87585,
+        "location": {
+          "id": 10602,
+          "name": "Villa Lynch",
+          "department": "General San Martín",
+          "province": "Buenos Aires",
+          "type": "Barrio",
+          "coord": {
+            "lon": -58.5274,
+            "lat": -34.5962
+          },
+          "distance": 4.04
+        }
+      }
+    },
+    "87593": {
+      "query_id": 87593,
+      "representative_locality_id": 10573,
+      "expected_station_name": "LA PLATA AERO",
+      "locality_count": 37,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:02.228669+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 98.0,
+        "pressure": 1019.3,
+        "feels_like": null,
+        "temperature": 0.6,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87593,
+        "location": {
+          "id": 10573,
+          "name": "Arana",
+          "department": "La Plata",
+          "province": "Buenos Aires",
+          "type": "Paraje",
+          "coord": {
+            "lon": -57.8912,
+            "lat": -34.9969
+          },
+          "distance": 3.44
+        }
+      }
+    },
+    "87596": {
+      "query_id": 87596,
+      "representative_locality_id": 3830,
+      "expected_station_name": "PUNTA INDIO B.A.",
+      "locality_count": 15,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:04.019801+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 91.0,
+        "pressure": 1018.6,
+        "feels_like": null,
+        "temperature": 5.2,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 4.0
+        },
+        "station_id": 87596,
+        "location": {
+          "id": 3830,
+          "name": "El Ombu",
+          "department": "Punta Indio",
+          "province": "Buenos Aires",
+          "type": "Paraje",
+          "coord": {
+            "lon": -57.3032,
+            "lat": -35.3502
+          },
+          "distance": 0.98
+        }
+      }
+    },
+    "87616": {
+      "query_id": 87616,
+      "representative_locality_id": 8816,
+      "expected_station_name": "VICTORICA",
+      "locality_count": 34,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:05.789279+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 68.0,
+        "pressure": 982.6,
+        "feels_like": null,
+        "temperature": 6.9,
+        "visibility": 40.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Este",
+          "deg": 90.0,
+          "speed": 4.0
+        },
+        "station_id": 87616,
+        "location": {
+          "id": 8816,
+          "name": "Telén",
+          "department": "Loventue",
+          "province": "La Pampa",
+          "type": "Localidad",
+          "coord": {
+            "lon": -65.5109,
+            "lat": -36.2661
+          },
+          "distance": 9.27
+        }
+      }
+    },
+    "87623": {
+      "query_id": 87623,
+      "representative_locality_id": 8861,
+      "expected_station_name": "SANTA ROSA AERO",
+      "locality_count": 58,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:07.552893+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 70.0,
+        "pressure": 995.4,
+        "feels_like": 0.6,
+        "temperature": 4.3,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 17.0
+        },
+        "station_id": 87623,
+        "location": {
+          "id": 8861,
+          "name": "Santa Rosa",
+          "department": "Capital",
+          "province": "La Pampa",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -64.2906,
+            "lat": -36.6361
+          },
+          "distance": 4.85
+        }
+      }
+    },
+    "87637": {
+      "query_id": 87637,
+      "representative_locality_id": 4349,
+      "expected_station_name": "CORONEL SUAREZ AERO",
+      "locality_count": 30,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:09.291244+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 81.0,
+        "pressure": 992.6,
+        "feels_like": null,
+        "temperature": 1.8,
+        "visibility": 12.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87637,
+        "location": {
+          "id": 4349,
+          "name": "Santa Trinidad",
+          "department": "Coronel Suarez",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -61.9237,
+            "lat": -37.4885
+          },
+          "distance": 4.87
+        }
+      }
+    },
+    "87640": {
+      "query_id": 87640,
+      "representative_locality_id": 4177,
+      "expected_station_name": "BOLIVAR AERO",
+      "locality_count": 25,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:11.045030+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 82.0,
+        "pressure": 1010.2,
+        "feels_like": null,
+        "temperature": 3.3,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87640,
+        "location": {
+          "id": 4177,
+          "name": "Parque Las Acoralladas",
+          "department": "Bolívar",
+          "province": "Buenos Aires",
+          "type": "Paraje",
+          "coord": {
+            "lon": -61.1363,
+            "lat": -36.2236
+          },
+          "distance": 7.06
+        }
+      }
+    },
+    "87641": {
+      "query_id": 87641,
+      "representative_locality_id": 4116,
+      "expected_station_name": "AZUL AERO",
+      "locality_count": 27,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:12.824471+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 99.0,
+        "pressure": 1002.9,
+        "feels_like": null,
+        "temperature": -1.7,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Este",
+          "deg": 90.0,
+          "speed": 4.0
+        },
+        "station_id": 87641,
+        "location": {
+          "id": 4116,
+          "name": "Azul",
+          "department": "Azul",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -59.8607,
+            "lat": -36.787
+          },
+          "distance": 5.5
+        }
+      }
+    },
+    "87643": {
+      "query_id": 87643,
+      "representative_locality_id": 4200,
+      "expected_station_name": "OLAVARRIA AERO",
+      "locality_count": 38,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:14.576382+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 87.0,
+        "pressure": 1001.0,
+        "feels_like": null,
+        "temperature": 4.1,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87643,
+        "location": {
+          "id": 4200,
+          "name": "Colonia Sierra Chica",
+          "department": "Olavarría",
+          "province": "Buenos Aires",
+          "type": "Paraje",
+          "coord": {
+            "lon": -60.2195,
+            "lat": -36.9005
+          },
+          "distance": 1.14
+        }
+      }
+    },
+    "87645": {
+      "query_id": 87645,
+      "representative_locality_id": 4265,
+      "expected_station_name": "TANDIL AERO",
+      "locality_count": 16,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:16.310866+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 89.0,
+        "pressure": 999.8,
+        "feels_like": -1.5,
+        "temperature": 0.9,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 8.0
+        },
+        "station_id": 87645,
+        "location": {
+          "id": 4265,
+          "name": "Tandil",
+          "department": "Tandil",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -59.1394,
+            "lat": -37.311
+          },
+          "distance": 11.37
+        }
+      }
+    },
+    "87648": {
+      "query_id": 87648,
+      "representative_locality_id": 4146,
+      "expected_station_name": "DOLORES AERO",
+      "locality_count": 26,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:18.079173+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 89.0,
+        "pressure": 1020.1,
+        "feels_like": 3.4,
+        "temperature": 4.6,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 6.0
+        },
+        "station_id": 87648,
+        "location": {
+          "id": 4146,
+          "name": "Dolores",
+          "department": "Dolores",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -57.6805,
+            "lat": -36.3148
+          },
+          "distance": 3.27
+        }
+      }
+    },
+    "87649": {
+      "query_id": 87649,
+      "representative_locality_id": 4251,
+      "expected_station_name": "BENITO JUAREZ AERO",
+      "locality_count": 7,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:19.862294+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 98.0,
+        "pressure": 994.9,
+        "feels_like": null,
+        "temperature": 1.4,
+        "visibility": 12.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87649,
+        "location": {
+          "id": 4251,
+          "name": "Hogar",
+          "department": "Benito Juárez",
+          "province": "Buenos Aires",
+          "type": "Colonia",
+          "coord": {
+            "lon": -59.8186,
+            "lat": -37.6474
+          },
+          "distance": 6.46
+        }
+      }
+    },
+    "87663": {
+      "query_id": 87663,
+      "representative_locality_id": 4308,
+      "expected_station_name": "VILLA GESELL AERO",
+      "locality_count": 30,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:21.620128+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 92.0,
+        "pressure": 1020.0,
+        "feels_like": 1.6,
+        "temperature": 3.0,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 6.0
+        },
+        "station_id": 87663,
+        "location": {
+          "id": 4308,
+          "name": "Mar de Las Pampas",
+          "department": "Villa Gesell",
+          "province": "Buenos Aires",
+          "type": "Paraje",
+          "coord": {
+            "lon": -57.0143,
+            "lat": -37.3163
+          },
+          "distance": 9.0
+        }
+      }
+    },
+    "87679": {
+      "query_id": 87679,
+      "representative_locality_id": 4342,
+      "expected_station_name": "PIGUE AERO",
+      "locality_count": 70,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:23.368533+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 85.0,
+        "pressure": 983.8,
+        "feels_like": null,
+        "temperature": 0.3,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87679,
+        "location": {
+          "id": 4342,
+          "name": "Arroyo Corto",
+          "department": "Saavedra",
+          "province": "Buenos Aires",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -62.3142,
+            "lat": -37.5117
+          },
+          "distance": 12.47
+        }
+      }
+    },
+    "87683": {
+      "query_id": 87683,
+      "representative_locality_id": 4232,
+      "expected_station_name": null,
+      "locality_count": 1,
+      "status": "error",
+      "attempts": 1,
+      "last_attempt_at": "2026-06-30T05:23:25.126856+00:00",
+      "error": {
+        "type": "ApiError",
+        "message": "El tiempo actual devolvió station_id 87637; se esperaba 87683.",
+        "status_code": null
+      }
+    },
+    "87688": {
+      "query_id": 87688,
+      "representative_locality_id": 4465,
+      "expected_station_name": "TRES ARROYOS",
+      "locality_count": 45,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:26.881588+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 89.0,
+        "pressure": 1006.4,
+        "feels_like": null,
+        "temperature": 2.9,
+        "visibility": 8.0,
+        "weather": {
+          "description": "Despejado con neblina",
+          "id": 61
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87688,
+        "location": {
+          "id": 4465,
+          "name": "Villa Rodriguez",
+          "department": "Tres Arroyos",
+          "province": "Buenos Aires",
+          "type": "Paraje",
+          "coord": {
+            "lon": -60.2315,
+            "lat": -38.3108
+          },
+          "distance": 7.12
+        }
+      }
+    },
+    "87692": {
+      "query_id": 87692,
+      "representative_locality_id": 10574,
+      "expected_station_name": "MAR DEL PLATA AERO",
+      "locality_count": 54,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:28.641450+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": null,
+        "pressure": 1018.0,
+        "feels_like": -2.9,
+        "temperature": -0.3,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 8.0
+        },
+        "station_id": 87692,
+        "location": {
+          "id": 10574,
+          "name": "Camet",
+          "department": "General Pueyrredón",
+          "province": "Buenos Aires",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -57.6057,
+            "lat": -37.8881
+          },
+          "distance": 5.33
+        }
+      }
+    },
+    "87715": {
+      "query_id": 87715,
+      "representative_locality_id": 9905,
+      "expected_station_name": "NEUQUEN AERO",
+      "locality_count": 52,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:30.441147+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 88.0,
+        "pressure": 982.6,
+        "feels_like": null,
+        "temperature": -1.8,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Despejado con humo",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87715,
+        "location": {
+          "id": 9905,
+          "name": "Plottier",
+          "department": "Confluencia",
+          "province": "Neuquén",
+          "type": "Localidad",
+          "coord": {
+            "lon": -68.2307,
+            "lat": -38.9543
+          },
+          "distance": 8.15
+        }
+      }
+    },
+    "87719": {
+      "query_id": 87719,
+      "representative_locality_id": 20,
+      "expected_station_name": "CIPOLLETTI",
+      "locality_count": 50,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:32.195633+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 67.0,
+        "pressure": 986.2,
+        "feels_like": null,
+        "temperature": 4.9,
+        "visibility": 25.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87719,
+        "location": {
+          "id": 20,
+          "name": "General Fernández Oro",
+          "department": "General Roca",
+          "province": "Río Negro",
+          "type": "Pueblo",
+          "coord": {
+            "lon": -67.9256,
+            "lat": -38.9536
+          },
+          "distance": 4.79
+        }
+      }
+    },
+    "87736": {
+      "query_id": 87736,
+      "representative_locality_id": 8915,
+      "expected_station_name": "RIO COLORADO",
+      "locality_count": 23,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:33.940822+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 81.0,
+        "pressure": 1009.0,
+        "feels_like": null,
+        "temperature": 1.4,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87736,
+        "location": {
+          "id": 8915,
+          "name": "La Adela",
+          "department": "Caleu-Caleu",
+          "province": "La Pampa",
+          "type": "Localidad",
+          "coord": {
+            "lon": -64.0856,
+            "lat": -38.9866
+          },
+          "distance": 0.52
+        }
+      }
+    },
+    "87750": {
+      "query_id": 87750,
+      "representative_locality_id": 4414,
+      "expected_station_name": "BAHIA BLANCA AERO",
+      "locality_count": 41,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:35.713022+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 93.0,
+        "pressure": 1007.8,
+        "feels_like": -3.6,
+        "temperature": 0.6,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Norte",
+          "deg": 360.0,
+          "speed": 15.0
+        },
+        "station_id": 87750,
+        "location": {
+          "id": 4414,
+          "name": "Villa Harding Green",
+          "department": "Bahía Blanca",
+          "province": "Buenos Aires",
+          "type": "Localidad",
+          "coord": {
+            "lon": -62.1951,
+            "lat": -38.7195
+          },
+          "distance": 2.84
+        }
+      }
+    },
+    "87761": {
+      "query_id": 87761,
+      "representative_locality_id": 10030,
+      "expected_station_name": "CHAPELCO AERO",
+      "locality_count": 122,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:37.475607+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 73.0,
+        "pressure": 925.4,
+        "feels_like": 1.4,
+        "temperature": 3.8,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 10.0
+        },
+        "station_id": 87761,
+        "location": {
+          "id": 10030,
+          "name": "Villa Vega Maipú",
+          "department": "Lacar",
+          "province": "Neuquén",
+          "type": "Caserío",
+          "coord": {
+            "lon": -71.2634,
+            "lat": -40.1267
+          },
+          "distance": 11.38
+        }
+      }
+    },
+    "87765": {
+      "query_id": 87765,
+      "representative_locality_id": 138,
+      "expected_station_name": "BARILOCHE AERO",
+      "locality_count": 31,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:39.234934+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 82.0,
+        "pressure": 916.6,
+        "feels_like": null,
+        "temperature": -2.7,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 4.0
+        },
+        "station_id": 87765,
+        "location": {
+          "id": 138,
+          "name": "Ñirihuau",
+          "department": "Pilcaniyeu",
+          "province": "Río Negro",
+          "type": "Paraje",
+          "coord": {
+            "lon": -71.1393,
+            "lat": -41.1008
+          },
+          "distance": 5.59
+        }
+      }
+    },
+    "87774": {
+      "query_id": 87774,
+      "representative_locality_id": 176,
+      "expected_station_name": "MAQUINCHAO",
+      "locality_count": 79,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:40.981365+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T00:00:00-03:00",
+        "humidity": 71.0,
+        "pressure": 912.4,
+        "feels_like": null,
+        "temperature": 0.0,
+        "visibility": 40.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87774,
+        "location": {
+          "id": 176,
+          "name": "Aguada de Guerra",
+          "department": "25 de Mayo",
+          "province": "Río Negro",
+          "type": "Caserío",
+          "coord": {
+            "lon": -68.3831,
+            "lat": -41.0667
+          },
+          "distance": 33.53
+        }
+      }
+    },
+    "87784": {
+      "query_id": 87784,
+      "representative_locality_id": 118,
+      "expected_station_name": "SAN ANTONIO OESTE AERO",
+      "locality_count": 45,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:42.750352+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 78.0,
+        "pressure": 1016.0,
+        "feels_like": -2.4,
+        "temperature": 0.6,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 10.0
+        },
+        "station_id": 87784,
+        "location": {
+          "id": 118,
+          "name": "Los Álamos",
+          "department": "San Antonio",
+          "province": "Río Negro",
+          "type": "Paraje",
+          "coord": {
+            "lon": -65.0507,
+            "lat": -40.7786
+          },
+          "distance": 2.91
+        }
+      }
+    },
+    "87791": {
+      "query_id": 87791,
+      "representative_locality_id": 88,
+      "expected_station_name": "VIEDMA AERO",
+      "locality_count": 26,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:44.532463+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 71.0,
+        "pressure": 1013.3,
+        "feels_like": -1.7,
+        "temperature": 2.2,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Despejado",
+          "id": 3
+        },
+        "wind": {
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 15.0
+        },
+        "station_id": 87791,
+        "location": {
+          "id": 88,
+          "name": "General Vintter",
+          "department": "Adolfo Alsina",
+          "province": "Río Negro",
+          "type": "Paraje",
+          "coord": {
+            "lon": -63.0246,
+            "lat": -40.8137
+          },
+          "distance": 5.73
+        }
+      }
+    },
+    "87800": {
+      "query_id": 87800,
+      "representative_locality_id": 133,
+      "expected_station_name": "EL BOLSON AERO",
+      "locality_count": 19,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:46.303907+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 91.0,
+        "pressure": 978.9,
+        "feels_like": null,
+        "temperature": 1.1,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "wind": {
+          "direction": "Calma",
+          "deg": null,
+          "speed": null
+        },
+        "station_id": 87800,
+        "location": {
+          "id": 133,
+          "name": "El Bolsón",
+          "department": "Bariloche",
+          "province": "Río Negro",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -71.5355,
+            "lat": -41.9683
+          },
+          "distance": 1.59
+        }
+      }
+    },
+    "87803": {
+      "query_id": 87803,
+      "representative_locality_id": 10865,
+      "expected_station_name": "ESQUEL AERO",
+      "locality_count": 50,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:48.066237+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 37.0,
+        "pressure": 921.7,
+        "feels_like": 1.8,
+        "temperature": 3.7,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 8.0
+        },
+        "station_id": 87803,
+        "location": {
+          "id": 10865,
+          "name": "La Hoya",
+          "department": null,
+          "province": "Chubut",
+          "type": null,
+          "coord": {
+            "lon": -71.2564,
+            "lat": -42.8333
+          },
+          "distance": 12.16
+        }
+      }
+    },
+    "87814": {
+      "query_id": 87814,
+      "representative_locality_id": 5807,
+      "expected_station_name": "PASO DE INDIOS",
+      "locality_count": 40,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:49.838058+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 41.0,
+        "pressure": 954.9,
+        "feels_like": 2.8,
+        "temperature": 6.7,
+        "visibility": 45.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 25.0
+        },
+        "station_id": 87814,
+        "location": {
+          "id": 5807,
+          "name": "Ñanculeo",
+          "department": "Paso de Indios",
+          "province": "Chubut",
+          "type": "Caserío",
+          "coord": {
+            "lon": -69.2894,
+            "lat": -43.9071
+          },
+          "distance": 20.09
+        }
+      }
+    },
+    "87823": {
+      "query_id": 87823,
+      "representative_locality_id": 5885,
+      "expected_station_name": "PUERTO MADRYN AERO",
+      "locality_count": 3,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:51.597146+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T23:00:00-03:00",
+        "humidity": 68.0,
+        "pressure": 995.1,
+        "feels_like": -1.9,
+        "temperature": 1.4,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 12.0
+        },
+        "station_id": 87823,
+        "location": {
+          "id": 5885,
+          "name": "Lobería",
+          "department": "Rawson",
+          "province": "Chubut",
+          "type": "Paraje",
+          "coord": {
+            "lon": -64.4976,
+            "lat": -43.0659
+          },
+          "distance": 60.18
+        }
+      }
+    },
+    "87828": {
+      "query_id": 87828,
+      "representative_locality_id": 5888,
+      "expected_station_name": "TRELEW AERO",
+      "locality_count": 22,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:53.392555+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 69.0,
+        "pressure": 1005.5,
+        "feels_like": -1.3,
+        "temperature": 2.2,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 13.0
+        },
+        "station_id": 87828,
+        "location": {
+          "id": 5888,
+          "name": "Rawson",
+          "department": "Rawson",
+          "province": "Chubut",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -65.0937,
+            "lat": -43.2988
+          },
+          "distance": 18.27
+        }
+      }
+    },
+    "87852": {
+      "query_id": 87852,
+      "representative_locality_id": 1801,
+      "expected_station_name": "PERITO MORENO AERO",
+      "locality_count": 42,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:55.142434+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 56.0,
+        "pressure": 958.0,
+        "feels_like": -1.8,
+        "temperature": 3.4,
+        "visibility": 50.0,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 28.0
+        },
+        "station_id": 87852,
+        "location": {
+          "id": 1801,
+          "name": "Los Antiguos",
+          "department": "Lago Buenos Aires",
+          "province": "Santa Cruz",
+          "type": "Localidad",
+          "coord": {
+            "lon": -71.6197,
+            "lat": -46.5473
+          },
+          "distance": 48.67
+        }
+      }
+    },
+    "87860": {
+      "query_id": 87860,
+      "representative_locality_id": 10794,
+      "expected_station_name": "COMODORO RIVADAVIA AERO",
+      "locality_count": 39,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:56.906895+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 49.0,
+        "pressure": 1000.5,
+        "feels_like": 2.9,
+        "temperature": 7.5,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Nublado",
+          "id": 43
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 36.0
+        },
+        "station_id": 87860,
+        "location": {
+          "id": 10794,
+          "name": "Próspero Palazzo",
+          "department": "Escalante",
+          "province": "Chubut",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -67.469,
+            "lat": -45.7949
+          },
+          "distance": 0.62
+        }
+      }
+    },
+    "87880": {
+      "query_id": 87880,
+      "representative_locality_id": 1828,
+      "expected_station_name": "GOBERNADOR GREGORES AERO",
+      "locality_count": 19,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:23:58.652185+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 73.0,
+        "pressure": 960.3,
+        "feels_like": -0.4,
+        "temperature": 5.5,
+        "visibility": 45.0,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 47.0
+        },
+        "station_id": 87880,
+        "location": {
+          "id": 1828,
+          "name": "La Manchuria",
+          "department": "Lago Buenos Aires",
+          "province": "Santa Cruz",
+          "type": "Paraje",
+          "coord": {
+            "lon": -69.8199,
+            "lat": -48.2151
+          },
+          "distance": 67.98
+        }
+      }
+    },
+    "87896": {
+      "query_id": 87896,
+      "representative_locality_id": 1856,
+      "expected_station_name": "PUERTO DESEADO AERO",
+      "locality_count": 7,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:00.415508+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 42.0,
+        "pressure": 994.6,
+        "feels_like": 1.4,
+        "temperature": 6.2,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 34.0
+        },
+        "station_id": 87896,
+        "location": {
+          "id": 1856,
+          "name": "Tellier",
+          "department": "Deseado",
+          "province": "Santa Cruz",
+          "type": "Paraje",
+          "coord": {
+            "lon": -66.0393,
+            "lat": -47.6449
+          },
+          "distance": 13.96
+        }
+      }
+    },
+    "87904": {
+      "query_id": 87904,
+      "representative_locality_id": 1841,
+      "expected_station_name": "EL CALAFATE AERO",
+      "locality_count": 29,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:02.204166+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 78.0,
+        "pressure": 988.2,
+        "feels_like": -4.9,
+        "temperature": 1.4,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Nublado con nevada débil ",
+          "id": 78
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 34.0
+        },
+        "station_id": 87904,
+        "location": {
+          "id": 1841,
+          "name": "Charles Fuhr",
+          "department": "Lago Argentino",
+          "province": "Santa Cruz",
+          "type": "Paraje",
+          "coord": {
+            "lon": -71.8928,
+            "lat": -50.271
+          },
+          "distance": 11.41
+        }
+      }
+    },
+    "87909": {
+      "query_id": 87909,
+      "representative_locality_id": 1871,
+      "expected_station_name": "SAN JULIAN AERO",
+      "locality_count": 4,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:03.964205+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 46.0,
+        "pressure": 995.8,
+        "feels_like": 2.7,
+        "temperature": 7.0,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 30.0
+        },
+        "station_id": 87909,
+        "location": {
+          "id": 1871,
+          "name": "Tres Cerros",
+          "department": "Deseado",
+          "province": "Santa Cruz",
+          "type": "Paraje",
+          "coord": {
+            "lon": -67.6966,
+            "lat": -48.1379
+          },
+          "distance": 130.38
+        }
+      }
+    },
+    "87912": {
+      "query_id": 87912,
+      "representative_locality_id": 1861,
+      "expected_station_name": "SANTA CRUZ AERO",
+      "locality_count": 4,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:05.721473+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-29T21:00:00-03:00",
+        "humidity": 78.0,
+        "pressure": 987.2,
+        "feels_like": -0.1,
+        "temperature": 5.3,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Parcialmente nublado",
+          "id": 25
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 38.0
+        },
+        "station_id": 87912,
+        "location": {
+          "id": 1861,
+          "name": "Comandante Luis Piedrabuena",
+          "department": "Corpen Aike",
+          "province": "Santa Cruz",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -68.9169,
+            "lat": -49.9893
+          },
+          "distance": 24.5
+        }
+      }
+    },
+    "87925": {
+      "query_id": 87925,
+      "representative_locality_id": 1870,
+      "expected_station_name": "RIO GALLEGOS AERO",
+      "locality_count": 8,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:07.490783+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 54.0,
+        "pressure": 1007.0,
+        "feels_like": -5.8,
+        "temperature": 1.0,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 38.0
+        },
+        "station_id": 87925,
+        "location": {
+          "id": 1870,
+          "name": "Sin Nombre",
+          "department": "Güer Aike",
+          "province": "Santa Cruz",
+          "type": "Caserío",
+          "coord": {
+            "lon": -69.2456,
+            "lat": -51.6285
+          },
+          "distance": 4.71
+        }
+      }
+    },
+    "87934": {
+      "query_id": 87934,
+      "representative_locality_id": 5912,
+      "expected_station_name": "RIO GRANDE B.A.",
+      "locality_count": 8,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:09.274255+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 82.0,
+        "pressure": 1001.7,
+        "feels_like": -8.7,
+        "temperature": -2.7,
+        "visibility": 30.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 21.0
+        },
+        "station_id": 87934,
+        "location": {
+          "id": 5912,
+          "name": "Río Grande",
+          "department": "Río Grande",
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": "Ciudad",
+          "coord": {
+            "lon": -67.7085,
+            "lat": -53.7895
+          },
+          "distance": 3.47
+        }
+      }
+    },
+    "87938": {
+      "query_id": 87938,
+      "representative_locality_id": 10856,
+      "expected_station_name": "USHUAIA AERO",
+      "locality_count": 8,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:11.021814+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 95.0,
+        "pressure": 996.1,
+        "feels_like": -9.4,
+        "temperature": -1.6,
+        "visibility": 1.0,
+        "weather": {
+          "description": "Cubierto con nevada",
+          "id": 79
+        },
+        "wind": {
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 39.0
+        },
+        "station_id": 87938,
+        "location": {
+          "id": 10856,
+          "name": "Glaciar Martial",
+          "department": null,
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": null,
+          "coord": {
+            "lon": -68.4019,
+            "lat": -54.7852
+          },
+          "distance": 8.8
+        }
+      }
+    },
+    "88889": {
+      "query_id": 88889,
+      "representative_locality_id": 5970,
+      "expected_station_name": "MONTE AGRADABLE AERO",
+      "locality_count": 36,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:12.776583+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 89.0,
+        "pressure": 982.7,
+        "feels_like": -1.7,
+        "temperature": 4.2,
+        "visibility": null,
+        "weather": {
+          "description": "Cubierto",
+          "id": 43
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 39.0
+        },
+        "station_id": 88889,
+        "location": {
+          "id": 5970,
+          "name": "Fitzroy Settlement",
+          "department": "Islas Malvinas",
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": "Caserío",
+          "coord": {
+            "lon": -58.2266,
+            "lat": -51.7889
+          },
+          "distance": 15.66
+        }
+      }
+    },
+    "88963": {
+      "query_id": 88963,
+      "representative_locality_id": 10810,
+      "expected_station_name": "BASE ESPERANZA",
+      "locality_count": 2,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:14.524360+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T00:00:00-03:00",
+        "humidity": 86.0,
+        "pressure": 981.2,
+        "feels_like": -14.1,
+        "temperature": -7.3,
+        "visibility": 2.0,
+        "weather": {
+          "description": "Cubierto con nevada",
+          "id": 79
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 19.0
+        },
+        "station_id": 88963,
+        "location": {
+          "id": 10810,
+          "name": "Base Esperanza",
+          "department": "Antártida",
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": "",
+          "coord": {
+            "lon": -56.984,
+            "lat": -63.4
+          },
+          "distance": 0.7
+        }
+      }
+    },
+    "88968": {
+      "query_id": 88968,
+      "representative_locality_id": 10814,
+      "expected_station_name": "BASE ORCADAS",
+      "locality_count": 1,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:16.278235+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T00:00:00-03:00",
+        "humidity": 96.0,
+        "pressure": 983.6,
+        "feels_like": null,
+        "temperature": -3.0,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "wind": {
+          "direction": "Este",
+          "deg": 90.0,
+          "speed": 4.0
+        },
+        "station_id": 88968,
+        "location": {
+          "id": 10814,
+          "name": "Base Orcadas",
+          "department": "Antártida",
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": "",
+          "coord": {
+            "lon": -44.734,
+            "lat": -60.734
+          },
+          "distance": 0.48
+        }
+      }
+    },
+    "89034": {
+      "query_id": 89034,
+      "representative_locality_id": 10806,
+      "expected_station_name": "BASE BELGRANO II",
+      "locality_count": 1,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:18.058229+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T00:00:00-03:00",
+        "humidity": 84.0,
+        "pressure": 936.6,
+        "feels_like": -22.8,
+        "temperature": -11.2,
+        "visibility": 0.8,
+        "weather": {
+          "description": "Nublado con ventisca alta",
+          "id": 92
+        },
+        "wind": {
+          "direction": "Noreste",
+          "deg": 45.0,
+          "speed": 45.0
+        },
+        "station_id": 89034,
+        "location": {
+          "id": 10806,
+          "name": "Base Belgrano II",
+          "department": "Antártida",
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": "",
+          "coord": {
+            "lon": -34.551,
+            "lat": -77.852
+          },
+          "distance": 3.07
+        }
+      }
+    },
+    "89053": {
+      "query_id": 89053,
+      "representative_locality_id": 10811,
+      "expected_station_name": "BASE CARLINI",
+      "locality_count": 7,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:19.807326+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T00:00:00-03:00",
+        "humidity": 84.0,
+        "pressure": 982.1,
+        "feels_like": -7.5,
+        "temperature": -5.0,
+        "visibility": 10.0,
+        "weather": {
+          "description": "Ligeramente nublado",
+          "id": 13
+        },
+        "wind": {
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 6.0
+        },
+        "station_id": 89053,
+        "location": {
+          "id": 10811,
+          "name": "Base Carlini",
+          "department": "Antártida",
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": "",
+          "coord": {
+            "lon": -58.667,
+            "lat": -62.233
+          },
+          "distance": 0.55
+        }
+      }
+    },
+    "89055": {
+      "query_id": 89055,
+      "representative_locality_id": 10818,
+      "expected_station_name": "BASE MARAMBIO",
+      "locality_count": 1,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:21.568836+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T02:00:00-03:00",
+        "humidity": 64.0,
+        "pressure": 961.8,
+        "feels_like": -18.5,
+        "temperature": -12.4,
+        "visibility": 15.0,
+        "weather": {
+          "description": "Algo nublado",
+          "id": 19
+        },
+        "wind": {
+          "direction": "Sudeste",
+          "deg": 135.0,
+          "speed": 12.0
+        },
+        "station_id": 89055,
+        "location": {
+          "id": 10818,
+          "name": "Base Marambio",
+          "department": "Antártida",
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": "",
+          "coord": {
+            "lon": -56.6333,
+            "lat": -64.2333
+          },
+          "distance": 0.87
+        }
+      }
+    },
+    "89066": {
+      "query_id": 89066,
+      "representative_locality_id": 10817,
+      "expected_station_name": "BASE SAN MARTIN",
+      "locality_count": 1,
+      "status": "success",
+      "data_source": null,
+      "historical": false,
+      "attempts": 1,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T05:24:23.319684+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "date": "2026-06-30T00:00:00-03:00",
+        "humidity": 72.0,
+        "pressure": 987.7,
+        "feels_like": -14.2,
+        "temperature": -7.1,
+        "visibility": 20.0,
+        "weather": {
+          "description": "Mayormente nublado",
+          "id": 37
+        },
+        "wind": {
+          "direction": "Oeste",
+          "deg": 270.0,
+          "speed": 21.0
+        },
+        "station_id": 89066,
+        "location": {
+          "id": 10817,
+          "name": "Base San Martín",
+          "department": "Antártida",
+          "province": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+          "type": "",
+          "coord": {
+            "lon": -67.1,
+            "lat": -68.133
+          },
+          "distance": 0.33
         }
       }
     }

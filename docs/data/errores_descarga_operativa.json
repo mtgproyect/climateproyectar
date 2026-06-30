@@ -1,6 +1,43 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T05:18:56.837468+00:00",
-  "count": 0,
-  "errors": []
+  "generated_at": "2026-06-30T05:24:23.503641+00:00",
+  "count": 3,
+  "errors": [
+    {
+      "mode": "stations",
+      "shard": 1,
+      "query_id": 87412,
+      "attempts": 1,
+      "last_attempt_at": "2026-06-30T05:22:07.722354+00:00",
+      "error": {
+        "type": "ApiError",
+        "message": "El tiempo actual devolvió station_id 87420; se esperaba 87412.",
+        "status_code": null
+      }
+    },
+    {
+      "mode": "stations",
+      "shard": 1,
+      "query_id": 87470,
+      "attempts": 1,
+      "last_attempt_at": "2026-06-30T05:22:25.253195+00:00",
+      "error": {
+        "type": "ApiError",
+        "message": "El tiempo actual devolvió station_id 87360; se esperaba 87470.",
+        "status_code": null
+      }
+    },
+    {
+      "mode": "stations",
+      "shard": 1,
+      "query_id": 87683,
+      "attempts": 1,
+      "last_attempt_at": "2026-06-30T05:23:25.126856+00:00",
+      "error": {
+        "type": "ApiError",
+        "message": "El tiempo actual devolvió station_id 87637; se esperaba 87683.",
+        "status_code": null
+      }
+    }
+  ]
 }
