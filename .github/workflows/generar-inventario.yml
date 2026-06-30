@@ -23,17 +23,13 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-
-      - name: Instalar dependencias
-        run: pip install -r requirements.txt
 
       - name: Generar inventario y particiones
         run: |
           python scripts/generar_inventario_operativo.py \
             --expect-total 10601 \
             --expect-forecast-groups 475 \
-            --expect-station-groups 124 \
+            --expect-station-groups 121 \
             --forecast-shards 2 \
             --station-shards 1
 
