@@ -956,6 +956,70 @@ def build_global_state(
     )
 
 
+
+def parse_datetime(value: Any) -> datetime | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    text = value.strip()
+    if text.endswith("Z"):
+        text = text[:-1] + "+00:00"
+    try:
+        result = datetime.fromisoformat(text)
+    except ValueError:
+        return None
+    if result.tzinfo is None:
+        result = result.replace(tzinfo=timezone.utc)
+    return result.astimezone(timezone.utc)
+
+
+def record_age_hours(record: dict[str, Any]) -> float | None:
+    value = (
+        record.get("fetched_at")
+        or record.get("last_attempt_at")
+        or record.get("last_refresh_attempt_at")
+    )
+    parsed = parse_datetime(value)
+    if parsed is None:
+        return None
+    delta = datetime.now(timezone.utc) - parsed
+    return max(0.0, delta.total_seconds() / 3600.0)
+
+
+def is_target_eligible(
+    previous: Any,
+    *,
+    refresh_scope: str,
+    max_attempts: int,
+    max_age_hours: float,
+) -> bool:
+    if not isinstance(previous, dict):
+        return True
+
+    status = str(previous.get("status") or "")
+    attempts = as_int(previous.get("attempts")) or 0
+
+    if refresh_scope == "all":
+        return True
+
+    if refresh_scope == "stale":
+        return status == "stale"
+
+    if refresh_scope == "expired":
+        if status not in {"success", "stale"}:
+            return attempts < max_attempts
+        age = record_age_hours(previous)
+        return age is None or age >= max_age_hours
+
+    if refresh_scope != "pending":
+        raise ValueError(
+            f"Ámbito de actualización desconocido: {refresh_scope!r}"
+        )
+
+    if status in {"success", "stale"}:
+        return False
+    return attempts < max_attempts
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
@@ -987,6 +1051,23 @@ def main() -> None:
         default=2.0,
         help="Espera base para el retroceso exponencial.",
     )
+    parser.add_argument(
+        "--refresh-scope",
+        choices=("pending", "stale", "expired", "all"),
+        default="pending",
+        help=(
+            "pending: solo faltantes/errores; stale: históricos o "
+            "conservados; expired: registros vencidos; all: todo el shard."
+        ),
+    )
+    parser.add_argument(
+        "--max-age-hours",
+        type=float,
+        default=6.0,
+        help=(
+            "Antigüedad mínima para --refresh-scope expired."
+        ),
+    )
     args = parser.parse_args()
 
     if not 1 <= args.batch_size <= 250:
@@ -1003,6 +1084,10 @@ def main() -> None:
         raise ValueError(
             "--retry-base-seconds no puede ser menor que 0.5."
         )
+    if args.max_age_hours <= 0:
+        raise ValueError(
+            "--max-age-hours debe ser mayor que cero."
+        )
 
     targets = build_targets(mode=args.mode, shard=args.shard)
     path = cache_file(args.mode, args.shard)
@@ -1018,18 +1103,20 @@ def main() -> None:
     for target in targets:
         query_id = str(target["query_id"])
         previous = records.get(query_id)
-        if not isinstance(previous, dict):
-            eligible.append(target)
-            continue
-        if previous.get("status") in {"success", "stale"}:
-            continue
-        attempts = as_int(previous.get("attempts")) or 0
-        if attempts < args.max_attempts:
+        if is_target_eligible(
+            previous,
+            refresh_scope=args.refresh_scope,
+            max_attempts=args.max_attempts,
+            max_age_hours=args.max_age_hours,
+        ):
             eligible.append(target)
 
     selected = eligible[: args.batch_size]
     print(f"Modo: {args.mode}")
     print(f"Shard: {args.shard}")
+    print(f"Ámbito: {args.refresh_scope}")
+    if args.refresh_scope == "expired":
+        print(f"Antigüedad mínima: {args.max_age_hours} horas")
     print(f"Claves totales: {len(targets)}")
     print(f"Claves elegibles: {len(eligible)}")
     print(f"Seleccionadas: {len(selected)}")
@@ -1133,6 +1220,19 @@ def main() -> None:
                 records[str(query_id)] = {
                     **target,
                     "status": "stale",
+                    "data_source": (
+                        previous.get("data_source")
+                        if isinstance(previous, dict)
+                        else previous_payload.get("source")
+                    ),
+                    "historical": bool(
+                        (
+                            previous.get("historical")
+                            if isinstance(previous, dict)
+                            else None
+                        )
+                        or previous_payload.get("historical")
+                    ),
                     "attempts": attempts + 1,
                     "fetched_at": previous_fetched_at,
                     "last_refresh_attempt_at": utc_now(),
@@ -1174,6 +1274,8 @@ def main() -> None:
         "mode": args.mode,
         "shard": args.shard,
         "configured_batch_size": args.batch_size,
+        "refresh_scope": args.refresh_scope,
+        "max_age_hours": args.max_age_hours,
         "attempted_queries": attempted,
         "completed_queries": completed,
         "successful_queries": successes,
