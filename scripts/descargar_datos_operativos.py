@@ -28,6 +28,17 @@ TOKEN_PAGE = "https://ws2.smn.gob.ar/pronostico"
 FORECAST_URL = "https://ws1.smn.gob.ar/v1/forecast/location/{location_id}"
 WEATHER_URL = "https://ws1.smn.gob.ar/v1/weather/location/{location_id}"
 
+TRANSIENT_HTTP_STATUS = {
+    404,
+    408,
+    425,
+    429,
+    500,
+    502,
+    503,
+    504,
+}
+
 BASE_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -197,6 +208,69 @@ def request_with_refresh(
     except TokenRejected:
         refreshed = get_token(session)
         return function(session, refreshed, target), refreshed
+
+
+
+def is_transient_error(error: Exception) -> bool:
+    if isinstance(error, TokenRejected):
+        return True
+    if isinstance(error, ApiError):
+        return error.status_code in TRANSIENT_HTTP_STATUS
+    return isinstance(error, requests.RequestException)
+
+
+def request_with_retries(
+    session: requests.Session,
+    token: str,
+    function: Callable[
+        [requests.Session, str, dict[str, Any]],
+        dict[str, Any],
+    ],
+    target: dict[str, Any],
+    *,
+    max_http_attempts: int,
+    retry_base_seconds: float,
+) -> tuple[dict[str, Any], str, int]:
+    current_token = token
+    last_error: Exception | None = None
+
+    for attempt in range(1, max_http_attempts + 1):
+        try:
+            payload, current_token = request_with_refresh(
+                session,
+                current_token,
+                function,
+                target,
+            )
+            return payload, current_token, attempt
+        except Exception as error:
+            last_error = error
+
+            if (
+                not is_transient_error(error)
+                or attempt >= max_http_attempts
+            ):
+                raise
+
+            delay = retry_base_seconds * (2 ** (attempt - 1))
+            status_code = (
+                error.status_code
+                if isinstance(error, ApiError)
+                else None
+            )
+            print(
+                "  Reintento "
+                f"{attempt + 1}/{max_http_attempts} "
+                f"en {delay:.1f}s "
+                f"(HTTP {status_code!r})"
+            )
+            time.sleep(delay)
+
+            if isinstance(error, TokenRejected):
+                current_token = get_token(session)
+
+    assert last_error is not None
+    raise last_error
 
 
 def validate_forecast_payload(
@@ -442,7 +516,7 @@ def cache_statistics(
     target_ids = {str(item["query_id"]) for item in targets}
     successes = sum(
         isinstance(records.get(target_id), dict)
-        and records[target_id].get("status") == "success"
+        and records[target_id].get("status") in {"success", "stale"}
         for target_id in target_ids
     )
     errors = sum(
@@ -579,6 +653,21 @@ def main() -> None:
     parser.add_argument("--batch-size", type=int, default=25)
     parser.add_argument("--sleep-seconds", type=float, default=1.0)
     parser.add_argument("--max-attempts", type=int, default=3)
+    parser.add_argument(
+        "--http-attempts",
+        type=int,
+        default=4,
+        help=(
+            "Cantidad máxima de intentos HTTP dentro de una misma "
+            "ejecución para errores temporales."
+        ),
+    )
+    parser.add_argument(
+        "--retry-base-seconds",
+        type=float,
+        default=2.0,
+        help="Espera base para el retroceso exponencial.",
+    )
     args = parser.parse_args()
 
     if not 1 <= args.batch_size <= 250:
@@ -589,6 +678,12 @@ def main() -> None:
         )
     if not 1 <= args.max_attempts <= 5:
         raise ValueError("--max-attempts debe estar entre 1 y 5.")
+    if not 1 <= args.http_attempts <= 8:
+        raise ValueError("--http-attempts debe estar entre 1 y 8.")
+    if args.retry_base_seconds < 0.5:
+        raise ValueError(
+            "--retry-base-seconds no puede ser menor que 0.5."
+        )
 
     targets = build_targets(mode=args.mode, shard=args.shard)
     path = cache_file(args.mode, args.shard)
@@ -607,7 +702,7 @@ def main() -> None:
         if not isinstance(previous, dict):
             eligible.append(target)
             continue
-        if previous.get("status") == "success":
+        if previous.get("status") in {"success", "stale"}:
             continue
         attempts = as_int(previous.get("attempts")) or 0
         if attempts < args.max_attempts:
@@ -627,6 +722,7 @@ def main() -> None:
     completed = 0
     successes = 0
     request_errors = 0
+    http_attempts_total = 0
     stopped_reason: str | None = None
 
     function = (
@@ -651,36 +747,77 @@ def main() -> None:
         attempted += 1
 
         try:
-            payload, token = request_with_refresh(
+            payload, token, http_attempts = request_with_retries(
                 session,
                 token,
                 function,
                 target,
+                max_http_attempts=args.http_attempts,
+                retry_base_seconds=args.retry_base_seconds,
+            )
+            http_attempts_total += http_attempts
+
+            previous_payload = (
+                previous.get("payload")
+                if isinstance(previous, dict)
+                else None
             )
             records[str(query_id)] = {
                 **target,
                 "status": "success",
                 "attempts": attempts + 1,
+                "http_attempts_last_run": http_attempts,
                 "fetched_at": utc_now(),
+                "previous_payload_preserved": (
+                    previous_payload is not None
+                ),
                 "payload": payload,
             }
             successes += 1
-            print("  OK")
+            print(f"  OK ({http_attempts} intento(s) HTTP)")
         except Exception as error:
             request_errors += 1
+            http_attempts_total += args.http_attempts
             status_code = (
                 error.status_code
                 if isinstance(error, ApiError)
                 else None
             )
-            records[str(query_id)] = {
-                **target,
-                "status": "error",
-                "attempts": attempts + 1,
-                "last_attempt_at": utc_now(),
-                "error": error_record(error),
-            }
-            print(f"  ERROR: {error}")
+
+            previous_payload = (
+                previous.get("payload")
+                if isinstance(previous, dict)
+                else None
+            )
+            previous_fetched_at = (
+                previous.get("fetched_at")
+                if isinstance(previous, dict)
+                else None
+            )
+
+            if previous_payload is not None:
+                records[str(query_id)] = {
+                    **target,
+                    "status": "stale",
+                    "attempts": attempts + 1,
+                    "fetched_at": previous_fetched_at,
+                    "last_refresh_attempt_at": utc_now(),
+                    "last_refresh_error": error_record(error),
+                    "payload": previous_payload,
+                }
+                print(
+                    "  TEMPORAL: se conserva el último "
+                    "pronóstico exitoso"
+                )
+            else:
+                records[str(query_id)] = {
+                    **target,
+                    "status": "error",
+                    "attempts": attempts + 1,
+                    "last_attempt_at": utc_now(),
+                    "error": error_record(error),
+                }
+                print(f"  ERROR TEMPORAL: {error}")
 
             if status_code == 429:
                 stopped_reason = (
@@ -706,6 +843,7 @@ def main() -> None:
         "completed_queries": completed,
         "successful_queries": successes,
         "request_errors": request_errors,
+        "http_attempts_total": http_attempts_total,
         "stopped_reason": stopped_reason,
     }
     build_global_state(current_run=current_run)
@@ -714,6 +852,7 @@ def main() -> None:
     print(f"Completadas: {completed}")
     print(f"Exitosas: {successes}")
     print(f"Errores: {request_errors}")
+    print(f"Intentos HTTP totales: {http_attempts_total}")
     print(f"Estado: {STATE_FILE}")
 
 
