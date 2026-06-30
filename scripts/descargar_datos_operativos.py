@@ -910,6 +910,13 @@ def build_global_state(
 
     error_rows: list[dict[str, Any]] = []
     for item in stats:
+        active_ids = {
+            str(target["query_id"])
+            for target in build_targets(
+                mode=item["mode"],
+                shard=item["shard"],
+            )
+        }
         path = ROOT / item["cache_file"]
         payload = load_optional(
             path,
@@ -919,6 +926,8 @@ def build_global_state(
         if not isinstance(records, dict):
             continue
         for query_id, record in records.items():
+            if str(query_id) not in active_ids:
+                continue
             if (
                 isinstance(record, dict)
                 and record.get("status") == "error"
