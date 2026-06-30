@@ -23,6 +23,12 @@ STATION_GROUPS_FILE = ROOT / "docs" / "data" / "grupos_estaciones.json"
 CACHE_DIR = ROOT / "data" / "cache" / "operativo"
 STATE_FILE = ROOT / "docs" / "data" / "estado_descarga_operativa.json"
 ERRORS_FILE = ROOT / "docs" / "data" / "errores_descarga_operativa.json"
+LOCAL_LEGACY_FILE = (
+    ROOT
+    / "data"
+    / "fuentes"
+    / "pronosticos_historicos_antartida.json"
+)
 
 TOKEN_PAGE = "https://ws2.smn.gob.ar/pronostico"
 FORECAST_URL = "https://ws1.smn.gob.ar/v1/forecast/location/{location_id}"
@@ -403,6 +409,135 @@ def fetch_legacy_forecast(
     return normalize_legacy_forecast(payload, reference_id)
 
 
+
+def local_legacy_forecast(
+    reference_id: int,
+) -> dict[str, Any] | None:
+    payload = load_optional(
+        LOCAL_LEGACY_FILE,
+        {
+            "records": {},
+        },
+    )
+    records = payload.get("records")
+    if not isinstance(records, dict):
+        return None
+
+    raw = records.get(str(reference_id))
+    if isinstance(raw, dict):
+        items = [raw]
+    elif isinstance(raw, list):
+        items = raw
+    else:
+        return None
+
+    result = normalize_legacy_forecast(items, reference_id)
+    result["source"] = "smn_legacy_local_seed"
+    result["historical"] = True
+    result["legacy_metadata"]["seed_file"] = str(
+        LOCAL_LEGACY_FILE.relative_to(ROOT)
+    )
+    return result
+
+
+def legacy_record_from_normalized_payload(
+    reference_id: int,
+    payload: dict[str, Any],
+) -> dict[str, Any] | None:
+    if not payload.get("historical"):
+        return None
+
+    forecast = payload.get("forecast")
+    metadata = payload.get("legacy_metadata")
+    if not isinstance(forecast, list) or not forecast:
+        return None
+    if not isinstance(metadata, dict):
+        return None
+
+    raw_forecast = {
+        str(index): day
+        for index, day in enumerate(forecast)
+        if isinstance(day, dict)
+    }
+    if not raw_forecast:
+        return None
+
+    return {
+        "_id": metadata.get("_id"),
+        "timestamp": metadata.get("timestamp"),
+        "date_time": metadata.get("date_time")
+        or payload.get("updated"),
+        "location_id": reference_id,
+        "forecast": raw_forecast,
+    }
+
+
+def sync_local_legacy_file() -> int:
+    source = load_optional(
+        LOCAL_LEGACY_FILE,
+        {
+            "schema_version": 1,
+            "records": {},
+        },
+    )
+    records = source.get("records")
+    if not isinstance(records, dict):
+        records = {}
+
+    before = len(records)
+    for shard in (1, 2):
+        path = cache_file("forecast", shard)
+        cache = load_optional(
+            path,
+            empty_cache("forecast", shard),
+        )
+        cached_records = cache.get("records")
+        if not isinstance(cached_records, dict):
+            continue
+
+        for query_id, cached in cached_records.items():
+            if not isinstance(cached, dict):
+                continue
+            if cached.get("status") != "stale":
+                continue
+            reference_id = as_int(query_id)
+            payload = cached.get("payload")
+            if reference_id is None or not isinstance(payload, dict):
+                continue
+
+            raw = legacy_record_from_normalized_payload(
+                reference_id,
+                payload,
+            )
+            if raw is not None:
+                records[str(reference_id)] = [raw]
+
+    source["schema_version"] = 1
+    source["generated_at"] = utc_now()
+    source["source"] = (
+        "Respuestas oficiales del endpoint histórico del SMN, "
+        "capturadas o sincronizadas desde el caché operativo."
+    )
+    source["expected_antartic_references"] = [
+        10806,
+        10810,
+        10811,
+        10814,
+        10817,
+        10818,
+    ]
+    source["records"] = {
+        key: records[key]
+        for key in sorted(
+            records,
+            key=lambda value: int(value),
+        )
+    }
+    source["count"] = len(source["records"])
+    write_json_atomic(LOCAL_LEGACY_FILE, source)
+    return len(records) - before
+
+
 def validate_forecast_payload(
     payload: Any,
     reference_id: int,
@@ -457,7 +592,23 @@ def fetch_forecast(
             "  El endpoint moderno no respondió; "
             "se consulta el pronóstico histórico."
         )
-        return fetch_legacy_forecast(session, reference_id)
+        try:
+            return fetch_legacy_forecast(
+                session,
+                reference_id,
+            )
+        except (
+            ApiError,
+            requests.RequestException,
+        ) as legacy_error:
+            local = local_legacy_forecast(reference_id)
+            if local is not None:
+                print(
+                    "  El endpoint histórico remoto no respondió; "
+                    "se usa el respaldo local oficial."
+                )
+                return local
+            raise legacy_error
 
 
 def validate_weather_payload(
@@ -1008,6 +1159,7 @@ def main() -> None:
             time.sleep(args.sleep_seconds)
 
     save_cache(path, cache)
+    synchronized_local_records = sync_local_legacy_file()
 
     current_run = {
         "mode": args.mode,
@@ -1020,6 +1172,9 @@ def main() -> None:
         "stale_queries": stale_queries,
         "request_errors": request_errors,
         "http_attempts_total": http_attempts_total,
+        "synchronized_local_records": (
+            synchronized_local_records
+        ),
         "stopped_reason": stopped_reason,
     }
     build_global_state(current_run=current_run)
@@ -1031,6 +1186,10 @@ def main() -> None:
     print(f"Históricas: {stale_queries}")
     print(f"Errores: {request_errors}")
     print(f"Intentos HTTP totales: {http_attempts_total}")
+    print(
+        "Registros históricos sincronizados: "
+        f"{synchronized_local_records}"
+    )
     print(f"Estado: {STATE_FILE}")
 
 
