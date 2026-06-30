@@ -1,20 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T00:13:21.744338+00:00",
+  "generated_at": "2026-06-30T04:20:14.013469+00:00",
   "totals": {
     "query_keys": 599,
-    "success": 234,
-    "errors": 4,
-    "pending": 365
+    "success": 235,
+    "fresh": 234,
+    "stale": 1,
+    "errors": 3,
+    "pending": 364
   },
   "partitions": [
     {
       "mode": "forecast",
       "shard": 1,
       "total": 238,
-      "success": 234,
-      "errors": 4,
-      "pending": 4,
+      "success": 235,
+      "fresh": 234,
+      "stale": 1,
+      "errors": 3,
+      "pending": 3,
       "cache_file": "data/cache/operativo/pronosticos_shard_1.json"
     },
     {
@@ -22,6 +26,8 @@
       "shard": 2,
       "total": 237,
       "success": 0,
+      "fresh": 0,
+      "stale": 0,
       "errors": 0,
       "pending": 237,
       "cache_file": "data/cache/operativo/pronosticos_shard_2.json"
@@ -31,6 +37,8 @@
       "shard": 1,
       "total": 124,
       "success": 0,
+      "fresh": 0,
+      "stale": 0,
       "errors": 0,
       "pending": 124,
       "cache_file": "data/cache/operativo/estaciones_shard_1.json"
@@ -42,9 +50,11 @@
     "configured_batch_size": 100,
     "attempted_queries": 4,
     "completed_queries": 4,
-    "successful_queries": 0,
-    "request_errors": 4,
-    "http_attempts_total": 16,
+    "successful_queries": 1,
+    "fresh_queries": 0,
+    "stale_queries": 1,
+    "request_errors": 3,
+    "http_attempts_total": 13,
     "stopped_reason": null
   }
 }

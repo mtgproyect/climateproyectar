@@ -2,7 +2,7 @@
   "schema_version": 1,
   "mode": "forecast",
   "shard": 1,
-  "generated_at": "2026-06-30T00:13:21.562955+00:00",
+  "generated_at": "2026-06-30T04:20:13.830808+00:00",
   "records": {
     "19": {
       "query_id": 19,
@@ -117601,48 +117601,80 @@
       "query_id": 10806,
       "locality_count": 1,
       "status": "error",
-      "attempts": 3,
-      "last_attempt_at": "2026-06-30T00:12:29.230554+00:00",
+      "attempts": 4,
+      "last_attempt_at": "2026-06-30T04:19:33.242882+00:00",
       "error": {
         "type": "ApiError",
-        "message": "HTTP 404 al consultar el pronóstico 10806.",
-        "status_code": 404
+        "message": "HTTP 503 al consultar el pronóstico histórico 10806.",
+        "status_code": 503
       }
     },
     "10810": {
       "query_id": 10810,
       "locality_count": 2,
-      "status": "error",
-      "attempts": 3,
-      "last_attempt_at": "2026-06-30T00:12:46.642398+00:00",
-      "error": {
-        "type": "ApiError",
-        "message": "HTTP 404 al consultar el pronóstico 10810.",
-        "status_code": 404
+      "status": "stale",
+      "data_source": "smn_legacy_forecast",
+      "historical": true,
+      "attempts": 4,
+      "http_attempts_last_run": 1,
+      "fetched_at": "2026-06-30T04:19:36.818525+00:00",
+      "previous_payload_preserved": false,
+      "payload": {
+        "source": "smn_legacy_forecast",
+        "historical": true,
+        "updated": "2026-05-15 09:00",
+        "location": {
+          "id": 10810
+        },
+        "type": "legacy_location",
+        "forecast": [
+          {
+            "date": "2026-05-15",
+            "temp_min": -5,
+            "temp_max": 4,
+            "temp_min_sub": null,
+            "temp_noc": null,
+            "radiation": null,
+            "morning": {
+              "weather_id": 1,
+              "description": "Cielo algo a parcial nublado. Vientos moderados a regulares del Sudoeste. Visibilidad buena."
+            },
+            "afternoon": {
+              "weather_id": 2,
+              "description": "Cielo algo a parcial nublado. Vientos regulares a muy fuertes del Sudoeste con ráfagas. Visibilidad buena."
+            }
+          }
+        ],
+        "legacy_metadata": {
+          "_id": "598b871ff9a90f9a3d470749",
+          "timestamp": 1778770803513,
+          "date_time": "2026-05-15 09:00",
+          "location_id": 10810
+        }
       }
     },
     "10811": {
       "query_id": 10811,
       "locality_count": 7,
       "status": "error",
-      "attempts": 3,
-      "last_attempt_at": "2026-06-30T00:13:04.008410+00:00",
+      "attempts": 4,
+      "last_attempt_at": "2026-06-30T04:19:55.260698+00:00",
       "error": {
         "type": "ApiError",
-        "message": "HTTP 404 al consultar el pronóstico 10811.",
-        "status_code": 404
+        "message": "HTTP 503 al consultar el pronóstico histórico 10811.",
+        "status_code": 503
       }
     },
     "10817": {
       "query_id": 10817,
       "locality_count": 1,
       "status": "error",
-      "attempts": 3,
-      "last_attempt_at": "2026-06-30T00:13:21.418550+00:00",
+      "attempts": 4,
+      "last_attempt_at": "2026-06-30T04:20:13.688517+00:00",
       "error": {
         "type": "ApiError",
-        "message": "HTTP 404 al consultar el pronóstico 10817.",
-        "status_code": 404
+        "message": "HTTP 503 al consultar el pronóstico histórico 10817.",
+        "status_code": 503
       }
     },
     "10821": {

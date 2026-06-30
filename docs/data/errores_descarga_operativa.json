@@ -1,54 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-30T00:13:21.768764+00:00",
-  "count": 4,
+  "generated_at": "2026-06-30T04:20:14.038457+00:00",
+  "count": 3,
   "errors": [
     {
       "mode": "forecast",
       "shard": 1,
       "query_id": 10806,
-      "attempts": 3,
-      "last_attempt_at": "2026-06-30T00:12:29.230554+00:00",
+      "attempts": 4,
+      "last_attempt_at": "2026-06-30T04:19:33.242882+00:00",
       "error": {
         "type": "ApiError",
-        "message": "HTTP 404 al consultar el pronóstico 10806.",
-        "status_code": 404
-      }
-    },
-    {
-      "mode": "forecast",
-      "shard": 1,
-      "query_id": 10810,
-      "attempts": 3,
-      "last_attempt_at": "2026-06-30T00:12:46.642398+00:00",
-      "error": {
-        "type": "ApiError",
-        "message": "HTTP 404 al consultar el pronóstico 10810.",
-        "status_code": 404
+        "message": "HTTP 503 al consultar el pronóstico histórico 10806.",
+        "status_code": 503
       }
     },
     {
       "mode": "forecast",
       "shard": 1,
       "query_id": 10811,
-      "attempts": 3,
-      "last_attempt_at": "2026-06-30T00:13:04.008410+00:00",
+      "attempts": 4,
+      "last_attempt_at": "2026-06-30T04:19:55.260698+00:00",
       "error": {
         "type": "ApiError",
-        "message": "HTTP 404 al consultar el pronóstico 10811.",
-        "status_code": 404
+        "message": "HTTP 503 al consultar el pronóstico histórico 10811.",
+        "status_code": 503
       }
     },
     {
       "mode": "forecast",
       "shard": 1,
       "query_id": 10817,
-      "attempts": 3,
-      "last_attempt_at": "2026-06-30T00:13:21.418550+00:00",
+      "attempts": 4,
+      "last_attempt_at": "2026-06-30T04:20:13.688517+00:00",
       "error": {
         "type": "ApiError",
-        "message": "HTTP 404 al consultar el pronóstico 10817.",
-        "status_code": 404
+        "message": "HTTP 503 al consultar el pronóstico histórico 10817.",
+        "status_code": 503
       }
     }
   ]
