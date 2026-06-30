@@ -37,7 +37,7 @@ concurrency:
 jobs:
   descargar:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
 
     steps:
       - name: Descargar repositorio
@@ -58,7 +58,10 @@ jobs:
             --mode "${{ inputs.mode }}" \
             --shard "${{ inputs.shard }}" \
             --batch-size "${{ inputs.batch_size }}" \
-            --sleep-seconds "${{ inputs.sleep_seconds }}"
+            --sleep-seconds "${{ inputs.sleep_seconds }}" \
+            --max-attempts 10 \
+            --http-attempts 4 \
+            --retry-base-seconds 2.0
 
       - name: Ejecutar pruebas
         run: python -m unittest discover -s tests -v
