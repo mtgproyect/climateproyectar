@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-01T12:40:32.778133+00:00",
+  "generated_at": "2026-07-01T13:30:26.906048+00:00",
   "totals": {
     "query_keys": 596,
     "success": 596,
@@ -45,11 +45,11 @@
     }
   ],
   "last_run": {
-    "mode": "forecast",
-    "shard": 2,
-    "configured_batch_size": 250,
+    "mode": "stations",
+    "shard": 1,
+    "configured_batch_size": 200,
     "refresh_scope": "expired",
-    "max_age_hours": 6.0,
+    "max_age_hours": 1.0,
     "attempted_queries": 0,
     "completed_queries": 0,
     "successful_queries": 0,
