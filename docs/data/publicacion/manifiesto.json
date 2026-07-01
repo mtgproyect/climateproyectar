@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-01T09:30:42.295017+00:00",
-  "source_state_generated_at": "2026-07-01T09:30:42.042568+00:00",
+  "generated_at": "2026-07-01T10:33:52.301846+00:00",
+  "source_state_generated_at": "2026-07-01T10:33:52.006554+00:00",
   "counts": {
     "localities": 10601,
     "forecast_references": 475,
@@ -27,22 +27,22 @@
     "localities": {
       "path": "docs/data/publicacion/localidades.json",
       "bytes": 4453441,
-      "sha256": "c820a3bb03e18f958eae6abd8491bf605b6bd803b9985f366dcfe4ada2faac89"
+      "sha256": "4463db81b1a0b580172880e6d3e94b14728cf23abc296f6c9acc9ef2b8dec7f6"
     },
     "search": {
       "path": "docs/data/publicacion/busqueda_localidades.json",
       "bytes": 2520877,
-      "sha256": "17c2e11b4526ebd8c585baf6fb7210741e4edb91461ce877f385ac7c6b0771dd"
+      "sha256": "e579eede53f0dfcfdaabbbcd732911eee8ad61f1117cec16d9e9ca9741e504a7"
     },
     "forecasts": {
       "path": "docs/data/publicacion/pronosticos.json",
       "bytes": 6912744,
-      "sha256": "4769ab637caec3ef3998e831c58b11000aaa426a069afdc8b53ca2e4b1a077a0"
+      "sha256": "361303b66ae9114c2e0b7447d48d612daab4d91e793295eec0ee7f9d48d4e320"
     },
     "stations": {
       "path": "docs/data/publicacion/estaciones.json",
-      "bytes": 125765,
-      "sha256": "0c70ead9babc15829b80d7faeb98ecae1971e5367a23e277b6632436417eeaf0"
+      "bytes": 125825,
+      "sha256": "1be294cc0559dde029f71f01c9fee8dc0ddb0a83bb6e67f3d48d1649f79f1259"
     }
   },
   "validation": {
