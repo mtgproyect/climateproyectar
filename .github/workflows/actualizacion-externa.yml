@@ -4,23 +4,14 @@ on:
   workflow_dispatch:
     inputs:
       scope:
-        description: "Alcance de la actualización"
+        description: "Datos que se actualizarán"
         required: true
         default: "stations"
         type: choice
         options:
           - stations
+          - forecasts
           - full
-      station_max_age_hours:
-        description: "Antigüedad máxima de observaciones"
-        required: true
-        default: "1"
-        type: string
-      forecast_max_age_hours:
-        description: "Antigüedad máxima de pronósticos"
-        required: true
-        default: "6"
-        type: string
 
 permissions:
   contents: write
@@ -58,48 +49,46 @@ jobs:
         run: |
           echo "Disparo: externo/manual"
           echo "Alcance: ${{ inputs.scope }}"
-          echo "Edad observaciones: \
-          ${{ inputs.station_max_age_hours }} hora(s)"
-          echo "Edad pronósticos: \
-          ${{ inputs.forecast_max_age_hours }} hora(s)"
+          echo "Política: consultar todas las claves del alcance"
 
       - name: Actualizar observaciones
+        if: inputs.scope == 'stations' || inputs.scope == 'full'
         run: |
           python scripts/descargar_datos_operativos.py \
             --mode stations \
             --shard 1 \
             --batch-size 200 \
             --sleep-seconds 1.5 \
-            --refresh-scope expired \
-            --max-age-hours "${{ inputs.station_max_age_hours }}" \
+            --refresh-scope all \
+            --max-age-hours 1 \
             --max-attempts 5 \
             --http-attempts 4 \
             --retry-base-seconds 2.0
 
       - name: Actualizar pronósticos — shard 1
-        if: inputs.scope == 'full'
+        if: inputs.scope == 'forecasts' || inputs.scope == 'full'
         run: |
           python scripts/descargar_datos_operativos.py \
             --mode forecast \
             --shard 1 \
             --batch-size 250 \
             --sleep-seconds 2.0 \
-            --refresh-scope expired \
-            --max-age-hours "${{ inputs.forecast_max_age_hours }}" \
+            --refresh-scope all \
+            --max-age-hours 6 \
             --max-attempts 5 \
             --http-attempts 4 \
             --retry-base-seconds 2.0
 
       - name: Actualizar pronósticos — shard 2
-        if: inputs.scope == 'full'
+        if: inputs.scope == 'forecasts' || inputs.scope == 'full'
         run: |
           python scripts/descargar_datos_operativos.py \
             --mode forecast \
             --shard 2 \
             --batch-size 250 \
             --sleep-seconds 2.0 \
-            --refresh-scope expired \
-            --max-age-hours "${{ inputs.forecast_max_age_hours }}" \
+            --refresh-scope all \
+            --max-age-hours 6 \
             --max-attempts 5 \
             --http-attempts 4 \
             --retry-base-seconds 2.0
