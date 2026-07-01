@@ -2,7 +2,7 @@
   "schema_version": 1,
   "mode": "stations",
   "shard": 1,
-  "generated_at": "2026-07-01T14:33:59.706535+00:00",
+  "generated_at": "2026-07-01T15:30:31.352787+00:00",
   "records": {
     "87007": {
       "query_id": 87007,
@@ -12,25 +12,25 @@
       "status": "success",
       "data_source": null,
       "historical": false,
-      "attempts": 13,
+      "attempts": 14,
       "http_attempts_last_run": 1,
-      "fetched_at": "2026-07-01T14:30:27.345570+00:00",
+      "fetched_at": "2026-07-01T15:30:29.647397+00:00",
       "previous_payload_preserved": true,
       "payload": {
-        "date": "2026-07-01T11:00:00-03:00",
-        "humidity": 78.0,
-        "pressure": 674.3,
-        "feels_like": 6.0,
-        "temperature": 7.7,
+        "date": "2026-07-01T12:00:00-03:00",
+        "humidity": 73.0,
+        "pressure": 673.9,
+        "feels_like": null,
+        "temperature": 12.5,
         "visibility": 30.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Norte",
-          "deg": 360.0,
-          "speed": 10.0
+          "direction": "Noroeste",
+          "deg": 315.0,
+          "speed": 25.0
         },
         "station_id": 87007,
         "location": {
@@ -55,16 +55,16 @@
       "status": "success",
       "data_source": null,
       "historical": false,
-      "attempts": 13,
+      "attempts": 14,
       "http_attempts_last_run": 1,
-      "fetched_at": "2026-07-01T14:30:29.082976+00:00",
+      "fetched_at": "2026-07-01T15:30:31.344396+00:00",
       "previous_payload_preserved": true,
       "payload": {
-        "date": "2026-07-01T11:00:00-03:00",
-        "humidity": 83.0,
-        "pressure": 972.1,
+        "date": "2026-07-01T12:00:00-03:00",
+        "humidity": 77.0,
+        "pressure": 972.5,
         "feels_like": null,
-        "temperature": 15.9,
+        "temperature": 16.6,
         "visibility": 10.0,
         "weather": {
           "description": "Cubierto",
