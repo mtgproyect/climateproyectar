@@ -2,7 +2,7 @@
   "schema_version": 1,
   "mode": "forecast",
   "shard": 2,
-  "generated_at": "2026-06-30T22:43:51.168970+00:00",
+  "generated_at": "2026-07-01T00:43:52.415269+00:00",
   "records": {
     "151": {
       "query_id": 151,
