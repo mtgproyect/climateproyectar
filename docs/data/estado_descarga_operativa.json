@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-02T03:53:51.876691+00:00",
+  "generated_at": "2026-07-02T04:03:55.978381+00:00",
   "totals": {
     "query_keys": 596,
     "success": 596,
@@ -45,18 +45,18 @@
     }
   ],
   "last_run": {
-    "mode": "forecast",
-    "shard": 2,
-    "configured_batch_size": 250,
+    "mode": "stations",
+    "shard": 1,
+    "configured_batch_size": 200,
     "refresh_scope": "all",
-    "max_age_hours": 6.0,
-    "attempted_queries": 237,
-    "completed_queries": 237,
-    "successful_queries": 237,
-    "fresh_queries": 235,
-    "stale_queries": 2,
+    "max_age_hours": 1.0,
+    "attempted_queries": 121,
+    "completed_queries": 121,
+    "successful_queries": 121,
+    "fresh_queries": 121,
+    "stale_queries": 0,
     "request_errors": 0,
-    "http_attempts_total": 237,
+    "http_attempts_total": 121,
     "synchronized_local_records": 0,
     "stopped_reason": null
   }
