@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-02T00:56:42.930416+00:00",
+  "generated_at": "2026-07-02T01:04:08.489413+00:00",
   "count": 121,
   "fresh": 121,
   "stale": 0,
@@ -11,16 +11,16 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:24.434356+00:00",
+      "fetched_at": "2026-07-02T01:00:33.566623+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T20:00:00-03:00",
-        "humidity": 59.0,
-        "pressure": 673.3,
-        "feels_like": null,
-        "temperature": 10.8,
-        "visibility": 5.0,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 63.0,
+        "pressure": 673.8,
+        "feels_like": 7.0,
+        "temperature": 8.5,
+        "visibility": 4.0,
         "weather": {
           "description": "Ligeramente nublado con humo",
           "id": 13
@@ -28,7 +28,7 @@
         "wind": {
           "direction": "Norte",
           "deg": 360.0,
-          "speed": 15.0
+          "speed": 10.0
         },
         "station_id": 87007,
         "location": {
@@ -51,7 +51,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:26.213559+00:00",
+      "fetched_at": "2026-07-02T01:00:35.551366+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -91,7 +91,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:27.916008+00:00",
+      "fetched_at": "2026-07-02T01:00:37.314425+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -131,7 +131,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:29.734090+00:00",
+      "fetched_at": "2026-07-02T01:00:39.009426+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -171,7 +171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:31.481116+00:00",
+      "fetched_at": "2026-07-02T01:00:40.747192+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -211,7 +211,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:33.332219+00:00",
+      "fetched_at": "2026-07-02T01:00:42.517835+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -251,7 +251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:35.161313+00:00",
+      "fetched_at": "2026-07-02T01:00:44.503983+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -291,7 +291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:36.859309+00:00",
+      "fetched_at": "2026-07-02T01:00:46.249538+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -331,7 +331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:38.601372+00:00",
+      "fetched_at": "2026-07-02T01:00:48.040814+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -371,7 +371,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:40.300532+00:00",
+      "fetched_at": "2026-07-02T01:00:49.752868+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -411,7 +411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:42.018221+00:00",
+      "fetched_at": "2026-07-02T01:00:51.530983+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -451,7 +451,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:43.707930+00:00",
+      "fetched_at": "2026-07-02T01:00:54.011750+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -491,7 +491,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:45.465430+00:00",
+      "fetched_at": "2026-07-02T01:00:55.727804+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -531,7 +531,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:47.164778+00:00",
+      "fetched_at": "2026-07-02T01:00:57.424521+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -571,7 +571,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:48.865300+00:00",
+      "fetched_at": "2026-07-02T01:00:59.186059+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -611,7 +611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:50.586228+00:00",
+      "fetched_at": "2026-07-02T01:01:00.995956+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -651,7 +651,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:52.280992+00:00",
+      "fetched_at": "2026-07-02T01:01:02.757597+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -691,7 +691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:53.995839+00:00",
+      "fetched_at": "2026-07-02T01:01:04.550260+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -731,7 +731,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:55.697096+00:00",
+      "fetched_at": "2026-07-02T01:01:06.246822+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -771,7 +771,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:57.451176+00:00",
+      "fetched_at": "2026-07-02T01:01:07.994443+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -811,7 +811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:30:59.296067+00:00",
+      "fetched_at": "2026-07-02T01:01:09.799522+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -851,23 +851,23 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:00.990281+00:00",
+      "fetched_at": "2026-07-02T01:01:11.559569+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T18:00:00-03:00",
-        "humidity": 74.0,
-        "pressure": 886.2,
-        "feels_like": 7.1,
-        "temperature": 8.6,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 78.0,
+        "pressure": 888.6,
+        "feels_like": 5.7,
+        "temperature": 7.4,
         "visibility": 20.0,
         "weather": {
           "description": "Cubierto",
           "id": 43
         },
         "wind": {
-          "direction": "Norte",
-          "deg": 360.0,
+          "direction": "Oeste",
+          "deg": 270.0,
           "speed": 10.0
         },
         "station_id": 87211,
@@ -891,19 +891,19 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:02.694078+00:00",
+      "fetched_at": "2026-07-02T01:01:13.275610+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T09:00:00-03:00",
-        "humidity": 79.0,
-        "pressure": 913.5,
-        "feels_like": 7.3,
-        "temperature": 8.8,
-        "visibility": 10.0,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 73.0,
+        "pressure": 921.8,
+        "feels_like": 3.8,
+        "temperature": 5.8,
+        "visibility": 20.0,
         "weather": {
-          "description": "Parcialmente nublado con niebla en bancos",
-          "id": 67
+          "description": "Nublado",
+          "id": 43
         },
         "wind": {
           "direction": "Sur",
@@ -931,7 +931,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:04.671911+00:00",
+      "fetched_at": "2026-07-02T01:01:15.478581+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -971,7 +971,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:06.370621+00:00",
+      "fetched_at": "2026-07-02T01:01:17.241213+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1011,7 +1011,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:08.211270+00:00",
+      "fetched_at": "2026-07-02T01:01:18.988313+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1051,7 +1051,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:10.049291+00:00",
+      "fetched_at": "2026-07-02T01:01:20.776846+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1091,7 +1091,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:11.746890+00:00",
+      "fetched_at": "2026-07-02T01:01:22.769079+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1131,7 +1131,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:13.450314+00:00",
+      "fetched_at": "2026-07-02T01:01:24.607201+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1171,7 +1171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:15.164160+00:00",
+      "fetched_at": "2026-07-02T01:01:26.386985+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1211,7 +1211,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:16.903297+00:00",
+      "fetched_at": "2026-07-02T01:01:28.134639+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1251,7 +1251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:18.642134+00:00",
+      "fetched_at": "2026-07-02T01:01:30.481994+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1291,7 +1291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:20.652001+00:00",
+      "fetched_at": "2026-07-02T01:01:32.182921+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1331,7 +1331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:22.399891+00:00",
+      "fetched_at": "2026-07-02T01:01:34.248184+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1371,7 +1371,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:24.159690+00:00",
+      "fetched_at": "2026-07-02T01:01:35.965423+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1411,7 +1411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:25.862013+00:00",
+      "fetched_at": "2026-07-02T01:01:37.731592+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1451,7 +1451,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:27.649428+00:00",
+      "fetched_at": "2026-07-02T01:01:39.497580+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1491,16 +1491,16 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:29.403049+00:00",
+      "fetched_at": "2026-07-02T01:01:41.255243+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T20:00:00-03:00",
-        "humidity": 94.0,
-        "pressure": 970.9,
-        "feels_like": 1.5,
-        "temperature": 5.2,
-        "visibility": 3.0,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 97.0,
+        "pressure": 971.8,
+        "feels_like": 0.4,
+        "temperature": 5.0,
+        "visibility": 4.0,
         "weather": {
           "description": "Cubierto con llovizna en la hora anterior",
           "id": 43
@@ -1508,7 +1508,7 @@
         "wind": {
           "direction": "Sur",
           "deg": 180.0,
-          "speed": 19.0
+          "speed": 26.0
         },
         "station_id": 87347,
         "location": {
@@ -1531,7 +1531,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:31.112403+00:00",
+      "fetched_at": "2026-07-02T01:01:43.026645+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1571,7 +1571,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:32.820220+00:00",
+      "fetched_at": "2026-07-02T01:01:44.720369+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1611,7 +1611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:34.517685+00:00",
+      "fetched_at": "2026-07-02T01:01:46.447342+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1651,7 +1651,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:36.400087+00:00",
+      "fetched_at": "2026-07-02T01:01:48.355449+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1691,7 +1691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:38.246652+00:00",
+      "fetched_at": "2026-07-02T01:01:50.049599+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1731,7 +1731,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:39.965633+00:00",
+      "fetched_at": "2026-07-02T01:01:51.817278+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1771,7 +1771,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:41.694657+00:00",
+      "fetched_at": "2026-07-02T01:01:53.547399+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1811,7 +1811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:43.519825+00:00",
+      "fetched_at": "2026-07-02T01:01:55.243214+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1851,7 +1851,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:45.220710+00:00",
+      "fetched_at": "2026-07-02T01:01:56.984738+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1891,7 +1891,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:46.957551+00:00",
+      "fetched_at": "2026-07-02T01:01:58.887805+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1931,7 +1931,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:48.658282+00:00",
+      "fetched_at": "2026-07-02T01:02:00.904664+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1971,7 +1971,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:50.426752+00:00",
+      "fetched_at": "2026-07-02T01:02:02.590813+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2011,24 +2011,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:52.179322+00:00",
+      "fetched_at": "2026-07-02T01:02:04.290515+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T20:00:00-03:00",
-        "humidity": 86.0,
-        "pressure": 955.6,
-        "feels_like": -1.4,
-        "temperature": 4.4,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 87.0,
+        "pressure": 956.4,
+        "feels_like": -0.7,
+        "temperature": 4.0,
         "visibility": 20.0,
         "weather": {
           "description": "Cubierto",
           "id": 43
         },
         "wind": {
-          "direction": "Sur",
-          "deg": 180.0,
-          "speed": 39.0
+          "direction": "Sudeste",
+          "deg": 135.0,
+          "speed": 25.0
         },
         "station_id": 87444,
         "location": {
@@ -2051,7 +2051,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:53.872966+00:00",
+      "fetched_at": "2026-07-02T01:02:06.012153+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2091,7 +2091,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:55.583260+00:00",
+      "fetched_at": "2026-07-02T01:02:07.984422+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2131,7 +2131,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:57.271961+00:00",
+      "fetched_at": "2026-07-02T01:02:09.735462+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2171,7 +2171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:31:58.970473+00:00",
+      "fetched_at": "2026-07-02T01:02:11.622872+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2211,7 +2211,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:00.704490+00:00",
+      "fetched_at": "2026-07-02T01:02:13.321249+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2251,7 +2251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:02.441477+00:00",
+      "fetched_at": "2026-07-02T01:02:15.254090+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2291,7 +2291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:04.171087+00:00",
+      "fetched_at": "2026-07-02T01:02:16.949807+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2331,7 +2331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:05.935463+00:00",
+      "fetched_at": "2026-07-02T01:02:18.972613+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2371,7 +2371,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:07.672229+00:00",
+      "fetched_at": "2026-07-02T01:02:20.947416+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2411,7 +2411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:09.380782+00:00",
+      "fetched_at": "2026-07-02T01:02:23.001659+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2451,7 +2451,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:11.076122+00:00",
+      "fetched_at": "2026-07-02T01:02:24.746839+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2491,7 +2491,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:12.773967+00:00",
+      "fetched_at": "2026-07-02T01:02:26.444874+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2531,7 +2531,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:14.525258+00:00",
+      "fetched_at": "2026-07-02T01:02:28.198540+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2571,19 +2571,19 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:16.267218+00:00",
+      "fetched_at": "2026-07-02T01:02:29.990336+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T18:00:00-03:00",
-        "humidity": 66.0,
-        "pressure": 1019.6,
-        "feels_like": 5.2,
-        "temperature": 8.6,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 72.0,
+        "pressure": 1022.1,
+        "feels_like": 2.4,
+        "temperature": 6.4,
         "visibility": 15.0,
         "weather": {
-          "description": "Cubierto",
-          "id": 43
+          "description": "Algo nublado",
+          "id": 19
         },
         "wind": {
           "direction": "Sudeste",
@@ -2611,7 +2611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:18.010885+00:00",
+      "fetched_at": "2026-07-02T01:02:32.051474+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2651,23 +2651,23 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:19.766068+00:00",
+      "fetched_at": "2026-07-02T01:02:33.816554+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T18:00:00-03:00",
-        "humidity": 74.0,
-        "pressure": 1022.9,
-        "feels_like": 6.3,
-        "temperature": 8.2,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 79.0,
+        "pressure": 1026.4,
+        "feels_like": 2.9,
+        "temperature": 5.4,
         "visibility": 15.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Parcialmente nublado",
+          "id": 25
         },
         "wind": {
-          "direction": "Sudeste",
-          "deg": 135.0,
+          "direction": "Sur",
+          "deg": 180.0,
           "speed": 12.0
         },
         "station_id": 87563,
@@ -2691,7 +2691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:21.581128+00:00",
+      "fetched_at": "2026-07-02T01:02:35.564209+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2731,7 +2731,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:23.306137+00:00",
+      "fetched_at": "2026-07-02T01:02:37.310995+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2771,7 +2771,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:25.075789+00:00",
+      "fetched_at": "2026-07-02T01:02:39.006400+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2811,7 +2811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:26.828729+00:00",
+      "fetched_at": "2026-07-02T01:02:40.779942+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2851,7 +2851,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:28.537868+00:00",
+      "fetched_at": "2026-07-02T01:02:42.537924+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2891,7 +2891,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:30.297572+00:00",
+      "fetched_at": "2026-07-02T01:02:44.242869+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2931,7 +2931,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:32.024803+00:00",
+      "fetched_at": "2026-07-02T01:02:45.940792+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2971,15 +2971,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:33.721306+00:00",
+      "fetched_at": "2026-07-02T01:02:47.686180+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T20:00:00-03:00",
-        "humidity": 70.0,
-        "pressure": 1025.2,
-        "feels_like": null,
-        "temperature": 10.4,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 64.0,
+        "pressure": 1026.1,
+        "feels_like": 7.2,
+        "temperature": 9.6,
         "visibility": 10.0,
         "weather": {
           "description": "Cubierto",
@@ -2988,7 +2988,7 @@
         "wind": {
           "direction": "Sudeste",
           "deg": 135.0,
-          "speed": 15.0
+          "speed": 17.0
         },
         "station_id": 87585,
         "location": {
@@ -3011,7 +3011,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:35.424266+00:00",
+      "fetched_at": "2026-07-02T01:02:49.429896+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3051,24 +3051,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:37.144204+00:00",
+      "fetched_at": "2026-07-02T01:02:51.196758+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T20:00:00-03:00",
-        "humidity": 77.0,
-        "pressure": 1026.1,
-        "feels_like": 4.3,
-        "temperature": 8.2,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 73.0,
+        "pressure": 1026.6,
+        "feels_like": 4.1,
+        "temperature": 8.0,
         "visibility": 10.0,
         "weather": {
           "description": "Cubierto",
           "id": 43
         },
         "wind": {
-          "direction": "Sudoeste",
-          "deg": 225.0,
-          "speed": 30.0
+          "direction": "Sur",
+          "deg": 180.0,
+          "speed": 28.0
         },
         "station_id": 87596,
         "location": {
@@ -3091,15 +3091,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:38.840759+00:00",
+      "fetched_at": "2026-07-02T01:02:52.905476+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T15:00:00-03:00",
-        "humidity": 64.0,
-        "pressure": 993.8,
-        "feels_like": 3.5,
-        "temperature": 6.4,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 73.0,
+        "pressure": 996.8,
+        "feels_like": 1.9,
+        "temperature": 4.2,
         "visibility": 40.0,
         "weather": {
           "description": "Cubierto",
@@ -3108,7 +3108,7 @@
         "wind": {
           "direction": "Sur",
           "deg": 180.0,
-          "speed": 15.0
+          "speed": 10.0
         },
         "station_id": 87616,
         "location": {
@@ -3131,7 +3131,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:40.647714+00:00",
+      "fetched_at": "2026-07-02T01:02:54.649627+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3171,7 +3171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:42.357105+00:00",
+      "fetched_at": "2026-07-02T01:02:56.341633+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3211,7 +3211,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:44.072270+00:00",
+      "fetched_at": "2026-07-02T01:02:58.106491+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3251,7 +3251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:45.783996+00:00",
+      "fetched_at": "2026-07-02T01:03:00.122521+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3291,24 +3291,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:47.520239+00:00",
+      "fetched_at": "2026-07-02T01:03:01.817690+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T15:00:00-03:00",
-        "humidity": 52.0,
-        "pressure": 1006.2,
-        "feels_like": 6.6,
-        "temperature": 9.8,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 90.0,
+        "pressure": 1007.9,
+        "feels_like": null,
+        "temperature": 1.9,
         "visibility": 15.0,
         "weather": {
-          "description": "Parcialmente nublado",
-          "id": 25
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "Sur",
           "deg": 180.0,
-          "speed": 26.0
+          "speed": 4.0
         },
         "station_id": 87643,
         "location": {
@@ -3331,7 +3331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:49.222081+00:00",
+      "fetched_at": "2026-07-02T01:03:03.581026+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3371,24 +3371,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:50.925009+00:00",
+      "fetched_at": "2026-07-02T01:03:05.358245+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T20:00:00-03:00",
-        "humidity": 75.0,
-        "pressure": 1028.4,
-        "feels_like": 3.6,
-        "temperature": 6.0,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 78.0,
+        "pressure": 1027.7,
+        "feels_like": 3.5,
+        "temperature": 5.6,
         "visibility": 10.0,
         "weather": {
           "description": "Nublado",
           "id": 43
         },
         "wind": {
-          "direction": "Sur",
-          "deg": 180.0,
-          "speed": 12.0
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 10.0
         },
         "station_id": 87648,
         "location": {
@@ -3411,7 +3411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:52.631828+00:00",
+      "fetched_at": "2026-07-02T01:03:07.099921+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3451,7 +3451,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:54.536107+00:00",
+      "fetched_at": "2026-07-02T01:03:08.812530+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3491,7 +3491,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:56.238681+00:00",
+      "fetched_at": "2026-07-02T01:03:10.514772+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3531,7 +3531,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:58.077354+00:00",
+      "fetched_at": "2026-07-02T01:03:12.222917+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3571,7 +3571,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:32:59.827844+00:00",
+      "fetched_at": "2026-07-02T01:03:13.976458+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3611,7 +3611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:01.539053+00:00",
+      "fetched_at": "2026-07-02T01:03:15.721149+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3651,7 +3651,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:03.285484+00:00",
+      "fetched_at": "2026-07-02T01:03:17.477122+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3691,7 +3691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:05.001716+00:00",
+      "fetched_at": "2026-07-02T01:03:19.171968+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3731,24 +3731,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:06.763241+00:00",
+      "fetched_at": "2026-07-02T01:03:20.922470+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T20:00:00-03:00",
-        "humidity": 77.0,
-        "pressure": 1024.1,
-        "feels_like": -0.7,
-        "temperature": 3.2,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 86.0,
+        "pressure": 1024.5,
+        "feels_like": -2.0,
+        "temperature": 1.9,
         "visibility": 15.0,
         "weather": {
           "description": "Despejado",
           "id": 3
         },
         "wind": {
-          "direction": "Sur",
-          "deg": 180.0,
-          "speed": 17.0
+          "direction": "Sudoeste",
+          "deg": 225.0,
+          "speed": 15.0
         },
         "station_id": 87750,
         "location": {
@@ -3771,15 +3771,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:08.513564+00:00",
+      "fetched_at": "2026-07-02T01:03:22.634680+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T18:00:00-03:00",
-        "humidity": 93.0,
-        "pressure": 938.8,
-        "feels_like": -5.5,
-        "temperature": -0.2,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 95.0,
+        "pressure": 939.8,
+        "feels_like": -5.9,
+        "temperature": -1.6,
         "visibility": 15.0,
         "weather": {
           "description": "Ligeramente nublado",
@@ -3788,7 +3788,7 @@
         "wind": {
           "direction": "Este",
           "deg": 90.0,
-          "speed": 21.0
+          "speed": 13.0
         },
         "station_id": 87761,
         "location": {
@@ -3811,7 +3811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:10.273567+00:00",
+      "fetched_at": "2026-07-02T01:03:24.377554+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3851,7 +3851,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:11.974736+00:00",
+      "fetched_at": "2026-07-02T01:03:26.149618+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3891,7 +3891,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:13.721294+00:00",
+      "fetched_at": "2026-07-02T01:03:27.892020+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3931,7 +3931,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:15.462662+00:00",
+      "fetched_at": "2026-07-02T01:03:29.631233+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3971,7 +3971,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:17.195526+00:00",
+      "fetched_at": "2026-07-02T01:03:31.370810+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4011,24 +4011,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:18.951627+00:00",
+      "fetched_at": "2026-07-02T01:03:33.111404+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T20:00:00-03:00",
-        "humidity": 76.0,
-        "pressure": 939.6,
-        "feels_like": -12.4,
-        "temperature": -6.9,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 73.0,
+        "pressure": 939.7,
+        "feels_like": -12.2,
+        "temperature": -7.2,
         "visibility": 30.0,
         "weather": {
-          "description": "Ligeramente nublado",
-          "id": 13
+          "description": "Despejado",
+          "id": 3
         },
         "wind": {
           "direction": "Noreste",
           "deg": 45.0,
-          "speed": 13.0
+          "speed": 12.0
         },
         "station_id": 87803,
         "location": {
@@ -4051,7 +4051,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:20.653023+00:00",
+      "fetched_at": "2026-07-02T01:03:34.846789+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4091,7 +4091,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:22.374281+00:00",
+      "fetched_at": "2026-07-02T01:03:36.613428+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4131,7 +4131,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:25.123107+00:00",
+      "fetched_at": "2026-07-02T01:03:38.349372+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4171,7 +4171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:26.854837+00:00",
+      "fetched_at": "2026-07-02T01:03:40.046514+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4211,7 +4211,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:28.605555+00:00",
+      "fetched_at": "2026-07-02T01:03:41.784893+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4251,7 +4251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:30.317974+00:00",
+      "fetched_at": "2026-07-02T01:03:43.478403+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4291,7 +4291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:32.079048+00:00",
+      "fetched_at": "2026-07-02T01:03:45.251763+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4331,7 +4331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:34.198884+00:00",
+      "fetched_at": "2026-07-02T01:03:46.995847+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4371,7 +4371,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:35.949595+00:00",
+      "fetched_at": "2026-07-02T01:03:48.757332+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4411,19 +4411,19 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:37.636820+00:00",
+      "fetched_at": "2026-07-02T01:03:50.485795+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T15:00:00-03:00",
-        "humidity": 47.0,
-        "pressure": 1016.2,
-        "feels_like": -2.2,
-        "temperature": 3.1,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 67.0,
+        "pressure": 1015.3,
+        "feels_like": -4.3,
+        "temperature": 1.5,
         "visibility": 30.0,
         "weather": {
-          "description": "Mayormente nublado",
-          "id": 37
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "Oeste",
@@ -4451,7 +4451,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:39.341964+00:00",
+      "fetched_at": "2026-07-02T01:03:52.209642+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4491,7 +4491,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:41.088582+00:00",
+      "fetched_at": "2026-07-02T01:03:53.945302+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4531,7 +4531,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:42.780874+00:00",
+      "fetched_at": "2026-07-02T01:03:55.653738+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4571,7 +4571,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:44.497962+00:00",
+      "fetched_at": "2026-07-02T01:03:57.348842+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4611,7 +4611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:46.185523+00:00",
+      "fetched_at": "2026-07-02T01:03:59.050563+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4651,7 +4651,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:47.878601+00:00",
+      "fetched_at": "2026-07-02T01:04:01.050147+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4691,7 +4691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:49.569022+00:00",
+      "fetched_at": "2026-07-02T01:04:02.785348+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4731,15 +4731,15 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:51.302236+00:00",
+      "fetched_at": "2026-07-02T01:04:04.553488+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T18:00:00-03:00",
-        "humidity": 96.0,
-        "pressure": 984.9,
-        "feels_like": -7.6,
-        "temperature": 0.5,
+        "date": "2026-07-01T21:00:00-03:00",
+        "humidity": 93.0,
+        "pressure": 986.6,
+        "feels_like": -7.9,
+        "temperature": 0.0,
         "visibility": 10.0,
         "weather": {
           "description": "Parcialmente nublado",
@@ -4748,7 +4748,7 @@
         "wind": {
           "direction": "Oeste",
           "deg": 270.0,
-          "speed": 52.0
+          "speed": 47.0
         },
         "station_id": 89053,
         "location": {
@@ -4771,7 +4771,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:53.014177+00:00",
+      "fetched_at": "2026-07-02T01:04:06.260020+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4811,7 +4811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T00:33:54.847960+00:00",
+      "fetched_at": "2026-07-02T01:04:07.960149+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
