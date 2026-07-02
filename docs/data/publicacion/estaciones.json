@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-02T02:34:23.321213+00:00",
+  "generated_at": "2026-07-02T03:04:03.525121+00:00",
   "count": 121,
   "fresh": 121,
   "stale": 0,
@@ -11,7 +11,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:30.371778+00:00",
+      "fetched_at": "2026-07-02T03:00:34.354402+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -51,7 +51,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:32.072069+00:00",
+      "fetched_at": "2026-07-02T03:00:36.109297+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -91,7 +91,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:33.836706+00:00",
+      "fetched_at": "2026-07-02T03:00:37.876597+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -131,7 +131,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:35.533332+00:00",
+      "fetched_at": "2026-07-02T03:00:39.575341+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -171,7 +171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:37.271244+00:00",
+      "fetched_at": "2026-07-02T03:00:41.312205+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -211,7 +211,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:39.040812+00:00",
+      "fetched_at": "2026-07-02T03:00:43.073708+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -251,7 +251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:40.736213+00:00",
+      "fetched_at": "2026-07-02T03:00:44.770984+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -291,7 +291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:42.478557+00:00",
+      "fetched_at": "2026-07-02T03:00:46.533538+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -331,7 +331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:44.241627+00:00",
+      "fetched_at": "2026-07-02T03:00:48.298992+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -371,7 +371,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:45.966118+00:00",
+      "fetched_at": "2026-07-02T03:00:49.997048+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -411,7 +411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:30:47.728247+00:00",
+      "fetched_at": "2026-07-02T03:00:51.762745+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -451,7 +451,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:05.378127+00:00",
+      "fetched_at": "2026-07-02T03:00:53.490976+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -491,7 +491,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:09.173375+00:00",
+      "fetched_at": "2026-07-02T03:00:55.210118+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -531,7 +531,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:10.900565+00:00",
+      "fetched_at": "2026-07-02T03:00:56.906986+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -571,7 +571,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:12.671969+00:00",
+      "fetched_at": "2026-07-02T03:00:58.674939+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -611,7 +611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:14.438482+00:00",
+      "fetched_at": "2026-07-02T03:01:00.437353+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -651,7 +651,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:16.219267+00:00",
+      "fetched_at": "2026-07-02T03:01:02.204213+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -691,7 +691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:18.311500+00:00",
+      "fetched_at": "2026-07-02T03:01:03.929282+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -731,7 +731,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:20.008723+00:00",
+      "fetched_at": "2026-07-02T03:01:05.622539+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -771,7 +771,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:22.102324+00:00",
+      "fetched_at": "2026-07-02T03:01:07.347414+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -811,7 +811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:23.958567+00:00",
+      "fetched_at": "2026-07-02T03:01:09.065053+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -851,7 +851,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:26.949143+00:00",
+      "fetched_at": "2026-07-02T03:01:10.794258+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -891,7 +891,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:28.969139+00:00",
+      "fetched_at": "2026-07-02T03:01:12.503637+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -931,7 +931,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:30.736971+00:00",
+      "fetched_at": "2026-07-02T03:01:14.266928+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -971,7 +971,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:32.500166+00:00",
+      "fetched_at": "2026-07-02T03:01:16.027419+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1011,7 +1011,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:34.439310+00:00",
+      "fetched_at": "2026-07-02T03:01:17.758924+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1051,7 +1051,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:36.199925+00:00",
+      "fetched_at": "2026-07-02T03:01:19.532214+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1091,7 +1091,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:37.902480+00:00",
+      "fetched_at": "2026-07-02T03:01:21.266584+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1131,7 +1131,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:39.938770+00:00",
+      "fetched_at": "2026-07-02T03:01:22.974106+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1171,7 +1171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:41.696562+00:00",
+      "fetched_at": "2026-07-02T03:01:24.733604+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1211,7 +1211,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:43.434225+00:00",
+      "fetched_at": "2026-07-02T03:01:26.471460+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1251,7 +1251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:45.230093+00:00",
+      "fetched_at": "2026-07-02T03:01:28.233191+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1291,7 +1291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:46.925638+00:00",
+      "fetched_at": "2026-07-02T03:01:29.926775+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1331,7 +1331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:48.678048+00:00",
+      "fetched_at": "2026-07-02T03:01:31.667925+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1371,7 +1371,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:50.712476+00:00",
+      "fetched_at": "2026-07-02T03:01:33.369111+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1411,7 +1411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:52.479753+00:00",
+      "fetched_at": "2026-07-02T03:01:35.150709+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1451,7 +1451,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:54.224503+00:00",
+      "fetched_at": "2026-07-02T03:01:36.914152+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1491,7 +1491,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:55.987155+00:00",
+      "fetched_at": "2026-07-02T03:01:38.677989+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1531,7 +1531,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:57.745424+00:00",
+      "fetched_at": "2026-07-02T03:01:40.440686+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1571,7 +1571,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:31:59.440268+00:00",
+      "fetched_at": "2026-07-02T03:01:42.133953+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1611,7 +1611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:01.191316+00:00",
+      "fetched_at": "2026-07-02T03:01:43.834100+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1651,7 +1651,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:02.949001+00:00",
+      "fetched_at": "2026-07-02T03:01:45.886786+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1691,7 +1691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:04.662695+00:00",
+      "fetched_at": "2026-07-02T03:01:47.589848+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1731,7 +1731,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:06.418272+00:00",
+      "fetched_at": "2026-07-02T03:01:49.351339+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1771,7 +1771,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:08.486896+00:00",
+      "fetched_at": "2026-07-02T03:01:51.092615+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1811,7 +1811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:10.183118+00:00",
+      "fetched_at": "2026-07-02T03:01:52.802143+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1851,7 +1851,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:11.934134+00:00",
+      "fetched_at": "2026-07-02T03:01:54.540772+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1891,7 +1891,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:13.633021+00:00",
+      "fetched_at": "2026-07-02T03:01:56.236025+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1931,7 +1931,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:15.312147+00:00",
+      "fetched_at": "2026-07-02T03:01:57.929656+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -1971,7 +1971,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:17.009210+00:00",
+      "fetched_at": "2026-07-02T03:01:59.607120+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2011,7 +2011,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:18.704752+00:00",
+      "fetched_at": "2026-07-02T03:02:01.306964+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2051,7 +2051,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:20.439221+00:00",
+      "fetched_at": "2026-07-02T03:02:03.033892+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2091,7 +2091,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:22.137030+00:00",
+      "fetched_at": "2026-07-02T03:02:04.734568+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2131,7 +2131,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:23.939766+00:00",
+      "fetched_at": "2026-07-02T03:02:06.471091+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2171,7 +2171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:25.983930+00:00",
+      "fetched_at": "2026-07-02T03:02:08.473079+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2211,7 +2211,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:27.677557+00:00",
+      "fetched_at": "2026-07-02T03:02:10.167397+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2251,7 +2251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:29.368301+00:00",
+      "fetched_at": "2026-07-02T03:02:11.859128+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2291,7 +2291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:31.066791+00:00",
+      "fetched_at": "2026-07-02T03:02:13.553020+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2331,7 +2331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:32.793029+00:00",
+      "fetched_at": "2026-07-02T03:02:15.278743+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2371,7 +2371,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:34.546992+00:00",
+      "fetched_at": "2026-07-02T03:02:17.011943+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2411,7 +2411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:36.288692+00:00",
+      "fetched_at": "2026-07-02T03:02:18.749339+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2451,7 +2451,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:38.037377+00:00",
+      "fetched_at": "2026-07-02T03:02:20.487373+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2491,7 +2491,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:39.733553+00:00",
+      "fetched_at": "2026-07-02T03:02:22.185653+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2531,7 +2531,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:41.469369+00:00",
+      "fetched_at": "2026-07-02T03:02:24.245009+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2571,7 +2571,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:43.236712+00:00",
+      "fetched_at": "2026-07-02T03:02:26.001488+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2611,7 +2611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:45.392215+00:00",
+      "fetched_at": "2026-07-02T03:02:27.722056+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2651,7 +2651,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:47.173929+00:00",
+      "fetched_at": "2026-07-02T03:02:29.482644+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2691,7 +2691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:48.936718+00:00",
+      "fetched_at": "2026-07-02T03:02:31.207953+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2731,7 +2731,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:50.675175+00:00",
+      "fetched_at": "2026-07-02T03:02:32.947351+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2771,7 +2771,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:52.368729+00:00",
+      "fetched_at": "2026-07-02T03:02:34.641848+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2811,7 +2811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:54.134421+00:00",
+      "fetched_at": "2026-07-02T03:02:36.410114+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2851,7 +2851,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:55.895294+00:00",
+      "fetched_at": "2026-07-02T03:02:38.168130+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2891,7 +2891,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:57.591025+00:00",
+      "fetched_at": "2026-07-02T03:02:39.859622+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2931,7 +2931,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:32:59.269558+00:00",
+      "fetched_at": "2026-07-02T03:02:41.538451+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -2971,24 +2971,24 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:01.036909+00:00",
+      "fetched_at": "2026-07-02T03:02:43.299325+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
-        "date": "2026-07-01T23:00:00-03:00",
-        "humidity": 61.0,
-        "pressure": 1026.4,
-        "feels_like": 5.6,
-        "temperature": 7.9,
+        "date": "2026-07-02T00:00:00-03:00",
+        "humidity": 64.0,
+        "pressure": 1027.3,
+        "feels_like": 5.1,
+        "temperature": 7.2,
         "visibility": 10.0,
         "weather": {
-          "description": "Algo nublado",
-          "id": 19
+          "description": "Ligeramente nublado",
+          "id": 13
         },
         "wind": {
           "direction": "Sudeste",
           "deg": 135.0,
-          "speed": 13.0
+          "speed": 12.0
         },
         "station_id": 87585,
         "location": {
@@ -3011,7 +3011,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:02.774951+00:00",
+      "fetched_at": "2026-07-02T03:02:45.056025+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3051,7 +3051,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:04.536316+00:00",
+      "fetched_at": "2026-07-02T03:02:46.817749+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3091,7 +3091,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:06.238998+00:00",
+      "fetched_at": "2026-07-02T03:02:48.520318+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3131,7 +3131,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:07.989867+00:00",
+      "fetched_at": "2026-07-02T03:02:50.264672+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3171,7 +3171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:09.684041+00:00",
+      "fetched_at": "2026-07-02T03:02:51.957055+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3211,7 +3211,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:11.441650+00:00",
+      "fetched_at": "2026-07-02T03:02:53.714478+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3251,7 +3251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:13.200848+00:00",
+      "fetched_at": "2026-07-02T03:02:55.565814+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3291,7 +3291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:14.891342+00:00",
+      "fetched_at": "2026-07-02T03:02:57.256762+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3331,7 +3331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:16.634353+00:00",
+      "fetched_at": "2026-07-02T03:02:59.013223+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3371,7 +3371,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:18.404933+00:00",
+      "fetched_at": "2026-07-02T03:03:00.767566+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3411,7 +3411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:20.258509+00:00",
+      "fetched_at": "2026-07-02T03:03:02.501608+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3451,7 +3451,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:22.314122+00:00",
+      "fetched_at": "2026-07-02T03:03:04.215813+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3491,7 +3491,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:24.014539+00:00",
+      "fetched_at": "2026-07-02T03:03:05.945799+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3531,7 +3531,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:26.076203+00:00",
+      "fetched_at": "2026-07-02T03:03:07.660735+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3571,7 +3571,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:27.812714+00:00",
+      "fetched_at": "2026-07-02T03:03:09.397573+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3611,7 +3611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:29.555815+00:00",
+      "fetched_at": "2026-07-02T03:03:11.149824+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3651,7 +3651,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:31.315531+00:00",
+      "fetched_at": "2026-07-02T03:03:12.907116+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3691,7 +3691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:33.009136+00:00",
+      "fetched_at": "2026-07-02T03:03:14.599409+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3731,7 +3731,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:34.754553+00:00",
+      "fetched_at": "2026-07-02T03:03:16.348533+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3771,7 +3771,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:37.384353+00:00",
+      "fetched_at": "2026-07-02T03:03:18.059959+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3811,7 +3811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:40.076313+00:00",
+      "fetched_at": "2026-07-02T03:03:19.780644+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3851,7 +3851,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:41.844550+00:00",
+      "fetched_at": "2026-07-02T03:03:21.540251+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3891,7 +3891,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:43.586988+00:00",
+      "fetched_at": "2026-07-02T03:03:23.279266+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3931,7 +3931,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:45.319436+00:00",
+      "fetched_at": "2026-07-02T03:03:25.015550+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -3971,7 +3971,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:47.066376+00:00",
+      "fetched_at": "2026-07-02T03:03:26.760966+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4011,7 +4011,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:48.798952+00:00",
+      "fetched_at": "2026-07-02T03:03:28.504933+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4051,7 +4051,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:50.581299+00:00",
+      "fetched_at": "2026-07-02T03:03:30.250237+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4091,7 +4091,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:52.343751+00:00",
+      "fetched_at": "2026-07-02T03:03:32.009778+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4131,7 +4131,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:54.064369+00:00",
+      "fetched_at": "2026-07-02T03:03:33.747230+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4171,7 +4171,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:55.760336+00:00",
+      "fetched_at": "2026-07-02T03:03:35.443490+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4211,7 +4211,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:57.504887+00:00",
+      "fetched_at": "2026-07-02T03:03:37.182012+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4251,7 +4251,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:33:59.199596+00:00",
+      "fetched_at": "2026-07-02T03:03:38.873593+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4291,7 +4291,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:00.958141+00:00",
+      "fetched_at": "2026-07-02T03:03:40.633717+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4331,7 +4331,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:02.697575+00:00",
+      "fetched_at": "2026-07-02T03:03:42.381112+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4371,7 +4371,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:04.486003+00:00",
+      "fetched_at": "2026-07-02T03:03:44.144797+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4411,7 +4411,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:06.193840+00:00",
+      "fetched_at": "2026-07-02T03:03:45.848153+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4451,7 +4451,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:08.141827+00:00",
+      "fetched_at": "2026-07-02T03:03:47.559581+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4491,7 +4491,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:09.883738+00:00",
+      "fetched_at": "2026-07-02T03:03:49.298573+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4531,7 +4531,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:11.916600+00:00",
+      "fetched_at": "2026-07-02T03:03:51.008899+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4571,7 +4571,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:13.611763+00:00",
+      "fetched_at": "2026-07-02T03:03:52.720457+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4611,7 +4611,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:15.144902+00:00",
+      "fetched_at": "2026-07-02T03:03:54.425343+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4651,7 +4651,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:16.692116+00:00",
+      "fetched_at": "2026-07-02T03:03:56.127505+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4691,7 +4691,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:18.238723+00:00",
+      "fetched_at": "2026-07-02T03:03:57.871177+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4731,7 +4731,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:19.812429+00:00",
+      "fetched_at": "2026-07-02T03:03:59.671392+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4771,7 +4771,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:21.352061+00:00",
+      "fetched_at": "2026-07-02T03:04:01.372994+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
@@ -4811,7 +4811,7 @@
       "fresh": true,
       "historical": false,
       "data_source": null,
-      "fetched_at": "2026-07-02T02:34:22.868612+00:00",
+      "fetched_at": "2026-07-02T03:04:03.067455+00:00",
       "last_refresh_attempt_at": null,
       "last_refresh_error": null,
       "payload": {
